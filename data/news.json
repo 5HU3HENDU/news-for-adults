@@ -2363,14 +2363,6 @@
         "seconds": 0.07
       },
       {
-        "id": 18,
-        "name": "BS Markets",
-        "url": "https://www.business-standard.com/rss/markets-106.rss",
-        "status": "failed",
-        "reason": "not well-formed (invalid token): line 231, column 55",
-        "items": 0
-      },
-      {
         "id": 19,
         "name": "BS Economy",
         "url": "https://www.business-standard.com/rss/economy-102.rss",

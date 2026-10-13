@@ -128,14 +128,6 @@
     "disabled_reason": ""
   },
   {
-    "id": 18,
-    "name": "BS Markets",
-    "url": "https://www.business-standard.com/rss/markets-106.rss",
-    "topic": "Business",
-    "enabled": true,
-    "disabled_reason": ""
-  },
-  {
     "id": 19,
     "name": "BS Economy",
     "url": "https://www.business-standard.com/rss/economy-102.rss",
