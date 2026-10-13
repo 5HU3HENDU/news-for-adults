@@ -1,0 +1,338 @@
+[
+  {
+    "id": 1,
+    "name": "BBC India",
+    "url": "https://feeds.bbci.co.uk/news/world/asia/india/rss.xml",
+    "topic": "India",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 2,
+    "name": "AmarUjala India",
+    "url": "https://www.amarujala.com/rss/india-news.xml",
+    "topic": "India",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 3,
+    "name": "Hindu India",
+    "url": "https://www.thehindu.com/news/national/feeder/default.rss",
+    "topic": "India",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 4,
+    "name": "BBC Hindi India",
+    "url": "https://feeds.bbci.co.uk/hindi/india/rss.xml",
+    "topic": "India",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 5,
+    "name": "NDTV Top",
+    "url": "https://feeds.feedburner.com/ndtvnews-top-stories",
+    "topic": "India",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 6,
+    "name": "BBC World",
+    "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+    "topic": "World",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 7,
+    "name": "AmarUjala World",
+    "url": "https://www.amarujala.com/rss/world.xml",
+    "topic": "World",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 9,
+    "name": "Aljazeera",
+    "url": "https://www.aljazeera.com/xml/rss/all.xml",
+    "topic": "World",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 10,
+    "name": "DW World",
+    "url": "https://rss.dw.com/rdf/rss-en-all",
+    "topic": "World",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 11,
+    "name": "BBC Hindi",
+    "url": "https://feeds.bbci.co.uk/hindi/rss.xml",
+    "topic": "World",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 12,
+    "name": "Mint Markets",
+    "url": "https://www.livemint.com/rss/market",
+    "topic": "Business",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 13,
+    "name": "Mint Companies",
+    "url": "https://www.livemint.com/rss/companies",
+    "topic": "Business",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 14,
+    "name": "AmarUjala Business",
+    "url": "https://www.amarujala.com/rss/business.xml",
+    "topic": "Business",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 15,
+    "name": "ET Markets",
+    "url": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+    "topic": "Business",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 16,
+    "name": "ET IPO",
+    "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms",
+    "topic": "IPO",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 17,
+    "name": "ET Economy",
+    "url": "https://economictimes.indiatimes.com/news/economy/rssfeeds/1373380680.cms",
+    "topic": "Business",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 18,
+    "name": "BS Markets",
+    "url": "https://www.business-standard.com/rss/markets-106.rss",
+    "topic": "Business",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 19,
+    "name": "BS Economy",
+    "url": "https://www.business-standard.com/rss/economy-102.rss",
+    "topic": "Business",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 20,
+    "name": "Hindu Business",
+    "url": "https://www.thehindu.com/business/feeder/default.rss",
+    "topic": "Business",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 21,
+    "name": "NDTV Business",
+    "url": "https://feeds.feedburner.com/ndtvprofit-latest",
+    "topic": "Business",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 22,
+    "name": "Mint Economy",
+    "url": "https://www.livemint.com/rss/economy",
+    "topic": "Business",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 23,
+    "name": "BBC Tech",
+    "url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+    "topic": "Tech",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 24,
+    "name": "AmarUjala Tech",
+    "url": "https://www.amarujala.com/rss/technology.xml",
+    "topic": "Tech",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 25,
+    "name": "ET Tech",
+    "url": "https://economictimes.indiatimes.com/tech/rssfeeds/13357270.cms",
+    "topic": "Tech",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 26,
+    "name": "Mint Tech",
+    "url": "https://www.livemint.com/rss/technology",
+    "topic": "Tech",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 27,
+    "name": "Ars",
+    "url": "https://feeds.arstechnica.com/arstechnica/index",
+    "topic": "Tech",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 28,
+    "name": "Verge",
+    "url": "https://www.theverge.com/rss/index.xml",
+    "topic": "Tech",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 29,
+    "name": "TechCrunch",
+    "url": "https://techcrunch.com/feed/",
+    "topic": "Tech",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 32,
+    "name": "BBC Science",
+    "url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
+    "topic": "Science",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 33,
+    "name": "NASA",
+    "url": "https://www.nasa.gov/feed/",
+    "topic": "Science",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 34,
+    "name": "ScienceDaily",
+    "url": "https://www.sciencedaily.com/rss/top/science.xml",
+    "topic": "Science",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 36,
+    "name": "Hindu SciTech",
+    "url": "https://www.thehindu.com/sci-tech/feeder/default.rss",
+    "topic": "Science",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 37,
+    "name": "BBC Hindi Sci",
+    "url": "https://feeds.bbci.co.uk/hindi/vigyan/rss.xml",
+    "topic": "Science",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 38,
+    "name": "BBC Health",
+    "url": "https://feeds.bbci.co.uk/news/health/rss.xml",
+    "topic": "Health",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 39,
+    "name": "AmarUjala Lifestyle",
+    "url": "https://www.amarujala.com/rss/lifestyle.xml",
+    "topic": "Health",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 40,
+    "name": "Hindu Health",
+    "url": "https://www.thehindu.com/sci-tech/health/feeder/default.rss",
+    "topic": "Health",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 41,
+    "name": "ET Health",
+    "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/rssfeeds/13358050.cms",
+    "topic": "Health",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 42,
+    "name": "BBC Sport",
+    "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+    "topic": "Sports",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 43,
+    "name": "AmarUjala Sports",
+    "url": "https://www.amarujala.com/rss/sports.xml",
+    "topic": "Sports",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 44,
+    "name": "ESPNcricinfo",
+    "url": "https://www.espncricinfo.com/rss/content/story/feeds/0.xml",
+    "topic": "Sports",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 45,
+    "name": "BBC Cricket",
+    "url": "https://feeds.bbci.co.uk/sport/cricket/rss.xml",
+    "topic": "Sports",
+    "enabled": true,
+    "disabled_reason": ""
+  },
+  {
+    "id": 47,
+    "name": "BBC Hindi Sport",
+    "url": "https://feeds.bbci.co.uk/hindi/sport/rss.xml",
+    "topic": "Sports",
+    "enabled": true,
+    "disabled_reason": ""
+  }
+]
