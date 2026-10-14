@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "title": "News for Adults",
-  "updated_at": "2026-10-14T04:45:22.213631+00:00",
+  "updated_at": "2026-10-14T06:45:23.585473+00:00",
   "schedule": {
     "active": true,
     "window_ist": "08:00-22:00",
@@ -19,6 +19,278 @@
     "Health"
   ],
   "stories": [
+    {
+      "id": "a774838bd2c78bb78eed",
+      "topic": "India",
+      "headline": "Ernakulam landfill के लिए 9.3 acres खरीद का समझौता तय",
+      "bullets": [
+        "Ayyankuzhi project के land purchase के लिए government ने ₹16 crore allocate किए हैं।"
+      ],
+      "published": "2026-10-14T06:36:22+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/kerala/scientific-landfill-at-ayyankuzhi-in-ernakulam-negotiated-purchase-finalised-for-acquisition-of-93-acres/article71582477.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "295820d231db5ed4b09e",
+      "topic": "Business",
+      "headline": "India-China trade deficit 2026 में $100 billion पार",
+      "bullets": [
+        "January-September two-way trade $144.45 billion रहा; China से imports $125.19 billion पहुंचे।"
+      ],
+      "published": "2026-10-14T06:31:55+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/indias-trade-deficit-with-china-crosses-100-billion-in-2026/article71582529.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "7b223357ef0ce8cc99ad",
+      "topic": "Science",
+      "headline": "Mudumal के ancient menhirs की excavation के लिए tenders",
+      "bullets": [
+        "कुछ stones solstice के सूर्योदय और सूर्यास्त से aligned दिखते हैं; ancient observatory होने की संभावना है।"
+      ],
+      "published": "2026-10-14T06:10:56+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/telangana/telangana-invites-tenders-to-excavate-megalithic-menhirs-of-mudumal-where-ancient-stones-align-with-sun/article71582189.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "8d94e2d2c69b44d94f9f",
+      "topic": "Business",
+      "headline": "Oil prices और RBI comments से Indian bonds कमजोर",
+      "bullets": [
+        "Benchmark 2036 bond की yield बढ़ी; traders US inflation data देख रहे हैं।"
+      ],
+      "published": "2026-10-14T06:01:23+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/bonds/indian-bonds-slip-on-higher-oil-hawkish-rbi-governor-comments/articleshow/134933863.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "59858caca756a7572951",
+      "topic": "Science",
+      "headline": "India में मिले giant snake fossil पर नई report",
+      "bullets": [
+        "Vasuki indicus करीब 47 million साल पुराना है; researchers ने length 50 feet तक होने का अनुमान दिया।"
+      ],
+      "published": "2026-10-14T05:44:39+00:00",
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261014001406.htm",
+          "feed_id": 34
+        }
+      ]
+    },
+    {
+      "id": "a45003500f51bb562cec",
+      "topic": "Business",
+      "headline": "AI shares की कमजोरी से China stock indexes नीचे",
+      "bullets": [
+        "Mixed inflation data ने domestic demand की चिंता बढ़ाई; energy shares में बढ़त रही।"
+      ],
+      "published": "2026-10-14T05:41:06+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-china-stocks-slip-as-ai-selloff-deepens-mixed-inflation-data-weighs/articleshow/134933453.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "be985b4e7b30c51b6ee0",
+      "topic": "IPO",
+      "headline": "India equity advisory में Barclays वापसी की तैयारी",
+      "bullets": [
+        "करीब दस साल बाद bank IPO advisory और underwriting services बढ़ाना चाहता है।"
+      ],
+      "published": "2026-10-14T05:30:59+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/barclays-plans-india-equity-advisory-return-after-a-decade/articleshow/134933265.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "c5c964c4e289128fb2de",
+      "topic": "India",
+      "headline": "Power bank मिलने के बाद IndiGo flight Hyderabad लौटी",
+      "bullets": [
+        "Hyderabad-Srinagar service को वापस लौटाया गया; feed ने baggage में power bank मिलने की जानकारी दी।"
+      ],
+      "published": "2026-10-14T05:28:58+00:00",
+      "sources": [
+        {
+          "name": "NDTV Top",
+          "url": "https://www.ndtv.com/hyderabad-news/indigo-hyderabad-srinagar-flight-returns-after-power-bank-found-in-baggage-12182558#publisher=newsstand",
+          "feed_id": 5
+        }
+      ]
+    },
+    {
+      "id": "f330e0005b886d442176",
+      "topic": "Science",
+      "headline": "Climate change से Antarctic port बचाने के लिए नई team",
+      "bullets": [
+        "Mission उस base को protect करेगा जहां दुनिया का southernmost post office है।"
+      ],
+      "published": "2026-10-14T05:24:08+00:00",
+      "sources": [
+        {
+          "name": "BBC Science",
+          "url": "https://www.bbc.co.uk/news/articles/ck8dzgr780j8o?at_medium=RSS&at_campaign=rss",
+          "feed_id": 32
+        }
+      ]
+    },
+    {
+      "id": "536b7f301388fb9da54c",
+      "topic": "Science",
+      "headline": "Keralam ने ecosystems की Red List assessment शुरू की",
+      "bullets": [
+        "Biodiversity Board का project species से आगे पूरे landscapes के conservation पर focus करता है।"
+      ],
+      "published": "2026-10-14T05:12:01+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/kerala/why-keralam-has-launched-indias-first-ecosystem-red-list-assessment/article71579356.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "0b3ebd4e97040be3fc55",
+      "topic": "Business",
+      "headline": "Transformers & Rectifiers का Q2 profit 135% बढ़ा",
+      "bullets": [
+        "Revenue 61% बढ़ा और order inflows ₹1,169 crore रहे।"
+      ],
+      "published": "2026-10-14T05:00:52+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/transformers-rectifiers-shares-surge-over-18-as-q2-revenue-jumps-61-order-inflows-nearly-double/articleshow/134932502.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "c71505f5ae7987280413",
+      "topic": "Business",
+      "headline": "Early trade में rupee 44 paise मजबूत हुआ",
+      "bullets": [
+        "Dollar के मुकाबले 94.92 तक पहुंचा; RBI measures ने currency को support दिया।"
+      ],
+      "published": "2026-10-14T05:00:50+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/business/rupee-rises-44-paise-to-9492-against-us-dollar-in-early-trade/article71582299.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "4092a753c1b1f9a60820",
+      "topic": "Science",
+      "headline": "Turkey coast के shipwreck को 4,700 साल पुराना बताया गया",
+      "bullets": [
+        "Archaeologists के अनुसार wreck Early Bronze Age का है।"
+      ],
+      "published": "2026-10-14T05:00:35+00:00",
+      "sources": [
+        {
+          "name": "BBC Science",
+          "url": "https://www.bbc.co.uk/news/articles/c6gr80rk1yyko?at_medium=RSS&at_campaign=rss",
+          "feed_id": 32
+        }
+      ]
+    },
+    {
+      "id": "3387536d988720533122",
+      "topic": "Business",
+      "headline": "Mauritius tax treaty benefits पर India का नया test",
+      "bullets": [
+        "Principal Purpose Test से authorities misuse रोकने के लिए claims की ज्यादा जांच कर सकती हैं।"
+      ],
+      "published": "2026-10-14T04:58:36+00:00",
+      "sources": [
+        {
+          "name": "ET Economy",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-tightens-mauritius-tax-treaty-rules-to-prevent-misuse-of-tax-benefits-effective-august-10/articleshow/134932528.cms",
+          "feed_id": 17
+        }
+      ]
+    },
+    {
+      "id": "dcce1a829bd153a4c46a",
+      "topic": "Health",
+      "headline": "Kakinada GGH negligence मामले में चार staff suspended",
+      "bullets": [
+        "Medical college principal के अनुसार surgery के दौरान abdomen में छोड़ा गया cannula बाद में निकाला गया।"
+      ],
+      "published": "2026-10-14T04:48:29+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/two-assistant-professors-two-pg-students-suspended-for-medical-negligence-at-kakinada-ggh/article71580270.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "cb1cd489d9a0f1859db0",
+      "topic": "India",
+      "headline": "Keralam Senior Citizens Bill committee को भेजा गया",
+      "bullets": [
+        "Bill care centres, caregivers और elderly लोगों के rights व social security को cover करता है।"
+      ],
+      "published": "2026-10-14T04:47:36+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/kerala/keralam-senior-citizens-bill-referred-to-assembly-subject-committee/article71578941.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "14f58e5210063784edd0",
+      "topic": "Business",
+      "headline": "US CPI से पहले China का yuan मजबूत",
+      "bullets": [
+        "Investors ने mixed Chinese inflation data और कमजोर domestic demand का आकलन किया।"
+      ],
+      "published": "2026-10-14T04:42:11+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-chinas-yuan-firms-as-investors-await-us-cpi-data-assess-inflation/articleshow/134932229.cms",
+          "feed_id": 15
+        }
+      ]
+    },
     {
       "id": "025a50cb98b370b72269",
       "topic": "Business",
@@ -64,6 +336,38 @@
           "name": "AmarUjala Business",
           "url": "https://www.amarujala.com/business/bonus/relief-on-onion-prices-on-festivals-onion-prices-in-india-onion-price-on-diwali-2026-10-14",
           "feed_id": 14
+        }
+      ]
+    },
+    {
+      "id": "4fd26c6219bc2a6b5b5a",
+      "topic": "World",
+      "headline": "China-North Korea bridge खुलने की तैयारी: state media",
+      "bullets": [
+        "Xinhua के अनुसार लंबे समय से रुका New Yalu River Bridge formally खोला जाएगा।"
+      ],
+      "published": "2026-10-14T04:27:18+00:00",
+      "sources": [
+        {
+          "name": "Aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/14/china-and-north-korea-to-open-new-yalu-river-bridge-state-media-reports?traffic_source=rss",
+          "feed_id": 9
+        }
+      ]
+    },
+    {
+      "id": "47adf3ede27aed476360",
+      "topic": "Business",
+      "headline": "Singapore economy Q3 में 5.4% बढ़ी",
+      "bullets": [
+        "Advance government estimates ने July-September growth बताई।"
+      ],
+      "published": "2026-10-14T04:25:02+00:00",
+      "sources": [
+        {
+          "name": "Aljazeera",
+          "url": "https://www.aljazeera.com/economy/2026/10/14/singapores-economy-grows-more-than-5-percent-amid-ai-boom?traffic_source=rss",
+          "feed_id": 9
         }
       ]
     },
@@ -644,6 +948,22 @@
       ]
     },
     {
+      "id": "fdcc7aa249c6186f4fa1",
+      "topic": "Science",
+      "headline": "AI consciousness पर study में शब्दों से बदलते judgments",
+      "bullets": [
+        "Participants ने same behaviour के बावजूद AI को human से कम conscious माना; awareness पूछने पर gap छोटा हुआ।"
+      ],
+      "published": "2026-10-14T01:41:55+00:00",
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261012185017.htm",
+          "feed_id": 34
+        }
+      ]
+    },
+    {
       "id": "16c646e6cdecb2f90002",
       "topic": "Tech",
       "headline": "North Korean hackers से corporate infiltration का US warning",
@@ -841,6 +1161,22 @@
       ]
     },
     {
+      "id": "ee42e0fa971ce26520ff",
+      "topic": "Science",
+      "headline": "320 light-years दूर planet और star की chemistry में समानता",
+      "bullets": [
+        "Researchers के अनुसार finding planet formation की एक basic assumption को direct support देती है।"
+      ],
+      "published": "2026-10-14T00:24:40+00:00",
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261012185015.htm",
+          "feed_id": 34
+        }
+      ]
+    },
+    {
       "id": "18ea115dc0815aa44a15",
       "topic": "Business",
       "headline": "GQG ने September quarter में Adani stakes घटाए",
@@ -853,6 +1189,22 @@
           "name": "ET Markets",
           "url": "https://economictimes.indiatimes.com/markets/stocks/news/gqg-pares-rs-8000-crore-of-adani-stakes-in-september-quarter-as-fpi-bets-turn-mixed/articleshow/134929382.cms",
           "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "4647727cd7a1a66dae79",
+      "topic": "Science",
+      "headline": "CO2 को fuel में बदलने की chemistry समझने में AI की मदद",
+      "bullets": [
+        "Scientists ने करीब 10,000 reactions पहचाने; कुछ pathways पुराने models में छूटे थे।"
+      ],
+      "published": "2026-10-14T00:01:11+00:00",
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261013015758.htm",
+          "feed_id": 34
         }
       ]
     },
@@ -917,6 +1269,22 @@
           "name": "TechCrunch",
           "url": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
           "feed_id": 29
+        }
+      ]
+    },
+    {
+      "id": "dc17afb5d1d9a421a2cb",
+      "topic": "Science",
+      "headline": "Zimbabwe dinosaur fossil ने ancient ecosystem का नया सुराग दिया",
+      "bullets": [
+        "210-million-year-old species से southern Africa में climate के कारण अलग populations होने की संभावना दिखी।"
+      ],
+      "published": "2026-10-13T22:53:03+00:00",
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261012185013.htm",
+          "feed_id": 34
         }
       ]
     },
@@ -2524,7 +2892,7 @@
       "topic": "Tech",
       "headline": "Oppo ने ColorOS 17 पेश किया",
       "bullets": [
-        "Find X10 series के साथ India debut 22 October को तय बताया गया है।"
+        "India में Find X10 series के साथ 22 October debut; eligible devices का rollout 29 October से शुरू होगा।"
       ],
       "published": "2026-10-13T13:08:14+00:00",
       "sources": [
@@ -2532,6 +2900,11 @@
           "name": "Hindu SciTech",
           "url": "https://www.thehindu.com/sci-tech/technology/gadgets/oppo-unveils-coloros-17-to-debut-with-find-x10-series-on-oct-22-in-india/article71579485.ece",
           "feed_id": 36
+        },
+        {
+          "name": "Mint Tech",
+          "url": "https://www.livemint.com/technology/oppo-coloros-17-launched-with-new-ai-features-check-eligible-phones-and-rollout-dates-11791957611217.html",
+          "feed_id": 26
         }
       ]
     },
@@ -3229,314 +3602,41 @@
           "feed_id": 22
         }
       ]
-    },
-    {
-      "id": "1290d3f004baa584f6b2",
-      "topic": "Business",
-      "headline": "Global growth पर IMF का outlook अब भी uneven",
-      "bullets": [
-        "2026 estimate बढ़ा, लेकिन economies की दिशा अलग-अलग है।",
-        "2027 global growth forecast 3.4% पर रखा गया।"
-      ],
-      "published": "2026-10-13T06:40:05+00:00",
-      "sources": [
-        {
-          "name": "Hindu Business",
-          "url": "https://www.thehindu.com/business/Economy/imf-slightly-raises-forecast-for-2026-global-growth-to-31-citing-resilience-to-shocks/article71577836.ece",
-          "feed_id": 20
-        }
-      ]
-    },
-    {
-      "id": "9c3b4eb37b1ba9277157",
-      "topic": "Business",
-      "headline": "Chennai में LuLu का पहला hypermarket खुला",
-      "bullets": [
-        "Shenoy Nagar Metro Station पर करीब एक लाख sq ft store है।",
-        "Chennai Central पर छोटा LuLu Daily store भी खुला।"
-      ],
-      "published": "2026-10-13T06:22:22+00:00",
-      "sources": [
-        {
-          "name": "Mint Companies",
-          "url": "https://www.livemint.com/companies/news/lulu-group-makes-chennai-debut-with-1-lakh-sq-ft-hypermarket-store-at-metro-stations-11791871823802.html",
-          "feed_id": 13
-        }
-      ]
-    },
-    {
-      "id": "222184d0df6b6bb9c14d",
-      "topic": "Business",
-      "headline": "War shock और debt के बीच spending cuts पर IMF की चेतावनी",
-      "bullets": [
-        "IMF official ने developing economies पर inflation और कई shocks का pressure बताया।"
-      ],
-      "published": "2026-10-13T06:18:46+00:00",
-      "sources": [
-        {
-          "name": "Hindu Business",
-          "url": "https://www.thehindu.com/news/international/no-choice-imf-says-developing-countries-must-cut-spending-despite-war-shock/article71578064.ece",
-          "feed_id": 20
-        }
-      ]
-    },
-    {
-      "id": "b7e001d8add250daab88",
-      "topic": "Business",
-      "headline": "LVMH की Asia revenue 5% घटी",
-      "bullets": [
-        "China में कमजोर luxury demand और cautious consumers ने sales पर असर डाला।"
-      ],
-      "published": "2026-10-13T06:17:33+00:00",
-      "sources": [
-        {
-          "name": "Mint Companies",
-          "url": "https://www.livemint.com/companies/news/louis-vuitton-china-double-digit-sales-slump-drag-asia-revenue-down-5-pc-luxury-industry-worry-recovery-economy-war-cost-11791867921003.html",
-          "feed_id": 13
-        }
-      ]
-    },
-    {
-      "id": "75f132f92efc12ad4d5f",
-      "topic": "Business",
-      "headline": "AI correction और cyber risks पर IMF की चेतावनी",
-      "bullets": [
-        "Fund ने financial institutions और market infrastructure पर attacks का risk बढ़ने की बात कही।"
-      ],
-      "published": "2026-10-13T06:13:13+00:00",
-      "sources": [
-        {
-          "name": "Hindu Business",
-          "url": "https://www.thehindu.com/business/imf-warns-of-ai-market-correction-cyber-threats-to-financial-system/article71578066.ece",
-          "feed_id": 20
-        }
-      ]
-    },
-    {
-      "id": "233bf5b7924a20b268f4",
-      "topic": "Business",
-      "headline": "SpiceJet को ₹144.5 crore जमा करने के लिए और समय नहीं मिला",
-      "bullets": [
-        "Delhi High Court ने property documents को security देने का प्रस्ताव भी खारिज किया।"
-      ],
-      "published": "2026-10-13T06:10:31+00:00",
-      "sources": [
-        {
-          "name": "Mint Companies",
-          "url": "https://www.livemint.com/companies/news/spicejet-plea-in-high-court-aviation-industry-india-kalanithi-maran-kal-airways-11791869361384.html",
-          "feed_id": 13
-        }
-      ]
-    },
-    {
-      "id": "f4516222e45a08811859",
-      "topic": "Tech",
-      "headline": "RDI fund ने first cohort में 19 organisations चुनीं",
-      "bullets": [
-        "₹7,131 crore cohort में 14 investment funds और पांच research organisations हैं।",
-        "Capital deeptech startups और private R&D तक पहुंचना है।"
-      ],
-      "published": "2026-10-13T06:01:30+00:00",
-      "sources": [
-        {
-          "name": "ET Tech",
-          "url": "https://economictimes.indiatimes.com/tech/startups/blume-speciale-kalaari-chiratae-others-part-of-first-cohort-to-receive-rs-7131-crore-rdi-fund/articleshow/134909489.cms",
-          "feed_id": 25
-        }
-      ]
-    },
-    {
-      "id": "f725b6e703e08a636863",
-      "topic": "Business",
-      "headline": "NPS payments को UPI fees से छूट देने की PFRDA की मांग",
-      "bullets": [
-        "Regulator ने finance ministry से voluntary contributions पर exemption मांगा।",
-        "यह request है, confirmed exemption नहीं।"
-      ],
-      "published": "2026-10-13T05:41:53+00:00",
-      "sources": [
-        {
-          "name": "Mint Economy",
-          "url": "https://www.livemint.com/economy/pfrda-seeks-upi-mdr-exemption-for-nps-contributions-11791863636686.html",
-          "feed_id": 22
-        }
-      ]
-    },
-    {
-      "id": "d1e12d06f86dd95b1058",
-      "topic": "Business",
-      "headline": "India के साथ ज्यादा long-term LPG deals के लिए ADNOC तैयार",
-      "bullets": [
-        "Company crude, LNG और LPG storage opportunities भी तलाश रही है।"
-      ],
-      "published": "2026-10-13T05:37:25+00:00",
-      "sources": [
-        {
-          "name": "Hindu Business",
-          "url": "https://www.thehindu.com/business/Economy/adnoc-open-to-long-term-lpg-deals-with-india-eyes-bigger-strategic-reserves/article71575015.ece",
-          "feed_id": 20
-        }
-      ]
-    },
-    {
-      "id": "695448ed6023c19e04f3",
-      "topic": "Tech",
-      "headline": "Epic Games का AI-led development की तरफ बड़ा बदलाव",
-      "bullets": [
-        "CEO ने internal AI use बढ़ाने की योजना बताई।",
-        "Company code और game content बनाने का काम तेज करना चाहती है।"
-      ],
-      "published": "2026-10-13T05:34:31+00:00",
-      "sources": [
-        {
-          "name": "ET Tech",
-          "url": "https://economictimes.indiatimes.com/tech/technology/fortnite-maker-epic-games-makes-huge-pivot-with-ai-ceo-says/articleshow/134909206.cms",
-          "feed_id": 25
-        }
-      ]
-    },
-    {
-      "id": "4e0fe776d48270b9e17d",
-      "topic": "Tech",
-      "headline": "French supermarkets के refrigeration systems पर cyberattack",
-      "bullets": [
-        "Hundreds of stores में cooling disrupted होने की खबर है।",
-        "कुछ fridges 50°C तक पहुंचे, जिससे food spoilage और fires report हुए।"
-      ],
-      "published": "2026-10-13T05:30:27+00:00",
-      "sources": [
-        {
-          "name": "Mint Tech",
-          "url": "https://www.livemint.com/technology/france-supermarkets-hit-by-cyberattack-as-hackers-push-fridge-temperatures-to-50-c-spoil-food-11791868932325.html",
-          "feed_id": 26
-        }
-      ]
-    },
-    {
-      "id": "ee980e928c29fbc4e1c9",
-      "topic": "IPO",
-      "headline": "MahaTransco की proposed IPO में June 2027 listing पर नजर",
-      "bullets": [
-        "Utility के merchant bankers चुनने की खबर है।",
-        "Issue करीब $1 billion का हो सकता है, final terms तय नहीं।"
-      ],
-      "published": "2026-10-13T05:11:32+00:00",
-      "sources": [
-        {
-          "name": "Mint Companies",
-          "url": "https://www.livemint.com/companies/mahatransco-ipo-rs-10000-crore-axis-capital-11791863022526.html",
-          "feed_id": 13
-        }
-      ]
-    },
-    {
-      "id": "3223b5371123747483e4",
-      "topic": "Tech",
-      "headline": "Semiconductor self-reliance के लिए DRDO का chip focus",
-      "bullets": [
-        "Feed के अनुसार ESTIC-2026 में इस विषय पर चर्चा होगी।"
-      ],
-      "published": "2026-10-13T05:09:43+00:00",
-      "sources": [
-        {
-          "name": "AmarUjala India",
-          "url": "https://www.amarujala.com/india-news/drdo-to-work-on-semiconductor-chips-india-s-self-reliance-push-takes-centre-stage-at-estic-2026-2026-10-13",
-          "feed_id": 2
-        }
-      ]
-    },
-    {
-      "id": "8354352819fc1a96472e",
-      "topic": "Science",
-      "headline": "Red squirrel conservation के लिए £250,000 grants",
-      "bullets": [
-        "Northern England और southern Scotland के groups funding के लिए apply कर सकते हैं।"
-      ],
-      "published": "2026-10-13T05:08:27+00:00",
-      "sources": [
-        {
-          "name": "BBC Science",
-          "url": "https://www.bbc.co.uk/news/articles/cr86zp8qn0w5o?at_medium=RSS&at_campaign=rss",
-          "feed_id": 32
-        }
-      ]
-    },
-    {
-      "id": "e3bd9fbd48882ff4f2c4",
-      "topic": "Tech",
-      "headline": "Banks के AI use पर regulators की scrutiny बढ़ी: report",
-      "bullets": [
-        "Sources ने financial stability को लेकर watchdog concerns बताए।",
-        "यह attributed reporting है, नया universal ban नहीं।"
-      ],
-      "published": "2026-10-13T05:01:03+00:00",
-      "sources": [
-        {
-          "name": "Mint Tech",
-          "url": "https://www.livemint.com/technology/banking-watchdogs-ramp-up-ai-scrutiny-as-stability-fears-mount-sources-say-11791867664209.html",
-          "feed_id": 26
-        }
-      ]
-    },
-    {
-      "id": "5fbb65832e5f83da6292",
-      "topic": "Science",
-      "headline": "Mouse brain की lipid map में 539 chemical zones",
-      "bullets": [
-        "Millions of measurements से 3D map बनाया गया।",
-        "White matter में भी अलग-अलग chemical patterns मिले।"
-      ],
-      "published": "2026-10-13T05:00:55+00:00",
-      "sources": [
-        {
-          "name": "ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261012185011.htm",
-          "feed_id": 34
-        }
-      ]
-    },
-    {
-      "id": "d950a8df37565e2e1e83",
-      "topic": "Business",
-      "headline": "Fintech funding बढ़ी, deal count घटा: Tracxn",
-      "bullets": [
-        "January-September में funding 14% बढ़कर $2.2 billion हुई।",
-        "Funding rounds 260 से घटकर 153 रहे।"
-      ],
-      "published": "2026-10-13T04:49:45+00:00",
-      "sources": [
-        {
-          "name": "ET Tech",
-          "url": "https://economictimes.indiatimes.com/tech/funding/fintech-funding-rises-14-to-2-2-billion-in-jan-sep-deal-count-falls-41-tracxn/articleshow/134908441.cms",
-          "feed_id": 25
-        }
-      ]
-    },
-    {
-      "id": "68eae938b7a827a3a7d4",
-      "topic": "Tech",
-      "headline": "Character.AI ने bankruptcy protection के लिए filing की",
-      "bullets": [
-        "US Chapter 11 process के बीच कुछ assets Disney को बेचने का agreement हुआ।",
-        "$20 million deal पूरी करते वक्त platform चालू रखने का इरादा है।"
-      ],
-      "published": "2026-10-13T04:47:25+00:00",
-      "sources": [
-        {
-          "name": "ET Tech",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/character-ai-files-for-bankruptcy-agrees-to-sell-some-assets-to-disney-for-20-million/articleshow/134908390.cms",
-          "feed_id": 25
-        },
-        {
-          "name": "NDTV Top",
-          "url": "https://www.ndtv.com/world-news/chatbot-platform-character-ai-files-for-bankruptcy-disney-to-buy-some-assets-12181213#publisher=newsstand",
-          "feed_id": 5
-        }
-      ]
     }
   ],
   "metadata": {
     "refreshes": [
+      {
+        "at": "2026-10-14T06:45:23.585473+00:00",
+        "feed_checked_at": "2026-10-14T06:44:23.194912+00:00",
+        "items_read": 1713,
+        "candidates": 452,
+        "written": 23,
+        "added": 23,
+        "dropped": 18,
+        "total": 205,
+        "counts": {
+          "India": 24,
+          "World": 10,
+          "Business": 83,
+          "IPO": 5,
+          "Tech": 41,
+          "Sports": 6,
+          "Science": 25,
+          "Health": 11
+        },
+        "fetch_seconds": 2.28,
+        "rejected": {
+          "older_than_24h": 1029,
+          "editorial_keyword": 12,
+          "question_headline": 130,
+          "future": 2,
+          "undated": 4,
+          "not_cricket": 52,
+          "duplicate": 32
+        },
+        "editorial_skipped": 429
+      },
       {
         "at": "2026-10-14T04:45:22.213631+00:00",
         "feed_checked_at": "2026-10-14T04:44:17.406224+00:00",
@@ -3598,58 +3698,27 @@
           "duplicate": 24
         },
         "editorial_skipped": 384
-      },
-      {
-        "at": "2026-10-13T19:24:07.511778+00:00",
-        "feed_checked_at": "2026-10-13T19:18:42.276090+00:00",
-        "items_read": 1707,
-        "candidates": 486,
-        "written": 118,
-        "added": 118,
-        "dropped": 0,
-        "total": 118,
-        "counts": {
-          "India": 11,
-          "World": 6,
-          "Business": 33,
-          "IPO": 6,
-          "Tech": 32,
-          "Sports": 6,
-          "Science": 16,
-          "Health": 8
-        },
-        "fetch_seconds": 2.56,
-        "rejected": {
-          "older_than_24h": 979,
-          "future": 5,
-          "editorial_keyword": 18,
-          "question_headline": 126,
-          "undated": 4,
-          "not_cricket": 58,
-          "duplicate": 13
-        },
-        "editorial_skipped": 367
       }
     ],
     "topic_counts": {
-      "India": 21,
-      "World": 9,
-      "Business": 84,
+      "India": 24,
+      "World": 10,
+      "Business": 83,
       "IPO": 5,
-      "Tech": 47,
+      "Tech": 41,
       "Sports": 6,
-      "Science": 18,
-      "Health": 10
+      "Science": 25,
+      "Health": 11
     },
     "topic_gap_minutes": {
-      "India": 40,
-      "World": 17,
+      "India": 45,
+      "World": 19,
       "Business": 60,
       "IPO": 10,
       "Tech": 60,
       "Sports": 12,
-      "Science": 34,
-      "Health": 19
+      "Science": 47,
+      "Health": 21
     },
     "gap_is_metadata_only": true,
     "feeds": [
@@ -3661,7 +3730,7 @@
         "http": 200,
         "items": 23,
         "eligible": 2,
-        "seconds": 0.25
+        "seconds": 0.22
       },
       {
         "id": 2,
@@ -3671,7 +3740,7 @@
         "http": 200,
         "items": 40,
         "eligible": 14,
-        "seconds": 0.38
+        "seconds": 0.39
       },
       {
         "id": 3,
@@ -3681,7 +3750,7 @@
         "http": 200,
         "items": 60,
         "eligible": 56,
-        "seconds": 0.08
+        "seconds": 0.33
       },
       {
         "id": 4,
@@ -3690,8 +3759,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 4,
-        "seconds": 0.95
+        "eligible": 3,
+        "seconds": 0.61
       },
       {
         "id": 5,
@@ -3700,8 +3769,8 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 20,
-        "seconds": 0.33
+        "eligible": 18,
+        "seconds": 0.31
       },
       {
         "id": 6,
@@ -3711,7 +3780,7 @@
         "http": 200,
         "items": 23,
         "eligible": 20,
-        "seconds": 0.14
+        "seconds": 0.05
       },
       {
         "id": 7,
@@ -3721,7 +3790,7 @@
         "http": 200,
         "items": 40,
         "eligible": 10,
-        "seconds": 0.41
+        "seconds": 0.36
       },
       {
         "id": 9,
@@ -3730,8 +3799,8 @@
         "status": "ok",
         "http": 200,
         "items": 25,
-        "eligible": 23,
-        "seconds": 0.1
+        "eligible": 22,
+        "seconds": 0.07
       },
       {
         "id": 10,
@@ -3741,7 +3810,7 @@
         "http": 200,
         "items": 137,
         "eligible": 17,
-        "seconds": 0.22
+        "seconds": 0.52
       },
       {
         "id": 11,
@@ -3750,8 +3819,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 4,
-        "seconds": 0.41
+        "eligible": 3,
+        "seconds": 0.29
       },
       {
         "id": 12,
@@ -3761,7 +3830,7 @@
         "http": 200,
         "items": 9,
         "eligible": 0,
-        "seconds": 0.4
+        "seconds": 0.33
       },
       {
         "id": 13,
@@ -3770,7 +3839,7 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 32,
+        "eligible": 30,
         "seconds": 0.08
       },
       {
@@ -3780,8 +3849,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 6,
-        "seconds": 0.41
+        "eligible": 7,
+        "seconds": 0.38
       },
       {
         "id": 15,
@@ -3790,8 +3859,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 43,
-        "seconds": 0.12
+        "eligible": 38,
+        "seconds": 0.23
       },
       {
         "id": 16,
@@ -3800,8 +3869,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 6,
-        "seconds": 0.44
+        "eligible": 7,
+        "seconds": 0.08
       },
       {
         "id": 17,
@@ -3811,7 +3880,7 @@
         "http": 200,
         "items": 50,
         "eligible": 19,
-        "seconds": 0.12
+        "seconds": 0.16
       },
       {
         "id": 19,
@@ -3821,7 +3890,7 @@
         "http": 200,
         "items": 35,
         "eligible": 11,
-        "seconds": 0.13
+        "seconds": 0.06
       },
       {
         "id": 20,
@@ -3830,7 +3899,7 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 23,
+        "eligible": 21,
         "seconds": 0.08
       },
       {
@@ -3841,7 +3910,7 @@
         "http": 200,
         "items": 20,
         "eligible": 18,
-        "seconds": 0.37
+        "seconds": 0.33
       },
       {
         "id": 22,
@@ -3851,7 +3920,7 @@
         "http": 200,
         "items": 35,
         "eligible": 3,
-        "seconds": 0.11
+        "seconds": 0.16
       },
       {
         "id": 23,
@@ -3861,7 +3930,7 @@
         "http": 200,
         "items": 21,
         "eligible": 3,
-        "seconds": 0.26
+        "seconds": 0.03
       },
       {
         "id": 24,
@@ -3871,7 +3940,7 @@
         "http": 200,
         "items": 40,
         "eligible": 4,
-        "seconds": 0.38
+        "seconds": 0.42
       },
       {
         "id": 25,
@@ -3880,8 +3949,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 22,
-        "seconds": 0.1
+        "eligible": 18,
+        "seconds": 0.13
       },
       {
         "id": 26,
@@ -3890,8 +3959,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 14,
-        "seconds": 0.08
+        "eligible": 12,
+        "seconds": 0.18
       },
       {
         "id": 27,
@@ -3901,7 +3970,7 @@
         "http": 200,
         "items": 20,
         "eligible": 12,
-        "seconds": 0.06
+        "seconds": 0.07
       },
       {
         "id": 28,
@@ -3911,7 +3980,7 @@
         "http": 200,
         "items": 10,
         "eligible": 10,
-        "seconds": 0.04
+        "seconds": 0.05
       },
       {
         "id": 29,
@@ -3921,7 +3990,7 @@
         "http": 200,
         "items": 20,
         "eligible": 20,
-        "seconds": 0.06
+        "seconds": 0.05
       },
       {
         "id": 32,
@@ -3930,8 +3999,8 @@
         "status": "ok",
         "http": 200,
         "items": 42,
-        "eligible": 8,
-        "seconds": 0.17
+        "eligible": 9,
+        "seconds": 0.27
       },
       {
         "id": 33,
@@ -3950,7 +4019,7 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 5,
+        "eligible": 9,
         "seconds": 0.3
       },
       {
@@ -3960,8 +4029,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 15,
-        "seconds": 0.38
+        "eligible": 24,
+        "seconds": 0.34
       },
       {
         "id": 37,
@@ -3970,8 +4039,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 4,
-        "seconds": 0.71
+        "eligible": 3,
+        "seconds": 0.59
       },
       {
         "id": 38,
@@ -3980,8 +4049,8 @@
         "status": "ok",
         "http": 200,
         "items": 55,
-        "eligible": 13,
-        "seconds": 0.29
+        "eligible": 11,
+        "seconds": 0.23
       },
       {
         "id": 39,
@@ -3991,7 +4060,7 @@
         "http": 200,
         "items": 40,
         "eligible": 2,
-        "seconds": 0.37
+        "seconds": 0.38
       },
       {
         "id": 40,
@@ -4000,8 +4069,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 1,
-        "seconds": 0.35
+        "eligible": 8,
+        "seconds": 0.33
       },
       {
         "id": 41,
@@ -4011,7 +4080,7 @@
         "http": 200,
         "items": 50,
         "eligible": 4,
-        "seconds": 0.41
+        "seconds": 0.53
       },
       {
         "id": 42,
@@ -4019,9 +4088,9 @@
         "url": "https://feeds.bbci.co.uk/sport/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 72,
+        "items": 73,
         "eligible": 0,
-        "seconds": 0.3
+        "seconds": 0.23
       },
       {
         "id": 43,
@@ -4031,7 +4100,7 @@
         "http": 200,
         "items": 40,
         "eligible": 0,
-        "seconds": 0.43
+        "seconds": 0.36
       },
       {
         "id": 44,
@@ -4041,7 +4110,7 @@
         "http": 200,
         "items": 100,
         "eligible": 6,
-        "seconds": 0.45
+        "seconds": 0.49
       },
       {
         "id": 45,
@@ -4051,7 +4120,7 @@
         "http": 200,
         "items": 31,
         "eligible": 0,
-        "seconds": 0.27
+        "seconds": 0.2
       },
       {
         "id": 47,
@@ -4061,7 +4130,7 @@
         "http": 200,
         "items": 36,
         "eligible": 0,
-        "seconds": 0.41
+        "seconds": 0.38
       }
     ],
     "sources": [
