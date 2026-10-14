@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "title": "News for Adults",
-  "updated_at": "2026-10-14T08:46:58.490117+00:00",
+  "updated_at": "2026-10-14T10:45:00.182498+00:00",
   "schedule": {
     "active": true,
     "window_ist": "08:00-22:00",
@@ -19,6 +19,459 @@
     "Health"
   ],
   "stories": [
+    {
+      "id": "4d7c11e050f4c29d0680",
+      "topic": "Tech",
+      "headline": "GTA 6 का PC launch जनवरी-मार्च 2027 में होने की चर्चा",
+      "bullets": [
+        "Report के मुताबिक PS5 और Xbox के बाद PC आएगा; Rockstar ने console release 19 November 2026 बताया है।"
+      ],
+      "published": "2026-10-14T10:38:58+00:00",
+      "sources": [
+        {
+          "name": "Mint Tech",
+          "url": "https://www.livemint.com/technology/gta-6-pc-launch-tipped-for-early-2027-months-after-ps5-and-xbox-release-11791972547263.html",
+          "feed_id": 26
+        }
+      ]
+    },
+    {
+      "id": "dd373bf9d23123602268",
+      "topic": "India",
+      "headline": "Delhi HC ने 'paneer' जैसे non-dairy products पर FSSAI से जवाब मांगा",
+      "bullets": [
+        "PIL में कहा गया कि paneer standardised dairy product है, जबकि analogue में non-milk ingredients होते हैं।"
+      ],
+      "published": "2026-10-14T10:31:51+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/delhi-high-court-seeks-fssai-stand-on-pil-against-non-dairy-analogous-paneer/article71583002.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "65b9b7f01bae61cc10d0",
+      "topic": "Sports",
+      "headline": "Chad Laycock ने एक over में पांच wickets लेकर record बनाया",
+      "bullets": [
+        "KZN-Inland के fast bowler का 6/26 Pro20 Cup history का best figure है।"
+      ],
+      "published": "2026-10-14T10:30:58+00:00",
+      "sources": [
+        {
+          "name": "ESPNcricinfo",
+          "url": "https://www.cricinfo.com/ci/content/story/1558419.html?ex_cid=OTC-RSS",
+          "feed_id": 44
+        }
+      ]
+    },
+    {
+      "id": "37c95ec703d206967647",
+      "topic": "India",
+      "headline": "Pune में 15 October से हर Thursday पानी की सप्लाई बंद रहेगी",
+      "bullets": [
+        "PMC के अनुसार Khadakwasla dam में 12 October को storage हर साल के मुकाबले कम है।"
+      ],
+      "published": "2026-10-14T10:26:46+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/maharashtra/pune-to-suspend-water-supply-every-thursday-from-october-15/article71582730.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "1c4fd8e9abbb406b3dbf",
+      "topic": "Business",
+      "headline": "Karnataka ने Czech companies से Bengaluru के बाहर निवेश मांगा",
+      "bullets": [
+        "CM ने energy, automobiles, aerospace और defence में अवसरों पर delegation से चर्चा की।"
+      ],
+      "published": "2026-10-14T10:26:24+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/karnataka/karnataka-asks-czech-companies-to-invest-beyond-bengaluru/article71582987.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "d20e85678d23845ab0d7",
+      "topic": "Tech",
+      "headline": "TCS क्वांटम computing से complex 'what if' सवाल हल करना चाहती है",
+      "bullets": [
+        "CTO Harrick Vin ने drug discovery, portfolio optimisation और severe-weather prediction को संभावित use cases बताया।"
+      ],
+      "published": "2026-10-14T10:24:32+00:00",
+      "sources": [
+        {
+          "name": "Hindu Business",
+          "url": "https://www.thehindu.com/business/Industry/tcs-looks-to-quantum-computing-to-solve-complex-what-if-problems/article71583048.ece",
+          "feed_id": 20
+        }
+      ]
+    },
+    {
+      "id": "7aeed9b60298ffba9608",
+      "topic": "Business",
+      "headline": "Rupee लगातार तीसरे session में मजबूत, 95.15 पर बंद",
+      "bullets": [
+        "Dollar के मुकाबले 94.77 तक गया; importers की hedging और outflows ने 95 के पार जाने से रोका।"
+      ],
+      "published": "2026-10-14T10:23:39+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-extends-rise-but-falters-past-95/usd-on-importer-hedging-outflows/articleshow/134939222.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "61aeacd11079c23b59d3",
+      "topic": "Sports",
+      "headline": "Sikandar Raza: घर पर ODI World Cup खेलना 'blessing' है",
+      "bullets": [
+        "उन्होंने कहा कि WTC अगर अगले cycle से 12 teams का बने तो Zimbabwe cricket के प्रदर्शन सुधरेंगे।"
+      ],
+      "published": "2026-10-14T10:21:16+00:00",
+      "sources": [
+        {
+          "name": "ESPNcricinfo",
+          "url": "https://www.cricinfo.com/ci/content/story/1558414.html?ex_cid=OTC-RSS",
+          "feed_id": 44
+        }
+      ]
+    },
+    {
+      "id": "60554d40d2b2f4ce47d2",
+      "topic": "World",
+      "headline": "Albania में students की police से झड़प",
+      "bullets": [
+        "Education costs, खराब university conditions और job prospects के खिलाफ protest हुआ।"
+      ],
+      "published": "2026-10-14T10:14:17+00:00",
+      "sources": [
+        {
+          "name": "Aljazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/albanian-students-clash-with-police-as-they-protest-over-education-and-jobs?traffic_source=rss",
+          "feed_id": 9
+        }
+      ]
+    },
+    {
+      "id": "65dcb510c2f8899c6bf5",
+      "topic": "Business",
+      "headline": "India में ultra-short-term borrowing cost तेजी से बढ़ी",
+      "bullets": [
+        "182-day और 364-day T-bill yields 18 महीने के high पर; policy rate पर premium नवंबर 2022 के बाद सबसे ऊंचा है।"
+      ],
+      "published": "2026-10-14T10:11:06+00:00",
+      "sources": [
+        {
+          "name": "ET Economy",
+          "url": "https://economictimes.indiatimes.com/news/economy/finance/indias-ultra-short-term-borrowing-costs-spike-premium-over-policy-rate-hits-4-year-high/articleshow/134938755.cms",
+          "feed_id": 17
+        }
+      ]
+    },
+    {
+      "id": "f2292ed36d33b26e2c24",
+      "topic": "Sports",
+      "headline": "Schutt के 4/16 से Australia ने Bangladesh के खिलाफ ODI series sweep की",
+      "bullets": [
+        "Bangladesh के top order को Megan Schutt ने गिराया; Sharmin Akhter और Shorna Akter ने half-centuries बनाईं।"
+      ],
+      "published": "2026-10-14T10:07:11+00:00",
+      "sources": [
+        {
+          "name": "ESPNcricinfo",
+          "url": "https://www.cricinfo.com/ci/content/story/1558418.html?ex_cid=OTC-RSS",
+          "feed_id": 44
+        }
+      ]
+    },
+    {
+      "id": "f6318a15c0a336c2c84c",
+      "topic": "Business",
+      "headline": "SEBI AIF में accredited investors का दायरा बढ़ाएगा",
+      "bullets": [
+        "Pool करीब 1 lakh से बढ़कर 4 lakh accredited investors तक पहुंचने की उम्मीद है।"
+      ],
+      "published": "2026-10-14T09:58:51+00:00",
+      "sources": [
+        {
+          "name": "Hindu Business",
+          "url": "https://www.thehindu.com/business/sebi-to-widen-aif-investor-pool-targets-4-lakh-accredited-investors/article71582864.ece",
+          "feed_id": 20
+        }
+      ]
+    },
+    {
+      "id": "647e865782a141c68236",
+      "topic": "World",
+      "headline": "Germany में radio glitch से false hijack alert, fighter jets भेजे गए",
+      "bullets": [
+        "Corfu से Nuremberg जा रहे plane के pilot के alert के बाद authorities ने jets से escort कराया।"
+      ],
+      "published": "2026-10-14T09:53:54+00:00",
+      "sources": [
+        {
+          "name": "Aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/14/how-a-radio-glitch-triggered-a-false-hijack-alert-in-germany?traffic_source=rss",
+          "feed_id": 9
+        }
+      ]
+    },
+    {
+      "id": "a34aea1c3b82bd05ff23",
+      "topic": "India",
+      "headline": "Keralam में northeast monsoon की तैयारी, 15 October को orange alert",
+      "bullets": [
+        "Southwest monsoon में 28% deficit रहा; Pathanamthitta, Kottayam, Idukki और Ernakulam में IMD alert है।"
+      ],
+      "published": "2026-10-14T09:49:35+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/kerala/keralam-braces-for-northeast-monsoon-after-28-southwest-monsoon-deficit/article71582902.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "7f8f2b76b0b2631070fa",
+      "topic": "Health",
+      "headline": "Cancer drugs की trade margins 700% तक: Centre ने Supreme Court को बताया",
+      "bullets": [
+        "प्रस्तावित 30% margin cap से कीमतें 70% तक घट सकती हैं और मरीजों के ₹2,500 crore सालाना बच सकते हैं।"
+      ],
+      "published": "2026-10-14T09:49:34+00:00",
+      "sources": [
+        {
+          "name": "NDTV Business",
+          "url": "https://www.ndtvprofit.com/markets/cancer-drug-trade-margins-run-up-to-700-government-tells-supreme-court-12183768#publisher=newsstand",
+          "feed_id": 21
+        }
+      ]
+    },
+    {
+      "id": "20c110eeb976b19c9181",
+      "topic": "Tech",
+      "headline": "Nvidia UK AI safety research के लिए $250 million का computing देगा",
+      "bullets": [
+        "Pledge पांच साल का है, यानी $50 million सालाना; focus agentic AI security पर है।"
+      ],
+      "published": "2026-10-14T09:49:25+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/nvidia-pledges-250-million-in-computing-resources-to-boost-uk-ai-safety-research/articleshow/134938351.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "8196cebd1deb1fcfc14c",
+      "topic": "Business",
+      "headline": "India ने Mauritius tax treaty में Principal Purpose Test जोड़ा",
+      "bullets": [
+        "Genuine commercial reasons से Mauritius के रास्ते निवेश करने वाले investors अब भी benefit क्लेम कर सकेंगे।"
+      ],
+      "published": "2026-10-14T09:46:06+00:00",
+      "sources": [
+        {
+          "name": "NDTV Business",
+          "url": "https://www.ndtvprofit.com/economy/india-tightens-mauritius-tax-treaty-introduces-principal-purpose-test-12183866#publisher=newsstand",
+          "feed_id": 21
+        }
+      ]
+    },
+    {
+      "id": "2fd157a235650775c2e4",
+      "topic": "India",
+      "headline": "DGCA ने flights में कुछ specific power banks पर रोक लगाई",
+      "bullets": [
+        "Airlines को ऐसे power banks की पहचान और carriage रोकने के लिए कदम उठाने को कहा गया है।"
+      ],
+      "published": "2026-10-14T09:45:34+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/dgca-bans-specific-power-banks-on-flights/article71582914.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "c8fd2a505325931068cc",
+      "topic": "Business",
+      "headline": "September में retail inflation 5.54%, करीब दो साल का high",
+      "bullets": [
+        "Food, fuel और transport की कीमतें बढ़ीं; rural households में food inflation 8% के पार गई।"
+      ],
+      "published": "2026-10-14T09:42:03+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/videos/the-battle-against-inflation-is-entering-a-tougher-phase-what-it-means-for-you/article71583060.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "08222db3a146e08defe3",
+      "topic": "Business",
+      "headline": "India में 2027 में salaries 9.1% बढ़ने की उम्मीद",
+      "bullets": [
+        "Report के अनुसार domestic consumption, investment और export growth से business confidence बना है।"
+      ],
+      "published": "2026-10-14T09:29:24+00:00",
+      "sources": [
+        {
+          "name": "NDTV Top",
+          "url": "https://www.ndtv.com/india-news/salaries-in-india-expected-to-rise-9-1-in-2027-amid-global-uncertainty-report-12183780#publisher=newsstand",
+          "feed_id": 5
+        }
+      ]
+    },
+    {
+      "id": "ea55a74e97e1b91f62fb",
+      "topic": "Tech",
+      "headline": "Anthropic co-founder: AI 2027 तक खुद को बेहतर बना सकता है",
+      "bullets": [
+        "नए benchmark के आधार पर Jack Clark अब यह समय एक साल पहले का मानते हैं।"
+      ],
+      "published": "2026-10-14T09:23:00+00:00",
+      "sources": [
+        {
+          "name": "NDTV Top",
+          "url": "https://www.ndtv.com/artificial-intelligence/ai-could-start-improving-itself-by-2027-anthropic-co-founder-12183739#publisher=newsstand",
+          "feed_id": 5
+        }
+      ]
+    },
+    {
+      "id": "f0563dd4052ae244608d",
+      "topic": "India",
+      "headline": "2027 तक 'One Nation One Port' प्रक्रिया शुरू होगी",
+      "bullets": [
+        "Council के मुताबिक सभी ports को March 2027 तक Maritime Single Window (Sagar Setu) से जुड़ना होगा।"
+      ],
+      "published": "2026-10-14T09:10:50+00:00",
+      "sources": [
+        {
+          "name": "NDTV Top",
+          "url": "https://www.ndtv.com/india-news/one-nation-one-port-process-to-begin-for-indias-maritime-sector-by-2027-12183684#publisher=newsstand",
+          "feed_id": 5
+        }
+      ]
+    },
+    {
+      "id": "408ac2b80275badef74f",
+      "topic": "India",
+      "headline": "Maharashtra में सूखा-प्रभावित किसानों को Diwali से पहले ₹5,000",
+      "bullets": [
+        "CM Fadnavis ने कहा कि 305 से ज्यादा talukas सूखाग्रस्त घोषित हैं; coercive loan recovery रोकने की कोशिश है।"
+      ],
+      "published": "2026-10-14T09:09:20+00:00",
+      "sources": [
+        {
+          "name": "NDTV Top",
+          "url": "https://www.ndtv.com/india-news/drought-hit-maharashtra-farmers-to-get-rs-5-000-aid-before-diwali-12183676#publisher=newsstand",
+          "feed_id": 5
+        },
+        {
+          "name": "ET Economy",
+          "url": "https://economictimes.indiatimes.com/news/economy/agriculture/85-of-maharashtra-declared-drought-hit-farmers-to-get-rs-5000-aid-before-diwali/articleshow/134937390.cms",
+          "feed_id": 17
+        }
+      ]
+    },
+    {
+      "id": "ef18749cb21edf0748a2",
+      "topic": "India",
+      "headline": "Mumbai में Domino's Parel outlet का licence suspend",
+      "bullets": [
+        "Improvement notice के बाद 9 October की inspection में कई food-safety violations मिले।"
+      ],
+      "published": "2026-10-14T09:08:20+00:00",
+      "sources": [
+        {
+          "name": "NDTV Business",
+          "url": "https://www.ndtvprofit.com/india/tukaram-mundhe-strikes-dominos-parel-licence-suspended-over-food-safety-violation-heres-what-fda-said-12183028#publisher=newsstand",
+          "feed_id": 21
+        }
+      ]
+    },
+    {
+      "id": "22b525d4348666314d78",
+      "topic": "World",
+      "headline": "September में China का export 36.3% उछला",
+      "bullets": [
+        "AI-driven demand के बीच यह COVID के बाद सबसे बड़ी बढ़त है।"
+      ],
+      "published": "2026-10-14T09:05:17+00:00",
+      "sources": [
+        {
+          "name": "Aljazeera",
+          "url": "https://www.aljazeera.com/economy/2026/10/14/chinas-exports-sugrge?traffic_source=rss",
+          "feed_id": 9
+        }
+      ]
+    },
+    {
+      "id": "60803081b70b61553214",
+      "topic": "Business",
+      "headline": "India को US oil-gas supplies 43% गिरी",
+      "bullets": [
+        "Refiners के अनुसार high freight, लंबी voyage और medium sour crude की कमी से West Asia और Russia के barrels ज्यादा आकर्षक हैं।"
+      ],
+      "published": "2026-10-14T09:02:07+00:00",
+      "sources": [
+        {
+          "name": "BS Economy",
+          "url": "https://www.business-standard.com/economy/news/us-energy-supplies-india-west-asia-crude-lng-lpg-imports-126101400660_1.html",
+          "feed_id": 19
+        }
+      ]
+    },
+    {
+      "id": "e1866e9a2dadbad73700",
+      "topic": "India",
+      "headline": "Akkulam में apartments के पास जमीन धंसी, school building का काम रुका",
+      "bullets": [
+        "Collector ने construction रोककर evacuation का आदेश दिया; boundary wall टूटी और 50 meter सड़क धंस गई।"
+      ],
+      "published": "2026-10-14T08:59:23+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/kerala/earth-cave-in-at-akkulam-collector-halts-school-building-construction-orders-evacuation-of-adjacent-flat-residents/article71582896.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "20cb5b3539daef01a882",
+      "topic": "Tech",
+      "headline": "Apple vs OpenAI: trade secret theft lawsuit क्या है",
+      "bullets": [
+        "July में दायर मामले में Apple ने OpenAI, io Products और दो पूर्व employees पर secrets लेने या इस्तेमाल करने का आरोप लगाया।"
+      ],
+      "published": "2026-10-14T08:46:27+00:00",
+      "sources": [
+        {
+          "name": "ET Tech",
+          "url": "https://economictimes.indiatimes.com/tech/technology/apple-vs-openai-what-the-trade-secret-theft-lawsuit-is-about/articleshow/134937124.cms",
+          "feed_id": 25
+        }
+      ]
+    },
     {
       "id": "9bc29e13814dc966cc32",
       "topic": "Business",
@@ -184,6 +637,22 @@
           "name": "BBC World",
           "url": "https://www.bbc.co.uk/news/articles/cwp9g1el7x9zo?at_medium=RSS&at_campaign=rss",
           "feed_id": 6
+        }
+      ]
+    },
+    {
+      "id": "606ed6d655db12c22882",
+      "topic": "India",
+      "headline": "Vadodara में cops Garba attire में undercover, women safety पर नजर",
+      "bullets": [
+        "Police ने harassment की किसी भी कोशिश पर सख्त कार्रवाई की चेतावनी दी।"
+      ],
+      "published": "2026-10-14T07:50:02+00:00",
+      "sources": [
+        {
+          "name": "NDTV Top",
+          "url": "https://www.ndtv.com/cities/vadodara-cops-go-undercover-in-garba-attire-to-ensure-womens-safety-12183271#publisher=newsstand",
+          "feed_id": 5
         }
       ]
     },
@@ -2090,6 +2559,22 @@
       ]
     },
     {
+      "id": "1920da9b6f5c3ff8a013",
+      "topic": "Tech",
+      "headline": "YouTube का AI 'Ask' search अब US mobile users के लिए",
+      "bullets": [
+        "Users लंबे और detailed सवाल पूछकर मनचाहे videos ढूंढ सकेंगे।"
+      ],
+      "published": "2026-10-13T22:36:36+00:00",
+      "sources": [
+        {
+          "name": "AmarUjala Tech",
+          "url": "https://www.amarujala.com/technology/mobile-apps/youtube-expands-ai-powered-ask-youtube-search-feature-to-mobile-in-usa-2026-10-14",
+          "feed_id": 24
+        }
+      ]
+    },
+    {
       "id": "80c2a808e24f618e1c12",
       "topic": "India",
       "headline": "Karnataka में Anna Seve app का statewide rollout",
@@ -2102,6 +2587,22 @@
           "name": "Hindu India",
           "url": "https://www.thehindu.com/news/national/karnataka/anna-seve-app-to-be-available-across-karnataka-from-october-14/article71579405.ece",
           "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "3792e10c116e1641bb19",
+      "topic": "Business",
+      "headline": "Sensex 251 अंक और Nifty 99 अंक गिरकर बंद",
+      "bullets": [
+        "14 October को Indian शेयर बाजार में बिकवाली हावी रही।"
+      ],
+      "published": "2026-10-13T22:15:55+00:00",
+      "sources": [
+        {
+          "name": "AmarUjala Business",
+          "url": "https://www.amarujala.com/business/bazaar/sensex-closing-bell-shar-market-closing-sensex-nifty-share-market-news-and-updates-2026-10-14",
+          "feed_id": 14
         }
       ]
     },
@@ -4291,308 +4792,40 @@
           "feed_id": 15
         }
       ]
-    },
-    {
-      "id": "e4022aa21ecb61ed4be6",
-      "topic": "Science",
-      "headline": "Jurassic fossil में mammal evolution का नया सुराग",
-      "bullets": [
-        "165 million साल पुराने predator की swallowing anatomy जांची गई।",
-        "Researchers इसे दूध safely पीने की क्षमता के शुरुआती विकास से जोड़ते हैं।"
-      ],
-      "published": "2026-10-13T10:44:22+00:00",
-      "sources": [
-        {
-          "name": "ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261012185005.htm",
-          "feed_id": 34
-        }
-      ]
-    },
-    {
-      "id": "4d54c5efd2eae2ef35c7",
-      "topic": "Business",
-      "headline": "Urban Company ₹2,500 crore का QIP लाने की तैयारी में",
-      "bullets": [
-        "Snabbit और Pronto के साथ cash-intensive instant house help लड़ाई में कंपनी को पैसा चाहिए।"
-      ],
-      "published": "2026-10-13T10:37:39+00:00",
-      "sources": [
-        {
-          "name": "ET Tech",
-          "url": "https://economictimes.indiatimes.com/tech/technology/urban-company-board-to-meet-october-16-to-consider-fundraise/articleshow/134915342.cms",
-          "feed_id": 25
-        }
-      ]
-    },
-    {
-      "id": "22f68913b29758221d51",
-      "topic": "Business",
-      "headline": "Shriram Finance में majority stake पर MUFG की शुरुआती सोच",
-      "bullets": [
-        "Japanese bank $10 billion से ज्यादा investment consider कर रहा है।",
-        "यह अभी शुरुआती discussion है, तय deal नहीं।"
-      ],
-      "published": "2026-10-13T10:26:24+00:00",
-      "sources": [
-        {
-          "name": "Mint Companies",
-          "url": "https://www.livemint.com/companies/news/japans-largest-bank-mufg-weighs-10-billion-plus-investment-to-take-majority-control-of-shriram-finance-11791886620773.html",
-          "feed_id": 13
-        }
-      ]
-    },
-    {
-      "id": "08bde0c621aba79ebd4e",
-      "topic": "Sports",
-      "headline": "Australia T20Is के लिए England ने तीन pacers को rest दिया",
-      "bullets": [
-        "Archer, Atkinson और Tongue series से आराम लेंगे।",
-        "Focus ODI World Cup और आगे South Africa tour पर है।"
-      ],
-      "published": "2026-10-13T10:19:54+00:00",
-      "sources": [
-        {
-          "name": "ESPNcricinfo",
-          "url": "https://www.cricinfo.com/ci/content/story/1558275.html?ex_cid=OTC-RSS",
-          "feed_id": 44
-        }
-      ]
-    },
-    {
-      "id": "728a16a0956bd7c8a796",
-      "topic": "Science",
-      "headline": "DNA recorder से mouse embryo की cell history trace हुई",
-      "bullets": [
-        "Scientists ने दो शुरुआती cells से organs बनने तक lineage देखी।",
-        "यह developmental biology research है, human treatment अभी नहीं।"
-      ],
-      "published": "2026-10-13T10:17:08+00:00",
-      "sources": [
-        {
-          "name": "ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261011211556.htm",
-          "feed_id": 34
-        }
-      ]
-    },
-    {
-      "id": "0546b3334b22c16d5f70",
-      "topic": "Science",
-      "headline": "India के water sources में PFAS पर research ने चिंता जताई",
-      "bullets": [
-        "कई studies में forever chemicals मिले हैं, लेकिन देशभर में contamination का पूरा स्तर स्पष्ट नहीं है।",
-        "Feed report के अनुसार conventional treatment से इन्हें हटाना चुनौती बना हुआ है।"
-      ],
-      "published": "2026-10-13T10:12:06+00:00",
-      "sources": [
-        {
-          "name": "Hindu SciTech",
-          "url": "https://www.thehindu.com/sci-tech/energy-and-environment/india-water-plants-failing-catch-pfas-forever-chemicals/article71578901.ece",
-          "feed_id": 36
-        }
-      ]
-    },
-    {
-      "id": "1fbf56846985caaf9e70",
-      "topic": "Science",
-      "headline": "IceCube के लिए Nobel, ब्रह्मांड से neutrinos की खोज",
-      "bullets": [
-        "South Pole के IceCube Observatory ने Francis Halzen को physics का Nobel दिलाया।"
-      ],
-      "published": "2026-10-13T10:10:38+00:00",
-      "sources": [
-        {
-          "name": "Hindu SciTech",
-          "url": "https://www.thehindu.com/sci-tech/science/the-nobel-for-icecube-and-the-search-for-neutrinos-from-outer-space-explained/article71554101.ece",
-          "feed_id": 36
-        }
-      ]
-    },
-    {
-      "id": "02170b9a3fd1afaa8440",
-      "topic": "Science",
-      "headline": "India का cement footprint net-zero की राह में बाधा",
-      "bullets": [
-        "Cement बनाने में heating और limestone calcination से भारी greenhouse gases निकलती हैं।"
-      ],
-      "published": "2026-10-13T09:56:34+00:00",
-      "sources": [
-        {
-          "name": "Hindu SciTech",
-          "url": "https://www.thehindu.com/sci-tech/energy-and-environment/india-formidable-cement-footprint-stands-way-to-net-zero/article71550380.ece",
-          "feed_id": 36
-        }
-      ]
-    },
-    {
-      "id": "b28ea90bd0cf7d72f14d",
-      "topic": "Sports",
-      "headline": "Bad light में pink ball आजमाने की Pollock की सलाह",
-      "bullets": [
-        "Former cricketer ने light-affected Tests के लिए बदलाव का समर्थन किया।",
-        "उनका तर्क है कि red ball से जल्दी खेल रुकता है।"
-      ],
-      "published": "2026-10-13T09:54:06+00:00",
-      "sources": [
-        {
-          "name": "ESPNcricinfo",
-          "url": "https://www.cricinfo.com/ci/content/story/1558269.html?ex_cid=OTC-RSS",
-          "feed_id": 44
-        }
-      ]
-    },
-    {
-      "id": "e398058e1e0abb0b6166",
-      "topic": "Science",
-      "headline": "Quantum simulation में particle की गति रोकने वाला effect दिखा",
-      "bullets": [
-        "Oxford team ने hybrid quantum computer इस्तेमाल किया।",
-        "Simulated magnetic flux से quantum interference ने motion रोकी।"
-      ],
-      "published": "2026-10-13T09:47:22+00:00",
-      "sources": [
-        {
-          "name": "ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261011211554.htm",
-          "feed_id": 34
-        }
-      ]
-    },
-    {
-      "id": "73f6572825e6d5f9a37e",
-      "topic": "Business",
-      "headline": "Bayer का DirectAcres programme दो लाख acres पार",
-      "bullets": [
-        "Programme seeds, crop protection और digital advice जोड़ता है।",
-        "Farmers को mechanisation की तरफ बढ़ने में support दिया जा रहा है।"
-      ],
-      "published": "2026-10-13T09:37:16+00:00",
-      "sources": [
-        {
-          "name": "ET Economy",
-          "url": "https://economictimes.indiatimes.com/news/economy/agriculture/bayers-directacres-crosses-200000-acres-in-india/articleshow/134913793.cms",
-          "feed_id": 17
-        }
-      ]
-    },
-    {
-      "id": "3b343a8453eeb781ba47",
-      "topic": "Business",
-      "headline": "Fundamentum का deeptech fund ₹3,500 crore तक",
-      "bullets": [
-        "Nilekani-backed firm ने domestic investor demand बढ़ने की बात कही।",
-        "Focus अपनी technology बनाने वाले startups पर है।"
-      ],
-      "published": "2026-10-13T09:36:56+00:00",
-      "sources": [
-        {
-          "name": "Mint Companies",
-          "url": "https://www.livemint.com/companies/start-ups/fundamentum-f2a-deeptech-fund-raises-domestic-allocation-rs-2500-crore-11791875952159.html",
-          "feed_id": 13
-        }
-      ]
-    },
-    {
-      "id": "47a242204bba4fae04a8",
-      "topic": "Health",
-      "headline": "Classroom screen time कम करने की clinicians की सलाह",
-      "bullets": [
-        "English schools में rising tech use पर health concerns उठे।",
-        "Short-sightedness जैसे risks का हवाला दिया गया।"
-      ],
-      "published": "2026-10-13T09:35:43+00:00",
-      "sources": [
-        {
-          "name": "BBC Health",
-          "url": "https://www.bbc.co.uk/news/articles/cq4g18prn4l4o?at_medium=RSS&at_campaign=rss",
-          "feed_id": 38
-        }
-      ]
-    },
-    {
-      "id": "a814e655ef43ac12ffeb",
-      "topic": "Tech",
-      "headline": "Phase Eight और Hobbs owner को cyberattack से disruption",
-      "bullets": [
-        "TFG London ने cybersecurity incident के बाद customers से माफी मांगी।"
-      ],
-      "published": "2026-10-13T09:34:43+00:00",
-      "sources": [
-        {
-          "name": "BBC Tech",
-          "url": "https://www.bbc.co.uk/news/articles/cwly38gjkejko?at_medium=RSS&at_campaign=rss",
-          "feed_id": 23
-        }
-      ]
-    },
-    {
-      "id": "895147cd9ef74150a8f4",
-      "topic": "Business",
-      "headline": "Odisha ने September तक capital outlay का 25% खर्च किया",
-      "bullets": [
-        "₹72,100 crore capital budget में ₹18,183 crore खर्च हुए।"
-      ],
-      "published": "2026-10-13T09:32:46+00:00",
-      "sources": [
-        {
-          "name": "BS Economy",
-          "url": "https://www.business-standard.com/economy/news/odisha-spends-25-per-cent-capital-outlay-33-per-cent-budget-estimate-six-months-126101300674_1.html",
-          "feed_id": 19
-        }
-      ]
-    },
-    {
-      "id": "5c78fc76b0e8ef2fb269",
-      "topic": "Health",
-      "headline": "Zydus की Keytruda biosimilar filing FDA ने स्वीकार की",
-      "bullets": [
-        "FYB206 application अब regulatory review में है।",
-        "Review third quarter 2027 तक पूरा होने की उम्मीद है; approval अभी नहीं।"
-      ],
-      "published": "2026-10-13T09:30:33+00:00",
-      "sources": [
-        {
-          "name": "ET Health",
-          "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/zydus-moves-closer-to-us-market-for-keytruda-biosimilar-as-fda-accepts-application/articleshow/134913729.cms",
-          "feed_id": 41
-        }
-      ]
-    },
-    {
-      "id": "af7aa54032a1b02640c9",
-      "topic": "Business",
-      "headline": "Sitharaman: RBI और कदम उठा सकता है, LTCG पर बहस सुनेंगे",
-      "bullets": [
-        "Finance Minister ने rupee volatility पर RBI की ओर से और कार्रवाई के संकेत दिए।"
-      ],
-      "published": "2026-10-13T08:52:31+00:00",
-      "sources": [
-        {
-          "name": "ET Economy",
-          "url": "https://economictimes.indiatimes.com/news/economy/finance/rbi-may-take-further-measures-to-curb-rupee-volatility-fm-sitharaman/articleshow/134912758.cms",
-          "feed_id": 17
-        },
-        {
-          "name": "ET Economy",
-          "url": "https://economictimes.indiatimes.com/news/economy/policy/fm-sitharaman-ready-to-hear-out-stock-market-tax-debate-rbi-rupee-dollar-rate/articleshow/134925828.cms",
-          "feed_id": 17
-        },
-        {
-          "name": "Hindu Business",
-          "url": "https://www.thehindu.com/business/Economy/rbi-to-continue-efforts-to-curb-rupee-volatility-external-factors-driving-currency-fall-nirmala-sitharaman/article71579023.ece",
-          "feed_id": 20
-        },
-        {
-          "name": "Mint Economy",
-          "url": "https://www.livemint.com/economy/nirmala-sitharaman-rbi-trying-to-curb-rupee-volatility-not-fix-its-value-fiscal-discipline-should-not-worry-investors-11791883057725.html",
-          "feed_id": 22
-        }
-      ]
     }
   ],
   "metadata": {
     "refreshes": [
+      {
+        "at": "2026-10-14T10:45:00.182498+00:00",
+        "feed_checked_at": "2026-10-14T10:44:14.097690+00:00",
+        "items_read": 1715,
+        "candidates": 477,
+        "written": 31,
+        "added": 31,
+        "dropped": 17,
+        "total": 269,
+        "counts": {
+          "India": 40,
+          "World": 24,
+          "Business": 102,
+          "IPO": 6,
+          "Tech": 54,
+          "Sports": 6,
+          "Science": 24,
+          "Health": 13
+        },
+        "fetch_seconds": 2.52,
+        "rejected": {
+          "older_than_24h": 1007,
+          "question_headline": 128,
+          "editorial_keyword": 7,
+          "undated": 4,
+          "not_cricket": 63,
+          "duplicate": 29
+        },
+        "editorial_skipped": 446
+      },
       {
         "at": "2026-10-14T08:46:58.490117+00:00",
         "feed_checked_at": "2026-10-14T08:45:05.073952+00:00",
@@ -4653,58 +4886,27 @@
           "duplicate": 32
         },
         "editorial_skipped": 429
-      },
-      {
-        "at": "2026-10-14T04:45:22.213631+00:00",
-        "feed_checked_at": "2026-10-14T04:44:17.406224+00:00",
-        "items_read": 1712,
-        "candidates": 462,
-        "written": 29,
-        "added": 29,
-        "dropped": 9,
-        "total": 200,
-        "counts": {
-          "India": 21,
-          "World": 9,
-          "Business": 84,
-          "IPO": 5,
-          "Tech": 47,
-          "Sports": 6,
-          "Science": 18,
-          "Health": 10
-        },
-        "fetch_seconds": 2.52,
-        "rejected": {
-          "older_than_24h": 1046,
-          "question_headline": 107,
-          "editorial_keyword": 14,
-          "future": 2,
-          "undated": 4,
-          "not_cricket": 55,
-          "duplicate": 22
-        },
-        "editorial_skipped": 433
       }
     ],
     "topic_counts": {
-      "India": 31,
-      "World": 21,
-      "Business": 99,
+      "India": 40,
+      "World": 24,
+      "Business": 102,
       "IPO": 6,
-      "Tech": 49,
-      "Sports": 5,
-      "Science": 30,
-      "Health": 14
+      "Tech": 54,
+      "Sports": 6,
+      "Science": 24,
+      "Health": 13
     },
     "topic_gap_minutes": {
-      "India": 58,
-      "World": 40,
+      "India": 60,
+      "World": 45,
       "Business": 60,
       "IPO": 12,
       "Tech": 60,
-      "Sports": 10,
-      "Science": 56,
-      "Health": 27
+      "Sports": 12,
+      "Science": 45,
+      "Health": 25
     },
     "gap_is_metadata_only": true,
     "feeds": [
@@ -4716,7 +4918,7 @@
         "http": 200,
         "items": 23,
         "eligible": 1,
-        "seconds": 0.06
+        "seconds": 0.28
       },
       {
         "id": 2,
@@ -4725,8 +4927,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 20,
-        "seconds": 0.37
+        "eligible": 19,
+        "seconds": 0.39
       },
       {
         "id": 3,
@@ -4735,8 +4937,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 58,
-        "seconds": 0.35
+        "eligible": 57,
+        "seconds": 0.09
       },
       {
         "id": 4,
@@ -4744,9 +4946,9 @@
         "url": "https://feeds.bbci.co.uk/hindi/india/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 38,
-        "eligible": 6,
-        "seconds": 0.53
+        "items": 35,
+        "eligible": 7,
+        "seconds": 0.71
       },
       {
         "id": 5,
@@ -4755,7 +4957,7 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 17,
+        "eligible": 20,
         "seconds": 0.32
       },
       {
@@ -4764,9 +4966,9 @@
         "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 23,
-        "eligible": 20,
-        "seconds": 0.04
+        "items": 24,
+        "eligible": 21,
+        "seconds": 0.2
       },
       {
         "id": 7,
@@ -4775,8 +4977,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 9,
-        "seconds": 0.07
+        "eligible": 10,
+        "seconds": 0.4
       },
       {
         "id": 9,
@@ -4785,8 +4987,8 @@
         "status": "ok",
         "http": 200,
         "items": 25,
-        "eligible": 24,
-        "seconds": 0.05
+        "eligible": 23,
+        "seconds": 0.1
       },
       {
         "id": 10,
@@ -4795,8 +4997,8 @@
         "status": "ok",
         "http": 200,
         "items": 137,
-        "eligible": 18,
-        "seconds": 0.06
+        "eligible": 17,
+        "seconds": 0.09
       },
       {
         "id": 11,
@@ -4804,9 +5006,9 @@
         "url": "https://feeds.bbci.co.uk/hindi/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 38,
-        "eligible": 6,
-        "seconds": 0.21
+        "items": 35,
+        "eligible": 7,
+        "seconds": 0.3
       },
       {
         "id": 12,
@@ -4816,7 +5018,7 @@
         "http": 200,
         "items": 9,
         "eligible": 0,
-        "seconds": 0.43
+        "seconds": 0.35
       },
       {
         "id": 13,
@@ -4825,8 +5027,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 31,
-        "seconds": 0.15
+        "eligible": 28,
+        "seconds": 0.14
       },
       {
         "id": 14,
@@ -4835,8 +5037,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 8,
-        "seconds": 0.39
+        "eligible": 10,
+        "seconds": 0.4
       },
       {
         "id": 15,
@@ -4846,7 +5048,7 @@
         "http": 200,
         "items": 50,
         "eligible": 36,
-        "seconds": 0.12
+        "seconds": 0.23
       },
       {
         "id": 16,
@@ -4854,9 +5056,9 @@
         "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms",
         "status": "ok",
         "http": 200,
-        "items": 48,
+        "items": 50,
         "eligible": 6,
-        "seconds": 0.2
+        "seconds": 0.51
       },
       {
         "id": 17,
@@ -4866,7 +5068,7 @@
         "http": 200,
         "items": 50,
         "eligible": 19,
-        "seconds": 0.22
+        "seconds": 0.14
       },
       {
         "id": 19,
@@ -4876,7 +5078,7 @@
         "http": 200,
         "items": 35,
         "eligible": 14,
-        "seconds": 0.08
+        "seconds": 0.1
       },
       {
         "id": 20,
@@ -4885,8 +5087,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 22,
-        "seconds": 0.1
+        "eligible": 24,
+        "seconds": 0.07
       },
       {
         "id": 21,
@@ -4906,7 +5108,7 @@
         "http": 200,
         "items": 35,
         "eligible": 5,
-        "seconds": 0.11
+        "seconds": 0.12
       },
       {
         "id": 23,
@@ -4915,8 +5117,8 @@
         "status": "ok",
         "http": 200,
         "items": 21,
-        "eligible": 4,
-        "seconds": 0.03
+        "eligible": 3,
+        "seconds": 0.09
       },
       {
         "id": 24,
@@ -4925,8 +5127,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 4,
-        "seconds": 0.39
+        "eligible": 6,
+        "seconds": 0.38
       },
       {
         "id": 25,
@@ -4935,8 +5137,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 19,
-        "seconds": 0.15
+        "eligible": 18,
+        "seconds": 0.43
       },
       {
         "id": 26,
@@ -4945,7 +5147,7 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 11,
+        "eligible": 12,
         "seconds": 0.08
       },
       {
@@ -4956,7 +5158,7 @@
         "http": 200,
         "items": 20,
         "eligible": 12,
-        "seconds": 0.05
+        "seconds": 0.06
       },
       {
         "id": 28,
@@ -4966,7 +5168,7 @@
         "http": 200,
         "items": 10,
         "eligible": 10,
-        "seconds": 0.04
+        "seconds": 0.05
       },
       {
         "id": 29,
@@ -4976,7 +5178,7 @@
         "http": 200,
         "items": 20,
         "eligible": 20,
-        "seconds": 0.05
+        "seconds": 0.06
       },
       {
         "id": 32,
@@ -4986,7 +5188,7 @@
         "http": 200,
         "items": 42,
         "eligible": 9,
-        "seconds": 0.19
+        "seconds": 0.1
       },
       {
         "id": 33,
@@ -4996,7 +5198,7 @@
         "http": 200,
         "items": 10,
         "eligible": 10,
-        "seconds": 0.19
+        "seconds": 0.49
       },
       {
         "id": 34,
@@ -5005,8 +5207,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 9,
-        "seconds": 0.2
+        "eligible": 7,
+        "seconds": 0.27
       },
       {
         "id": 36,
@@ -5015,8 +5217,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 24,
-        "seconds": 0.07
+        "eligible": 23,
+        "seconds": 0.4
       },
       {
         "id": 37,
@@ -5024,9 +5226,9 @@
         "url": "https://feeds.bbci.co.uk/hindi/vigyan/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 38,
-        "eligible": 6,
-        "seconds": 0.44
+        "items": 35,
+        "eligible": 7,
+        "seconds": 0.39
       },
       {
         "id": 38,
@@ -5035,8 +5237,8 @@
         "status": "ok",
         "http": 200,
         "items": 55,
-        "eligible": 10,
-        "seconds": 0.04
+        "eligible": 6,
+        "seconds": 0.28
       },
       {
         "id": 39,
@@ -5045,8 +5247,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 3,
-        "seconds": 0.38
+        "eligible": 4,
+        "seconds": 0.37
       },
       {
         "id": 40,
@@ -5056,7 +5258,7 @@
         "http": 200,
         "items": 60,
         "eligible": 8,
-        "seconds": 0.36
+        "seconds": 0.33
       },
       {
         "id": 41,
@@ -5065,8 +5267,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 4,
-        "seconds": 1.38
+        "eligible": 3,
+        "seconds": 0.33
       },
       {
         "id": 42,
@@ -5074,9 +5276,9 @@
         "url": "https://feeds.bbci.co.uk/sport/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 74,
+        "items": 78,
         "eligible": 0,
-        "seconds": 0.18
+        "seconds": 0.43
       },
       {
         "id": 43,
@@ -5086,7 +5288,7 @@
         "http": 200,
         "items": 40,
         "eligible": 0,
-        "seconds": 0.36
+        "seconds": 0.39
       },
       {
         "id": 44,
@@ -5095,8 +5297,8 @@
         "status": "ok",
         "http": 200,
         "items": 100,
-        "eligible": 5,
-        "seconds": 0.35
+        "eligible": 6,
+        "seconds": 0.31
       },
       {
         "id": 45,
@@ -5106,7 +5308,7 @@
         "http": 200,
         "items": 31,
         "eligible": 0,
-        "seconds": 0.17
+        "seconds": 0.26
       },
       {
         "id": 47,
@@ -5114,9 +5316,9 @@
         "url": "https://feeds.bbci.co.uk/hindi/sport/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 38,
+        "items": 35,
         "eligible": 0,
-        "seconds": 0.25
+        "seconds": 0.58
       }
     ],
     "sources": [
