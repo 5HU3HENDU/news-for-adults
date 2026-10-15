@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "title": "News for Adults",
-  "updated_at": "2026-10-15T02:45:46.628813+00:00",
+  "updated_at": "2026-10-15T04:44:50.224922+00:00",
   "schedule": {
     "active": true,
     "window_ist": "08:00-22:00",
@@ -19,6 +19,300 @@
     "Health"
   ],
   "stories": [
+    {
+      "id": "0c400b849febbbef49f4",
+      "topic": "Business",
+      "headline": "Aequs ने Safran के साथ aerospace के लिए long-term supply agreements किए",
+      "bullets": [
+        "यह काम Tamil Nadu के Hosur में बन रहे Aequs Engine Components Ecosystem में होगा।"
+      ],
+      "published": "2026-10-15T04:35:00+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/business/belagavi-based-aequs-announces-long-term-supply-agreements-with-safran-for-aerospace-applications/article71583760.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "e8b7439c820d10c0409e",
+      "topic": "Tech",
+      "headline": "ASML: AI demand इतनी कि 2027-2028 में पूरी नहीं कर पाएगा",
+      "bullets": [
+        "कंपनी ने 2026 की Q4 sales €14.2-15.2 billion रहने का अनुमान दिया, जो analysts की उम्मीद से ऊपर है।"
+      ],
+      "published": "2026-10-15T04:31:37+00:00",
+      "sources": [
+        {
+          "name": "ET Tech",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/asml-will-be-unable-to-meet-ai-driven-customer-demand-in-2027-2028/articleshow/134957362.cms",
+          "feed_id": 25
+        }
+      ]
+    },
+    {
+      "id": "4b4de1de41b1a5212a9c",
+      "topic": "Business",
+      "headline": "Nikkei करीब 5% गिरा, CoreWeave की चिंता से AI stocks टूटे",
+      "bullets": [
+        "Topix भी 2.5% गिरा।",
+        "US cloud firm CoreWeave की financial health और ऊंची interest rates के डर से सेंटिमेंट बिगड़ा।"
+      ],
+      "published": "2026-10-15T04:26:37+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japans-nikkei-plunges-nearly-5-as-ai-stocks-tumble-on-coreweave-debt-concerns/articleshow/134957270.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "4a8dce09874955fffb2f",
+      "topic": "World",
+      "headline": "São Paulo की Anhangabaú tunnel में बाढ़ से भारी pileup",
+      "bullets": [
+        "बारिश से गाड़ियां टकराकर फंसीं और लोग tunnel में फंस गए।"
+      ],
+      "published": "2026-10-15T04:19:06+00:00",
+      "sources": [
+        {
+          "name": "Aljazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/heavy-rain-causes-mass-pileup-in-brazil-tunnel?traffic_source=rss",
+          "feed_id": 9
+        }
+      ]
+    },
+    {
+      "id": "461515705c3c015a60f0",
+      "topic": "Tech",
+      "headline": "X ने foreign influence के आरोप में 13,000 accounts suspend किए",
+      "bullets": [
+        "Platform के मुताबिक ये networks midterm elections से पहले US political debate को निशाना बना रहे थे।"
+      ],
+      "published": "2026-10-15T04:15:55+00:00",
+      "sources": [
+        {
+          "name": "Aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/15/x-suspends-13000-accounts-alleging-foreign-influence-ahead-of-us-midterms?traffic_source=rss",
+          "feed_id": 9
+        }
+      ]
+    },
+    {
+      "id": "589da68a691e98ba9d05",
+      "topic": "World",
+      "headline": "Australia: big tech को बच्चों तक 'unfettered' access नहीं देंगे",
+      "bullets": [
+        "सरकार ने नया कानून पेश किया है, जो users को अपनी feeds पर चुनाव का हक देगा।"
+      ],
+      "published": "2026-10-15T03:47:37+00:00",
+      "sources": [
+        {
+          "name": "ET Tech",
+          "url": "https://economictimes.indiatimes.com/tech/technology/australia-says-wont-let-big-tech-have-unfettered-access-to-kids/articleshow/134956713.cms",
+          "feed_id": 25
+        }
+      ]
+    },
+    {
+      "id": "127b8271fed3cbb358d1",
+      "topic": "India",
+      "headline": "India ने पूछा: PoK के human rights concerns पर UN body कब report देगी",
+      "bullets": [
+        "बयानों में Joint Awami Action Committee के detained नेताओं को legal representation और family access देने की मांग थी।"
+      ],
+      "published": "2026-10-15T03:42:21+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/india-asks-when-un-body-will-report-on-pok-human-rights-concerns/article71586551.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "a123ee8fc89d49042a16",
+      "topic": "IPO",
+      "headline": "HD Fire Protect IPO का तीसरा और आखिरी दिन, पहले दो दिन में 16.5 गुना subscribe",
+      "bullets": [
+        "₹712.31 crore के OFS का price band ₹258-271 है; GMP करीब 33% है।"
+      ],
+      "published": "2026-10-15T03:42:01+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/hd-fire-protect-ipo-day-3-gmp-at-33-day-2-subscription-hits-16-5-times-check-key-details/articleshow/134956480.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "47bc7798c7f32dd42b5a",
+      "topic": "IPO",
+      "headline": "Tonbo Imaging का ₹852.18 crore का IPO खुला, GMP करीब 71%",
+      "bullets": [
+        "यह पूरा OFS है, यानी कंपनी को proceeds नहीं मिलेंगे।",
+        "Defence technology कंपनी 24 देशों में काम करती है।"
+      ],
+      "published": "2026-10-15T03:29:32+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/tonbo-imaging-india-ipo-opens-today-gmp-signals-71-listing-gain-check-key-details/articleshow/134956306.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "94b2c25bfa43a2aab0b2",
+      "topic": "World",
+      "headline": "Brazil की Senate ने workweek 44 से घटाकर 40 घंटे की",
+      "bullets": [
+        "यह Lula के लिए 25 October के runoff से पहले बढ़त मानी जा रही है।"
+      ],
+      "published": "2026-10-15T03:29:00+00:00",
+      "sources": [
+        {
+          "name": "DW World",
+          "url": "https://www.dw.com/en/brazil-to-shorten-workweek-in-win-for-lula-ahead-of-runoff/a-79664991?maca=en-rss-en-all-1573-rdf",
+          "feed_id": 10
+        }
+      ]
+    },
+    {
+      "id": "252b0b87e3f38df1fa4f",
+      "topic": "Tech",
+      "headline": "OpenAI bugging का आरोपी 12 October को Saudi Arabia की one-way trip पर जाने वाला था",
+      "bullets": [
+        "US prosecutors ने court filing में यह बात कही।"
+      ],
+      "published": "2026-10-15T03:28:44+00:00",
+      "sources": [
+        {
+          "name": "Aljazeera",
+          "url": "https://www.aljazeera.com/economy/2026/10/15/openai-bugging-suspect-allegedly-booked-one-way-trip-to-saudi-arabia?traffic_source=rss",
+          "feed_id": 9
+        }
+      ]
+    },
+    {
+      "id": "12bb5e487bf346a95f96",
+      "topic": "IPO",
+      "headline": "Sahajanand Medical Technologies का ₹475.48 crore का IPO खुला",
+      "bullets": [
+        "Price band ₹327-344 है और lot size 43 shares का है।",
+        "यह पूरा offer-for-sale है; GMP करीब 12% बताया जा रहा है।"
+      ],
+      "published": "2026-10-15T03:27:04+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/sahajanand-medical-technologies-ipo-opens-today-check-gmp-price-band-and-key-details/articleshow/134956265.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "af985e968917e1770dc9",
+      "topic": "Tech",
+      "headline": "SK Hynix का नया US factory China को ज्यादा US chip equipment exports से जुड़ा",
+      "bullets": [
+        "Trump administration SK Hynix, Samsung जैसी कंपनियों पर US में plants लगाने का दबाव बना रही है।"
+      ],
+      "published": "2026-10-15T03:23:21+00:00",
+      "sources": [
+        {
+          "name": "ET Tech",
+          "url": "https://economictimes.indiatimes.com/tech/technology/sk-hynix-conditions-new-us-factory-on-more-us-chip-equipment-exports-to-china-sources-say/articleshow/134956254.cms",
+          "feed_id": 25
+        }
+      ]
+    },
+    {
+      "id": "4d2d81ad6bc10d63716b",
+      "topic": "IPO",
+      "headline": "Jio के prospectus में satellite broadband से competition का risk बताया गया",
+      "bullets": [
+        "कंपनी ने महंगाई से margins पर दबाव और customer acquisition व ARPU बनाए रखने की चुनौतियों का ज़िक्र किया है।",
+        "Cybersecurity risks को भी अतिरिक्त खतरा बताया गया है।"
+      ],
+      "published": "2026-10-15T03:06:45+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-prospectus-key-takeaways-for-investors/articleshow/134955953.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "a724e53d06ac3539a07a",
+      "topic": "India",
+      "headline": "Navy espionage case का आरोपी Saudi Arabia से भारत लाया गया",
+      "bullets": [
+        "उसे 11 October को Delhi Airport पर रोका गया और बाद में judicial custody में भेजा गया।"
+      ],
+      "published": "2026-10-15T03:06:17+00:00",
+      "sources": [
+        {
+          "name": "NDTV Top",
+          "url": "https://www.ndtv.com/andhra-pradesh-news/navy-espionage-case-accused-brought-back-to-india-from-saudi-arabia-12187510#publisher=newsstand",
+          "feed_id": 5
+        }
+      ]
+    },
+    {
+      "id": "5d73ba0cf72b7ea461d6",
+      "topic": "Tech",
+      "headline": "Anthropic Claude में US voting की official जानकारी जोड़ेगा",
+      "bullets": [
+        "Nonprofit Democracy Works से यह जानकारी इसी महीने के अंत में जुड़ेगी, November midterms से पहले।"
+      ],
+      "published": "2026-10-15T03:01:59+00:00",
+      "sources": [
+        {
+          "name": "ET Tech",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-to-add-us-voting-information-to-claude-before-midterms/articleshow/134955974.cms",
+          "feed_id": 25
+        }
+      ]
+    },
+    {
+      "id": "45e2dbd449ad9c2c85bd",
+      "topic": "India",
+      "headline": "Air India की Frankfurt-Delhi flight hijack alert के बाद Jaipur में उतारी गई",
+      "bullets": [
+        "Pilot ने ATC को Code 7500 भेजा, जो unlawful interference का संकेत है।",
+        "Security sources के मुताबिक checks के बाद flight ने यात्रा फिर शुरू की।"
+      ],
+      "published": "2026-10-15T02:41:25+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/air-india-frankfurt-delhi-flight-diverted-to-jaipur-after-hijack-alert-resumes-journey-after-checks/article71586486.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "3b830aa7542680a84701",
+      "topic": "Business",
+      "headline": "IMF ने India के GDP data revamp की तारीफ की, growth forecast 7% किया",
+      "bullets": [
+        "IMF ने इस साल और अगले साल के लिए India का growth forecast 7% रखा है।",
+        "उसका कहना है कि currency में उतार-चढ़ाव कमजोरी का संकेत नहीं है।"
+      ],
+      "published": "2026-10-15T02:38:50+00:00",
+      "sources": [
+        {
+          "name": "ET Economy",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/imf-applauds-indias-gdp-data-revamp-says-country-entered-energy-shock-with-strong-fundamentals/articleshow/134955663.cms",
+          "feed_id": 17
+        }
+      ]
+    },
     {
       "id": "6845795f73eb7eb712f3",
       "topic": "IPO",
@@ -362,6 +656,63 @@
       ]
     },
     {
+      "id": "2f9423763ea175d718b8",
+      "topic": "IPO",
+      "headline": "Jio IPO का price band ₹1,065-1,119 confirm, 21 October को खुलेगा",
+      "bullets": [
+        "NSE filing के मुताबिक price band ₹1,065-1,119 है; lot size 12 shares और employee discount ₹54 है।",
+        "Issue 21 से 23 October तक खुला रहेगा, anchor bidding 19 October को; RHP में ₹30,213 crore तक का fresh issue है और OFS नहीं है।"
+      ],
+      "published": "2026-10-15T00:12:12+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/exclusive-countdown-begins-for-the-mother-of-all-ipos-jio-likely-to-file-rhp-today-for-record-rs-30000-crore-issue/articleshow/134932999.cms",
+          "feed_id": 15
+        },
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/reliance-jio-files-rhp-announces-ipo-dates-for-record-issue/articleshow/134943768.cms",
+          "feed_id": 15
+        },
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/diwali-offer-for-ril-shareholders-reliance-jio-sets-aside-rs-2500-crore-shares-in-ipo-reservation/articleshow/134944234.cms",
+          "feed_id": 15
+        },
+        {
+          "name": "NDTV Business",
+          "url": "https://www.ndtvprofit.com/markets/jio-ipo-price-band-set-at-rs-1-065-1-119-per-share-issue-to-open-on-oct-21-12185913#publisher=newsstand",
+          "feed_id": 21
+        },
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-announces-price-band-for-over-rs-30000-crore-ipo-check-key-dates-gmp-and-other-details/articleshow/134945465.cms",
+          "feed_id": 15
+        },
+        {
+          "name": "Hindu Business",
+          "url": "https://www.thehindu.com/business/markets/reliances-jio-platforms-files-final-ipo-prospectus-offer-to-open-on-october-21/article71584837.ece",
+          "feed_id": 20
+        },
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-platforms-files-red-herring-prospectus-for-indias-biggest-public-issue/articleshow/134954464.cms",
+          "feed_id": 15
+        },
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-platforms-grey-market-premium-jumps-to-rs-218-ahead-of-ipo-price-band-set/articleshow/134954484.cms",
+          "feed_id": 15
+        },
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-sparks-investor-buzz-gmp-hits-20-as-reliances-telecom-arm-announces-price-band-dates/articleshow/134946913.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
       "id": "cb3ee08c9640d4aeee73",
       "topic": "World",
       "headline": "Iran: US के झुकने तक लड़ेंगे, Hormuz में जहाज डूब रहे",
@@ -438,6 +789,22 @@
       ]
     },
     {
+      "id": "93aec27f5eb2fee3d9f1",
+      "topic": "Science",
+      "headline": "Study: European उपनिवेश से 73 साल में Australia की 93% Indigenous आबादी खत्म हुई",
+      "bullets": [
+        "Researchers का अनुमान है कि पहले करीब 22.2 lakh Indigenous लोग वहां रहते थे।"
+      ],
+      "published": "2026-10-14T23:34:00+00:00",
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261013015807.htm",
+          "feed_id": 34
+        }
+      ]
+    },
+    {
       "id": "08b12cb5e695b516c74d",
       "topic": "World",
       "headline": "Greenland पर Trump के oil-mineral दावे पर Denmark की आपत्ति",
@@ -472,6 +839,23 @@
           "name": "Verge",
           "url": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview",
           "feed_id": 28
+        }
+      ]
+    },
+    {
+      "id": "991e1d4b5a41def235a6",
+      "topic": "Science",
+      "headline": "यूरोप में मिला 12 करोड़ साल पुराना 'tiger-sized' शिकारी dinosaur",
+      "bullets": [
+        "Fossil करीब सौ साल तक museum में भुला पड़ा रहा।",
+        "यह Europe में megaraptorans का पहला सबूत है।"
+      ],
+      "published": "2026-10-14T22:51:56+00:00",
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261014015457.htm",
+          "feed_id": 34
         }
       ]
     },
@@ -1124,63 +1508,6 @@
           "name": "Hindu India",
           "url": "https://www.thehindu.com/news/national/states-should-evaluate-natural-resources-before-pitching-for-data-centres-niti-aayog/article71584261.ece",
           "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "2f9423763ea175d718b8",
-      "topic": "IPO",
-      "headline": "Jio IPO का price band ₹1,065-1,119 confirm, 21 October को खुलेगा",
-      "bullets": [
-        "NSE filing के मुताबिक price band ₹1,065-1,119 है; lot size 12 shares और employee discount ₹54 है।",
-        "Issue 21 से 23 October तक खुला रहेगा, anchor bidding 19 October को; RHP में ₹30,213 crore तक का fresh issue है और OFS नहीं है।"
-      ],
-      "published": "2026-10-15T00:12:12+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/exclusive-countdown-begins-for-the-mother-of-all-ipos-jio-likely-to-file-rhp-today-for-record-rs-30000-crore-issue/articleshow/134932999.cms",
-          "feed_id": 15
-        },
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/reliance-jio-files-rhp-announces-ipo-dates-for-record-issue/articleshow/134943768.cms",
-          "feed_id": 15
-        },
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/diwali-offer-for-ril-shareholders-reliance-jio-sets-aside-rs-2500-crore-shares-in-ipo-reservation/articleshow/134944234.cms",
-          "feed_id": 15
-        },
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/markets/jio-ipo-price-band-set-at-rs-1-065-1-119-per-share-issue-to-open-on-oct-21-12185913#publisher=newsstand",
-          "feed_id": 21
-        },
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-announces-price-band-for-over-rs-30000-crore-ipo-check-key-dates-gmp-and-other-details/articleshow/134945465.cms",
-          "feed_id": 15
-        },
-        {
-          "name": "Hindu Business",
-          "url": "https://www.thehindu.com/business/markets/reliances-jio-platforms-files-final-ipo-prospectus-offer-to-open-on-october-21/article71584837.ece",
-          "feed_id": 20
-        },
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-platforms-files-red-herring-prospectus-for-indias-biggest-public-issue/articleshow/134954464.cms",
-          "feed_id": 15
-        },
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-platforms-grey-market-premium-jumps-to-rs-218-ahead-of-ipo-price-band-set/articleshow/134954484.cms",
-          "feed_id": 15
-        },
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-sparks-investor-buzz-gmp-hits-20-as-reliances-telecom-arm-announces-price-band-dates/articleshow/134946913.cms",
-          "feed_id": 15
         }
       ]
     },
@@ -3825,396 +4152,41 @@
           "feed_id": 3
         }
       ]
-    },
-    {
-      "id": "14f58e5210063784edd0",
-      "topic": "Business",
-      "headline": "US CPI से पहले China का yuan मजबूत",
-      "bullets": [
-        "Investors ने mixed Chinese inflation data और कमजोर domestic demand का आकलन किया।"
-      ],
-      "published": "2026-10-14T04:42:11+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-chinas-yuan-firms-as-investors-await-us-cpi-data-assess-inflation/articleshow/134932229.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "025a50cb98b370b72269",
-      "topic": "Business",
-      "headline": "Protec General को expansion के लिए करीब ₹300 crore मिले",
-      "bullets": [
-        "In-principle regulatory approval के बाद funding आई; Federal Bank ने भी हिस्सा लिया।"
-      ],
-      "published": "2026-10-14T04:39:06+00:00",
-      "sources": [
-        {
-          "name": "Mint Companies",
-          "url": "https://www.livemint.com/companies/protec-general-insurance-raises-rs-320-crore-pallonji-divya-sehgal-11791824749247.html",
-          "feed_id": 13
-        }
-      ]
-    },
-    {
-      "id": "506b0a33cf836cd02ca8",
-      "topic": "India",
-      "headline": "Sugarcane prices बढ़ाने की मांग पर Karnataka में road blockades",
-      "bullets": [
-        "Dharwad, Haveri और Gadag में growers ने sugar के minimum selling price की revision भी मांगी।"
-      ],
-      "published": "2026-10-14T04:34:03+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/karnataka/sugarcane-growers-block-roads-at-various-places-in-dharwad-haveri-and-gadag-districts/article71579925.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "df9c622c5dc6b3e80ae1",
-      "topic": "Business",
-      "headline": "₹35 प्रति kilo subsidised onion sale Diwali तक चलने की खबर",
-      "bullets": [
-        "NAFED और NCCF की sale बंद करने की तैयारी है; retail prices कुछ जगह ₹80 तक बताए गए।"
-      ],
-      "published": "2026-10-14T04:28:46+00:00",
-      "sources": [
-        {
-          "name": "AmarUjala Business",
-          "url": "https://www.amarujala.com/business/bonus/relief-on-onion-prices-on-festivals-onion-prices-in-india-onion-price-on-diwali-2026-10-14",
-          "feed_id": 14
-        }
-      ]
-    },
-    {
-      "id": "4fd26c6219bc2a6b5b5a",
-      "topic": "World",
-      "headline": "China-North Korea bridge खुलने की तैयारी: state media",
-      "bullets": [
-        "Xinhua के अनुसार लंबे समय से रुका New Yalu River Bridge formally खोला जाएगा।"
-      ],
-      "published": "2026-10-14T04:27:18+00:00",
-      "sources": [
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/14/china-and-north-korea-to-open-new-yalu-river-bridge-state-media-reports?traffic_source=rss",
-          "feed_id": 9
-        }
-      ]
-    },
-    {
-      "id": "47adf3ede27aed476360",
-      "topic": "Business",
-      "headline": "Singapore economy Q3 में 5.4% बढ़ी",
-      "bullets": [
-        "Advance government estimates ने July-September growth बताई।"
-      ],
-      "published": "2026-10-14T04:25:02+00:00",
-      "sources": [
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/economy/2026/10/14/singapores-economy-grows-more-than-5-percent-amid-ai-boom?traffic_source=rss",
-          "feed_id": 9
-        }
-      ]
-    },
-    {
-      "id": "e06a2c20b9e7cfd10024",
-      "topic": "Tech",
-      "headline": "French health platform Doctolib में Nvidia investment करेगा",
-      "bullets": [
-        "Doctolib के CEO के अनुसार funds से hiring और in-house AI model development बढ़ेगा।"
-      ],
-      "published": "2026-10-14T04:23:55+00:00",
-      "sources": [
-        {
-          "name": "Hindu SciTech",
-          "url": "https://www.thehindu.com/sci-tech/technology/nvidia-says-to-invest-in-french-medical-website/article71582214.ece",
-          "feed_id": 36
-        }
-      ]
-    },
-    {
-      "id": "be172fb1f1f8e7300f61",
-      "topic": "India",
-      "headline": "Karnataka में 108 ambulance workers ने strike की चेतावनी दी",
-      "bullets": [
-        "14 October रात से action की तैयारी है; health minister ने alternatives इस्तेमाल करने की अपील की।",
-        "Union pay revision, staffing और safety measures मांग रही है।"
-      ],
-      "published": "2026-10-14T04:21:35+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/karnataka/karnataka-health-minister-urges-public-to-use-alternatives-as-108-ambulance-workers-threaten-strike-from-october-14-night/article71579359.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "f939f61444b6e482be44",
-      "topic": "India",
-      "headline": "CII summit से पहले Andhra Pradesh में तीन regional conferences",
-      "bullets": [
-        "115 MoUs में ₹79,628 crore के proposed investments शामिल हैं; ये अभी proposals हैं।"
-      ],
-      "published": "2026-10-14T04:16:29+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/andhra-pradesh/andhra-pradesh-to-hold-three-regional-conferences-ahead-of-cii-partnership-summit/article71582200.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "017218d70695f38e0b47",
-      "topic": "Sports",
-      "headline": "Bangladesh Tests में West Indies को Joseph और Hope नहीं मिलेंगे",
-      "bullets": [
-        "Alzarri Joseph का workload manage होगा; Shai Hope को ODI qualifiers ध्यान में रखकर rest दिया गया।"
-      ],
-      "published": "2026-10-14T04:14:04+00:00",
-      "sources": [
-        {
-          "name": "ESPNcricinfo",
-          "url": "https://www.cricinfo.com/ci/content/story/1558358.html?ex_cid=OTC-RSS",
-          "feed_id": 44
-        }
-      ]
-    },
-    {
-      "id": "75d2743321b76cd13651",
-      "topic": "Business",
-      "headline": "Blackstone का India investments $100 billion तक बढ़ाने का plan",
-      "bullets": [
-        "पांच साल में real estate, digital infrastructure और healthcare जैसे sectors पर focus होगा।"
-      ],
-      "published": "2026-10-14T04:12:30+00:00",
-      "sources": [
-        {
-          "name": "Mint Companies",
-          "url": "https://www.livemint.com/companies/news/blackstone-plans-to-double-india-investments-to-100-billion-where-will-the-money-go-11791948865894.html",
-          "feed_id": 13
-        }
-      ]
-    },
-    {
-      "id": "557459f1aee3fb0e45b1",
-      "topic": "Business",
-      "headline": "Chip stocks बढ़ने से Japan का Nikkei 0.61% संभला",
-      "bullets": [
-        "Bank shares की कमजोरी से broader Topix नीचे रहा।"
-      ],
-      "published": "2026-10-14T04:12:19+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japans-nikkei-rebounds-as-chip-stocks-rise-topix-slips-on-bank-losses/articleshow/134931841.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "1bc37f19859678fec4c9",
-      "topic": "Tech",
-      "headline": "Critical tech dependencies घटाने के लिए India का long-term plan",
-      "bullets": [
-        "Vaishnaw ने 20-25 साल के horizon में supply-chain resilience बढ़ाने की बात कही।"
-      ],
-      "published": "2026-10-14T04:11:28+00:00",
-      "sources": [
-        {
-          "name": "Mint Tech",
-          "url": "https://www.livemint.com/technology/india-aims-to-cut-critical-tech-dependencies-over-20-25-years-build-resilience-ashwini-vaishnaw-11791951089197.html",
-          "feed_id": 26
-        }
-      ]
-    },
-    {
-      "id": "6872d0938674dd0cd1c0",
-      "topic": "Business",
-      "headline": "पांच losing sessions के बाद South Korea shares संभले",
-      "bullets": [
-        "KOSPI 0.74% बढ़ा; chipmakers में buying लौटी, लेकिन foreign investors net sellers रहे।"
-      ],
-      "published": "2026-10-14T04:08:05+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-south-korean-shares-rebound-as-chipmakers-recover-after-five-day-losing-streak/articleshow/134931255.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "6e334e66e0eb46b0f93e",
-      "topic": "Science",
-      "headline": "Mars और Beehive cluster, Sweden में aurora के ऊपर",
-      "bullets": [
-        "Lansjärv के पास खींची गई APOD image में Mars cluster से जुड़ता दिखता है।"
-      ],
-      "published": "2026-10-14T04:05:00+00:00",
-      "sources": [
-        {
-          "name": "NASA",
-          "url": "https://science.nasa.gov/image-article/apod-2026-october-14-mars-and-the-beehive-under-an-aurora/",
-          "feed_id": 33
-        }
-      ]
-    },
-    {
-      "id": "d3de374dbaf2ff0d9c05",
-      "topic": "Business",
-      "headline": "Hero Motors का Q2 profit दोगुने से ज्यादा, shares 8% चढ़े",
-      "bullets": [
-        "Net profit 115% बढ़कर ₹10.2 crore रहा; revenue 25% बढ़कर ₹319 crore हुआ।"
-      ],
-      "published": "2026-10-14T04:01:52+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/hero-motors-shares-soar-8-as-q2-net-profit-more-than-doubles-to-rs-10-crore/articleshow/134931725.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "9759b7394ace50610030",
-      "topic": "Science",
-      "headline": "Mexico coast के पास Hurricane Simon से तेज हवा और flooding",
-      "bullets": [
-        "Storm offshore रहा, लेकिन coastal areas प्रभावित हुए।"
-      ],
-      "published": "2026-10-14T04:01:00+00:00",
-      "sources": [
-        {
-          "name": "NASA",
-          "url": "https://science.nasa.gov/earth/earth-observatory/hurricane-simon-lurks-off-the-mexican-coast/",
-          "feed_id": 33
-        }
-      ]
-    },
-    {
-      "id": "b9f9cc7268b0539e4e72",
-      "topic": "Tech",
-      "headline": "West Africa के scam centers तोड़ने में tech कंपनियों की भूमिका सराही गई",
-      "bullets": [
-        "US Justice Department ने Meta और अन्य कंपनियों के सहयोग की तारीफ की।"
-      ],
-      "published": "2026-10-14T03:56:27+00:00",
-      "sources": [
-        {
-          "name": "ET Tech",
-          "url": "https://economictimes.indiatimes.com/tech/technology/us-lauds-tech-giants-role-in-cracking-west-african-scam-centers/articleshow/134931604.cms",
-          "feed_id": 25
-        }
-      ]
-    },
-    {
-      "id": "e9fbbfc64eea2924bb72",
-      "topic": "Business",
-      "headline": "Forex speculation रोकने के लिए और कदम संभव: RBI governor",
-      "bullets": [
-        "Malhotra ने कहा कि rules genuine hedging रोकने या capital controls लगाने के लिए नहीं हैं।"
-      ],
-      "published": "2026-10-14T03:52:53+00:00",
-      "sources": [
-        {
-          "name": "ET Economy",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-open-to-more-steps-to-curb-fx-speculation-governor-sanjay-malhotra-says/articleshow/134931504.cms",
-          "feed_id": 17
-        }
-      ]
-    },
-    {
-      "id": "6e115ad473ab9c73bde8",
-      "topic": "Tech",
-      "headline": "China में OnePlus 16 की first-hour sales 70,000 पार: company",
-      "bullets": [
-        "India launch की पुष्टि नहीं है; sales claim OnePlus China president ने दिया।"
-      ],
-      "published": "2026-10-14T03:33:14+00:00",
-      "sources": [
-        {
-          "name": "Mint Tech",
-          "url": "https://www.livemint.com/technology/oneplus-16-sales-cross-70-000-units-in-first-hour-in-china-india-launch-unconfirmed-11791947710997.html",
-          "feed_id": 26
-        }
-      ]
-    },
-    {
-      "id": "5c415a4489f83dcc3f09",
-      "topic": "Science",
-      "headline": "Greece को 22 ancient artefacts लौटाए गए",
-      "bullets": [
-        "Israel ने चोरी गए artefacts वापस किए; feed ने इसे cultural exchange बताया।"
-      ],
-      "published": "2026-10-14T03:23:08+00:00",
-      "sources": [
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/14/israel-returns-22-stolen-ancient-artefacts-to-greece?traffic_source=rss",
-          "feed_id": 9
-        }
-      ]
-    },
-    {
-      "id": "756d72dbac8e0098fbbe",
-      "topic": "Business",
-      "headline": "Aegis Logistics का Tristar में 89.9% stake लेने का समझौता",
-      "bullets": [
-        "$809 million deal regulatory approvals पर निर्भर है।",
-        "Current fiscal year के fourth quarter में closing की उम्मीद है।"
-      ],
-      "published": "2026-10-14T03:20:17+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/aegis-logistics-shares-in-focus-after-firm-acquires-90-stake-worth-809-million-in-tristar-holdings/articleshow/134931031.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "b7d06f99f4d8560f0a7e",
-      "topic": "Business",
-      "headline": "GameStop CEO ने करीब $22.8 million के shares खरीदे",
-      "bullets": [
-        "Regulatory filing के अनुसार Ryan Cohen की ownership 9.1% हो गई।"
-      ],
-      "published": "2026-10-14T03:00:31+00:00",
-      "sources": [
-        {
-          "name": "ET Tech",
-          "url": "https://economictimes.indiatimes.com/tech/technology/gamestop-ceo-cohen-buys-shares-worth-nearly-23-million/articleshow/134930781.cms",
-          "feed_id": 25
-        }
-      ]
-    },
-    {
-      "id": "109777553b2fe904dad2",
-      "topic": "India",
-      "headline": "Kumartuli sculptors को clay shortage और बढ़ती costs की चिंता",
-      "bullets": [
-        "Artists ने supply delays से काम और festive-season earnings प्रभावित होने की शिकायत की।"
-      ],
-      "published": "2026-10-14T02:56:52+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/west-bengal/sculptors-in-kumartuli-bemoan-shortage-of-clay-higher-costs-intrusive-content-creators/article71578391.ece",
-          "feed_id": 3
-        }
-      ]
     }
   ],
   "metadata": {
     "refreshes": [
+      {
+        "at": "2026-10-15T04:44:50.224922+00:00",
+        "feed_checked_at": "2026-10-15T04:44:15.551367+00:00",
+        "items_read": 1704,
+        "candidates": 479,
+        "written": 20,
+        "added": 20,
+        "dropped": 24,
+        "total": 229,
+        "counts": {
+          "India": 38,
+          "World": 44,
+          "Business": 65,
+          "IPO": 10,
+          "Tech": 40,
+          "Sports": 7,
+          "Science": 12,
+          "Health": 13
+        },
+        "fetch_seconds": 2.32,
+        "rejected": {
+          "older_than_24h": 989,
+          "question_headline": 97,
+          "future": 3,
+          "editorial_keyword": 11,
+          "undated": 4,
+          "not_cricket": 65,
+          "duplicate": 56
+        },
+        "editorial_skipped": 459
+      },
       {
         "at": "2026-10-15T02:45:46.628813+00:00",
         "feed_checked_at": "2026-10-15T02:44:24.552547+00:00",
@@ -4275,56 +4247,26 @@
           "duplicate": 44
         },
         "editorial_skipped": 470
-      },
-      {
-        "at": "2026-10-14T14:45:45.938515+00:00",
-        "feed_checked_at": "2026-10-14T14:44:21.181453+00:00",
-        "items_read": 1721,
-        "candidates": 501,
-        "written": 33,
-        "added": 33,
-        "dropped": 26,
-        "total": 286,
-        "counts": {
-          "India": 50,
-          "World": 34,
-          "Business": 96,
-          "IPO": 5,
-          "Tech": 56,
-          "Sports": 6,
-          "Science": 24,
-          "Health": 15
-        },
-        "fetch_seconds": 2.49,
-        "rejected": {
-          "older_than_24h": 974,
-          "question_headline": 118,
-          "undated": 4,
-          "editorial_keyword": 16,
-          "not_cricket": 67,
-          "duplicate": 41
-        },
-        "editorial_skipped": 468
       }
     ],
     "topic_counts": {
-      "India": 39,
-      "World": 42,
-      "Business": 73,
-      "IPO": 6,
-      "Tech": 39,
-      "Sports": 8,
-      "Science": 13,
+      "India": 38,
+      "World": 44,
+      "Business": 65,
+      "IPO": 10,
+      "Tech": 40,
+      "Sports": 7,
+      "Science": 12,
       "Health": 13
     },
     "topic_gap_minutes": {
       "India": 60,
       "World": 60,
       "Business": 60,
-      "IPO": 12,
+      "IPO": 19,
       "Tech": 60,
-      "Sports": 15,
-      "Science": 25,
+      "Sports": 14,
+      "Science": 23,
       "Health": 25
     },
     "gap_is_metadata_only": true,
@@ -4335,9 +4277,9 @@
         "url": "https://feeds.bbci.co.uk/news/world/asia/india/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 23,
-        "eligible": 1,
-        "seconds": 0.11
+        "items": 18,
+        "eligible": 2,
+        "seconds": 0.28
       },
       {
         "id": 2,
@@ -4346,8 +4288,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 19,
-        "seconds": 0.35
+        "eligible": 18,
+        "seconds": 0.37
       },
       {
         "id": 3,
@@ -4357,7 +4299,7 @@
         "http": 200,
         "items": 60,
         "eligible": 57,
-        "seconds": 0.08
+        "seconds": 0.11
       },
       {
         "id": 4,
@@ -4365,9 +4307,9 @@
         "url": "https://feeds.bbci.co.uk/hindi/india/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 37,
-        "eligible": 9,
-        "seconds": 0.8
+        "items": 36,
+        "eligible": 7,
+        "seconds": 0.74
       },
       {
         "id": 5,
@@ -4377,7 +4319,7 @@
         "http": 200,
         "items": 20,
         "eligible": 17,
-        "seconds": 0.34
+        "seconds": 0.36
       },
       {
         "id": 6,
@@ -4385,9 +4327,9 @@
         "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 28,
-        "eligible": 20,
-        "seconds": 0.15
+        "items": 29,
+        "eligible": 21,
+        "seconds": 0.13
       },
       {
         "id": 7,
@@ -4396,7 +4338,7 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 11,
+        "eligible": 10,
         "seconds": 0.37
       },
       {
@@ -4406,7 +4348,7 @@
         "status": "ok",
         "http": 200,
         "items": 25,
-        "eligible": 25,
+        "eligible": 24,
         "seconds": 0.1
       },
       {
@@ -4416,8 +4358,8 @@
         "status": "ok",
         "http": 200,
         "items": 135,
-        "eligible": 21,
-        "seconds": 0.09
+        "eligible": 22,
+        "seconds": 0.1
       },
       {
         "id": 11,
@@ -4425,9 +4367,9 @@
         "url": "https://feeds.bbci.co.uk/hindi/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 37,
-        "eligible": 9,
-        "seconds": 0.29
+        "items": 36,
+        "eligible": 7,
+        "seconds": 0.32
       },
       {
         "id": 12,
@@ -4437,7 +4379,7 @@
         "http": 200,
         "items": 9,
         "eligible": 0,
-        "seconds": 0.56
+        "seconds": 0.62
       },
       {
         "id": 13,
@@ -4446,8 +4388,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 27,
-        "seconds": 0.11
+        "eligible": 25,
+        "seconds": 0.19
       },
       {
         "id": 14,
@@ -4456,8 +4398,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 5,
-        "seconds": 0.38
+        "eligible": 3,
+        "seconds": 0.35
       },
       {
         "id": 15,
@@ -4466,8 +4408,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 48,
-        "seconds": 0.11
+        "eligible": 45,
+        "seconds": 0.18
       },
       {
         "id": 16,
@@ -4476,8 +4418,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 18,
-        "seconds": 0.75
+        "eligible": 21,
+        "seconds": 0.39
       },
       {
         "id": 17,
@@ -4486,8 +4428,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 28,
-        "seconds": 0.12
+        "eligible": 27,
+        "seconds": 0.09
       },
       {
         "id": 19,
@@ -4497,7 +4439,7 @@
         "http": 200,
         "items": 35,
         "eligible": 8,
-        "seconds": 0.11
+        "seconds": 0.21
       },
       {
         "id": 20,
@@ -4506,8 +4448,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 20,
-        "seconds": 0.11
+        "eligible": 23,
+        "seconds": 0.06
       },
       {
         "id": 21,
@@ -4517,7 +4459,7 @@
         "http": 200,
         "items": 20,
         "eligible": 16,
-        "seconds": 0.31
+        "seconds": 0.34
       },
       {
         "id": 22,
@@ -4527,7 +4469,7 @@
         "http": 200,
         "items": 35,
         "eligible": 6,
-        "seconds": 0.13
+        "seconds": 0.08
       },
       {
         "id": 23,
@@ -4537,7 +4479,7 @@
         "http": 200,
         "items": 21,
         "eligible": 3,
-        "seconds": 0.14
+        "seconds": 0.28
       },
       {
         "id": 24,
@@ -4547,7 +4489,7 @@
         "http": 200,
         "items": 40,
         "eligible": 2,
-        "seconds": 0.39
+        "seconds": 0.42
       },
       {
         "id": 25,
@@ -4556,8 +4498,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 22,
-        "seconds": 0.09
+        "eligible": 27,
+        "seconds": 0.2
       },
       {
         "id": 26,
@@ -4566,8 +4508,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 8,
-        "seconds": 0.39
+        "eligible": 5,
+        "seconds": 0.2
       },
       {
         "id": 27,
@@ -4577,7 +4519,7 @@
         "http": 200,
         "items": 20,
         "eligible": 15,
-        "seconds": 0.07
+        "seconds": 0.09
       },
       {
         "id": 28,
@@ -4587,7 +4529,7 @@
         "http": 200,
         "items": 10,
         "eligible": 9,
-        "seconds": 0.04
+        "seconds": 0.06
       },
       {
         "id": 29,
@@ -4597,7 +4539,7 @@
         "http": 200,
         "items": 20,
         "eligible": 20,
-        "seconds": 0.05
+        "seconds": 0.07
       },
       {
         "id": 32,
@@ -4606,8 +4548,8 @@
         "status": "ok",
         "http": 200,
         "items": 42,
-        "eligible": 12,
-        "seconds": 0.15
+        "eligible": 14,
+        "seconds": 0.1
       },
       {
         "id": 33,
@@ -4626,8 +4568,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 7,
-        "seconds": 0.32
+        "eligible": 9,
+        "seconds": 0.33
       },
       {
         "id": 36,
@@ -4636,8 +4578,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 27,
-        "seconds": 0.09
+        "eligible": 25,
+        "seconds": 0.36
       },
       {
         "id": 37,
@@ -4645,9 +4587,9 @@
         "url": "https://feeds.bbci.co.uk/hindi/vigyan/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 37,
-        "eligible": 9,
-        "seconds": 0.43
+        "items": 36,
+        "eligible": 7,
+        "seconds": 0.37
       },
       {
         "id": 38,
@@ -4657,7 +4599,7 @@
         "http": 200,
         "items": 55,
         "eligible": 8,
-        "seconds": 0.17
+        "seconds": 0.3
       },
       {
         "id": 39,
@@ -4667,7 +4609,7 @@
         "http": 200,
         "items": 40,
         "eligible": 1,
-        "seconds": 0.36
+        "seconds": 0.38
       },
       {
         "id": 40,
@@ -4676,8 +4618,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 15,
-        "seconds": 0.34
+        "eligible": 13,
+        "seconds": 0.36
       },
       {
         "id": 41,
@@ -4687,7 +4629,7 @@
         "http": 200,
         "items": 50,
         "eligible": 4,
-        "seconds": 0.63
+        "seconds": 0.41
       },
       {
         "id": 42,
@@ -4697,7 +4639,7 @@
         "http": 200,
         "items": 65,
         "eligible": 0,
-        "seconds": 0.16
+        "seconds": 0.37
       },
       {
         "id": 43,
@@ -4707,7 +4649,7 @@
         "http": 200,
         "items": 40,
         "eligible": 0,
-        "seconds": 0.38
+        "seconds": 0.4
       },
       {
         "id": 44,
@@ -4717,7 +4659,7 @@
         "http": 200,
         "items": 100,
         "eligible": 6,
-        "seconds": 0.34
+        "seconds": 0.36
       },
       {
         "id": 45,
@@ -4727,7 +4669,7 @@
         "http": 200,
         "items": 31,
         "eligible": 0,
-        "seconds": 0.29
+        "seconds": 0.27
       },
       {
         "id": 47,
@@ -4735,9 +4677,9 @@
         "url": "https://feeds.bbci.co.uk/hindi/sport/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 37,
+        "items": 36,
         "eligible": 0,
-        "seconds": 0.5
+        "seconds": 0.34
       }
     ],
     "sources": [
