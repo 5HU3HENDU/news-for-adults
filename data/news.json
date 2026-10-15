@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "title": "News for Adults",
-  "updated_at": "2026-10-15T08:44:56.538730+00:00",
+  "updated_at": "2026-10-15T10:44:43.057433+00:00",
   "schedule": {
     "active": true,
     "window_ist": "08:00-22:00",
@@ -20,6 +20,323 @@
   ],
   "stories": [
     {
+      "id": "c9be2a80189d95174405",
+      "topic": "Business",
+      "headline": "Air India के नए CEO ने खर्चों पर लगाम कसी, घाटा बढ़ रहा है",
+      "bullets": [
+        "Tewolde Gebremariam ने full-time cost-savings team बनाई और spending approvals सख्त किए।",
+        "फोकस अब fleet expansion से operational profitability पर है।"
+      ],
+      "published": "2026-10-15T10:36:43+00:00",
+      "sources": [
+        {
+          "name": "Mint Companies",
+          "url": "https://www.livemint.com/companies/news/air-india-s-new-ceo-tightens-spending-as-losses-mount-11792056057446.html",
+          "feed_id": 13
+        }
+      ]
+    },
+    {
+      "id": "92ee81043303069ad2d6",
+      "topic": "Business",
+      "headline": "IMF: 2027 में India, Japan को पछाड़कर चौथी सबसे बड़ी economy बनेगा",
+      "bullets": [
+        "India की nominal GDP $4.52 trillion रहने का अनुमान है।",
+        "IMF ने India की 2026 growth का अनुमान 7% किया, Japan की 0.7%।"
+      ],
+      "published": "2026-10-15T10:19:56+00:00",
+      "sources": [
+        {
+          "name": "Mint Economy",
+          "url": "https://www.livemint.com/economy/india-to-overtake-japan-as-4th-largest-economy-in-2027-with-4-52-trillion-gdp-imf-11792059032330.html",
+          "feed_id": 22
+        }
+      ]
+    },
+    {
+      "id": "136f680138df1a0bd4bf",
+      "topic": "Business",
+      "headline": "HDFC AMC का Q2 profit 10.5% गिरा",
+      "bullets": [
+        "कुल income 9% घटी।"
+      ],
+      "published": "2026-10-15T10:18:02+00:00",
+      "sources": [
+        {
+          "name": "NDTV Business",
+          "url": "https://www.ndtvprofit.com/business/hdfc-amc-q2-results-net-profit-falls-10-5-total-income-dips-9-12189109#publisher=newsstand",
+          "feed_id": 21
+        }
+      ]
+    },
+    {
+      "id": "6441a2fcd88a7bf030f0",
+      "topic": "Business",
+      "headline": "Tata Communications का Q2 profit 86% उछलकर ₹341 cr",
+      "bullets": [
+        "Consolidated net profit में यह साल-दर-साल बढ़त है।"
+      ],
+      "published": "2026-10-15T10:16:28+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/tata-communications-q2-results-net-profit-jumps-86-yoy-to-rs-341-crore-revenue-rises-10/articleshow/134964408.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "097734ab376dfad1d736",
+      "topic": "Business",
+      "headline": "US inflation से Fed rate hike का डर, Asian currencies फिसलीं",
+      "bullets": [
+        "Won, Taiwan dollar, peso और rupiah पर capital outflows का दबाव रहा।",
+        "AI-linked stocks में भी sell-off हुआ।"
+      ],
+      "published": "2026-10-15T10:13:39+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-asian-currencies-slide-as-hot-us-inflation-fuels-fed-rate-hike-bets-won-hits-two-week-low/articleshow/134964098.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "37fafd0ad226ef3fe5b3",
+      "topic": "Business",
+      "headline": "Sensex 1,534 points चढ़कर बंद, Nifty 22,997 पर",
+      "bullets": [
+        "Weekly expiry के दिन broader markets कमजोर रहे।",
+        "Nifty Smallcap 100 में 1.31% और Midcap 100 में 0.36% की गिरावट रही।"
+      ],
+      "published": "2026-10-15T10:07:09+00:00",
+      "sources": [
+        {
+          "name": "NDTV Business",
+          "url": "https://www.ndtvprofit.com/markets/stock-market-live-today-sensex-nifty50-gift-nifty-live-updates-bse-nifty-50-sensex-today-oil-prices-q2-earnings-october-15-2026-12187270#publisher=newsstand",
+          "feed_id": 21
+        }
+      ]
+    },
+    {
+      "id": "6c74bc37416ac683bef6",
+      "topic": "Science",
+      "headline": "Istanbul में 84 साल की सबसे भारी बारिश, दो की मौत",
+      "bullets": [
+        "Governor ने लोगों से बहुत जरूरी न हो तो घर से न निकलने को कहा।"
+      ],
+      "published": "2026-10-15T10:05:29+00:00",
+      "sources": [
+        {
+          "name": "BBC Science",
+          "url": "https://www.bbc.co.uk/news/articles/cq398x7j1lrwo?at_medium=RSS&at_campaign=rss",
+          "feed_id": 32
+        }
+      ]
+    },
+    {
+      "id": "da332f451e26f123b510",
+      "topic": "Business",
+      "headline": "Canara Bank का Q2 net profit बढ़कर ₹5,175 cr",
+      "bullets": [
+        "Gross NPA घटकर 1.33% और Net NPA 0.30% रहा।",
+        "Global business ₹30.72 lakh crore के पार पहुंचा।"
+      ],
+      "published": "2026-10-15T10:03:58+00:00",
+      "sources": [
+        {
+          "name": "Hindu Business",
+          "url": "https://www.thehindu.com/business/canara-banks-q2-net-profit-rises-to-5175-crore-global-business-crosses-3072-lakh-crore/article71584820.ece",
+          "feed_id": 20
+        }
+      ]
+    },
+    {
+      "id": "dea3228d959c7d49f6cd",
+      "topic": "World",
+      "headline": "Russia का दावा: Ukraine ने oil refineries पर हमले फिर शुरू किए",
+      "bullets": [
+        "Zelensky ने पहले कहा था कि Kyiv energy ceasefire से 'done' है।"
+      ],
+      "published": "2026-10-15T10:02:17+00:00",
+      "sources": [
+        {
+          "name": "Aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/15/russia-says-ukraine-resumes-attacks-on-oil-refineries?traffic_source=rss",
+          "feed_id": 9
+        }
+      ]
+    },
+    {
+      "id": "cc508822d71b62080d4d",
+      "topic": "World",
+      "headline": "China-North Korea का New Yalu River Bridge 12 साल की देरी के बाद खुला",
+      "bullets": [
+        "दोनों देशों ने पुल को आधिकारिक तौर पर शुरू किया।"
+      ],
+      "published": "2026-10-15T10:00:58+00:00",
+      "sources": [
+        {
+          "name": "Aljazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/long-delayed-china-north-korea-bridge-officially-opens?traffic_source=rss",
+          "feed_id": 9
+        }
+      ]
+    },
+    {
+      "id": "ccabe857a6aa2524ab73",
+      "topic": "Business",
+      "headline": "Supreme Court के फैसले के बाद Yes Bank के shares करीब 20% गिरे",
+      "bullets": [
+        "कोर्ट ने ₹8,415 cr के AT-1 bonds का write-off गैरकानूनी बताया।",
+        "फैसले से bondholders को राहत मिली है।"
+      ],
+      "published": "2026-10-15T09:51:21+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/bonds/yes-bank-shares-nosedive-20-after-sc-declares-at-1-bond-write-off-illegal/articleshow/134963733.cms",
+          "feed_id": 15
+        },
+        {
+          "name": "NDTV Business",
+          "url": "https://www.ndtvprofit.com/business/who-wins-who-loses-decoding-the-supreme-courts-yes-bank-at1-verdict-12189307#publisher=newsstand",
+          "feed_id": 21
+        },
+        {
+          "name": "NDTV Business",
+          "url": "https://www.ndtvprofit.com/business/supreme-court-sets-aside-yes-banks-rs-8-415-crore-at1-bond-write-off-in-big-win-for-bondholders-12188911#publisher=newsstand",
+          "feed_id": 21
+        },
+        {
+          "name": "NDTV Business",
+          "url": "https://www.ndtvprofit.com/markets/yes-bank-share-price-today-hit-lower-circuit-as-supreme-court-strikes-down-rs-8-415-crore-at-1-bond-write-off-bse-sensex-today-12188999#publisher=newsstand",
+          "feed_id": 21
+        }
+      ]
+    },
+    {
+      "id": "cdad0da3182db83eba5a",
+      "topic": "Business",
+      "headline": "MCX पर gold करीब ₹2,000 उछला, फिर भी ₹1,48,000 से नीचे",
+      "bullets": [
+        "December futures दोपहर में ₹1,47,836 पर, 1.36% ऊपर थे।",
+        "Silver 1.44% बढ़कर ₹2,11,336 प्रति kg रहा।"
+      ],
+      "published": "2026-10-15T09:49:40+00:00",
+      "sources": [
+        {
+          "name": "NDTV Business",
+          "url": "https://www.ndtvprofit.com/markets/gold-recovers-yellow-metal-prices-jump-by-rs-2-000-but-still-below-rs-1-48-000-silver-rates-surge-by-rs-3-000-12188887#publisher=newsstand",
+          "feed_id": 21
+        }
+      ]
+    },
+    {
+      "id": "6661a3fadbeeb3f6bfd8",
+      "topic": "India",
+      "headline": "Srisailam मंदिर में 130 भाषाओं में history बताने वाले QR boards",
+      "bullets": [
+        "करीब 60 जगहों पर लगे codes स्कैन कर devotees इतिहास सुन या पढ़ सकते हैं।"
+      ],
+      "published": "2026-10-15T09:42:05+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/srisailam-temple-installs-qr-code-boards-with-its-history-in-130-languages/article71587185.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "e8ff74ede66010c591a4",
+      "topic": "Business",
+      "headline": "September में India का trade deficit बढ़कर $30.21 bn",
+      "bullets": [
+        "Merchandise exports 23% बढ़कर चार महीने के उच्च स्तर $44.40 bn पर रहे।",
+        "Imports करीब 11% बढ़कर $74.61 bn रहे।"
+      ],
+      "published": "2026-10-15T09:39:19+00:00",
+      "sources": [
+        {
+          "name": "BS Economy",
+          "url": "https://www.business-standard.com/economy/news/india-trade-deficit-september-exports-imports-commerce-ministry-126101500744_1.html",
+          "feed_id": 19
+        },
+        {
+          "name": "Mint Economy",
+          "url": "https://www.livemint.com/economy/merchandise-exports-september-trade-deficit-imports-tariffs-crude-oil-11792023752123.html",
+          "feed_id": 22
+        },
+        {
+          "name": "ET Economy",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-trade-deficit-widens-to-30-21-billion-in-september-despite-23-jump-in-exports/articleshow/134962709.cms",
+          "feed_id": 17
+        }
+      ]
+    },
+    {
+      "id": "caa264f90d895679d991",
+      "topic": "Business",
+      "headline": "Piyush Goyal: India-US trade pact का पहला चरण तय, legal drafting जारी",
+      "bullets": [
+        "उन्होंने कहा कि लागू करने से पहले India को peer देशों पर competitive edge चाहिए।",
+        "India-EU FTA दिसंबर में साइन होने की बात भी कही।"
+      ],
+      "published": "2026-10-15T09:19:52+00:00",
+      "sources": [
+        {
+          "name": "ET Economy",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-lock-first-phase-of-trade-pact-legal-drafting-underway-piyush-goyal/articleshow/134963012.cms",
+          "feed_id": 17
+        },
+        {
+          "name": "ET Economy",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indian-trade-secretary-rajesh-agrawal-says-first-phase-of-us-trade-deal-finalised/articleshow/134963985.cms",
+          "feed_id": 17
+        },
+        {
+          "name": "BS Economy",
+          "url": "https://www.business-standard.com/economy/news/us-trade-pact-to-be-operationalised-once-india-gets-competitive-edge-goyal-126101500586_1.html",
+          "feed_id": 19
+        }
+      ]
+    },
+    {
+      "id": "8772c211d3c83d9c8e55",
+      "topic": "India",
+      "headline": "J&K High Court ने Dal Lake पर shikara motorboats और jet skis पर रोक लगाई",
+      "bullets": [
+        "Emergency services और law-and-order में लगी administration की boats को छूट है।"
+      ],
+      "published": "2026-10-15T08:55:24+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/jammu-and-kashmir-high-court-bars-use-of-shikara-motorboats-jet-skis-on-dal-lake-in-srinagar/article71587182.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "9489a71134013ac13107",
+      "topic": "World",
+      "headline": "Iraq ने dinar का अवमूल्यन किया, traders असमंजस में",
+      "bullets": [
+        "सरकार को उम्मीद है कि कमजोर dinar से salaries देना आसान होगा।",
+        "Traders के लिए import की लागत बढ़ेगी।"
+      ],
+      "published": "2026-10-15T08:44:58+00:00",
+      "sources": [
+        {
+          "name": "Aljazeera",
+          "url": "https://www.aljazeera.com/economy/2026/10/15/iraq-devalues-dinar-to-ease-cash-crunch-leaving-traders-in-limbo?traffic_source=rss",
+          "feed_id": 9
+        }
+      ]
+    },
+    {
       "id": "ce1edb2e104aff601669",
       "topic": "Business",
       "headline": "Supreme Court ने Yes Bank के ₹8,415 cr AT-1 bonds का write-off रद्द करने वाला HC order बरकरार रखा",
@@ -33,6 +350,28 @@
           "name": "Mint Companies",
           "url": "https://www.livemint.com/companies/news/yes-bank-supreme-court-upholds-hc-order-at-1-bond-writeoff-11792042824907.html",
           "feed_id": 13
+        }
+      ]
+    },
+    {
+      "id": "43e7a5892c6300a2e929",
+      "topic": "World",
+      "headline": "Pakistan के Peshawar में school की छत गिरी, कम से कम 29 की मौत",
+      "bullets": [
+        "मरने वालों में 28 students और एक teacher हैं।",
+        "हादसा एक private school में हुआ।"
+      ],
+      "published": "2026-10-15T08:30:41+00:00",
+      "sources": [
+        {
+          "name": "Aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/15/school-roof-collapses-in-northwestern-pakistan-killing-at-least-29-people?traffic_source=rss",
+          "feed_id": 9
+        },
+        {
+          "name": "DW World",
+          "url": "https://www.dw.com/en/school-roof-collapse-in-pakistan-s-peshawar-kills-dozens-of-students-and-one-teacher/a-79666091?maca=en-rss-en-all-1573-rdf",
+          "feed_id": 10
         }
       ]
     },
@@ -3351,495 +3690,40 @@
           "feed_id": 15
         }
       ]
-    },
-    {
-      "id": "4d7c11e050f4c29d0680",
-      "topic": "Tech",
-      "headline": "GTA 6 का PC launch जनवरी-मार्च 2027 में होने की चर्चा",
-      "bullets": [
-        "Report के मुताबिक PS5 और Xbox के बाद PC आएगा; Rockstar ने console release 19 November 2026 बताया है।"
-      ],
-      "published": "2026-10-14T10:38:58+00:00",
-      "sources": [
-        {
-          "name": "Mint Tech",
-          "url": "https://www.livemint.com/technology/gta-6-pc-launch-tipped-for-early-2027-months-after-ps5-and-xbox-release-11791972547263.html",
-          "feed_id": 26
-        }
-      ]
-    },
-    {
-      "id": "1adf7815864e89533b68",
-      "topic": "Science",
-      "headline": "Moon के दो अलग चेहरों की गुत्थी सुलझने का दावा",
-      "bullets": [
-        "Farside के samples से संकेत मिला कि Earth की gravity से असमान heating ने बड़ा असर डाला।"
-      ],
-      "published": "2026-10-14T10:38:46+00:00",
-      "sources": [
-        {
-          "name": "ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261012185019.htm",
-          "feed_id": 34
-        }
-      ]
-    },
-    {
-      "id": "dd373bf9d23123602268",
-      "topic": "India",
-      "headline": "Delhi HC ने 'paneer' जैसे non-dairy products पर FSSAI से जवाब मांगा",
-      "bullets": [
-        "PIL में कहा गया कि paneer standardised dairy product है, जबकि analogue में non-milk ingredients होते हैं।"
-      ],
-      "published": "2026-10-14T10:31:51+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/delhi-high-court-seeks-fssai-stand-on-pil-against-non-dairy-analogous-paneer/article71583002.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "65b9b7f01bae61cc10d0",
-      "topic": "Sports",
-      "headline": "Chad Laycock ने एक over में पांच wickets लेकर record बनाया",
-      "bullets": [
-        "KZN-Inland के fast bowler का 6/26 Pro20 Cup history का best figure है।"
-      ],
-      "published": "2026-10-14T10:30:58+00:00",
-      "sources": [
-        {
-          "name": "ESPNcricinfo",
-          "url": "https://www.cricinfo.com/ci/content/story/1558419.html?ex_cid=OTC-RSS",
-          "feed_id": 44
-        }
-      ]
-    },
-    {
-      "id": "37c95ec703d206967647",
-      "topic": "India",
-      "headline": "Pune में 15 October से हर Thursday पानी की सप्लाई बंद रहेगी",
-      "bullets": [
-        "PMC के अनुसार Khadakwasla dam में 12 October को storage हर साल के मुकाबले कम है।"
-      ],
-      "published": "2026-10-14T10:26:46+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/maharashtra/pune-to-suspend-water-supply-every-thursday-from-october-15/article71582730.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "1c4fd8e9abbb406b3dbf",
-      "topic": "Business",
-      "headline": "Karnataka ने Czech companies से Bengaluru के बाहर निवेश मांगा",
-      "bullets": [
-        "CM ने energy, automobiles, aerospace और defence में अवसरों पर delegation से चर्चा की।"
-      ],
-      "published": "2026-10-14T10:26:24+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/karnataka/karnataka-asks-czech-companies-to-invest-beyond-bengaluru/article71582987.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "d20e85678d23845ab0d7",
-      "topic": "Tech",
-      "headline": "TCS क्वांटम computing से complex 'what if' सवाल हल करना चाहती है",
-      "bullets": [
-        "CTO Harrick Vin ने drug discovery, portfolio optimisation और severe-weather prediction को संभावित use cases बताया।"
-      ],
-      "published": "2026-10-14T10:24:32+00:00",
-      "sources": [
-        {
-          "name": "Hindu Business",
-          "url": "https://www.thehindu.com/business/Industry/tcs-looks-to-quantum-computing-to-solve-complex-what-if-problems/article71583048.ece",
-          "feed_id": 20
-        }
-      ]
-    },
-    {
-      "id": "7aeed9b60298ffba9608",
-      "topic": "Business",
-      "headline": "Rupee लगातार तीसरे session में मजबूत, 95.15 पर बंद",
-      "bullets": [
-        "Dollar के मुकाबले 94.77 तक गया; importers की hedging और outflows ने 95 के पार जाने से रोका।"
-      ],
-      "published": "2026-10-14T10:23:39+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-extends-rise-but-falters-past-95/usd-on-importer-hedging-outflows/articleshow/134939222.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "61aeacd11079c23b59d3",
-      "topic": "Sports",
-      "headline": "Sikandar Raza: घर पर ODI World Cup खेलना 'blessing' है",
-      "bullets": [
-        "उन्होंने कहा कि WTC अगर अगले cycle से 12 teams का बने तो Zimbabwe cricket के प्रदर्शन सुधरेंगे।"
-      ],
-      "published": "2026-10-14T10:21:16+00:00",
-      "sources": [
-        {
-          "name": "ESPNcricinfo",
-          "url": "https://www.cricinfo.com/ci/content/story/1558414.html?ex_cid=OTC-RSS",
-          "feed_id": 44
-        }
-      ]
-    },
-    {
-      "id": "c968157455852f4f791f",
-      "topic": "Health",
-      "headline": "Aging 'zombie cells' immune system से कैसे छिपते हैं",
-      "bullets": [
-        "Scientists को एक protein मिला; mice में उसे रोकने पर ऐसे cells और inflammation घटे तथा blood sugar व strength सुधरी।"
-      ],
-      "published": "2026-10-14T10:17:58+00:00",
-      "sources": [
-        {
-          "name": "ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261013015800.htm",
-          "feed_id": 34
-        }
-      ]
-    },
-    {
-      "id": "60554d40d2b2f4ce47d2",
-      "topic": "World",
-      "headline": "Albania में students की police से झड़प",
-      "bullets": [
-        "Education costs, खराब university conditions और job prospects के खिलाफ protest हुआ।"
-      ],
-      "published": "2026-10-14T10:14:17+00:00",
-      "sources": [
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/albanian-students-clash-with-police-as-they-protest-over-education-and-jobs?traffic_source=rss",
-          "feed_id": 9
-        }
-      ]
-    },
-    {
-      "id": "65dcb510c2f8899c6bf5",
-      "topic": "Business",
-      "headline": "India में ultra-short-term borrowing cost तेजी से बढ़ी",
-      "bullets": [
-        "182-day और 364-day T-bill yields 18 महीने के high पर; policy rate पर premium नवंबर 2022 के बाद सबसे ऊंचा है।"
-      ],
-      "published": "2026-10-14T10:11:06+00:00",
-      "sources": [
-        {
-          "name": "ET Economy",
-          "url": "https://economictimes.indiatimes.com/news/economy/finance/indias-ultra-short-term-borrowing-costs-spike-premium-over-policy-rate-hits-4-year-high/articleshow/134938755.cms",
-          "feed_id": 17
-        }
-      ]
-    },
-    {
-      "id": "f2292ed36d33b26e2c24",
-      "topic": "Sports",
-      "headline": "Schutt के 4/16 से Australia ने Bangladesh के खिलाफ ODI series sweep की",
-      "bullets": [
-        "Bangladesh के top order को Megan Schutt ने गिराया; Sharmin Akhter और Shorna Akter ने half-centuries बनाईं।"
-      ],
-      "published": "2026-10-14T10:07:11+00:00",
-      "sources": [
-        {
-          "name": "ESPNcricinfo",
-          "url": "https://www.cricinfo.com/ci/content/story/1558418.html?ex_cid=OTC-RSS",
-          "feed_id": 44
-        }
-      ]
-    },
-    {
-      "id": "f6318a15c0a336c2c84c",
-      "topic": "Business",
-      "headline": "SEBI AIF में accredited investors का दायरा बढ़ाएगा",
-      "bullets": [
-        "Pool करीब 1 lakh से बढ़कर 4 lakh accredited investors तक पहुंचने की उम्मीद है।"
-      ],
-      "published": "2026-10-14T09:58:51+00:00",
-      "sources": [
-        {
-          "name": "Hindu Business",
-          "url": "https://www.thehindu.com/business/sebi-to-widen-aif-investor-pool-targets-4-lakh-accredited-investors/article71582864.ece",
-          "feed_id": 20
-        }
-      ]
-    },
-    {
-      "id": "647e865782a141c68236",
-      "topic": "World",
-      "headline": "Germany में radio glitch से false hijack alert, fighter jets भेजे गए",
-      "bullets": [
-        "Corfu से Nuremberg जा रहे plane के pilot के alert के बाद authorities ने jets से escort कराया।"
-      ],
-      "published": "2026-10-14T09:53:54+00:00",
-      "sources": [
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/14/how-a-radio-glitch-triggered-a-false-hijack-alert-in-germany?traffic_source=rss",
-          "feed_id": 9
-        }
-      ]
-    },
-    {
-      "id": "a34aea1c3b82bd05ff23",
-      "topic": "India",
-      "headline": "Keralam में northeast monsoon की तैयारी, 15 October को orange alert",
-      "bullets": [
-        "Southwest monsoon में 28% deficit रहा; Pathanamthitta, Kottayam, Idukki और Ernakulam में IMD alert है।"
-      ],
-      "published": "2026-10-14T09:49:35+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/kerala/keralam-braces-for-northeast-monsoon-after-28-southwest-monsoon-deficit/article71582902.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "7f8f2b76b0b2631070fa",
-      "topic": "Health",
-      "headline": "Cancer drugs की trade margins 700% तक: Centre ने Supreme Court को बताया",
-      "bullets": [
-        "प्रस्तावित 30% margin cap से कीमतें 70% तक घट सकती हैं और मरीजों के ₹2,500 crore सालाना बच सकते हैं।"
-      ],
-      "published": "2026-10-14T09:49:34+00:00",
-      "sources": [
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/markets/cancer-drug-trade-margins-run-up-to-700-government-tells-supreme-court-12183768#publisher=newsstand",
-          "feed_id": 21
-        }
-      ]
-    },
-    {
-      "id": "20c110eeb976b19c9181",
-      "topic": "Tech",
-      "headline": "Nvidia UK AI safety research के लिए $250 million का computing देगा",
-      "bullets": [
-        "Pledge पांच साल का है, यानी $50 million सालाना; focus agentic AI security पर है।"
-      ],
-      "published": "2026-10-14T09:49:25+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/nvidia-pledges-250-million-in-computing-resources-to-boost-uk-ai-safety-research/articleshow/134938351.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "8196cebd1deb1fcfc14c",
-      "topic": "Business",
-      "headline": "India ने Mauritius tax treaty में Principal Purpose Test जोड़ा",
-      "bullets": [
-        "Genuine commercial reasons से Mauritius के रास्ते निवेश करने वाले investors अब भी benefit क्लेम कर सकेंगे।"
-      ],
-      "published": "2026-10-14T09:46:06+00:00",
-      "sources": [
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/economy/india-tightens-mauritius-tax-treaty-introduces-principal-purpose-test-12183866#publisher=newsstand",
-          "feed_id": 21
-        }
-      ]
-    },
-    {
-      "id": "2fd157a235650775c2e4",
-      "topic": "India",
-      "headline": "DGCA ने flights में कुछ specific power banks पर रोक लगाई",
-      "bullets": [
-        "Airlines को ऐसे power banks की पहचान और carriage रोकने के लिए कदम उठाने को कहा गया है।"
-      ],
-      "published": "2026-10-14T09:45:34+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/dgca-bans-specific-power-banks-on-flights/article71582914.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "c8fd2a505325931068cc",
-      "topic": "Business",
-      "headline": "September में retail inflation 5.54%, करीब दो साल का high",
-      "bullets": [
-        "Food, fuel और transport की कीमतें बढ़ीं; rural households में food inflation 8% के पार गई।"
-      ],
-      "published": "2026-10-14T09:42:03+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/videos/the-battle-against-inflation-is-entering-a-tougher-phase-what-it-means-for-you/article71583060.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "08222db3a146e08defe3",
-      "topic": "Business",
-      "headline": "India में 2027 में salaries 9.1% बढ़ने की उम्मीद",
-      "bullets": [
-        "Report के अनुसार domestic consumption, investment और export growth से business confidence बना है।"
-      ],
-      "published": "2026-10-14T09:29:24+00:00",
-      "sources": [
-        {
-          "name": "NDTV Top",
-          "url": "https://www.ndtv.com/india-news/salaries-in-india-expected-to-rise-9-1-in-2027-amid-global-uncertainty-report-12183780#publisher=newsstand",
-          "feed_id": 5
-        }
-      ]
-    },
-    {
-      "id": "ea55a74e97e1b91f62fb",
-      "topic": "Tech",
-      "headline": "Anthropic co-founder: AI 2027 तक खुद को बेहतर बना सकता है",
-      "bullets": [
-        "नए benchmark के आधार पर Jack Clark अब यह समय एक साल पहले का मानते हैं।"
-      ],
-      "published": "2026-10-14T09:23:00+00:00",
-      "sources": [
-        {
-          "name": "NDTV Top",
-          "url": "https://www.ndtv.com/artificial-intelligence/ai-could-start-improving-itself-by-2027-anthropic-co-founder-12183739#publisher=newsstand",
-          "feed_id": 5
-        }
-      ]
-    },
-    {
-      "id": "f0563dd4052ae244608d",
-      "topic": "India",
-      "headline": "2027 तक 'One Nation One Port' प्रक्रिया शुरू होगी",
-      "bullets": [
-        "Council के मुताबिक सभी ports को March 2027 तक Maritime Single Window (Sagar Setu) से जुड़ना होगा।"
-      ],
-      "published": "2026-10-14T09:10:50+00:00",
-      "sources": [
-        {
-          "name": "NDTV Top",
-          "url": "https://www.ndtv.com/india-news/one-nation-one-port-process-to-begin-for-indias-maritime-sector-by-2027-12183684#publisher=newsstand",
-          "feed_id": 5
-        }
-      ]
-    },
-    {
-      "id": "408ac2b80275badef74f",
-      "topic": "India",
-      "headline": "Maharashtra में सूखा-प्रभावित किसानों को Diwali से पहले ₹5,000",
-      "bullets": [
-        "CM Fadnavis ने कहा कि 305 से ज्यादा talukas सूखाग्रस्त घोषित हैं; coercive loan recovery रोकने की कोशिश है।"
-      ],
-      "published": "2026-10-14T09:09:20+00:00",
-      "sources": [
-        {
-          "name": "NDTV Top",
-          "url": "https://www.ndtv.com/india-news/drought-hit-maharashtra-farmers-to-get-rs-5-000-aid-before-diwali-12183676#publisher=newsstand",
-          "feed_id": 5
-        },
-        {
-          "name": "ET Economy",
-          "url": "https://economictimes.indiatimes.com/news/economy/agriculture/85-of-maharashtra-declared-drought-hit-farmers-to-get-rs-5000-aid-before-diwali/articleshow/134937390.cms",
-          "feed_id": 17
-        }
-      ]
-    },
-    {
-      "id": "ef18749cb21edf0748a2",
-      "topic": "India",
-      "headline": "Mumbai में Domino's Parel outlet का licence suspend",
-      "bullets": [
-        "Improvement notice के बाद 9 October की inspection में कई food-safety violations मिले।"
-      ],
-      "published": "2026-10-14T09:08:20+00:00",
-      "sources": [
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/india/tukaram-mundhe-strikes-dominos-parel-licence-suspended-over-food-safety-violation-heres-what-fda-said-12183028#publisher=newsstand",
-          "feed_id": 21
-        }
-      ]
-    },
-    {
-      "id": "22b525d4348666314d78",
-      "topic": "World",
-      "headline": "September में China का export 36.3% उछला",
-      "bullets": [
-        "AI-driven demand के बीच यह COVID के बाद सबसे बड़ी बढ़त है।"
-      ],
-      "published": "2026-10-14T09:05:17+00:00",
-      "sources": [
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/economy/2026/10/14/chinas-exports-sugrge?traffic_source=rss",
-          "feed_id": 9
-        }
-      ]
-    },
-    {
-      "id": "60803081b70b61553214",
-      "topic": "Business",
-      "headline": "India को US oil-gas supplies 43% गिरी",
-      "bullets": [
-        "Refiners के अनुसार high freight, लंबी voyage और medium sour crude की कमी से West Asia और Russia के barrels ज्यादा आकर्षक हैं।"
-      ],
-      "published": "2026-10-14T09:02:07+00:00",
-      "sources": [
-        {
-          "name": "BS Economy",
-          "url": "https://www.business-standard.com/economy/news/us-energy-supplies-india-west-asia-crude-lng-lpg-imports-126101400660_1.html",
-          "feed_id": 19
-        }
-      ]
-    },
-    {
-      "id": "e1866e9a2dadbad73700",
-      "topic": "India",
-      "headline": "Akkulam में apartments के पास जमीन धंसी, school building का काम रुका",
-      "bullets": [
-        "Collector ने construction रोककर evacuation का आदेश दिया; boundary wall टूटी और 50 meter सड़क धंस गई।"
-      ],
-      "published": "2026-10-14T08:59:23+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/kerala/earth-cave-in-at-akkulam-collector-halts-school-building-construction-orders-evacuation-of-adjacent-flat-residents/article71582896.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "20cb5b3539daef01a882",
-      "topic": "Tech",
-      "headline": "Apple vs OpenAI: trade secret theft lawsuit क्या है",
-      "bullets": [
-        "July में दायर मामले में Apple ने OpenAI, io Products और दो पूर्व employees पर secrets लेने या इस्तेमाल करने का आरोप लगाया।"
-      ],
-      "published": "2026-10-14T08:46:27+00:00",
-      "sources": [
-        {
-          "name": "ET Tech",
-          "url": "https://economictimes.indiatimes.com/tech/technology/apple-vs-openai-what-the-trade-secret-theft-lawsuit-is-about/articleshow/134937124.cms",
-          "feed_id": 25
-        }
-      ]
     }
   ],
   "metadata": {
     "refreshes": [
+      {
+        "at": "2026-10-15T10:44:43.057433+00:00",
+        "feed_checked_at": "2026-10-15T10:44:15.627807+00:00",
+        "items_read": 1716,
+        "candidates": 490,
+        "written": 18,
+        "added": 18,
+        "dropped": 30,
+        "total": 204,
+        "counts": {
+          "India": 24,
+          "World": 42,
+          "Business": 68,
+          "IPO": 10,
+          "Tech": 37,
+          "Sports": 4,
+          "Science": 9,
+          "Health": 10
+        },
+        "fetch_seconds": 2.33,
+        "rejected": {
+          "editorial_keyword": 20,
+          "older_than_24h": 982,
+          "question_headline": 112,
+          "undated": 4,
+          "not_cricket": 66,
+          "duplicate": 42
+        },
+        "editorial_skipped": 472
+      },
       {
         "at": "2026-10-15T08:44:56.538730+00:00",
         "feed_checked_at": "2026-10-15T08:44:18.411239+00:00",
@@ -3900,58 +3784,27 @@
           "duplicate": 53
         },
         "editorial_skipped": 454
-      },
-      {
-        "at": "2026-10-15T04:44:50.224922+00:00",
-        "feed_checked_at": "2026-10-15T04:44:15.551367+00:00",
-        "items_read": 1704,
-        "candidates": 479,
-        "written": 20,
-        "added": 20,
-        "dropped": 24,
-        "total": 229,
-        "counts": {
-          "India": 38,
-          "World": 44,
-          "Business": 65,
-          "IPO": 10,
-          "Tech": 40,
-          "Sports": 7,
-          "Science": 12,
-          "Health": 13
-        },
-        "fetch_seconds": 2.32,
-        "rejected": {
-          "older_than_24h": 989,
-          "question_headline": 97,
-          "future": 3,
-          "editorial_keyword": 11,
-          "undated": 4,
-          "not_cricket": 65,
-          "duplicate": 56
-        },
-        "editorial_skipped": 459
       }
     ],
     "topic_counts": {
-      "India": 30,
-      "World": 41,
-      "Business": 65,
+      "India": 24,
+      "World": 42,
+      "Business": 68,
       "IPO": 10,
-      "Tech": 42,
-      "Sports": 7,
+      "Tech": 37,
+      "Sports": 4,
       "Science": 9,
-      "Health": 12
+      "Health": 10
     },
     "topic_gap_minutes": {
-      "India": 56,
+      "India": 45,
       "World": 60,
       "Business": 60,
       "IPO": 19,
       "Tech": 60,
-      "Sports": 14,
+      "Sports": 8,
       "Science": 17,
-      "Health": 23
+      "Health": 19
     },
     "gap_is_metadata_only": true,
     "feeds": [
@@ -3963,7 +3816,7 @@
         "http": 200,
         "items": 20,
         "eligible": 1,
-        "seconds": 0.32
+        "seconds": 0.06
       },
       {
         "id": 2,
@@ -3972,8 +3825,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 24,
-        "seconds": 0.36
+        "eligible": 25,
+        "seconds": 0.42
       },
       {
         "id": 3,
@@ -3982,7 +3835,7 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 53,
+        "eligible": 57,
         "seconds": 0.08
       },
       {
@@ -3992,8 +3845,8 @@
         "status": "ok",
         "http": 200,
         "items": 37,
-        "eligible": 6,
-        "seconds": 0.61
+        "eligible": 5,
+        "seconds": 0.78
       },
       {
         "id": 5,
@@ -4003,7 +3856,7 @@
         "http": 200,
         "items": 20,
         "eligible": 17,
-        "seconds": 0.33
+        "seconds": 0.32
       },
       {
         "id": 6,
@@ -4012,8 +3865,8 @@
         "status": "ok",
         "http": 200,
         "items": 29,
-        "eligible": 21,
-        "seconds": 0.11
+        "eligible": 20,
+        "seconds": 0.05
       },
       {
         "id": 7,
@@ -4023,7 +3876,7 @@
         "http": 200,
         "items": 40,
         "eligible": 10,
-        "seconds": 0.37
+        "seconds": 0.38
       },
       {
         "id": 9,
@@ -4033,7 +3886,7 @@
         "http": 200,
         "items": 25,
         "eligible": 22,
-        "seconds": 0.11
+        "seconds": 0.05
       },
       {
         "id": 10,
@@ -4041,9 +3894,9 @@
         "url": "https://rss.dw.com/rdf/rss-en-all",
         "status": "ok",
         "http": 200,
-        "items": 135,
+        "items": 136,
         "eligible": 21,
-        "seconds": 0.19
+        "seconds": 0.07
       },
       {
         "id": 11,
@@ -4052,8 +3905,8 @@
         "status": "ok",
         "http": 200,
         "items": 37,
-        "eligible": 6,
-        "seconds": 0.28
+        "eligible": 5,
+        "seconds": 0.22
       },
       {
         "id": 12,
@@ -4063,7 +3916,7 @@
         "http": 200,
         "items": 9,
         "eligible": 0,
-        "seconds": 0.37
+        "seconds": 0.39
       },
       {
         "id": 13,
@@ -4072,8 +3925,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 25,
-        "seconds": 0.09
+        "eligible": 29,
+        "seconds": 0.13
       },
       {
         "id": 14,
@@ -4082,8 +3935,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 3,
-        "seconds": 0.37
+        "eligible": 7,
+        "seconds": 0.38
       },
       {
         "id": 15,
@@ -4093,7 +3946,7 @@
         "http": 200,
         "items": 50,
         "eligible": 39,
-        "seconds": 0.09
+        "seconds": 0.12
       },
       {
         "id": 16,
@@ -4102,8 +3955,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 22,
-        "seconds": 0.14
+        "eligible": 23,
+        "seconds": 0.22
       },
       {
         "id": 17,
@@ -4113,7 +3966,7 @@
         "http": 200,
         "items": 50,
         "eligible": 26,
-        "seconds": 0.08
+        "seconds": 0.45
       },
       {
         "id": 19,
@@ -4122,8 +3975,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 7,
-        "seconds": 0.13
+        "eligible": 10,
+        "seconds": 0.09
       },
       {
         "id": 20,
@@ -4132,8 +3985,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 27,
-        "seconds": 0.08
+        "eligible": 28,
+        "seconds": 0.31
       },
       {
         "id": 21,
@@ -4142,7 +3995,7 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 18,
+        "eligible": 19,
         "seconds": 0.32
       },
       {
@@ -4152,8 +4005,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 2,
-        "seconds": 0.09
+        "eligible": 4,
+        "seconds": 0.11
       },
       {
         "id": 23,
@@ -4163,7 +4016,7 @@
         "http": 200,
         "items": 21,
         "eligible": 2,
-        "seconds": 0.14
+        "seconds": 0.05
       },
       {
         "id": 24,
@@ -4172,8 +4025,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 5,
-        "seconds": 0.83
+        "eligible": 6,
+        "seconds": 0.37
       },
       {
         "id": 25,
@@ -4182,7 +4035,7 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 30,
+        "eligible": 29,
         "seconds": 0.12
       },
       {
@@ -4192,8 +4045,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 7,
-        "seconds": 0.18
+        "eligible": 6,
+        "seconds": 0.17
       },
       {
         "id": 27,
@@ -4223,7 +4076,7 @@
         "http": 200,
         "items": 20,
         "eligible": 20,
-        "seconds": 0.05
+        "seconds": 0.06
       },
       {
         "id": 32,
@@ -4232,8 +4085,8 @@
         "status": "ok",
         "http": 200,
         "items": 42,
-        "eligible": 12,
-        "seconds": 0.11
+        "eligible": 14,
+        "seconds": 0.05
       },
       {
         "id": 33,
@@ -4243,7 +4096,7 @@
         "http": 200,
         "items": 10,
         "eligible": 8,
-        "seconds": 0.19
+        "seconds": 0.2
       },
       {
         "id": 34,
@@ -4252,8 +4105,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 8,
-        "seconds": 0.31
+        "eligible": 6,
+        "seconds": 0.32
       },
       {
         "id": 36,
@@ -4262,7 +4115,7 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 19,
+        "eligible": 16,
         "seconds": 0.35
       },
       {
@@ -4272,8 +4125,8 @@
         "status": "ok",
         "http": 200,
         "items": 37,
-        "eligible": 6,
-        "seconds": 0.46
+        "eligible": 5,
+        "seconds": 0.26
       },
       {
         "id": 38,
@@ -4282,8 +4135,8 @@
         "status": "ok",
         "http": 200,
         "items": 55,
-        "eligible": 9,
-        "seconds": 0.1
+        "eligible": 8,
+        "seconds": 0.21
       },
       {
         "id": 39,
@@ -4292,8 +4145,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 4,
-        "seconds": 0.38
+        "eligible": 5,
+        "seconds": 0.35
       },
       {
         "id": 40,
@@ -4302,8 +4155,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 10,
-        "seconds": 0.43
+        "eligible": 9,
+        "seconds": 0.33
       },
       {
         "id": 41,
@@ -4313,7 +4166,7 @@
         "http": 200,
         "items": 50,
         "eligible": 4,
-        "seconds": 0.79
+        "seconds": 0.48
       },
       {
         "id": 42,
@@ -4323,7 +4176,7 @@
         "http": 200,
         "items": 70,
         "eligible": 0,
-        "seconds": 0.3
+        "seconds": 0.24
       },
       {
         "id": 43,
@@ -4342,8 +4195,8 @@
         "status": "ok",
         "http": 200,
         "items": 100,
-        "eligible": 5,
-        "seconds": 0.3
+        "eligible": 2,
+        "seconds": 0.43
       },
       {
         "id": 45,
@@ -4353,7 +4206,7 @@
         "http": 200,
         "items": 31,
         "eligible": 0,
-        "seconds": 0.33
+        "seconds": 0.18
       },
       {
         "id": 47,
@@ -4363,7 +4216,7 @@
         "http": 200,
         "items": 37,
         "eligible": 0,
-        "seconds": 0.43
+        "seconds": 0.45
       }
     ],
     "sources": [
@@ -4373,6 +4226,7 @@
       "AmarUjala Tech",
       "AmarUjala World",
       "Ars",
+      "BBC Science",
       "BBC Tech",
       "BBC World",
       "BS Economy",
