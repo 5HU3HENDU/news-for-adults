@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "title": "News for Adults",
-  "updated_at": "2026-10-16T10:44:50.203246+00:00",
+  "updated_at": "2026-10-16T12:44:55.626775+00:00",
   "schedule": {
     "active": true,
     "window_ist": "08:00-22:00",
@@ -19,6 +19,379 @@
     "Health"
   ],
   "stories": [
+    {
+      "id": "6536996020a07b36530f",
+      "topic": "India",
+      "headline": "Jaishankar और Rubio की 20 October को Mumbai में बैठक, MEA ने बताया",
+      "bullets": [
+        "ऊर्जा, trade-निवेश, रक्षा और critical technologies पर बात होगी।"
+      ],
+      "published": "2026-10-16T12:39:48+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/jaishankar-rubio-to-hold-meeting-in-mumbai-on-oct-20-mea/article71592380.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "b9dc8c30c4fbea348637",
+      "topic": "India",
+      "headline": "India-UAE का साझा सैन्य अभ्यास Uttarakhand में शुरू, पहाड़ी युद्ध पर फोकस",
+      "bullets": [
+        "अभ्यास 5 से 18 October तक चल रहा है।"
+      ],
+      "published": "2026-10-16T12:38:08+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/india-uae-joint-military-exercise-begins-in-uttarakhand-focus-on-mountain-warfare/article71548835.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "58007dde935411572fe8",
+      "topic": "Tech",
+      "headline": "Sony का Xperia 10 VI को Android 17 update नहीं मिलेगा",
+      "bullets": [
+        "दो साल पहले कंपनी ने तीन बड़े OS updates का वादा किया था।"
+      ],
+      "published": "2026-10-16T12:36:11+00:00",
+      "sources": [
+        {
+          "name": "Verge",
+          "url": "https://www.theverge.com/tech/1012789/sony-xperia-10-vi-smartphone-android-17-update-security",
+          "feed_id": 28
+        }
+      ]
+    },
+    {
+      "id": "fed7b7905e96eed03c82",
+      "topic": "Tech",
+      "headline": "पहली 'vibe-coded' बंदूक आई, Cody Wilson ने इसे AI-made gun बताया",
+      "bullets": [
+        "इसका नाम WASP है।"
+      ],
+      "published": "2026-10-16T12:30:00+00:00",
+      "sources": [
+        {
+          "name": "Verge",
+          "url": "https://www.theverge.com/tech/1011950/vibe-coded-3d-printed-gun-ai-generated-cody-wilson",
+          "feed_id": 28
+        }
+      ]
+    },
+    {
+      "id": "4446cbe80f8c6e8781d9",
+      "topic": "Business",
+      "headline": "DLF का Q2 profit 10% बढ़कर ₹1,301 cr, revenue 23% गिरा",
+      "bullets": [
+        "Profit बढ़ा, पर revenue साल-दर-साल 23% कम रहा।"
+      ],
+      "published": "2026-10-16T12:29:41+00:00",
+      "sources": [
+        {
+          "name": "NDTV Business",
+          "url": "https://www.ndtvprofit.com/markets/dlf-q2-results-net-profit-rises-10-to-rs-1-301-crore-revenue-down-23-12195090#publisher=newsstand",
+          "feed_id": 21
+        }
+      ]
+    },
+    {
+      "id": "ef360b838847d5706515",
+      "topic": "World",
+      "headline": "Nigeria के Benin City में tanker पलटकर फटा, आग ने बाजार को घेरा",
+      "bullets": [
+        "Oluku market में यह हादसा हुआ।"
+      ],
+      "published": "2026-10-16T12:23:12+00:00",
+      "sources": [
+        {
+          "name": "Aljazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/fuel-tanker-fire-engulfs-market-in-southern-nigeria?traffic_source=rss",
+          "feed_id": 9
+        }
+      ]
+    },
+    {
+      "id": "0cc2f2da94ae6cdb5bda",
+      "topic": "World",
+      "headline": "Pakistan में छत गिरने से 35 मौतों के बाद स्कूलों की जांच के आदेश",
+      "bullets": [
+        "परिजनों का कहना है कि छत से पानी टपकने की चेतावनी पहले दी गई थी।"
+      ],
+      "published": "2026-10-16T12:18:06+00:00",
+      "sources": [
+        {
+          "name": "Aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/16/pakistan-orders-school-inspections-following-deadly-roof-collapse?traffic_source=rss",
+          "feed_id": 9
+        }
+      ]
+    },
+    {
+      "id": "35798c2f7dc217e2eb4d",
+      "topic": "Business",
+      "headline": "छह हफ्ते में India का forex reserve करीब $60 billion घटा, RBI ने rupee को संभाला",
+      "bullets": [
+        "9 Oct तक reserve $726.027 billion रहा।",
+        "4 Sept के रिकॉर्ड $785.706 billion से यह गिरावट है।"
+      ],
+      "published": "2026-10-16T12:17:33+00:00",
+      "sources": [
+        {
+          "name": "ET Economy",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-forex-reserves-shed-60-billion-in-six-weeks-as-rbi-steps-in-to-support-rupee-one-of-asias-worst-performing-currencies-this-year/articleshow/134994757.cms",
+          "feed_id": 17
+        }
+      ]
+    },
+    {
+      "id": "0446e5ab7c62b1324000",
+      "topic": "World",
+      "headline": "US सांसदों की मांग: Ukraine पर Starlink पाबंदियों की जांच हो",
+      "bullets": [
+        "Ukraine का कहना है कि speed limits से मोर्चे पर उसके अभियान बाधित हुए।"
+      ],
+      "published": "2026-10-16T12:16:42+00:00",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cq398zl8jmvdo?at_medium=RSS&at_campaign=rss",
+          "feed_id": 6
+        }
+      ]
+    },
+    {
+      "id": "ef878e4080febb30673c",
+      "topic": "Business",
+      "headline": "Russia के साथ India का trade 2030 तक $100 billion तक पहुंचने का अनुमान",
+      "bullets": [
+        "India Eurasian Economic Union के साथ FTA की बातचीत कर रहा है।",
+        "इस साल की पहली छमाही में trade turnover $38 billion रहा।"
+      ],
+      "published": "2026-10-16T12:09:09+00:00",
+      "sources": [
+        {
+          "name": "ET Economy",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-to-reach-100-billion-dollar-of-bilateral-trade-with-russia-by-2030-ambassador-vinay-kumar/articleshow/134994562.cms",
+          "feed_id": 17
+        }
+      ]
+    },
+    {
+      "id": "566016b6ff818a36e32d",
+      "topic": "Health",
+      "headline": "India को 2035 तक 2.6 billion sq ft अतिरिक्त healthcare जगह चाहिए: CBRE",
+      "bullets": [
+        "करीब 29 लाख और hospital beds की मांग का अनुमान है।",
+        "अभी India में प्रति 1,000 लोगों पर सिर्फ 1.6 beds हैं।"
+      ],
+      "published": "2026-10-16T11:53:51+00:00",
+      "sources": [
+        {
+          "name": "ET Health",
+          "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/india-needs-2-6-billion-sq-ft-of-healthcare-space-by-2035-says-cbre/articleshow/134994098.cms",
+          "feed_id": 41
+        }
+      ]
+    },
+    {
+      "id": "dba17429ac2cd6c831fb",
+      "topic": "Sports",
+      "headline": "ECB ने national coaches की भर्ती में Rooney Rule छोड़ा",
+      "bullets": [
+        "ECB का कहना है कि उसकी recruitment प्रक्रिया 'evolve' हो चुकी है।"
+      ],
+      "published": "2026-10-16T11:38:27+00:00",
+      "sources": [
+        {
+          "name": "BBC Cricket",
+          "url": "https://www.bbc.co.uk/sport/cricket/articles/cmkge6y0wn0do?at_medium=RSS&at_campaign=rss",
+          "feed_id": 45
+        }
+      ]
+    },
+    {
+      "id": "7a9d17caf135cf541078",
+      "topic": "Science",
+      "headline": "CCMB वैज्ञानिकों ने TB के भीतरी काम को समझने का genetic toolkit बनाया",
+      "bullets": [
+        "40 नए shuttle vectors बनाए गए, जिनमें fluorescent markers से proteins microscope में चमकते हैं।"
+      ],
+      "published": "2026-10-16T11:32:05+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/cities/Hyderabad/ccmb-scientists-develop-genetic-toolkit-to-shine-light-on-tbs-inner-workings/article71591869.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "62192aad08f912e9a5d2",
+      "topic": "Business",
+      "headline": "Bajaj Housing Finance का Q2 profit 18% बढ़कर ₹757 cr",
+      "bullets": [
+        "AUM 25% बढ़कर ₹1.58 lakh cr हुआ।",
+        "Net interest income 10% बढ़ा और asset quality लगभग स्थिर रही।"
+      ],
+      "published": "2026-10-16T11:22:16+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/bajaj-housing-finance-q2-results-pat-rises-18-yoy-to-rs-757-crore-aum-grows-25/articleshow/134993051.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "6657fb69a338214f03f3",
+      "topic": "Tech",
+      "headline": "India के युवा कर्मचारियों के नए साथी: AI",
+      "bullets": [
+        "AI कामकाज बदल रहा है और productivity, skills और entry-level jobs पर सवाल उठ रहे हैं।"
+      ],
+      "published": "2026-10-16T11:22:00+00:00",
+      "sources": [
+        {
+          "name": "DW World",
+          "url": "https://www.dw.com/en/india-s-young-workers-have-a-new-colleague-ai/a-79678342?maca=en-rss-en-all-1573-rdf",
+          "feed_id": 10
+        }
+      ]
+    },
+    {
+      "id": "4dad03011d920d01fb2a",
+      "topic": "Business",
+      "headline": "Urban Company का Q2 loss बढ़कर ₹182 cr, revenue 41% उछला",
+      "bullets": [
+        "Revenue ₹537.3 cr रहा।",
+        "कंपनी ₹2,500 cr की QIP से पैसा जुटाने की योजना पर विचार कर रही है।"
+      ],
+      "published": "2026-10-16T11:18:53+00:00",
+      "sources": [
+        {
+          "name": "NDTV Business",
+          "url": "https://www.ndtvprofit.com/markets/urban-company-q2-results-net-loss-more-than-doubles-revenue-up-41-yoy-12194887#publisher=newsstand",
+          "feed_id": 21
+        }
+      ]
+    },
+    {
+      "id": "6431c25ba48356d08360",
+      "topic": "World",
+      "headline": "Germany की संसद ने बच्चों के लिए मासिक pension योगदान की योजना का समर्थन किया",
+      "bullets": [
+        "योजना में छह साल की उम्र से बच्चों की retirement saving शुरू होगी।"
+      ],
+      "published": "2026-10-16T11:11:00+00:00",
+      "sources": [
+        {
+          "name": "DW World",
+          "url": "https://www.dw.com/en/german-lawmakers-back-monthly-state-pension-contributions-for-children-with-families-able-to-add-more/live-79678671?maca=en-rss-en-all-1573-rdf",
+          "feed_id": 10
+        }
+      ]
+    },
+    {
+      "id": "6d0907e8a9ff3ff70dd7",
+      "topic": "IPO",
+      "headline": "Jio IPO से पहले Meta और Google जैसे global निवेशकों को मल्टीबैगर फायदा",
+      "bullets": [
+        "छह साल पहले महामारी में जिन निवेशकों ने Jio में पैसा लगाया, उनके stake की कीमत कई गुना हुई।"
+      ],
+      "published": "2026-10-16T11:10:36+00:00",
+      "sources": [
+        {
+          "name": "NDTV Business",
+          "url": "https://www.ndtvprofit.com/markets/jio-ipo-how-much-meta-google-kkr-and-other-early-investors-stand-to-gain-at-rs-1-119-per-share-12194338#publisher=newsstand",
+          "feed_id": 21
+        }
+      ]
+    },
+    {
+      "id": "2f04a30b3894e74c6481",
+      "topic": "Health",
+      "headline": "Early-onset Alzheimer's late-onset से काफी अलग दिखता है, नई स्टडी",
+      "bullets": [
+        "हृदय संबंधी जोखिम कारक और बढ़ती उम्र इस बीमारी के जाने-माने जोखिम हैं।"
+      ],
+      "published": "2026-10-16T11:04:59+00:00",
+      "sources": [
+        {
+          "name": "Hindu SciTech",
+          "url": "https://www.thehindu.com/sci-tech/health/early-onset-alzheimers-disease-looks-very-different-to-late-onset-version-study/article71591989.ece",
+          "feed_id": 36
+        }
+      ]
+    },
+    {
+      "id": "73941a57ff50871ed849",
+      "topic": "Science",
+      "headline": "Rajasthan में दो captive-bred Great Indian Bustard जंगल में छोड़े गए",
+      "bullets": [
+        "Bhupender Yadav ने इसे करीब एक दशक की मेहनत का नतीजा बताया।"
+      ],
+      "published": "2026-10-16T11:01:57+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/sci-tech/energy-and-environment/two-captive-bred-great-indian-bustards-released-into-wild-in-rajasthan-under-conservation-efforts/article71544023.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "be828d785dcf1765b8a7",
+      "topic": "Science",
+      "headline": "Rocket Report: Starbase पर FAA ज्यादा उड़ानें देख रही, Skyroot को US customer मिला",
+      "bullets": [
+        "Stoke Space के Nova rocket का reusable upper stage testing के लिए रवाना हुआ।"
+      ],
+      "published": "2026-10-16T11:00:53+00:00",
+      "sources": [
+        {
+          "name": "Ars",
+          "url": "https://arstechnica.com/space/2026/10/rocket-report-faa-eyes-more-starbase-traffic-indias-skyroot-snares-us-customer/",
+          "feed_id": 27
+        }
+      ]
+    },
+    {
+      "id": "61b45730a1df5a370dd5",
+      "topic": "World",
+      "headline": "Russia के हमले के बाद Poland ने fighter jets उड़ाए",
+      "bullets": [
+        "NATO की पूर्वी सीमा के देशों में युद्ध फैलने का डर बढ़ रहा है।"
+      ],
+      "published": "2026-10-16T10:56:20+00:00",
+      "sources": [
+        {
+          "name": "Aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/16/poland-scrambles-fighter-jets-as-russia-strikes-western-ukraine?traffic_source=rss",
+          "feed_id": 9
+        }
+      ]
+    },
+    {
+      "id": "0350ab261e45b64a047b",
+      "topic": "India",
+      "headline": "समुद्री प्रशासन महानिदेशालय का फैसला: भारतीय नाविकों की तैनाती पर रोक",
+      "bullets": [
+        "लगातार हो रहे जानलेवा हादसों के बाद यह कदम उठाया गया।"
+      ],
+      "published": "2026-10-16T10:55:45+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/directorate-general-of-maritime-administration-bans-deployment-of-indian-seafarers-in-malaysia-sarawak-region/article71587997.ece",
+          "feed_id": 3
+        }
+      ]
+    },
     {
       "id": "3ef08d1596a4bfa105a3",
       "topic": "World",
@@ -2326,257 +2699,40 @@
           "feed_id": 34
         }
       ]
-    },
-    {
-      "id": "0137865999588c431015",
-      "topic": "Sports",
-      "headline": "चोट के कारण Nissanka पाकिस्तान में ODI tri-series से बाहर",
-      "bullets": [
-        "Hamstring injury की वजह से Udara उनकी जगह squad में आए हैं।",
-        "Udara ने अभी ODI debut नहीं किया है।"
-      ],
-      "published": "2026-10-15T12:40:27+00:00",
-      "sources": [
-        {
-          "name": "ESPNcricinfo",
-          "url": "https://www.cricinfo.com/ci/content/story/1558564.html?ex_cid=OTC-RSS",
-          "feed_id": 44
-        }
-      ]
-    },
-    {
-      "id": "96c8fe0394c6c2bbddca",
-      "topic": "Health",
-      "headline": "लंग adenocarcinoma क्या है, Pope Leo XIV के diagnosis के बाद चर्चा में",
-      "bullets": [
-        "यह lung cancer का सबसे आम प्रकार है।",
-        "रिपोर्ट में इसके risk factors, symptoms और इलाज की जानकारी है।"
-      ],
-      "published": "2026-10-15T12:32:13+00:00",
-      "sources": [
-        {
-          "name": "Hindu SciTech",
-          "url": "https://www.thehindu.com/sci-tech/health/all-you-need-to-know-about-lung-adenocarcinoma/article71587143.ece",
-          "feed_id": 36
-        }
-      ]
-    },
-    {
-      "id": "9c1dc811c04a9a97771b",
-      "topic": "Business",
-      "headline": "India के banks में deposits रिकॉर्ड ₹284 trillion, dollar swap scheme से बढ़ावा",
-      "bullets": [
-        "September में deposits इस स्तर पर पहुंचे।",
-        "RBI की discounted dollar swap scheme में करीब $133 bn का inflow आया।"
-      ],
-      "published": "2026-10-15T12:22:51+00:00",
-      "sources": [
-        {
-          "name": "BS Economy",
-          "url": "https://www.business-standard.com/industry/banking/bank-deposits-hit-record-3-trillion-boosted-by-dollar-deposits-scheme-126101500967_1.html",
-          "feed_id": 19
-        }
-      ]
-    },
-    {
-      "id": "5abfa0c529dbdcb4889a",
-      "topic": "World",
-      "headline": "Strait of Hormuz में tanker पर projectile गिरने के बाद 5 Indian नागरिक बचाए गए",
-      "bullets": [
-        "Indian embassy ने बचाव में मदद के लिए Oman के अधिकारियों का आभार जताया।"
-      ],
-      "published": "2026-10-15T12:20:47+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/five-indian-nationals-rescued-shifted-ashore-after-projectile-hits-tanker-in-hormuz-embassy-in-oman/article71539598.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "4abfffc91ecd27b0ea50",
-      "topic": "Business",
-      "headline": "Cyient DLM का Q2 revenue 26.5% बढ़कर ₹393 cr, margin घटा",
-      "bullets": [
-        "EBITDA margin 10.1% से घटकर 8.7% रहा।",
-        "Order book रिकॉर्ड ₹2,813.7 cr पर पहुंचा।"
-      ],
-      "published": "2026-10-15T12:20:43+00:00",
-      "sources": [
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/markets/cyient-dlm-q2-revenue-jumps-26-5-to-rs-393-crore-margin-contracts-12190228#publisher=newsstand",
-          "feed_id": 21
-        }
-      ]
-    },
-    {
-      "id": "d2c0eb6bc28b16130382",
-      "topic": "Business",
-      "headline": "Tech Mahindra का बोर्ड 1:1 bonus share और ₹15 interim dividend देगा",
-      "bullets": [
-        "यह घोषणा Q2 नतीजों के साथ आई।"
-      ],
-      "published": "2026-10-15T12:20:36+00:00",
-      "sources": [
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/markets/tech-mahindra-q2-board-recommends-1-1-bonus-share-issue-12189882#publisher=newsstand",
-          "feed_id": 21
-        }
-      ]
-    },
-    {
-      "id": "f7d9712bec92e4fa070b",
-      "topic": "India",
-      "headline": "Southwest monsoon पूरे देश से लौटा: IMD",
-      "bullets": [
-        "इस साल बारिश 759.4 mm रही, जो सामान्य 868.6 mm से 12.6% कम है।"
-      ],
-      "published": "2026-10-15T12:17:43+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/sci-tech/energy-and-environment/southwest-monsoon-withdraws-from-entire-country-imd/article71587953.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "3479710b467f26ad2669",
-      "topic": "Sports",
-      "headline": "England A टीमें नवंबर में India दौरे पर, चार दिन का match भी",
-      "bullets": [
-        "तीन T20 और तीन 50-over मैच खेले जाएंगे।",
-        "Red-ball game को Ashes की तैयारी बताया गया है।"
-      ],
-      "published": "2026-10-15T12:13:04+00:00",
-      "sources": [
-        {
-          "name": "BBC Sport",
-          "url": "https://www.bbc.co.uk/sport/cricket/articles/crlykvelleego?at_medium=RSS&at_campaign=rss",
-          "feed_id": 42
-        }
-      ]
-    },
-    {
-      "id": "0b775b285dc6cf1dfc4a",
-      "topic": "IPO",
-      "headline": "IPO से पहले Anthropic का quarterly revenue $16.8 bn: सूत्र",
-      "bullets": [
-        "Third quarter में free cash flow positive और adjusted gross margin 85% बताया गया।",
-        "Adjusted operating margin 11% से ज्यादा है।"
-      ],
-      "published": "2026-10-15T12:07:22+00:00",
-      "sources": [
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/markets/anthropic-revenue-jumps-to-16-8-billion-in-quarter-before-ipo-12190133#publisher=newsstand",
-          "feed_id": 21
-        }
-      ]
-    },
-    {
-      "id": "aab08ab1c4ddc9de5f12",
-      "topic": "Business",
-      "headline": "RBI ने forex hedging की पाबंदियों पर स्थिति साफ की",
-      "bullets": [
-        "कई lenders नियमों को लेकर confusion के कारण dollar-rupee forwards के quotes रोक रहे थे।"
-      ],
-      "published": "2026-10-15T12:04:12+00:00",
-      "sources": [
-        {
-          "name": "ET Economy",
-          "url": "https://economictimes.indiatimes.com/news/economy/finance/rbi-issues-clarifications-on-forex-hedging-curbs-rupee-vs-dollar-rate/articleshow/134967399.cms",
-          "feed_id": 17
-        }
-      ]
-    },
-    {
-      "id": "64e921aaa04cd034456e",
-      "topic": "World",
-      "headline": "Russia का आरोप: Ukraine ने oil refinery पर हमला किया",
-      "bullets": [
-        "Zelensky ने कहा है कि energy sites पर हमले रोकने का दौर खत्म हो गया।"
-      ],
-      "published": "2026-10-15T12:03:51+00:00",
-      "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_medium=RSS&at_campaign=rss",
-          "feed_id": 6
-        }
-      ]
-    },
-    {
-      "id": "e2562ef6f021b7aa2a80",
-      "topic": "Business",
-      "headline": "Torrent Power करीब $500 mn का rupee bond sale लाने की तैयारी में: bankers",
-      "bullets": [
-        "पैसा Nabha Power के लगभग ₹6,900 cr के अधिग्रहण में जाएगा।"
-      ],
-      "published": "2026-10-15T12:02:54+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/bonds/torrent-power-plans-around-500-million-bond-sale-bankers-say/articleshow/134967431.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "6de9fd656d1e6c36e820",
-      "topic": "World",
-      "headline": "Korean Peninsula पर hypersonic missiles की होड़",
-      "bullets": [
-        "South और North Korea दोनों ने तेज रफ्तार और मुड़ने में सक्षम हथियारों का test किया है।"
-      ],
-      "published": "2026-10-15T12:02:00+00:00",
-      "sources": [
-        {
-          "name": "DW World",
-          "url": "https://www.dw.com/en/hypersonic-missiles-highlight-arms-race-on-korean-peninsula/a-79667084?maca=en-rss-en-all-1573-rdf",
-          "feed_id": 10
-        }
-      ]
-    },
-    {
-      "id": "bf9be82ab7d13b53c3eb",
-      "topic": "Business",
-      "headline": "Kumar Mangalam Birla: Aditya Birla Group 2-3 साल में $30 bn तक निवेश करेगा",
-      "bullets": [
-        "निवेश India और विदेश में होगा, जिसमें US operations का विस्तार भी शामिल है।"
-      ],
-      "published": "2026-10-15T12:00:58+00:00",
-      "sources": [
-        {
-          "name": "Mint Companies",
-          "url": "https://www.livemint.com/companies/news/you-either-grow-or-you-go-down-kumar-mangalam-birla-plans-up-to-30-billion-investment-in-india-overseas-11792061746474.html",
-          "feed_id": 13
-        }
-      ]
-    },
-    {
-      "id": "e407e4438cc9c69dbc46",
-      "topic": "Tech",
-      "headline": "Amazon की Bee ने दो नए personal AI devices उतारे, कीमत $74.99 से शुरू",
-      "bullets": [
-        "एक updated wearable और एक credit-card साइज का recorder है, जो smartphone से जुड़ता है।",
-        "ये बातचीत का summary और to-do list बनाते हैं और Alexa से जुड़ते हैं।"
-      ],
-      "published": "2026-10-15T12:00:00+00:00",
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
-          "feed_id": 29
-        }
-      ]
     }
   ],
   "metadata": {
     "refreshes": [
+      {
+        "at": "2026-10-16T12:44:55.626775+00:00",
+        "feed_checked_at": "2026-10-16T12:44:18.174040+00:00",
+        "items_read": 1720,
+        "candidates": 521,
+        "written": 23,
+        "added": 23,
+        "dropped": 15,
+        "total": 160,
+        "counts": {
+          "India": 14,
+          "World": 26,
+          "Business": 66,
+          "IPO": 13,
+          "Tech": 20,
+          "Sports": 3,
+          "Science": 13,
+          "Health": 5
+        },
+        "fetch_seconds": 2.14,
+        "rejected": {
+          "older_than_24h": 953,
+          "question_headline": 126,
+          "editorial_keyword": 7,
+          "undated": 4,
+          "not_cricket": 54,
+          "duplicate": 55
+        },
+        "editorial_skipped": 498
+      },
       {
         "at": "2026-10-16T10:44:50.203246+00:00",
         "feed_checked_at": "2026-10-16T10:44:21.403016+00:00",
@@ -2636,58 +2792,27 @@
           "duplicate": 60
         },
         "editorial_skipped": 502
-      },
-      {
-        "at": "2026-10-16T06:45:01.767024+00:00",
-        "feed_checked_at": "2026-10-16T06:44:28.805463+00:00",
-        "items_read": 1717,
-        "candidates": 507,
-        "written": 18,
-        "added": 18,
-        "dropped": 17,
-        "total": 146,
-        "counts": {
-          "India": 11,
-          "World": 23,
-          "Business": 69,
-          "IPO": 10,
-          "Tech": 17,
-          "Sports": 3,
-          "Science": 9,
-          "Health": 4
-        },
-        "fetch_seconds": 2.75,
-        "rejected": {
-          "older_than_24h": 975,
-          "editorial_keyword": 16,
-          "question_headline": 103,
-          "future": 3,
-          "undated": 4,
-          "not_cricket": 48,
-          "duplicate": 61
-        },
-        "editorial_skipped": 489
       }
     ],
     "topic_counts": {
-      "India": 12,
-      "World": 24,
-      "Business": 67,
+      "India": 14,
+      "World": 26,
+      "Business": 66,
       "IPO": 13,
-      "Tech": 18,
-      "Sports": 4,
-      "Science": 10,
-      "Health": 4
+      "Tech": 20,
+      "Sports": 3,
+      "Science": 13,
+      "Health": 5
     },
     "topic_gap_minutes": {
-      "India": 23,
-      "World": 45,
+      "India": 27,
+      "World": 49,
       "Business": 60,
       "IPO": 25,
-      "Tech": 34,
-      "Sports": 8,
-      "Science": 19,
-      "Health": 8
+      "Tech": 38,
+      "Sports": 6,
+      "Science": 25,
+      "Health": 10
     },
     "gap_is_metadata_only": true,
     "feeds": [
@@ -2699,7 +2824,7 @@
         "http": 200,
         "items": 19,
         "eligible": 1,
-        "seconds": 0.24
+        "seconds": 0.26
       },
       {
         "id": 2,
@@ -2709,7 +2834,7 @@
         "http": 200,
         "items": 40,
         "eligible": 21,
-        "seconds": 0.37
+        "seconds": 0.36
       },
       {
         "id": 3,
@@ -2718,8 +2843,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 58,
-        "seconds": 0.06
+        "eligible": 60,
+        "seconds": 0.07
       },
       {
         "id": 4,
@@ -2728,8 +2853,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 6,
-        "seconds": 0.62
+        "eligible": 5,
+        "seconds": 0.71
       },
       {
         "id": 5,
@@ -2739,7 +2864,7 @@
         "http": 200,
         "items": 20,
         "eligible": 16,
-        "seconds": 0.33
+        "seconds": 0.32
       },
       {
         "id": 6,
@@ -2748,8 +2873,8 @@
         "status": "ok",
         "http": 200,
         "items": 37,
-        "eligible": 21,
-        "seconds": 0.5
+        "eligible": 20,
+        "seconds": 0.06
       },
       {
         "id": 7,
@@ -2758,8 +2883,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 7,
-        "seconds": 0.36
+        "eligible": 6,
+        "seconds": 0.4
       },
       {
         "id": 9,
@@ -2768,8 +2893,8 @@
         "status": "ok",
         "http": 200,
         "items": 25,
-        "eligible": 24,
-        "seconds": 0.08
+        "eligible": 23,
+        "seconds": 0.07
       },
       {
         "id": 10,
@@ -2779,7 +2904,7 @@
         "http": 200,
         "items": 135,
         "eligible": 21,
-        "seconds": 0.06
+        "seconds": 0.13
       },
       {
         "id": 11,
@@ -2788,8 +2913,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 6,
-        "seconds": 0.3
+        "eligible": 5,
+        "seconds": 0.22
       },
       {
         "id": 12,
@@ -2799,7 +2924,7 @@
         "http": 200,
         "items": 9,
         "eligible": 0,
-        "seconds": 0.99
+        "seconds": 0.43
       },
       {
         "id": 13,
@@ -2808,8 +2933,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 25,
-        "seconds": 0.06
+        "eligible": 24,
+        "seconds": 0.11
       },
       {
         "id": 14,
@@ -2818,8 +2943,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 7,
-        "seconds": 0.83
+        "eligible": 8,
+        "seconds": 0.37
       },
       {
         "id": 15,
@@ -2828,8 +2953,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 41,
-        "seconds": 0.09
+        "eligible": 42,
+        "seconds": 0.08
       },
       {
         "id": 16,
@@ -2838,8 +2963,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 16,
-        "seconds": 0.14
+        "eligible": 14,
+        "seconds": 0.13
       },
       {
         "id": 17,
@@ -2848,8 +2973,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 23,
-        "seconds": 0.09
+        "eligible": 24,
+        "seconds": 0.13
       },
       {
         "id": 19,
@@ -2858,8 +2983,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 15,
-        "seconds": 0.06
+        "eligible": 10,
+        "seconds": 0.08
       },
       {
         "id": 20,
@@ -2868,8 +2993,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 47,
-        "seconds": 0.09
+        "eligible": 55,
+        "seconds": 0.07
       },
       {
         "id": 21,
@@ -2878,8 +3003,8 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 17,
-        "seconds": 0.34
+        "eligible": 18,
+        "seconds": 0.33
       },
       {
         "id": 22,
@@ -2888,8 +3013,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 6,
-        "seconds": 0.08
+        "eligible": 7,
+        "seconds": 0.06
       },
       {
         "id": 23,
@@ -2898,8 +3023,8 @@
         "status": "ok",
         "http": 200,
         "items": 21,
-        "eligible": 4,
-        "seconds": 0.63
+        "eligible": 3,
+        "seconds": 0.04
       },
       {
         "id": 24,
@@ -2908,8 +3033,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 3,
-        "seconds": 0.38
+        "eligible": 5,
+        "seconds": 0.39
       },
       {
         "id": 25,
@@ -2918,8 +3043,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 18,
-        "seconds": 0.4
+        "eligible": 19,
+        "seconds": 0.42
       },
       {
         "id": 26,
@@ -2928,8 +3053,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 7,
-        "seconds": 0.09
+        "eligible": 6,
+        "seconds": 0.13
       },
       {
         "id": 27,
@@ -2938,8 +3063,8 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 12,
-        "seconds": 0.06
+        "eligible": 13,
+        "seconds": 0.05
       },
       {
         "id": 28,
@@ -2949,7 +3074,7 @@
         "http": 200,
         "items": 10,
         "eligible": 10,
-        "seconds": 0.06
+        "seconds": 0.04
       },
       {
         "id": 29,
@@ -2958,7 +3083,7 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 18,
+        "eligible": 17,
         "seconds": 0.05
       },
       {
@@ -2968,8 +3093,8 @@
         "status": "ok",
         "http": 200,
         "items": 42,
-        "eligible": 4,
-        "seconds": 0.04
+        "eligible": 5,
+        "seconds": 0.05
       },
       {
         "id": 33,
@@ -2988,7 +3113,7 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 4,
+        "eligible": 1,
         "seconds": 0.38
       },
       {
@@ -2998,8 +3123,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 50,
-        "seconds": 0.35
+        "eligible": 49,
+        "seconds": 0.33
       },
       {
         "id": 37,
@@ -3008,8 +3133,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 6,
-        "seconds": 0.27
+        "eligible": 5,
+        "seconds": 0.53
       },
       {
         "id": 38,
@@ -3018,8 +3143,8 @@
         "status": "ok",
         "http": 200,
         "items": 56,
-        "eligible": 15,
-        "seconds": 0.23
+        "eligible": 14,
+        "seconds": 0.04
       },
       {
         "id": 39,
@@ -3029,7 +3154,7 @@
         "http": 200,
         "items": 40,
         "eligible": 9,
-        "seconds": 0.37
+        "seconds": 0.36
       },
       {
         "id": 40,
@@ -3038,7 +3163,7 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 21,
+        "eligible": 24,
         "seconds": 0.32
       },
       {
@@ -3048,8 +3173,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 1,
-        "seconds": 0.49
+        "eligible": 2,
+        "seconds": 0.38
       },
       {
         "id": 42,
@@ -3057,9 +3182,9 @@
         "url": "https://feeds.bbci.co.uk/sport/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 72,
-        "eligible": 1,
-        "seconds": 0.05
+        "items": 75,
+        "eligible": 0,
+        "seconds": 0.36
       },
       {
         "id": 43,
@@ -3079,7 +3204,7 @@
         "http": 200,
         "items": 100,
         "eligible": 3,
-        "seconds": 0.55
+        "seconds": 0.35
       },
       {
         "id": 45,
@@ -3087,8 +3212,8 @@
         "url": "https://feeds.bbci.co.uk/sport/cricket/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 30,
-        "eligible": 2,
+        "items": 31,
+        "eligible": 1,
         "seconds": 0.22
       },
       {
@@ -3107,12 +3232,13 @@
       "AmarUjala Business",
       "AmarUjala Tech",
       "Ars",
-      "BBC Sport",
+      "BBC Cricket",
       "BBC World",
       "BS Economy",
       "DW World",
       "ESPNcricinfo",
       "ET Economy",
+      "ET Health",
       "ET Markets",
       "ET Tech",
       "Hindu Business",
