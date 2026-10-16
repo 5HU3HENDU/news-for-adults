@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "title": "News for Adults",
-  "updated_at": "2026-10-15T16:45:51.959182+00:00",
+  "updated_at": "2026-10-16T02:44:37.872656+00:00",
   "schedule": {
     "active": true,
     "window_ist": "08:00-22:00",
@@ -19,6 +19,305 @@
     "Health"
   ],
   "stories": [
+    {
+      "id": "a613aef4f7089c913d89",
+      "topic": "Business",
+      "headline": "Wipro की revenue लगातार दूसरी तिमाही घटी, नए contracts की वैल्यू में तेज गिरावट",
+      "bullets": [
+        "बड़े प्रतिद्वंद्वियों की revenue बढ़ी है।",
+        "Management ने deal momentum और operating margin में सुधार की उम्मीद जताई।"
+      ],
+      "published": "2026-10-16T02:22:11+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/wipros-slow-growth-to-test-investors-patience/articleshow/134980498.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "ab233860d2adf5d82200",
+      "topic": "Business",
+      "headline": "Alpha Alternatives ने पहले infrastructure fund के लिए ₹6,000 cr से ज्यादा जुटाए",
+      "bullets": [
+        "Build India Infrastructure Fund का फोकस सड़कों और renewable energy पर रहेगा।"
+      ],
+      "published": "2026-10-16T02:19:17+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/alpha-alternatives-raises-6000-crore/articleshow/134980480.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "b94d7db415efa876b79c",
+      "topic": "Business",
+      "headline": "Yes Bank पर AT-1 फैसले के बाद capital risk: Citi ने target ₹17.50 किया",
+      "bullets": [
+        "Citi की 'Sell' rating बरकरार है, पहले target ₹22 था।",
+        "Citi के मुताबिक Supreme Court का फैसला AT1 write-down को पलटता है और capital चिंता दोबारा खोलता है।"
+      ],
+      "published": "2026-10-16T02:18:25+00:00",
+      "sources": [
+        {
+          "name": "NDTV Business",
+          "url": "https://www.ndtvprofit.com/markets/yes-bank-at1-bond-verdict-citi-target-cut-morgan-stanley-retains-underweights-stock-hit-lower-circuit-sensex-today-bse-nse-bank-stocks-12192793#publisher=newsstand",
+          "feed_id": 21
+        }
+      ]
+    },
+    {
+      "id": "ac2474be659771745ff1",
+      "topic": "Business",
+      "headline": "Yes Bank AT1 bonds वाले दो debt funds में Kotak MF ने subscriptions रोकीं",
+      "bullets": [
+        "Tata Mutual Fund ने भी नए निवेश पर रोक लगाई है।",
+        "यह कदम निवेशकों की सुरक्षा के लिए बताया गया है।"
+      ],
+      "published": "2026-10-16T02:11:49+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/bonds/kotak-mf-suspends-subscriptions-in-two-debt-funds-holding-yes-bank-at1-bonds/articleshow/134980424.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "6b4772a7d4cf551ed933",
+      "topic": "World",
+      "headline": "Argentina में Milei की कटौती के खिलाफ छात्रों का प्रदर्शन, कई जगह हिंसा",
+      "bullets": [
+        "जज ने विश्वविद्यालयों को फंड न देने पर सरकार पर जुर्माना लगाया।"
+      ],
+      "published": "2026-10-16T02:11:33+00:00",
+      "sources": [
+        {
+          "name": "Aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/16/argentine-students-protest-on-campus-over-mileis-austerity?traffic_source=rss",
+          "feed_id": 9
+        }
+      ]
+    },
+    {
+      "id": "67d4ce3c315b2b89e4ba",
+      "topic": "Business",
+      "headline": "Gold शुक्रवार को 0.4% फिसलकर $4,152.99 प्रति ounce",
+      "bullets": [
+        "निवेशक Fed की आगे की नीति देख रहे हैं।",
+        "US producer prices चार साल से ज्यादा में सबसे तेज बढ़े हैं।"
+      ],
+      "published": "2026-10-16T02:08:44+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-eases-after-climbing-over-1-in-previous-session/articleshow/134980375.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "3529523e257c008bdbc0",
+      "topic": "Business",
+      "headline": "India के chawal export भाव एक साल के उच्चतम स्तर पर",
+      "bullets": [
+        "मजबूत rupee और supply की चिंता इसकी वजह है।",
+        "Vietnam और Thailand के दाम भी चढ़ रहे हैं।"
+      ],
+      "published": "2026-10-16T02:08:14+00:00",
+      "sources": [
+        {
+          "name": "ET Economy",
+          "url": "https://economictimes.indiatimes.com/news/economy/agriculture/indian-prices-hit-more-than-one-year-high-on-stronger-rupee-and-crop-supply-concerns/articleshow/134979972.cms",
+          "feed_id": 17
+        }
+      ]
+    },
+    {
+      "id": "103ff7cdab1bacfe10f3",
+      "topic": "IPO",
+      "headline": "Anthropic IPO पर valuation की उम्मीदें घटीं: करीब $1.5 trillion की चर्चा",
+      "bullets": [
+        "निवेशकों को पहले करीब $2 trillion की उम्मीद थी।",
+        "राजस्व वृद्धि में सुस्ती पर चिंता बताई गई।"
+      ],
+      "published": "2026-10-16T02:06:08+00:00",
+      "sources": [
+        {
+          "name": "ET Tech",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/investors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-slowdown/articleshow/134980383.cms",
+          "feed_id": 25
+        }
+      ]
+    },
+    {
+      "id": "7fc5bbd8344d329674f5",
+      "topic": "Business",
+      "headline": "AI की उथल-पुथल से dollar कमजोर, euro 17 महीने के निचले स्तर से उबरा",
+      "bullets": [
+        "Dollar का पांच हफ्ते में पहला साप्ताहिक गिरावट वाला दौर दिख रहा है।",
+        "Data centre कंपनियों की profitability को लेकर चिंता है।"
+      ],
+      "published": "2026-10-16T02:04:37+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/euro-gets-much-needed-reprieve-as-ai-wobbles-rock-the-dollar/articleshow/134980354.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "aba9a2175a5d611c3dcd",
+      "topic": "Tech",
+      "headline": "Google का Android earthquake warning system और देशों में फैला, 1 billion से ज्यादा alerts भेजे",
+      "bullets": [
+        "नए इलाकों में Panama और Guatemala शामिल हैं।"
+      ],
+      "published": "2026-10-16T02:03:57+00:00",
+      "sources": [
+        {
+          "name": "NDTV Business",
+          "url": "https://www.ndtvprofit.com/business/over-1-billion-alerts-sent-google-expands-android-earthquake-warning-system-to-200-regions-12192771#publisher=newsstand",
+          "feed_id": 21
+        }
+      ]
+    },
+    {
+      "id": "6570f9bd1446efd7648a",
+      "topic": "Science",
+      "headline": "India कोयला plants में फंसने से पहले steel emissions घटा सकता है",
+      "bullets": [
+        "Green hydrogen की उपलब्धता पर बहुत कुछ निर्भर है।"
+      ],
+      "published": "2026-10-16T01:43:47+00:00",
+      "sources": [
+        {
+          "name": "Hindu SciTech",
+          "url": "https://www.thehindu.com/sci-tech/science/india-can-cut-steel-emissions-before-new-coal-plants-lock-them-in/article71437954.ece",
+          "feed_id": 36
+        }
+      ]
+    },
+    {
+      "id": "561cb79c2f19bb73b7c2",
+      "topic": "Business",
+      "headline": "Brent crude $105 प्रति barrel के ऊपर, supply की चिंता बनी हुई",
+      "bullets": [
+        "US सेना के Iran पर हमले की योजना बनाने की भी खबर है।"
+      ],
+      "published": "2026-10-16T01:40:11+00:00",
+      "sources": [
+        {
+          "name": "NDTV Business",
+          "url": "https://www.ndtvprofit.com/markets/oil-prices-today-brent-crude-holds-above-105-barrel-wti-gains-sharply-as-energy-supply-worries-mount-12192733#publisher=newsstand",
+          "feed_id": 21
+        }
+      ]
+    },
+    {
+      "id": "d6bf32d12fb47f044b9a",
+      "topic": "World",
+      "headline": "Myanmar के सैन्य शासक से राष्ट्रपति बने Min Aung Hlaing पड़ोसियों का भरोसा जीत रहे हैं",
+      "bullets": [
+        "ASEAN नेता उन्हें अपना रहे हैं।",
+        "आलोचकों का कहना है कि इससे नागरिकों पर बमबारी करने वाली सेना को हौसला मिलेगा।"
+      ],
+      "published": "2026-10-16T01:34:47+00:00",
+      "sources": [
+        {
+          "name": "Aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/16/as-war-rages-myanmars-coup-leader-turned-president-wins-back-neighbours?traffic_source=rss",
+          "feed_id": 9
+        }
+      ]
+    },
+    {
+      "id": "11d4fc51a8b79e9c1c9b",
+      "topic": "Tech",
+      "headline": "Tesla ने नया Roadster दिखाया: उल्टा चला, कुछ देर उड़ा, 60 mph एक सेकंड से कम में",
+      "bullets": [
+        "Demo Waco, Texas में हुआ।"
+      ],
+      "published": "2026-10-16T01:28:27+00:00",
+      "sources": [
+        {
+          "name": "Verge",
+          "url": "https://www.theverge.com/transportation/1012552/tesla-roadster-next-gen-reveal-elon-musk",
+          "feed_id": 28
+        }
+      ]
+    },
+    {
+      "id": "6aab959b160b495f5726",
+      "topic": "India",
+      "headline": "PM Modi 11-12 December को Canada जाएंगे",
+      "bullets": [
+        "Canadian PM office के मुताबिक दोनों नेताओं ने CEPA पर बातचीत जल्द पूरी करने की प्रतिबद्धता दोहराई।"
+      ],
+      "published": "2026-10-16T01:15:53+00:00",
+      "sources": [
+        {
+          "name": "NDTV Top",
+          "url": "https://www.ndtv.com/india-news/pm-modi-to-visit-canada-on-december-11-12-12192695#publisher=newsstand",
+          "feed_id": 5
+        }
+      ]
+    },
+    {
+      "id": "a4abec94017d9144e59b",
+      "topic": "Business",
+      "headline": "Chip stocks की गिरावट थमने से Asian बाजार चढ़े",
+      "bullets": [
+        "MSCI Asia Pacific Index 0.6% बढ़ा, South Korea आगे रहा।",
+        "Samsung और SK Hynix में हल्की बढ़त रही।"
+      ],
+      "published": "2026-10-16T01:10:19+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-advance-as-selloff-in-chips-eases/articleshow/134979802.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "cd69858e92d549f48577",
+      "topic": "Business",
+      "headline": "HDFC Life का Sept तिमाही profit 14% बढ़ा",
+      "bullets": [
+        "VNB margin 24.5% से बढ़कर 24.7% हुआ।",
+        "Value of new business 12% बढ़कर ₹2,040 cr रहा।"
+      ],
+      "published": "2026-10-16T01:05:18+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/hdfc-life-posts-14-rise-in-sept-quarter-profit/articleshow/134979822.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "24d2504c1b0cc2a632a7",
+      "topic": "India",
+      "headline": "SCO Heads of Government बैठक में India की ओर से Rajnath Singh शामिल होंगे",
+      "bullets": [
+        "PM Modi video-conference से जुड़ेंगे।",
+        "दो दिन की बैठक में क्षेत्रीय सहयोग और आर्थिक जुड़ाव पर चर्चा होगी।"
+      ],
+      "published": "2026-10-16T01:00:19+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/defence-minister-rajnath-singh-to-represent-india-at-upcoming-sco-heads-of-government-meeting/article71588802.ece",
+          "feed_id": 3
+        }
+      ]
+    },
     {
       "id": "a8fe51af29c73a68491c",
       "topic": "India",
@@ -2097,961 +2396,41 @@
           "feed_id": 25
         }
       ]
-    },
-    {
-      "id": "45e2dbd449ad9c2c85bd",
-      "topic": "India",
-      "headline": "Air India की Frankfurt-Delhi flight hijack alert के बाद Jaipur में उतारी गई",
-      "bullets": [
-        "Pilot ने ATC को Code 7500 भेजा, जो unlawful interference का संकेत है।",
-        "Security sources के मुताबिक checks के बाद flight ने यात्रा फिर शुरू की।"
-      ],
-      "published": "2026-10-15T02:41:25+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/air-india-frankfurt-delhi-flight-diverted-to-jaipur-after-hijack-alert-resumes-journey-after-checks/article71586486.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "3b830aa7542680a84701",
-      "topic": "Business",
-      "headline": "IMF ने India के GDP data revamp की तारीफ की, growth forecast 7% किया",
-      "bullets": [
-        "IMF ने इस साल और अगले साल के लिए India का growth forecast 7% रखा है।",
-        "उसका कहना है कि currency में उतार-चढ़ाव कमजोरी का संकेत नहीं है।"
-      ],
-      "published": "2026-10-15T02:38:50+00:00",
-      "sources": [
-        {
-          "name": "ET Economy",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/imf-applauds-indias-gdp-data-revamp-says-country-entered-energy-shock-with-strong-fundamentals/articleshow/134955663.cms",
-          "feed_id": 17
-        }
-      ]
-    },
-    {
-      "id": "6845795f73eb7eb712f3",
-      "topic": "IPO",
-      "headline": "Shellz India का SME IPO आज खुला, price band ₹170-179",
-      "bullets": [
-        "Lot size 800 shares है।",
-        "ऊपरी band पर दो lots यानी 1,600 shares के लिए न्यूनतम निवेश ₹2,86,400 है।"
-      ],
-      "published": "2026-10-15T02:28:34+00:00",
-      "sources": [
-        {
-          "name": "ET IPO",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/shellz-india-sme-ipo-opens-for-subscription-today-check-price-band-and-key-details/articleshow/134955571.cms",
-          "feed_id": 16
-        }
-      ]
-    },
-    {
-      "id": "96d2b6874c42fcdfa3f5",
-      "topic": "Tech",
-      "headline": "YouTube अपने platforms पर AI-generated songs को label करेगा",
-      "bullets": [
-        "YouTube Music पर player page पर ऐसा label दिखेगा।",
-        "इसमें पूरी तरह या आंशिक रूप से AI से बने गाने शामिल होंगे।"
-      ],
-      "published": "2026-10-15T02:26:44+00:00",
-      "sources": [
-        {
-          "name": "ET Tech",
-          "url": "https://economictimes.indiatimes.com/tech/technology/youtube-to-label-ai-generated-songs-across-its-platforms-to-increase-transparency/articleshow/134955591.cms",
-          "feed_id": 25
-        },
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
-          "feed_id": 29
-        },
-        {
-          "name": "Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1011369/youtube-music-ai-label",
-          "feed_id": 28
-        }
-      ]
-    },
-    {
-      "id": "25b7534d54ee75160b96",
-      "topic": "IPO",
-      "headline": "Zetwerk का ₹5,012 crore का IPO आज खुला, anchors से ₹2,251 crore जुटे",
-      "bullets": [
-        "Issue में ₹2,830 crore का fresh issue और करीब ₹2,182 crore का OFS है।",
-        "99 anchor investors में BlackRock, Goldman Sachs और Nomura शामिल हैं।"
-      ],
-      "published": "2026-10-15T02:21:47+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/zetwerk-manufacturing-business-ipo-opens-today-gmp-signals-15-listing-gain-check-key-details/articleshow/134955495.cms",
-          "feed_id": 15
-        },
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/blackrock-goldman-sachs-nomura-among-key-investors-as-zetwerk-mops-up-rs-2251-crore-in-anchor-bidding-ipo-opens-on-oct-15/articleshow/134947568.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "10e43e485d8dd93cabf8",
-      "topic": "Business",
-      "headline": "US tech stocks से करीब $850 billion साफ, तीन महीने की सबसे बड़ी गिरावट",
-      "bullets": [
-        "September की inflation 3.7% पहुंचने से Fed की और rate hike की चिंता लौटी।",
-        "AI से जुड़े shares 16% तक टूटे; CoreWeave और Dell जैसे नामों में बड़ा नुकसान हुआ।"
-      ],
-      "published": "2026-10-15T02:16:09+00:00",
-      "sources": [
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/markets/850-000-000-000-wiped-out-us-tech-stocks-witness-steepest-fall-in-three-months-12187328#publisher=newsstand",
-          "feed_id": 21
-        },
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/markets/wall-street-highlights-s-p-500-ends-longest-streak-of-calm-since-2020-as-ai-trade-sinks-12187260#publisher=newsstand",
-          "feed_id": 21
-        },
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-ai-shares-tumble-erasing-80-billion-as-hot-us-inflation-fuels-rate-fears/articleshow/134950204.cms",
-          "feed_id": 15
-        },
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-nasdaq-ends-sharply-lower-as-hot-inflation-data-stirs-rate-hike-worries/articleshow/134951150.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "74f6529dfc21bd3623da",
-      "topic": "Tech",
-      "headline": "Anthropic ने investors को बताया: Q3 revenue $16.8 billion, adjusted profit",
-      "bullets": [
-        "Report के मुताबिक पहली और दूसरी तिमाही में revenue क्रमशः $4.7 billion और $11.6 billion था।",
-        "यह जानकारी कंपनी के बहुप्रतीक्षित IPO से पहले investor day में दी गई।"
-      ],
-      "published": "2026-10-15T02:15:29+00:00",
-      "sources": [
-        {
-          "name": "Mint Companies",
-          "url": "https://www.livemint.com/companies/news/anthropic-says-it-is-profitable-what-claude-makers-q3-revenue-of-16-8-billion-does-and-does-not-show-11792027192211.html",
-          "feed_id": 13
-        },
-        {
-          "name": "NDTV Top",
-          "url": "https://www.ndtv.com/world-news/anthropics-q3-revenue-surges-45-to-nearly-17-billion-12187207#publisher=newsstand",
-          "feed_id": 5
-        },
-        {
-          "name": "BBC Tech",
-          "url": "https://www.bbc.co.uk/news/articles/cqzjx448vxkgo?at_medium=RSS&at_campaign=rss",
-          "feed_id": 23
-        }
-      ]
-    },
-    {
-      "id": "18afb5c6cc84ae103bde",
-      "topic": "Business",
-      "headline": "Brent crude करीब $104.55 पर, 1.4% नीचे",
-      "bullets": [
-        "US WTI भी करीब $94.07 पर रहा।",
-        "Middle East तनाव और Hormuz में tanker डूबने के बावजूद पिछले session की बढ़त उलट गई।"
-      ],
-      "published": "2026-10-15T02:13:16+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-october-15-crude-oil-dips-to-105-despite-rising-middle-east-tensions-heres-why/articleshow/134955455.cms",
-          "feed_id": 15
-        },
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/markets/oil-prices-today-brent-crude-retreats-below-104-barrel-levels-even-as-tanker-sinks-in-hormuz-after-strikes-12187332#publisher=newsstand",
-          "feed_id": 21
-        }
-      ]
-    },
-    {
-      "id": "43a2b4c0a08298175b94",
-      "topic": "India",
-      "headline": "Marco Rubio अगले हफ्ते Delhi नहीं, Mumbai और Jamnagar जाएंगे",
-      "bullets": [
-        "Jamnagar में Reliance refinery visit उस दिन से एक दिन बाद है, जब Trump Russian oil imports पर sanctions का फैसला ले सकते हैं।"
-      ],
-      "published": "2026-10-15T02:12:22+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/marco-rubio-to-skip-delhi-visit-mumbai-and-jamnagar-next-week/article71585393.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "9623d810c8978ea0a975",
-      "topic": "Business",
-      "headline": "South Korea में KOSPI 7% से ज्यादा गिरा, sidecar trading halt लगा",
-      "bullets": [
-        "Sell orders खरीदारों से ज्यादा होने पर पांच मिनट के लिए trading रोकी गई।",
-        "Samsung Electronics और SK Hynix जैसे tech shares को भारी नुकसान हुआ; Nikkei भी करीब 3% गिरा।"
-      ],
-      "published": "2026-10-15T02:05:23+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/south-korea-triggers-sidecar-trading-halt-kospi-slumps-over-7/articleshow/134955382.cms",
-          "feed_id": 15
-        },
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/markets/asian-stock-markets-today-kospi-crashes-6-nikkei-sinks-3-as-sk-hynix-leads-tech-rout-12187266#publisher=newsstand",
-          "feed_id": 21
-        },
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-stock-selloff-extends-to-asia-as-chip-rout-deepens/articleshow/134954894.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "2fb3fd6055bbda968576",
-      "topic": "Business",
-      "headline": "US CPI के बाद 18-month high छूकर dollar पीछे हटा",
-      "bullets": [
-        "Fed अधिकारियों की सधी टिप्पणियों से October rate hike की उम्मीदें कुछ घटीं।"
-      ],
-      "published": "2026-10-15T02:02:02+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets/articleshow/134955362.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "d83da10b6c5208cb1e02",
-      "topic": "Health",
-      "headline": "Biocon ने Genentech के साथ patent dispute सुलझाया, Perjeta biosimilar 2027 से",
-      "bullets": [
-        "Pebrilzo UK और EU में early 2027 और US में late 2028 में launch हो सकती है।",
-        "Genentech के अनुरोध पर New Jersey court ने patent case खारिज कर दिया।"
-      ],
-      "published": "2026-10-15T01:51:00+00:00",
-      "sources": [
-        {
-          "name": "ET Health",
-          "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/biocon-settles-us-patent-dispute-with-roches-genentech-eyes-2027-perjeta-biosimilar-launch/articleshow/134955259.cms",
-          "feed_id": 41
-        },
-        {
-          "name": "ET Health",
-          "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/biocon-clears-path-for-cancer-drug-launch/articleshow/134949891.cms",
-          "feed_id": 41
-        }
-      ]
-    },
-    {
-      "id": "b81da253b6a1280178cb",
-      "topic": "World",
-      "headline": "Houthi Chinese parts से missiles बना रहे हैं: report",
-      "bullets": [
-        "जांच के मुताबिक ये Iran की Kheibar Shekan ballistic missile पर आधारित हैं।",
-        "Report में Saudi और Israel को निशाना बनाने की क्षमता का दावा है।"
-      ],
-      "published": "2026-10-15T01:38:55+00:00",
-      "sources": [
-        {
-          "name": "NDTV Top",
-          "url": "https://www.ndtv.com/world-news/houthis-building-missiles-with-chinese-parts-israel-saudi-in-range-report-12186848#publisher=newsstand",
-          "feed_id": 5
-        }
-      ]
-    },
-    {
-      "id": "718d30b422d734a5e631",
-      "topic": "India",
-      "headline": "India ने Bangladesh को 200 में से पहले 18 railway coaches भेजे",
-      "bullets": [
-        "Coaches की roof structure मजबूत की गई है क्योंकि peak traffic में यात्री roof पर सफर करते हैं।"
-      ],
-      "published": "2026-10-15T01:30:09+00:00",
-      "sources": [
-        {
-          "name": "NDTV Top",
-          "url": "https://www.ndtv.com/india-news/india-dispatches-first-18-of-200-railway-coaches-to-bangladesh-12187306#publisher=newsstand",
-          "feed_id": 5
-        }
-      ]
-    },
-    {
-      "id": "b27204b70a43b9ca3e9b",
-      "topic": "World",
-      "headline": "Istanbul में 1985 के बाद की सबसे भारी बारिश, flash floods",
-      "bullets": [
-        "Torrential rain से शहर में जनजीवन ठप हुआ।"
-      ],
-      "published": "2026-10-15T01:29:43+00:00",
-      "sources": [
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/istanbul-flash-floods-torrential-rain?traffic_source=rss",
-          "feed_id": 9
-        },
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/woman-rescued-after-being-swept-away-by-istanbul-flash-flood?traffic_source=rss",
-          "feed_id": 9
-        }
-      ]
-    },
-    {
-      "id": "65bd0f2c89114cd1ef5f",
-      "topic": "Tech",
-      "headline": "आठ US states ने OpenAI पर बच्चों के लिए ChatGPT को असुरक्षित बताकर suit किया",
-      "bullets": [
-        "States का आरोप है कि chatbot users की delusions को बढ़ावा दे सकता है और जोखिम भरे व्यवहार को प्रोत्साहित करता है।",
-        "वे कंपनी से बच्चों के लिए बदलाव और कमाए मुनाफे छोड़ने का आदेश मांग रहे हैं।"
-      ],
-      "published": "2026-10-15T01:18:50+00:00",
-      "sources": [
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/business/openai-faces-fresh-legal-challenge-as-eight-us-states-sue-over-chatgpt-12187285#publisher=newsstand",
-          "feed_id": 21
-        },
-        {
-          "name": "Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
-          "feed_id": 28
-        },
-        {
-          "name": "ET Tech",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/eight-us-states-sue-openai-claiming-chatgpt-harms-children/articleshow/134950394.cms",
-          "feed_id": 25
-        }
-      ]
-    },
-    {
-      "id": "57113d75419ef28007d5",
-      "topic": "Business",
-      "headline": "Rupee लगातार चौथे दिन मजबूत, 95.15 पर बंद",
-      "bullets": [
-        "Intra-day में rupee 94.77 तक गया, जो एक महीने का high है।"
-      ],
-      "published": "2026-10-15T00:49:42+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/forex/rupee-rises-for-fourth-straight-day-closes-at-95-15/articleshow/134954815.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "7da68e8182a14ed01e10",
-      "topic": "Business",
-      "headline": "Insurance और NPS की equity investment 45% गिरकर ₹22,714 crore",
-      "bullets": [
-        "June quarter में यह ₹41,465 crore थी।",
-        "ऊंचे bond yields और गिरते stock prices के कारण फोकस debt की तरफ गया।"
-      ],
-      "published": "2026-10-15T00:23:33+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/insurance-nps-flows-into-equity-almost-halve-in-the-september-quarter/articleshow/134954759.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "2f9423763ea175d718b8",
-      "topic": "IPO",
-      "headline": "Jio IPO का price band ₹1,065-1,119 confirm, 21 October को खुलेगा",
-      "bullets": [
-        "NSE filing के मुताबिक price band ₹1,065-1,119 है; lot size 12 shares और employee discount ₹54 है।",
-        "Issue 21 से 23 October तक खुला रहेगा, anchor bidding 19 October को; RHP में ₹30,213 crore तक का fresh issue है और OFS नहीं है।"
-      ],
-      "published": "2026-10-15T00:12:12+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/exclusive-countdown-begins-for-the-mother-of-all-ipos-jio-likely-to-file-rhp-today-for-record-rs-30000-crore-issue/articleshow/134932999.cms",
-          "feed_id": 15
-        },
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/reliance-jio-files-rhp-announces-ipo-dates-for-record-issue/articleshow/134943768.cms",
-          "feed_id": 15
-        },
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/diwali-offer-for-ril-shareholders-reliance-jio-sets-aside-rs-2500-crore-shares-in-ipo-reservation/articleshow/134944234.cms",
-          "feed_id": 15
-        },
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/markets/jio-ipo-price-band-set-at-rs-1-065-1-119-per-share-issue-to-open-on-oct-21-12185913#publisher=newsstand",
-          "feed_id": 21
-        },
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-announces-price-band-for-over-rs-30000-crore-ipo-check-key-dates-gmp-and-other-details/articleshow/134945465.cms",
-          "feed_id": 15
-        },
-        {
-          "name": "Hindu Business",
-          "url": "https://www.thehindu.com/business/markets/reliances-jio-platforms-files-final-ipo-prospectus-offer-to-open-on-october-21/article71584837.ece",
-          "feed_id": 20
-        },
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-platforms-files-red-herring-prospectus-for-indias-biggest-public-issue/articleshow/134954464.cms",
-          "feed_id": 15
-        },
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-platforms-grey-market-premium-jumps-to-rs-218-ahead-of-ipo-price-band-set/articleshow/134954484.cms",
-          "feed_id": 15
-        },
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-sparks-investor-buzz-gmp-hits-20-as-reliances-telecom-arm-announces-price-band-dates/articleshow/134946913.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "cb3ee08c9640d4aeee73",
-      "topic": "World",
-      "headline": "Iran: US के झुकने तक लड़ेंगे, Hormuz में जहाज डूब रहे",
-      "bullets": [
-        "Iran का कहना है कि वह अंतहीन war नहीं चाहता, लेकिन US उसकी मांगें माने तब तक लड़ेगा।",
-        "US ने Gulf of Oman में Iran से जुड़ी एक dhow नष्ट करने का दावा किया, जिस पर surveillance का आरोप था।"
-      ],
-      "published": "2026-10-15T00:00:00+00:00",
-      "sources": [
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/10/15/iran-war-live-tehran-vows-to-fight-until-us-yields-as-ships-sink-in-hormuz?traffic_source=rss",
-          "feed_id": 9
-        },
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/us-destroys-dhow-suspected-of-iranian-command-and-control?traffic_source=rss",
-          "feed_id": 9
-        }
-      ]
-    },
-    {
-      "id": "0eda5144faa1dcc4e98b",
-      "topic": "Health",
-      "headline": "Novo Holdings और GIC AIG Hospitals में ₹2,000-2,500 crore निवेश पर बातचीत में",
-      "bullets": [
-        "Founders 10-12% stake बेचने की योजना बना रहे हैं।"
-      ],
-      "published": "2026-10-15T00:00:00+00:00",
-      "sources": [
-        {
-          "name": "ET Health",
-          "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/novo-holdings-gic-axight-look-to-back-aig-hospitals-founders-aim-to-pare-10-12-stake-at-rs-24000-cr-valuation/articleshow/134950407.cms",
-          "feed_id": 41
-        }
-      ]
-    },
-    {
-      "id": "335ee6f69541374aa734",
-      "topic": "India",
-      "headline": "Chenab Rail Bridge बनेगा Jammu-Kashmir का नया tourist destination",
-      "bullets": [
-        "यह 272 km लंबी USBRL line का हिस्सा है, जिसने Kashmir को all-weather rail connectivity दी।"
-      ],
-      "published": "2026-10-14T23:37:47+00:00",
-      "sources": [
-        {
-          "name": "NDTV Top",
-          "url": "https://www.ndtv.com/india-news/chenab-rail-bridge-to-be-new-tourist-destination-in-jammu-and-kashmir-12187213#publisher=newsstand",
-          "feed_id": 5
-        }
-      ]
-    },
-    {
-      "id": "fe137f68d644bdcfdb37",
-      "topic": "World",
-      "headline": "North Korea ने submarine से दागी जाने वाली cruise missiles का test किया",
-      "bullets": [
-        "State media के मुताबिक missiles East Sea में दागी गईं।",
-        "हाल के हफ्तों में Pyongyang ने weapons launches बढ़ाए हैं।"
-      ],
-      "published": "2026-10-14T23:37:00+00:00",
-      "sources": [
-        {
-          "name": "DW World",
-          "url": "https://www.dw.com/en/north-korea-says-it-tested-cruise-missiles-to-be-launched-from-sub/a-79664436?maca=en-rss-en-all-1573-rdf",
-          "feed_id": 10
-        },
-        {
-          "name": "NDTV Top",
-          "url": "https://www.ndtv.com/world-news/north-korea-test-fires-two-types-of-submarine-strategic-cruise-missiles-12187185#publisher=newsstand",
-          "feed_id": 5
-        }
-      ]
-    },
-    {
-      "id": "93aec27f5eb2fee3d9f1",
-      "topic": "Science",
-      "headline": "Study: European उपनिवेश से 73 साल में Australia की 93% Indigenous आबादी खत्म हुई",
-      "bullets": [
-        "Researchers का अनुमान है कि पहले करीब 22.2 lakh Indigenous लोग वहां रहते थे।"
-      ],
-      "published": "2026-10-14T23:34:00+00:00",
-      "sources": [
-        {
-          "name": "ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261013015807.htm",
-          "feed_id": 34
-        }
-      ]
-    },
-    {
-      "id": "08b12cb5e695b516c74d",
-      "topic": "World",
-      "headline": "Greenland पर Trump के oil-mineral दावे पर Denmark की आपत्ति",
-      "bullets": [
-        "हालिया US-Greenland-Denmark समझौते में mining या drilling rights शामिल नहीं हैं।",
-        "Trump ने कहा कि Greenland में बड़े पैमाने पर oil और gas exploration शुरू होगी।"
-      ],
-      "published": "2026-10-14T23:03:10+00:00",
-      "sources": [
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/14/denmark-pushes-back-as-trump-touts-greenland-oil-and-mineral-deals?traffic_source=rss",
-          "feed_id": 9
-        },
-        {
-          "name": "NDTV Top",
-          "url": "https://www.ndtv.com/world-news/massive-oil-gas-exploration-to-begin-in-our-beautiful-greenland-trump-12186864#publisher=newsstand",
-          "feed_id": 5
-        }
-      ]
-    },
-    {
-      "id": "e10522981d38e7931527",
-      "topic": "Tech",
-      "headline": "McKinsey entry-level candidates से fake AI client के साथ 10 मिनट की बातचीत कराएगी",
-      "bullets": [
-        "WSJ के मुताबिक AI simulation consultants के रोज के करीब 80% scenarios दर्शाने का दावा करता है।"
-      ],
-      "published": "2026-10-14T22:53:31+00:00",
-      "sources": [
-        {
-          "name": "Verge",
-          "url": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview",
-          "feed_id": 28
-        }
-      ]
-    },
-    {
-      "id": "991e1d4b5a41def235a6",
-      "topic": "Science",
-      "headline": "यूरोप में मिला 12 करोड़ साल पुराना 'tiger-sized' शिकारी dinosaur",
-      "bullets": [
-        "Fossil करीब सौ साल तक museum में भुला पड़ा रहा।",
-        "यह Europe में megaraptorans का पहला सबूत है।"
-      ],
-      "published": "2026-10-14T22:51:56+00:00",
-      "sources": [
-        {
-          "name": "ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261014015457.htm",
-          "feed_id": 34
-        }
-      ]
-    },
-    {
-      "id": "e147283ec46b0e7f89dc",
-      "topic": "World",
-      "headline": "Black Sea में जहाजों पर हमलों के बाद NATO anti-drone defenses फिर तैनात कर सकता है",
-      "bullets": [
-        "Bulgaria और Romania के पास संदिग्ध Russian drones 5 जहाज डुबो या नुकसान पहुंचा चुके हैं।",
-        "Romania के पानी में एक और जहाज में आग लगी; drones की भूमिका की जांच हो रही है।"
-      ],
-      "published": "2026-10-14T21:03:11+00:00",
-      "sources": [
-        {
-          "name": "Ars",
-          "url": "https://arstechnica.com/gadgets/2026/10/nato-may-redeploy-anti-drone-defenses-as-attacks-sink-more-black-sea-shipping/",
-          "feed_id": 27
-        },
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/15/ship-catches-fire-in-romanias-waters-amid-rising-attacks-in-the-black-sea?traffic_source=rss",
-          "feed_id": 9
-        }
-      ]
-    },
-    {
-      "id": "eabcd42a819b6b051dc4",
-      "topic": "World",
-      "headline": "Musk: Ukraine में Starshield की slowdown के पीछे US government",
-      "bullets": [
-        "Musk ने कहा कि Starshield US government के नियंत्रण में है और limits US military तय करती है।",
-        "Ukraine का कहना है कि Starlink access सुधरा है, पर speed limits से उसके military missions प्रभावित हैं।"
-      ],
-      "published": "2026-10-14T20:55:24+00:00",
-      "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_medium=RSS&at_campaign=rss",
-          "feed_id": 6
-        },
-        {
-          "name": "NDTV Top",
-          "url": "https://www.ndtv.com/world-news/ukraine-accuses-us-of-helping-russia-as-missiles-hit-kyiv-12187173#publisher=newsstand",
-          "feed_id": 5
-        },
-        {
-          "name": "NDTV Top",
-          "url": "https://www.ndtv.com/world-news/elon-musk-blames-trump-government-for-starshield-slowdown-in-ukraine-12186977#publisher=newsstand",
-          "feed_id": 5
-        }
-      ]
-    },
-    {
-      "id": "252a853688ec24e3fba1",
-      "topic": "Sports",
-      "headline": "West Indies ने India को हराकर T20 series बराबर की",
-      "bullets": [
-        "Shai Hope के 102 रनों से West Indies ने चौथा T20 24 रन से जीता।"
-      ],
-      "published": "2026-10-14T20:52:25+00:00",
-      "sources": [
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/sports/2026/10/14/west-indies-beat-india-to-level-series-as-hope-continues-record-run?traffic_source=rss",
-          "feed_id": 9
-        }
-      ]
-    },
-    {
-      "id": "03ad8886069566fc3fb9",
-      "topic": "World",
-      "headline": "Indonesia के Central Kalimantan में wildfires, आसमान नारंगी",
-      "bullets": [
-        "प्रांत में नारंगी धुंध छाई हुई है।"
-      ],
-      "published": "2026-10-14T20:39:59+00:00",
-      "sources": [
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/sky-turns-orange-as-wildfires-rage-across-indonesia?traffic_source=rss",
-          "feed_id": 9
-        }
-      ]
-    },
-    {
-      "id": "f9c9d5465f036d695eca",
-      "topic": "Business",
-      "headline": "Monsoon deficit से rabi sowing घटने का खतरा",
-      "bullets": [
-        "कम बारिश और कम soil moisture से wheat, pulses और oilseeds की पैदावार प्रभावित हो सकती है।",
-        "आधे से ज्यादा reservoirs में पिछले साल से कम पानी है।"
-      ],
-      "published": "2026-10-14T20:28:06+00:00",
-      "sources": [
-        {
-          "name": "ET Economy",
-          "url": "https://economictimes.indiatimes.com/news/economy/agriculture/monsoon-deficit-raises-risk-of-lower-rabi-crop-acreage/articleshow/134951206.cms",
-          "feed_id": 17
-        }
-      ]
-    },
-    {
-      "id": "5027c12f07ffbf5f7ce2",
-      "topic": "World",
-      "headline": "Houthi हमलों से Mecca जाने वाले Umrah pilgrims की यात्रा प्रभावित",
-      "bullets": [
-        "Saudi Arabia पर हमलों से travel plans बाधित हुए हैं।"
-      ],
-      "published": "2026-10-14T20:25:04+00:00",
-      "sources": [
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/houthi-attacks-disrupt-travel-plans-for-mecca-pilgrims?traffic_source=rss",
-          "feed_id": 9
-        }
-      ]
-    },
-    {
-      "id": "64be20c180616db16c91",
-      "topic": "Health",
-      "headline": "Cabinet secretariat ने health ministry से coronary stents की safety जांचने को कहा",
-      "bullets": [
-        "मामला Sri Lanka में withdraw किए गए models से जुड़ी चिंताओं पर Rajya Sabha सांसद ने उठाया।"
-      ],
-      "published": "2026-10-14T20:04:22+00:00",
-      "sources": [
-        {
-          "name": "ET Health",
-          "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/health-ministry-asked-to-examine-coronary-stent-safety-concerns/articleshow/134951044.cms",
-          "feed_id": 41
-        }
-      ]
-    },
-    {
-      "id": "fa361691c0a6800a4ded",
-      "topic": "Tech",
-      "headline": "Microsoft और Japan ने scam messages भेजने वाला cybercrime network तोड़ा",
-      "bullets": [
-        "Japan की National Police Agency के साथ जांच में यह phishing messages का marketplace पकड़ा गया।"
-      ],
-      "published": "2026-10-14T20:03:43+00:00",
-      "sources": [
-        {
-          "name": "Verge",
-          "url": "https://www.theverge.com/tech/1011487/microsoft-scam-messages-marketplace-takedown",
-          "feed_id": 28
-        }
-      ]
-    },
-    {
-      "id": "0c6cd10871783e41bdf9",
-      "topic": "Business",
-      "headline": "Piyush Goyal: India China के साथ ties फिर बनाने पर काम कर रहा है",
-      "bullets": [
-        "उन्होंने कहा कि US के साथ मजबूत रिश्ते भी बने रहेंगे और supply chain में trusted देशों की साझेदारी जरूरी है।"
-      ],
-      "published": "2026-10-14T19:52:58+00:00",
-      "sources": [
-        {
-          "name": "ET Economy",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-working-to-develop-china-ties-again-says-piyush-goyal/articleshow/134950355.cms",
-          "feed_id": 17
-        }
-      ]
-    },
-    {
-      "id": "39e4760b86cc90c03e9c",
-      "topic": "IPO",
-      "headline": "Tonbo Imaging ने IPO से पहले anchors से ₹255 crore जुटाए",
-      "bullets": [
-        "₹852 crore का यह पूरा OFS issue 15 October को खुल रहा है; shares ऊपरी band ₹700 पर allot हुए।",
-        "BlackRock और SBI MF anchor round के अगुवा रहे।"
-      ],
-      "published": "2026-10-14T19:46:52+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/blackrock-sbi-mf-lead-tonbo-imagings-rs-255-crore-anchor-round-ahead-of-ipo/articleshow/134950868.cms",
-          "feed_id": 15
-        },
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-feast-6-issues-including-tonbo-imaging-bonfiglioli-fusion-cx-available-for-subscription-check-gmp-other-details/articleshow/134955477.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "ab9c561e7cf762366b0f",
-      "topic": "Business",
-      "headline": "India में data centre policy तैयार हो रही है: Jitin Prasada",
-      "bullets": [
-        "प्रस्तावित policy में approvals आसान करने और industry को infrastructure status देने की बात है।",
-        "Eligible foreign cloud providers के लिए 2047 तक tax holiday की घोषणा भी हुई है।"
-      ],
-      "published": "2026-10-14T19:44:08+00:00",
-      "sources": [
-        {
-          "name": "ET Economy",
-          "url": "https://economictimes.indiatimes.com/news/economy/policy/indias-data-centre-policy-in-works-says-jitin-prasada/articleshow/134950362.cms",
-          "feed_id": 17
-        }
-      ]
-    },
-    {
-      "id": "5e0d8f4fdd98a8e75a54",
-      "topic": "Business",
-      "headline": "20 financial institutions पर cyberattacks, CERT-In की advisory",
-      "bullets": [
-        "Hackers ने चोरी हुए partner-bank credentials और payment API की कमजोरियों का इस्तेमाल कर funds निकाले बताए गए हैं।",
-        "CERT-In ने banks, NBFCs और fintechs से compromised interfaces suspend करने को कहा।"
-      ],
-      "published": "2026-10-14T19:30:14+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/cyberattacks-affect-20-financial-institutions-cert-in-warns-on-api-vulnerabilities-and-security-measures/articleshow/134954919.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "8fdcfc2d23f7f4cf8e23",
-      "topic": "Tech",
-      "headline": "Nvidia CEO Jensen Huang: unsafe AI बनाने वाले customers से supply काट देंगे",
-      "bullets": [
-        "Nvidia AI accelerators का सबसे बड़ा supplier है।",
-        "यह बयान AI के इंसानी नियंत्रण से बाहर जाने की बहस के बीच आया है।"
-      ],
-      "published": "2026-10-14T19:12:36+00:00",
-      "sources": [
-        {
-          "name": "ET Tech",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/nvidia-ceo-jensen-huang-says-he-would-cut-off-customers-who-build-unsafe-ai/articleshow/134950532.cms",
-          "feed_id": 25
-        }
-      ]
-    },
-    {
-      "id": "1f4a45d62f910697bec1",
-      "topic": "India",
-      "headline": "Tamil Nadu में आज से Northeast monsoon, 20 October तक व्यापक बारिश",
-      "bullets": [
-        "इससे interior districts में बनी extended गर्मी से राहत मिलने की उम्मीद है।"
-      ],
-      "published": "2026-10-14T19:02:59+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/tamil-nadu/monsoon-likely-to-arrive-over-tn-on-october-15-bringing-relief-from-warm-weather/article71583969.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "c0f96829979705c1fb12",
-      "topic": "Business",
-      "headline": "Fairfax IDBI और CSB Bank के ownership overlap पर plan पेश कर रहा है",
-      "bullets": [
-        "Sources के मुताबिक दोनों banks का merger सबसे संभावित विकल्प बनकर उभर रहा है।"
-      ],
-      "published": "2026-10-14T18:59:21+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/fairfax-offers-plan-to-resolve-idbi-csb-ownership-overlapping/articleshow/134954781.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "c85e0bf8a7298e8dda35",
-      "topic": "India",
-      "headline": "CBI ने defence firm के executive director को रिश्वत के आरोप में गिरफ्तार किया",
-      "bullets": [
-        "आरोप है कि Anil Kumar ने private parties के साथ मिलकर official favours के बदले illegal gratification मांगी और ली।",
-        "अलग खबर में CBI ने ₹500 crore के defence deal की गोपनीय जानकारी लीक करने के मामले में तीन को गिरफ्तार किया और ₹2.23 crore बरामद किए।"
-      ],
-      "published": "2026-10-14T18:52:12+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/cbi-arrests-executive-director-of-defence-firm-for-graft/article71584734.ece",
-          "feed_id": 3
-        },
-        {
-          "name": "AmarUjala India",
-          "url": "https://www.amarujala.com/india-news/cbi-arrested-3-person-over-alleged-defence-deal-leak-bribery-2-23-crore-cash-seized-2026-10-15",
-          "feed_id": 2
-        }
-      ]
-    },
-    {
-      "id": "6f33c4725c9fd79b0e38",
-      "topic": "Tech",
-      "headline": "OpenAI ने Uday Ruddarraju को data center और computing unit की कमान दी",
-      "bullets": [
-        "Data center build-out देख रहे Chris Malone अगस्त में कंपनी छोड़ चुके हैं।"
-      ],
-      "published": "2026-10-14T18:11:46+00:00",
-      "sources": [
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/business/openai-names-indian-origin-former-xai-executive-uday-ruddarraju-to-lead-data-center-computing-unit-12186726#publisher=newsstand",
-          "feed_id": 21
-        }
-      ]
-    },
-    {
-      "id": "5d771aba4da8f1af6ed9",
-      "topic": "World",
-      "headline": "Germany में Nord Stream sabotage का trial शुरू",
-      "bullets": [
-        "आरोपी Serhii Kuznietsov पर 2022 में civilian infrastructure पर हमले का आरोप है।",
-        "उनके lawyers ने Nord Stream को military target बताकर case खारिज करने की मांग की।"
-      ],
-      "published": "2026-10-14T18:00:00+00:00",
-      "sources": [
-        {
-          "name": "DW World",
-          "url": "https://www.dw.com/en/nord-stream-trial-opens-in-germany-defense-seeks-dismissal/a-79662942?maca=en-rss-en-all-1573-rdf",
-          "feed_id": 10
-        }
-      ]
-    },
-    {
-      "id": "8bb5f69e8eeab8dd7524",
-      "topic": "Business",
-      "headline": "Kumar Mangalam Birla अगले 2-3 साल में $30 billion तक निवेश करना चाहते हैं",
-      "bullets": [
-        "Aditya Birla Group 41 देशों में काम करता है और पिछले financial year में उसका revenue $72 billion रहा।",
-        "US में खर्च बढ़ाने की भी योजना है।"
-      ],
-      "published": "2026-10-14T17:35:04+00:00",
-      "sources": [
-        {
-          "name": "Mint Companies",
-          "url": "https://www.livemint.com/companies/people/kumar-mangalam-birla-eyes-30-billion-investment-amid-global-uncertainties-you-either-grow-or-you-go-down-11791997279505.html",
-          "feed_id": 13
-        }
-      ]
-    },
-    {
-      "id": "5c0821273054cc5b08cf",
-      "topic": "Business",
-      "headline": "Getty Images private होगी, $2.1 billion debt पर prepackaged bankruptcy की योजना",
-      "bullets": [
-        "कंपनी ने बड़े lenders के साथ debt restructuring पर सहमति बनाई है।"
-      ],
-      "published": "2026-10-14T17:25:22+00:00",
-      "sources": [
-        {
-          "name": "Mint Companies",
-          "url": "https://www.livemint.com/companies/news/getty-images-to-go-private-planning-prepackaged-bankruptcy-amid-2-1-billion-debt-heres-what-we-know-11791996521138.html",
-          "feed_id": 13
-        }
-      ]
-    },
-    {
-      "id": "793acf3fa47545ed81fd",
-      "topic": "Business",
-      "headline": "Fed की Bowman: अभी एक और rate hike की जल्दी नहीं",
-      "bullets": [
-        "उन्होंने Bangkok में IMF-World Bank meetings के दौरान यह बात कही।"
-      ],
-      "published": "2026-10-14T17:18:12+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-feds-bowman-sees-no-urgency-for-another-rate-hike/articleshow/134947666.cms",
-          "feed_id": 15
-        }
-      ]
     }
   ],
   "metadata": {
     "refreshes": [
+      {
+        "at": "2026-10-16T02:44:37.872656+00:00",
+        "feed_checked_at": "2026-10-16T02:44:15.701288+00:00",
+        "items_read": 1715,
+        "candidates": 502,
+        "written": 18,
+        "added": 18,
+        "dropped": 48,
+        "total": 140,
+        "counts": {
+          "India": 10,
+          "World": 24,
+          "Business": 61,
+          "IPO": 11,
+          "Tech": 21,
+          "Sports": 2,
+          "Science": 7,
+          "Health": 4
+        },
+        "fetch_seconds": 2.38,
+        "rejected": {
+          "older_than_24h": 975,
+          "editorial_keyword": 13,
+          "question_headline": 113,
+          "future": 3,
+          "undated": 4,
+          "not_cricket": 47,
+          "duplicate": 58
+        },
+        "editorial_skipped": 484
+      },
       {
         "at": "2026-10-15T16:45:51.959182+00:00",
         "feed_checked_at": "2026-10-15T16:44:22.293610+00:00",
@@ -3111,57 +2490,27 @@
           "duplicate": 45
         },
         "editorial_skipped": 490
-      },
-      {
-        "at": "2026-10-15T12:44:53.368651+00:00",
-        "feed_checked_at": "2026-10-15T12:44:25.552808+00:00",
-        "items_read": 1714,
-        "candidates": 492,
-        "written": 15,
-        "added": 15,
-        "dropped": 25,
-        "total": 194,
-        "counts": {
-          "India": 21,
-          "World": 42,
-          "Business": 66,
-          "IPO": 10,
-          "Tech": 33,
-          "Sports": 6,
-          "Science": 7,
-          "Health": 9
-        },
-        "fetch_seconds": 3.02,
-        "rejected": {
-          "editorial_keyword": 18,
-          "older_than_24h": 958,
-          "question_headline": 127,
-          "undated": 4,
-          "not_cricket": 71,
-          "duplicate": 44
-        },
-        "editorial_skipped": 477
       }
     ],
     "topic_counts": {
-      "India": 14,
-      "World": 32,
-      "Business": 66,
-      "IPO": 14,
-      "Tech": 26,
-      "Sports": 3,
-      "Science": 8,
-      "Health": 7
+      "India": 10,
+      "World": 24,
+      "Business": 61,
+      "IPO": 11,
+      "Tech": 21,
+      "Sports": 2,
+      "Science": 7,
+      "Health": 4
     },
     "topic_gap_minutes": {
-      "India": 27,
-      "World": 60,
+      "India": 19,
+      "World": 45,
       "Business": 60,
-      "IPO": 27,
-      "Tech": 49,
-      "Sports": 6,
-      "Science": 15,
-      "Health": 14
+      "IPO": 21,
+      "Tech": 40,
+      "Sports": 5,
+      "Science": 14,
+      "Health": 8
     },
     "gap_is_metadata_only": true,
     "feeds": [
@@ -3172,8 +2521,8 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 1,
-        "seconds": 0.3
+        "eligible": 0,
+        "seconds": 0.44
       },
       {
         "id": 2,
@@ -3182,8 +2531,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 25,
-        "seconds": 0.38
+        "eligible": 14,
+        "seconds": 0.37
       },
       {
         "id": 3,
@@ -3192,8 +2541,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 57,
-        "seconds": 0.09
+        "eligible": 58,
+        "seconds": 0.1
       },
       {
         "id": 4,
@@ -3202,8 +2551,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 4,
-        "seconds": 0.56
+        "eligible": 5,
+        "seconds": 0.67
       },
       {
         "id": 5,
@@ -3212,8 +2561,8 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 17,
-        "seconds": 0.34
+        "eligible": 19,
+        "seconds": 0.33
       },
       {
         "id": 6,
@@ -3221,9 +2570,9 @@
         "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 26,
-        "eligible": 19,
-        "seconds": 0.11
+        "items": 34,
+        "eligible": 22,
+        "seconds": 0.1
       },
       {
         "id": 7,
@@ -3232,8 +2581,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 12,
-        "seconds": 0.37
+        "eligible": 7,
+        "seconds": 0.41
       },
       {
         "id": 9,
@@ -3242,8 +2591,8 @@
         "status": "ok",
         "http": 200,
         "items": 25,
-        "eligible": 19,
-        "seconds": 0.09
+        "eligible": 21,
+        "seconds": 0.11
       },
       {
         "id": 10,
@@ -3251,9 +2600,9 @@
         "url": "https://rss.dw.com/rdf/rss-en-all",
         "status": "ok",
         "http": 200,
-        "items": 136,
-        "eligible": 17,
-        "seconds": 0.15
+        "items": 135,
+        "eligible": 19,
+        "seconds": 0.16
       },
       {
         "id": 11,
@@ -3262,8 +2611,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 4,
-        "seconds": 0.79
+        "eligible": 5,
+        "seconds": 0.37
       },
       {
         "id": 12,
@@ -3273,7 +2622,7 @@
         "http": 200,
         "items": 9,
         "eligible": 0,
-        "seconds": 0.4
+        "seconds": 0.47
       },
       {
         "id": 13,
@@ -3283,7 +2632,7 @@
         "http": 200,
         "items": 35,
         "eligible": 29,
-        "seconds": 0.07
+        "seconds": 0.15
       },
       {
         "id": 14,
@@ -3292,8 +2641,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 13,
-        "seconds": 0.39
+        "eligible": 2,
+        "seconds": 0.38
       },
       {
         "id": 15,
@@ -3302,8 +2651,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 47,
-        "seconds": 0.15
+        "eligible": 48,
+        "seconds": 0.08
       },
       {
         "id": 16,
@@ -3312,8 +2661,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 25,
-        "seconds": 0.22
+        "eligible": 19,
+        "seconds": 0.39
       },
       {
         "id": 17,
@@ -3322,8 +2671,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 28,
-        "seconds": 0.09
+        "eligible": 23,
+        "seconds": 0.06
       },
       {
         "id": 19,
@@ -3333,7 +2682,7 @@
         "http": 200,
         "items": 35,
         "eligible": 18,
-        "seconds": 0.08
+        "seconds": 0.25
       },
       {
         "id": 20,
@@ -3342,8 +2691,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 35,
-        "seconds": 0.34
+        "eligible": 46,
+        "seconds": 0.1
       },
       {
         "id": 21,
@@ -3352,7 +2701,7 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 18,
+        "eligible": 17,
         "seconds": 0.32
       },
       {
@@ -3362,8 +2711,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 5,
-        "seconds": 0.14
+        "eligible": 8,
+        "seconds": 0.11
       },
       {
         "id": 23,
@@ -3372,8 +2721,8 @@
         "status": "ok",
         "http": 200,
         "items": 21,
-        "eligible": 2,
-        "seconds": 0.07
+        "eligible": 3,
+        "seconds": 0.27
       },
       {
         "id": 24,
@@ -3382,8 +2731,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 9,
-        "seconds": 0.39
+        "eligible": 4,
+        "seconds": 0.38
       },
       {
         "id": 25,
@@ -3392,8 +2741,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 20,
-        "seconds": 0.43
+        "eligible": 21,
+        "seconds": 0.13
       },
       {
         "id": 26,
@@ -3403,7 +2752,7 @@
         "http": 200,
         "items": 35,
         "eligible": 6,
-        "seconds": 0.08
+        "seconds": 0.13
       },
       {
         "id": 27,
@@ -3412,7 +2761,7 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 9,
+        "eligible": 10,
         "seconds": 0.06
       },
       {
@@ -3432,7 +2781,7 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 20,
+        "eligible": 19,
         "seconds": 0.06
       },
       {
@@ -3442,8 +2791,8 @@
         "status": "ok",
         "http": 200,
         "items": 42,
-        "eligible": 14,
-        "seconds": 0.13
+        "eligible": 10,
+        "seconds": 0.24
       },
       {
         "id": 33,
@@ -3453,7 +2802,7 @@
         "http": 200,
         "items": 10,
         "eligible": 10,
-        "seconds": 0.17
+        "seconds": 0.18
       },
       {
         "id": 34,
@@ -3462,8 +2811,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 7,
-        "seconds": 0.34
+        "eligible": 5,
+        "seconds": 0.17
       },
       {
         "id": 36,
@@ -3472,8 +2821,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 20,
-        "seconds": 0.38
+        "eligible": 35,
+        "seconds": 0.35
       },
       {
         "id": 37,
@@ -3482,8 +2831,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 4,
-        "seconds": 0.36
+        "eligible": 5,
+        "seconds": 0.59
       },
       {
         "id": 38,
@@ -3492,8 +2841,8 @@
         "status": "ok",
         "http": 200,
         "items": 56,
-        "eligible": 12,
-        "seconds": 0.1
+        "eligible": 15,
+        "seconds": 0.13
       },
       {
         "id": 39,
@@ -3502,7 +2851,7 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 6,
+        "eligible": 4,
         "seconds": 0.39
       },
       {
@@ -3512,8 +2861,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 9,
-        "seconds": 0.37
+        "eligible": 17,
+        "seconds": 0.34
       },
       {
         "id": 41,
@@ -3522,7 +2871,7 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 4,
+        "eligible": 0,
         "seconds": 0.44
       },
       {
@@ -3531,9 +2880,9 @@
         "url": "https://feeds.bbci.co.uk/sport/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 76,
+        "items": 73,
         "eligible": 2,
-        "seconds": 0.12
+        "seconds": 0.11
       },
       {
         "id": 43,
@@ -3543,7 +2892,7 @@
         "http": 200,
         "items": 40,
         "eligible": 0,
-        "seconds": 0.37
+        "seconds": 0.4
       },
       {
         "id": 44,
@@ -3553,7 +2902,7 @@
         "http": 200,
         "items": 100,
         "eligible": 2,
-        "seconds": 0.39
+        "seconds": 0.33
       },
       {
         "id": 45,
@@ -3563,7 +2912,7 @@
         "http": 200,
         "items": 30,
         "eligible": 2,
-        "seconds": 0.23
+        "seconds": 0.27
       },
       {
         "id": 47,
@@ -3573,26 +2922,21 @@
         "http": 200,
         "items": 35,
         "eligible": 0,
-        "seconds": 0.36
+        "seconds": 0.38
       }
     ],
     "sources": [
       "Aljazeera",
       "AmarUjala Business",
-      "AmarUjala India",
       "AmarUjala Tech",
       "AmarUjala World",
-      "Ars",
       "BBC Science",
       "BBC Sport",
-      "BBC Tech",
       "BBC World",
       "BS Economy",
       "DW World",
       "ESPNcricinfo",
       "ET Economy",
-      "ET Health",
-      "ET IPO",
       "ET Markets",
       "ET Tech",
       "Hindu Business",
