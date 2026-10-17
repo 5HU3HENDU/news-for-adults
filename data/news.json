@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "title": "News for Adults",
-  "updated_at": "2026-10-17T12:45:22.911022+00:00",
+  "updated_at": "2026-10-17T14:48:04.031403+00:00",
   "schedule": {
-    "active": true,
+    "active": false,
     "window_ist": "08:00-22:00",
-    "planned_interval_minutes": 120
+    "planned_interval_minutes": "60-120"
   },
   "duration_seconds": 14,
   "topics": [
@@ -19,6 +19,308 @@
     "Health"
   ],
   "stories": [
+    {
+      "id": "154514742ef7efdf0fac",
+      "topic": "India",
+      "headline": "Cervical cancer detection: RGCB को ₹7 crore का grant, biopsy-free तकनीक बनेगी",
+      "bullets": [
+        "Researchers rapid, biopsy-free cervical cancer detection technology विकसित करने के लिए ₹7 crore के grant का उपयोग करेंगे।"
+      ],
+      "published": "2026-10-17T14:36:00+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/kerala/rgcb-researchers-receive-7-crore-grant-to-develop-rapid-biopsy-free-cervical-cancer-detection-technology/article71596856.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "4fa401ffd79e5d20117c",
+      "topic": "India",
+      "headline": "Drone-hit tanker के सभी 9 भारतीय नाविक सुरक्षित, जहाज़ Romania के port पहुंचा",
+      "bullets": [
+        "Embassy के मुताबिक़ drone attack में क्षतिग्रस्त tanker Romania के port तक सुरक्षित पहुंचा।",
+        "Ambassador ने crew को भारत सरकार की पूरी मदद और सहायता का भरोसा दिया।"
+      ],
+      "published": "2026-10-17T14:27:28+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/all-nine-indian-seafarers-safe-as-drone-hit-tanker-reaches-romanian-port-embassy/article71596802.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "afc3ecd33b86070c2f60",
+      "topic": "Health",
+      "headline": "137 cancer दवाओं पर trade margin अब 30% से ज़्यादा नहीं, 9 November से नए दाम",
+      "bullets": [
+        "NPPA ने 137 anti-cancer drugs का trade margin उनके MRP के 30% पर सीमित कर दिया है।",
+        "Atezolizumab और Bevacizumab समेत सभी listed दवाएं शामिल हैं; limit से ऊपर होने पर companies को दाम घटाने होंगे।",
+        "Compliance की निगरानी state drug controllers करेंगे।"
+      ],
+      "published": "2026-10-17T14:22:02+00:00",
+      "sources": [
+        {
+          "name": "ET Health",
+          "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/nppa-caps-trade-margins-on-137-cancer-drugs-at-30-revised-prices-from-nov-9/articleshow/135015811.cms",
+          "feed_id": 41
+        }
+      ]
+    },
+    {
+      "id": "5949bb98f905d9079fb1",
+      "topic": "Business",
+      "headline": "HDFC Bank के CEO-designate Bagchi पदभार से पहले customers और regulators से मिलेंगे",
+      "bullets": [
+        "Anup Bagchi 27 October को HDFC Bank की कमान संभालेंगे।",
+        "उन्होंने कहा कि वे कुछ दिनों से bank में हैं और कई teams को जानते हैं।"
+      ],
+      "published": "2026-10-17T14:15:25+00:00",
+      "sources": [
+        {
+          "name": "Mint Companies",
+          "url": "https://www.livemint.com/companies/company-results/hdfc-bank-ceo-designate-bagchi-to-meet-customers-regulators-before-taking-over-11792245445270.html",
+          "feed_id": 13
+        }
+      ]
+    },
+    {
+      "id": "5536152003d2276c262a",
+      "topic": "India",
+      "headline": "Information commissions में 3.85 lakh से ज़्यादा appeals-complaints pending: report",
+      "bullets": [
+        "June 30, 2026 तक 28 commissions में 3,85,716 मामले लंबित थे; 2025 में यह आंकड़ा 4,13,972 था।",
+        "आंकड़े 'Report Card on the Performance of Information Commissions in India, 2025-26' से हैं।"
+      ],
+      "published": "2026-10-17T14:14:36+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/over-385-lakh-cases-pending-in-28-information-commissions-as-of-june-2026-report/article71576451.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "3f50036e2fb8621ae992",
+      "topic": "Business",
+      "headline": "Axis Bank ने Commercial और Bharat Banking की कमान पूर्व HDFC banker Rahul Shukla को सौंपी",
+      "bullets": [
+        "यह नियुक्ति कई segments के businesses और ग्राहकों को सेवा देने वाली Axis Bank की key role के लिए है।"
+      ],
+      "published": "2026-10-17T14:11:14+00:00",
+      "sources": [
+        {
+          "name": "Mint Companies",
+          "url": "https://www.livemint.com/companies/news/meet-rahul-shukla-axis-bank-appoints-former-hdfc-bank-veteran-to-lead-commercial-bharat-banking-11792245846191.html",
+          "feed_id": 13
+        }
+      ]
+    },
+    {
+      "id": "c284af9b8db53787f3e2",
+      "topic": "World",
+      "headline": "Egypt के राष्ट्रपति Sisi ने Saudi Arabia को defence मदद का भरोसा दिया",
+      "bullets": [
+        "Sisi ने कहा कि मांगे जाने पर Saudi Arabia की रक्षा के लिए 'कोई भी कदम' उठाया जाएगा।",
+        "उन्होंने इस मदद के लिए authorisation मांगा है।"
+      ],
+      "published": "2026-10-17T14:00:24+00:00",
+      "sources": [
+        {
+          "name": "Aljazeera",
+          "url": "https://www.aljazeera.com/economy/2026/10/17/egypts-sisi-seeks-authorisation-for-defence-assistance-to-saudi-arabia?traffic_source=rss",
+          "feed_id": 9
+        }
+      ]
+    },
+    {
+      "id": "b437462ca3e1db128791",
+      "topic": "Tech",
+      "headline": "AT&T-Verizon को चुनौती: SpaceX का wireless carrier बनने का महंगा दांव",
+      "bullets": [
+        "SpaceX ने Starlink network बढ़ाने के लिए बड़ी मात्रा में low-band spectrum खरीदा है।",
+        "Analysts के मुताबिक़ कंपनी की नज़र traditional telecom carriers की जगह लेने पर है।"
+      ],
+      "published": "2026-10-17T14:00:00+00:00",
+      "sources": [
+        {
+          "name": "Verge",
+          "url": "https://www.theverge.com/podcast/1012416/spacex-starlink-elon-musk-cell-carrier-wireless-mobile-att-verizon-t-mobile",
+          "feed_id": 28
+        }
+      ]
+    },
+    {
+      "id": "b5edb03bfd4a98eae9e0",
+      "topic": "Sports",
+      "headline": "Shubman Gill Ranji Trophy के दूसरे round में Punjab के लिए खेलेंगे",
+      "bullets": [
+        "November में New Zealand दौरे की ODI series से पहले Gill red-ball match practice लेना चाहते हैं।"
+      ],
+      "published": "2026-10-17T13:29:33+00:00",
+      "sources": [
+        {
+          "name": "ESPNcricinfo",
+          "url": "https://www.cricinfo.com/ci/content/story/1558865.html?ex_cid=OTC-RSS",
+          "feed_id": 44
+        }
+      ]
+    },
+    {
+      "id": "64eec3307d023ba29be4",
+      "topic": "Science",
+      "headline": "NASA का Roman Space Telescope उम्मीद से करीब 30% बेहतर निकला",
+      "bullets": [
+        "Engineers ने mirror को बाल की चौड़ाई के सोलहवें हिस्से जितना हिलाकर instruments को near-perfect alignment दिया।",
+        "Wide Field Instrument की image quality अब अनुमान से लगभग 30% बेहतर है।"
+      ],
+      "published": "2026-10-17T13:28:13+00:00",
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261016070630.htm",
+          "feed_id": 34
+        }
+      ]
+    },
+    {
+      "id": "bf79bfeb8859a176ad7f",
+      "topic": "Business",
+      "headline": "Tata Motors और Stellantis मिलकर India में global vehicles विकसित करेंगे",
+      "bullets": [
+        "Partners आपस में vehicle architecture और advanced technology साझा करेंगे।",
+        "लक्ष्य 50 से ज़्यादा markets में exports करने का है।"
+      ],
+      "published": "2026-10-17T13:00:49+00:00",
+      "sources": [
+        {
+          "name": "Hindu Business",
+          "url": "https://www.thehindu.com/business/Industry/tata-motors-stellantis-deepen-partnership-to-develop-global-vehicles-in-india/article71574776.ece",
+          "feed_id": 20
+        }
+      ]
+    },
+    {
+      "id": "b31543fcd7d1501be961",
+      "topic": "Tech",
+      "headline": "AI agents के लिए websites बंद कर रही हैं अपने दरवाज़े",
+      "bullets": [
+        "OpenAI, Meta, Google जैसी companies के autonomous agents booking से inbox तक सब कुछ संभालने का वादा करते हैं।",
+        "लेकिन हाल के हफ्तों में कई websites ने इन agents का रास्ता रोकना शुरू कर दिया है।"
+      ],
+      "published": "2026-10-17T13:00:00+00:00",
+      "sources": [
+        {
+          "name": "Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+          "feed_id": 28
+        }
+      ]
+    },
+    {
+      "id": "bc7f92a63e5b4fd5291b",
+      "topic": "Business",
+      "headline": "ICICI Bank को Q3 में margin पर फिर दबाव का अनुमान, FCNR-B costs का असर",
+      "bullets": [
+        "Bank का net interest margin June quarter के 4.36% से घटकर September quarter में 4.18% रहा।"
+      ],
+      "published": "2026-10-17T12:54:57+00:00",
+      "sources": [
+        {
+          "name": "Mint Companies",
+          "url": "https://www.livemint.com/companies/company-results/icici-bank-sees-another-margin-squeeze-in-q3-as-fcnr-b-costs-kick-in-11792238457204.html",
+          "feed_id": 13
+        }
+      ]
+    },
+    {
+      "id": "c9d1539fe161eb29ede3",
+      "topic": "Science",
+      "headline": "6 महीने तक के शिशुओं के खाने में added sucrose-fructose पर बैन का FSSAI प्रस्ताव",
+      "bullets": [
+        "सरकार के मुताबिक़ शुरुआती उम्र में added sugars का exposure public health की चिंता है।",
+        "इससे बच्चों की दीर्घकालिक खान-पान आदतों पर असर पड़ने की आशंका है।"
+      ],
+      "published": "2026-10-17T12:52:16+00:00",
+      "sources": [
+        {
+          "name": "Hindu SciTech",
+          "url": "https://www.thehindu.com/news/national/fssai-proposes-ban-on-added-sucrose-fructose-in-foods-for-infants-up-to-six-months/article71596380.ece",
+          "feed_id": 36
+        }
+      ]
+    },
+    {
+      "id": "f5c06104a102c84f2291",
+      "topic": "Science",
+      "headline": "IPCC की अगली reports पर गतिरोध, कई देश मांग रहे हैं तैयारी के लिए अधिक समय",
+      "bullets": [
+        "India, Kenya, Saudi Arabia, Russia और China समेत कई देश अधिक समय की मांग कर रहे हैं।",
+        "मकसद कम संसाधनों वाले देशों के वैज्ञानिकों से meaningful योगदान सुनिश्चित करना है।"
+      ],
+      "published": "2026-10-17T12:51:03+00:00",
+      "sources": [
+        {
+          "name": "Hindu SciTech",
+          "url": "https://www.thehindu.com/sci-tech/science/ipcc-deadlocked-inclusivity-concerns-reports-publishing-more-time/article71574460.ece",
+          "feed_id": 36
+        }
+      ]
+    },
+    {
+      "id": "ab6dfb4369ee692bc700",
+      "topic": "Business",
+      "headline": "September में SIP inflows record ₹32,490 crore पर पहुंचे",
+      "bullets": [
+        "Equity mutual funds में ₹38,306.55 crore का inflow आया, जो लगातार 67वां inflow वाला महीना है।",
+        "Global challenges, tightening monetary cycle और muted returns के बावजूद inflows जारी रहे।"
+      ],
+      "published": "2026-10-17T12:47:46+00:00",
+      "sources": [
+        {
+          "name": "Hindu Business",
+          "url": "https://www.thehindu.com/business/Industry/sips-register-recorded-32490-crore-of-inflows-in-september-2026/article71574295.ece",
+          "feed_id": 20
+        }
+      ]
+    },
+    {
+      "id": "1b1224a8933e6419d07a",
+      "topic": "Business",
+      "headline": "Volvo Car India ने ₹1.26 crore में electric luxury SUV EX90 पेश की",
+      "bullets": [
+        "Company ने bookings खोल दी हैं और deliveries January 2027 से शुरू होंगी।"
+      ],
+      "published": "2026-10-17T12:42:39+00:00",
+      "sources": [
+        {
+          "name": "Hindu Business",
+          "url": "https://www.thehindu.com/business/Industry/volvo-car-india-introduces-electric-luxury-suv-ex90-at-126-crore/article71574275.ece",
+          "feed_id": 20
+        }
+      ]
+    },
+    {
+      "id": "06387c0bdb6775265670",
+      "topic": "Business",
+      "headline": "Russia sanctions में US की छूट से India के exporters और energy security को राहत: experts",
+      "bullets": [
+        "Sanctioning Russia and Iran Act के तहत छूट से Russian crude की आपूर्ति जारी रहने में मदद मिलेगी।",
+        "Experts के मुताबिक़ इससे growth को समर्थन और inflationary दबाव कम होगा, पर आगे के contracts को लेकर अनिश्चितता बनी है।"
+      ],
+      "published": "2026-10-17T12:40:48+00:00",
+      "sources": [
+        {
+          "name": "ET Economy",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-russia-sanction-waiver-a-relief-for-indias-exporters-energy-security-experts/articleshow/135014460.cms",
+          "feed_id": 17
+        }
+      ]
+    },
     {
       "id": "8e2aa409f0824ff1d73c",
       "topic": "World",
@@ -2081,465 +2383,40 @@
           "feed_id": 21
         }
       ]
-    },
-    {
-      "id": "b41684a8072def3944b5",
-      "topic": "World",
-      "headline": "West Bank में olive कटाई के दौरान Palestinians और US पत्रकार पर settlers का हमला",
-      "bullets": [
-        "BBC ने नकाबपोश settlers को हमला करते देखा।"
-      ],
-      "published": "2026-10-16T14:31:04+00:00",
-      "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/c65ynk7212vqo?at_medium=RSS&at_campaign=rss",
-          "feed_id": 6
-        }
-      ]
-    },
-    {
-      "id": "42bf6a5f96b6223e488c",
-      "topic": "India",
-      "headline": "दो साल में Made-in-India civilian aircraft की उम्मीद: Rammohan Naidu",
-      "bullets": [
-        "Joint venture से India का पहला स्वदेशी civilian aircraft बन सकता है।",
-        "Sector का order book 1,600 aircraft के पार है।"
-      ],
-      "published": "2026-10-16T14:26:51+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/hope-to-have-made-in-india-civilian-aircraft-in-two-years-civil-aviation-minister-naidu/article71550630.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "a46fb33ff69de8a7fc30",
-      "topic": "World",
-      "headline": "Qatar ने Lebanon में 'massive' solar plant की घोषणा की",
-      "bullets": [
-        "Sheikh Mohammed ने PM Nawaf Salam से Israeli 'violations' पर भी बात की।"
-      ],
-      "published": "2026-10-16T14:19:36+00:00",
-      "sources": [
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/16/qatar-announces-massive-solar-plant-project-in-lebanon?traffic_source=rss",
-          "feed_id": 9
-        }
-      ]
-    },
-    {
-      "id": "29ca2c6b854a49a16c01",
-      "topic": "India",
-      "headline": "Gaganyaan: पहले uncrewed mission से पहले ISRO ने अहम test पूरा किया",
-      "bullets": [
-        "यह test पहली बिना-क्रू उड़ान की तैयारी का हिस्सा है।"
-      ],
-      "published": "2026-10-16T14:18:41+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/karnataka/gaganyaan-isro-completes-key-test-ahead-of-first-uncrewed-mission/article71592436.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "9359909a37f3825a9995",
-      "topic": "Business",
-      "headline": "Sitharaman: China के non-tariff barriers India के exports की सबसे बड़ी बाधा",
-      "bullets": [
-        "उनके मुताबिक बार-बार मांग के बावजूद China ने India के सामान को market access नहीं दिया।",
-        "उन्होंने Asean के साथ India के trade pact की समीक्षा की बात भी कही।"
-      ],
-      "published": "2026-10-16T14:16:07+00:00",
-      "sources": [
-        {
-          "name": "BS Economy",
-          "url": "https://www.business-standard.com/economy/news/china-s-non-tariff-barriers-biggest-hurdle-for-indian-exports-sitharaman-126101601245_1.html",
-          "feed_id": 19
-        }
-      ]
-    },
-    {
-      "id": "5a21d868c5b7cb557250",
-      "topic": "Tech",
-      "headline": "Israeli firm का 'zero-click' malware: ads के जरिए बिना क्लिक हैक",
-      "bullets": [
-        "पीड़ित को कुछ करना नहीं पड़ता, इसलिए global security जोखिम बढ़ता है।"
-      ],
-      "published": "2026-10-16T14:12:13+00:00",
-      "sources": [
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/16/how-israeli-firms-zero-click-malware-attack-poses-global-security-risk?traffic_source=rss",
-          "feed_id": 9
-        }
-      ]
-    },
-    {
-      "id": "73cb5880d35ff9698468",
-      "topic": "Business",
-      "headline": "Tata की Iveco डील अंतिम चरण में, Chandrasekaran बनेंगे चेयरमैन",
-      "bullets": [
-        "P.B. Balaji और Girish Wagh non-independent directors के तौर पर board में जाएंगे।"
-      ],
-      "published": "2026-10-16T14:11:27+00:00",
-      "sources": [
-        {
-          "name": "Mint Companies",
-          "url": "https://www.livemint.com/companies/news/chandrasekaran-p-b-balaji-to-join-iveco-board-as-tata-deal-reaches-final-stage-11792157208740.html",
-          "feed_id": 13
-        }
-      ]
-    },
-    {
-      "id": "39dd04250398fb31d282",
-      "topic": "World",
-      "headline": "Houthi हमलों से Saudi Arabia की क्षेत्रीय बढ़त को खतरा",
-      "bullets": [
-        "Riyadh की कमजोरी उसके धार्मिक और क्षेत्रीय नेतृत्व के दावे पर सवाल उठाती है।"
-      ],
-      "published": "2026-10-16T14:03:00+00:00",
-      "sources": [
-        {
-          "name": "DW World",
-          "url": "https://www.dw.com/en/houthi-attacks-on-strategic-saudi-assets-threaten-riyadh-s-regional-leadership-and-economic-ambitions/a-79680200?maca=en-rss-en-all-1573-rdf",
-          "feed_id": 10
-        }
-      ]
-    },
-    {
-      "id": "ca580b1475b7847a1b70",
-      "topic": "Tech",
-      "headline": "Meta के नए terms से AI training के लिए news sites का मुफ्त इस्तेमाल मुमकिन",
-      "bullets": [
-        "नए terms 30 October से लागू होंगे।",
-        "Nieman Lab की रिपोर्ट के मुताबिक यह websites को crawl और scrape करने की इजाजत देते हैं।"
-      ],
-      "published": "2026-10-16T14:02:40+00:00",
-      "sources": [
-        {
-          "name": "Verge",
-          "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
-          "feed_id": 28
-        }
-      ]
-    },
-    {
-      "id": "e11367576532e17ffaf5",
-      "topic": "IPO",
-      "headline": "Cult.fit को IPO के लिए Sebi की मंजूरी",
-      "bullets": [
-        "Issue में ₹950 cr तक का fresh issue और offer for sale है।",
-        "FY26 में revenue 36.26% बढ़ा।"
-      ],
-      "published": "2026-10-16T14:02:27+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/cult-fit-receives-sebi-approval-for-proposed-ipo/articleshow/134997161.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "09e0bb6e2b3ce65c62dd",
-      "topic": "Business",
-      "headline": "RBI ने Emirates NBD और RBL Bank के विलय को मंजूरी दी, 1 December से लागू",
-      "bullets": [
-        "Emirates NBD ने जून 2026 में RBL Bank में 60% stake के लिए ₹26,000 cr लगाए थे।"
-      ],
-      "published": "2026-10-16T13:55:52+00:00",
-      "sources": [
-        {
-          "name": "Mint Companies",
-          "url": "https://www.livemint.com/companies/news/rbi-approves-emirates-nbd-merger-with-rbl-bank-from-december-1-5-key-things-to-know-11792158278080.html",
-          "feed_id": 13
-        }
-      ]
-    },
-    {
-      "id": "092cec3eef3096db41c4",
-      "topic": "World",
-      "headline": "Ethiopia ने Tigray में अंतरिम सरकार बनाने की घोषणा की",
-      "bullets": [
-        "PM Abiy Ahmed ने छह महीने में निष्पक्ष चुनाव का वादा किया।"
-      ],
-      "published": "2026-10-16T13:54:06+00:00",
-      "sources": [
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/16/ethiopia-announces-instalment-of-interim-government-in-tigray?traffic_source=rss",
-          "feed_id": 9
-        }
-      ]
-    },
-    {
-      "id": "63d2bc003537a5226d4e",
-      "topic": "Business",
-      "headline": "Snabbit का FY26 loss बढ़कर ₹168 cr, करीब 30 गुना",
-      "bullets": [
-        "Workers और marketing पर खर्च revenue से आगे निकल गया।"
-      ],
-      "published": "2026-10-16T13:51:48+00:00",
-      "sources": [
-        {
-          "name": "Mint Companies",
-          "url": "https://www.livemint.com/companies/company-results/snabbits-expansion-fy26-losses-168-crore-home-helps-workers-professionals-11792155028989.html",
-          "feed_id": 13
-        }
-      ]
-    },
-    {
-      "id": "f7833672721959eb20c5",
-      "topic": "World",
-      "headline": "Trump बोले, Iran के nuclear program से जुड़े Pickaxe Mountain पर हमला कर सकते हैं",
-      "bullets": [
-        "उनका कहना है कि US चाहता है Iran के पास कभी nuclear weapon न हो।"
-      ],
-      "published": "2026-10-16T13:51:15+00:00",
-      "sources": [
-        {
-          "name": "NDTV Top",
-          "url": "https://www.ndtv.com/world-news/trump-says-may-attack-pickaxe-mountain-linked-to-irans-nuclear-programme-12195836#publisher=newsstand",
-          "feed_id": 5
-        }
-      ]
-    },
-    {
-      "id": "51322da48fe2cbd708aa",
-      "topic": "India",
-      "headline": "Saudi में India ने नए सिरे से advisory जारी की",
-      "bullets": [
-        "Riyadh का international airport बंद है।",
-        "Dammam, Jeddah और Medina के airports चल रहे हैं, पर कुछ disruption है।"
-      ],
-      "published": "2026-10-16T13:49:48+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/india-issues-fresh-advisory-for-its-nationals-in-saudi-arabia-amid-flight-disruptions/article71592739.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "ca5cd508955c96d08ce7",
-      "topic": "Business",
-      "headline": "Wall Street में सुस्त कारोबार, S&P 500 0.1% ऊपर, Nasdaq 0.2% नीचे",
-      "bullets": [
-        "Dow Jones 188 अंक (0.4%) चढ़ा।"
-      ],
-      "published": "2026-10-16T13:44:46+00:00",
-      "sources": [
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/markets/wall-street-muted-s-p-dow-edge-higher-ahead-of-weekly-drop-nasdaq-reels-under-ai-rout-12195800#publisher=newsstand",
-          "feed_id": 21
-        }
-      ]
-    },
-    {
-      "id": "e74173eaef1974a6b770",
-      "topic": "Business",
-      "headline": "'अब तक का सबसे अच्छा September': auto retail sales 32% उछली",
-      "bullets": [
-        "Dealers ने festive खरीदारी, ग्रामीण मांग, premium bikes और EV adoption को वजह बताया।"
-      ],
-      "published": "2026-10-16T13:43:52+00:00",
-      "sources": [
-        {
-          "name": "Hindu Business",
-          "url": "https://www.thehindu.com/business/Industry/best-ever-september-auto-retail-sales-surge-32-year-on-year/article71550095.ece",
-          "feed_id": 20
-        }
-      ]
-    },
-    {
-      "id": "09542c2e3f362ccc92a1",
-      "topic": "Business",
-      "headline": "Deloitte: FY27 में India की GDP 7.1-7.3% बढ़ेगी",
-      "bullets": [
-        "पहले अनुमान 6.5-6.8% था, जिसे बढ़ाया गया।",
-        "Private demand और निवेश सुधरने की उम्मीद है, पर geopolitical जोखिम बना है।"
-      ],
-      "published": "2026-10-16T13:43:23+00:00",
-      "sources": [
-        {
-          "name": "BS Economy",
-          "url": "https://www.business-standard.com/economy/news/india-s-gdp-to-grow-7-1-7-3-in-fy27-pvt-investment-to-revive-deloitte-126101601184_1.html",
-          "feed_id": 19
-        }
-      ]
-    },
-    {
-      "id": "5b4281192c68d19e9400",
-      "topic": "Health",
-      "headline": "HLL Lifecare ने direct-to-consumer के लिए HLL eStore शुरू किया",
-      "bullets": [
-        "यह सरकारी कंपनी की digital transformation रणनीति का हिस्सा है।"
-      ],
-      "published": "2026-10-16T13:24:32+00:00",
-      "sources": [
-        {
-          "name": "ET Health",
-          "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/hll-lifecare-launches-estore-to-expand-direct-to-consumer-reach/articleshow/134996287.cms",
-          "feed_id": 41
-        }
-      ]
-    },
-    {
-      "id": "40b9481080945e658dff",
-      "topic": "Health",
-      "headline": "Trump प्रशासन peptide दवाओं तक पहुंच बढ़ाने की योजना आगे बढ़ा रहा",
-      "bullets": [
-        "ये बिना साबित हुई injectable दवाएं हैं, जिन्हें RFK Jr. पसंद करते हैं।"
-      ],
-      "published": "2026-10-16T13:15:07+00:00",
-      "sources": [
-        {
-          "name": "Hindu SciTech",
-          "url": "https://www.thehindu.com/sci-tech/health/trump-administration-advances-plan-for-peptide-drugs-favoured-by-rfk-jr/article71592151.ece",
-          "feed_id": 36
-        }
-      ]
-    },
-    {
-      "id": "24b009f93cc408f685cc",
-      "topic": "Business",
-      "headline": "Rupee हफ्ते में 1.9% चढ़ा, 94.96 पर बंद",
-      "bullets": [
-        "सात महीने का सबसे अच्छा साप्ताहिक प्रदर्शन रहा।",
-        "RBI के कदमों से dollar की मांग घटी।"
-      ],
-      "published": "2026-10-16T13:14:16+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-rises-1-9-in-a-week-closes-below-95-per-dollar/articleshow/134996292.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "285ef0ac5c6a3652e8dd",
-      "topic": "Business",
-      "headline": "April-September में national highway projects का आवंटन 62.9% बढ़ा: MoSPI",
-      "bullets": [
-        "Electronic toll transactions भी काफी बढ़े और air cargo 12% बढ़ा।"
-      ],
-      "published": "2026-10-16T13:13:39+00:00",
-      "sources": [
-        {
-          "name": "ET Economy",
-          "url": "https://economictimes.indiatimes.com/news/economy/infrastructure/national-highway-projects-awarded-rise-62-9-during-april-sept-mospi/articleshow/134996151.cms",
-          "feed_id": 17
-        }
-      ]
-    },
-    {
-      "id": "22aca6448df508fee6fd",
-      "topic": "Tech",
-      "headline": "iPhone Duo के orders एक घंटे में 2027 तक खिसके",
-      "bullets": [
-        "Apple की साइट पर हर configuration की delivery late January दिख रही है।"
-      ],
-      "published": "2026-10-16T13:10:11+00:00",
-      "sources": [
-        {
-          "name": "Verge",
-          "url": "https://www.theverge.com/tech/1012805/apple-iphone-duo-preorder-delay",
-          "feed_id": 28
-        }
-      ]
-    },
-    {
-      "id": "9bcd88f627e7731a1bc4",
-      "topic": "Tech",
-      "headline": "Ahold की websites और app पांच दिन बाद भी बंद",
-      "bullets": [
-        "कंपनी के US brands में Stop & Shop, Giant Food, Hannaford और Food Lion शामिल हैं।"
-      ],
-      "published": "2026-10-16T13:07:30+00:00",
-      "sources": [
-        {
-          "name": "ET Tech",
-          "url": "https://economictimes.indiatimes.com/tech/technology/supermarket-operator-aholds-websites-app-remain-offline-5-days-after-cyber-incident/articleshow/134996115.cms",
-          "feed_id": 25
-        }
-      ]
-    },
-    {
-      "id": "d0a565a73c0b55396cb5",
-      "topic": "Business",
-      "headline": "Crompton Greaves का Q2 profit 65% उछलकर ₹124 cr",
-      "bullets": [
-        "General trade में double-digit growth और रिकॉर्ड international sales रही।"
-      ],
-      "published": "2026-10-16T13:07:17+00:00",
-      "sources": [
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/markets/crompton-greaves-q2-profit-surges-65-pc-to-rs-124-cr-12195209#publisher=newsstand",
-          "feed_id": 21
-        }
-      ]
-    },
-    {
-      "id": "660063e865d4620d3bbd",
-      "topic": "Tech",
-      "headline": "Replit के CEO: भविष्य का काम 'self-driving company' होगा",
-      "bullets": [
-        "AI agents रोजमर्रा के काम संभालेंगे और लोग बड़े फैसलों पर ध्यान देंगे।"
-      ],
-      "published": "2026-10-16T12:55:09+00:00",
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
-          "feed_id": 29
-        }
-      ]
-    },
-    {
-      "id": "f3b6d324414f9504873b",
-      "topic": "Business",
-      "headline": "Embraer खरीदेगी Mahindra Group की Novavayu Aerospace में 51% हिस्सेदारी",
-      "bullets": [
-        "डील 1 December 2026 तक पूरी होने की उम्मीद है।"
-      ],
-      "published": "2026-10-16T12:50:05+00:00",
-      "sources": [
-        {
-          "name": "Mint Companies",
-          "url": "https://www.livemint.com/companies/news/embraer-announces-deal-to-acquire-51-stake-in-mahindra-groups-novavayu-aerospace-all-you-need-to-know-11792149310538.html",
-          "feed_id": 13
-        }
-      ]
-    },
-    {
-      "id": "30912ffb71056716ba93",
-      "topic": "Science",
-      "headline": "USC वैज्ञानिकों ने कैंसर से लड़ने वाली immune cells की अंतहीन सप्लाई का तरीका खोजा",
-      "bullets": [
-        "अपरिपक्व immune cells को उगाकर और modify करके यह संभव हुआ।"
-      ],
-      "published": "2026-10-16T12:46:50+00:00",
-      "sources": [
-        {
-          "name": "ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261015003803.htm",
-          "feed_id": 34
-        }
-      ]
     }
   ],
   "metadata": {
     "refreshes": [
+      {
+        "at": "2026-10-17T14:48:04.031403+00:00",
+        "feed_checked_at": "2026-10-17T14:44:26.634856+00:00",
+        "items_read": 1700,
+        "candidates": 465,
+        "written": 18,
+        "added": 18,
+        "dropped": 28,
+        "total": 145,
+        "counts": {
+          "India": 28,
+          "World": 25,
+          "Business": 42,
+          "IPO": 2,
+          "Tech": 17,
+          "Sports": 5,
+          "Science": 15,
+          "Health": 11
+        },
+        "fetch_seconds": 3.56,
+        "rejected": {
+          "older_than_24h": 1006,
+          "question_headline": 100,
+          "editorial_keyword": 12,
+          "undated": 4,
+          "not_cricket": 48,
+          "duplicate": 65
+        },
+        "editorial_skipped": 447
+      },
       {
         "at": "2026-10-17T12:45:22.911022+00:00",
         "feed_checked_at": "2026-10-17T12:44:17.640977+00:00",
@@ -2599,57 +2476,27 @@
           "duplicate": 68
         },
         "editorial_skipped": 481
-      },
-      {
-        "at": "2026-10-17T08:45:26.552356+00:00",
-        "feed_checked_at": "2026-10-17T08:44:15.086465+00:00",
-        "items_read": 1712,
-        "candidates": 498,
-        "written": 15,
-        "added": 15,
-        "dropped": 22,
-        "total": 172,
-        "counts": {
-          "India": 25,
-          "World": 31,
-          "Business": 46,
-          "IPO": 6,
-          "Tech": 24,
-          "Sports": 5,
-          "Science": 20,
-          "Health": 15
-        },
-        "fetch_seconds": 3.11,
-        "rejected": {
-          "older_than_24h": 996,
-          "question_headline": 73,
-          "editorial_keyword": 15,
-          "undated": 4,
-          "not_cricket": 56,
-          "duplicate": 70
-        },
-        "editorial_skipped": 483
       }
     ],
     "topic_counts": {
       "India": 28,
-      "World": 29,
-      "Business": 46,
-      "IPO": 3,
-      "Tech": 20,
-      "Sports": 4,
-      "Science": 13,
-      "Health": 12
+      "World": 25,
+      "Business": 42,
+      "IPO": 2,
+      "Tech": 17,
+      "Sports": 5,
+      "Science": 15,
+      "Health": 11
     },
     "topic_gap_minutes": {
       "India": 53,
-      "World": 55,
+      "World": 47,
       "Business": 60,
-      "IPO": 6,
-      "Tech": 38,
-      "Sports": 8,
-      "Science": 25,
-      "Health": 23
+      "IPO": 5,
+      "Tech": 32,
+      "Sports": 10,
+      "Science": 28,
+      "Health": 21
     },
     "gap_is_metadata_only": true,
     "feeds": [
@@ -2661,7 +2508,7 @@
         "http": 200,
         "items": 18,
         "eligible": 1,
-        "seconds": 0.07
+        "seconds": 0.05
       },
       {
         "id": 2,
@@ -2670,8 +2517,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 25,
-        "seconds": 0.4
+        "eligible": 22,
+        "seconds": 0.38
       },
       {
         "id": 3,
@@ -2680,8 +2527,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 59,
-        "seconds": 0.1
+        "eligible": 58,
+        "seconds": 0.08
       },
       {
         "id": 4,
@@ -2690,8 +2537,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 12,
-        "seconds": 0.47
+        "eligible": 10,
+        "seconds": 0.54
       },
       {
         "id": 5,
@@ -2700,8 +2547,8 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 17,
-        "seconds": 0.35
+        "eligible": 19,
+        "seconds": 0.33
       },
       {
         "id": 6,
@@ -2709,9 +2556,9 @@
         "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 25,
-        "eligible": 17,
-        "seconds": 0.09
+        "items": 23,
+        "eligible": 14,
+        "seconds": 0.06
       },
       {
         "id": 7,
@@ -2720,8 +2567,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 8,
-        "seconds": 0.54
+        "eligible": 9,
+        "seconds": 0.38
       },
       {
         "id": 9,
@@ -2730,8 +2577,8 @@
         "status": "ok",
         "http": 200,
         "items": 25,
-        "eligible": 22,
-        "seconds": 0.08
+        "eligible": 23,
+        "seconds": 0.05
       },
       {
         "id": 10,
@@ -2740,8 +2587,8 @@
         "status": "ok",
         "http": 200,
         "items": 137,
-        "eligible": 18,
-        "seconds": 0.12
+        "eligible": 17,
+        "seconds": 0.08
       },
       {
         "id": 11,
@@ -2750,8 +2597,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 12,
-        "seconds": 0.2
+        "eligible": 10,
+        "seconds": 0.23
       },
       {
         "id": 12,
@@ -2761,7 +2608,7 @@
         "http": 200,
         "items": 9,
         "eligible": 0,
-        "seconds": 0.34
+        "seconds": 2.88
       },
       {
         "id": 13,
@@ -2770,8 +2617,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 16,
-        "seconds": 0.15
+        "eligible": 14,
+        "seconds": 0.26
       },
       {
         "id": 14,
@@ -2780,8 +2627,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 8,
-        "seconds": 0.56
+        "eligible": 7,
+        "seconds": 0.39
       },
       {
         "id": 15,
@@ -2790,8 +2637,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 38,
-        "seconds": 0.22
+        "eligible": 32,
+        "seconds": 0.08
       },
       {
         "id": 16,
@@ -2800,8 +2647,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 2,
-        "seconds": 0.18
+        "eligible": 1,
+        "seconds": 0.08
       },
       {
         "id": 17,
@@ -2811,7 +2658,7 @@
         "http": 200,
         "items": 50,
         "eligible": 11,
-        "seconds": 0.11
+        "seconds": 0.09
       },
       {
         "id": 19,
@@ -2820,8 +2667,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 4,
-        "seconds": 0.08
+        "eligible": 2,
+        "seconds": 0.07
       },
       {
         "id": 20,
@@ -2830,7 +2677,7 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 59,
+        "eligible": 60,
         "seconds": 0.1
       },
       {
@@ -2841,7 +2688,7 @@
         "http": 200,
         "items": 20,
         "eligible": 15,
-        "seconds": 0.32
+        "seconds": 0.34
       },
       {
         "id": 22,
@@ -2851,7 +2698,7 @@
         "http": 200,
         "items": 35,
         "eligible": 1,
-        "seconds": 0.12
+        "seconds": 2.48
       },
       {
         "id": 23,
@@ -2861,7 +2708,7 @@
         "http": 200,
         "items": 21,
         "eligible": 2,
-        "seconds": 0.04
+        "seconds": 0.06
       },
       {
         "id": 24,
@@ -2871,7 +2718,7 @@
         "http": 200,
         "items": 40,
         "eligible": 2,
-        "seconds": 0.87
+        "seconds": 0.42
       },
       {
         "id": 25,
@@ -2880,8 +2727,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 9,
-        "seconds": 0.08
+        "eligible": 7,
+        "seconds": 0.1
       },
       {
         "id": 26,
@@ -2891,7 +2738,7 @@
         "http": 200,
         "items": 35,
         "eligible": 7,
-        "seconds": 0.09
+        "seconds": 0.36
       },
       {
         "id": 27,
@@ -2911,7 +2758,7 @@
         "http": 200,
         "items": 10,
         "eligible": 10,
-        "seconds": 0.04
+        "seconds": 0.05
       },
       {
         "id": 29,
@@ -2920,8 +2767,8 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 13,
-        "seconds": 0.06
+        "eligible": 10,
+        "seconds": 0.05
       },
       {
         "id": 32,
@@ -2930,7 +2777,7 @@
         "status": "ok",
         "http": 200,
         "items": 42,
-        "eligible": 4,
+        "eligible": 3,
         "seconds": 0.06
       },
       {
@@ -2940,7 +2787,7 @@
         "status": "ok",
         "http": 200,
         "items": 10,
-        "eligible": 4,
+        "eligible": 3,
         "seconds": 0.2
       },
       {
@@ -2950,8 +2797,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 1,
-        "seconds": 0.33
+        "eligible": 7,
+        "seconds": 0.4
       },
       {
         "id": 36,
@@ -2961,7 +2808,7 @@
         "http": 200,
         "items": 60,
         "eligible": 56,
-        "seconds": 0.34
+        "seconds": 0.35
       },
       {
         "id": 37,
@@ -2970,8 +2817,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 12,
-        "seconds": 0.83
+        "eligible": 10,
+        "seconds": 0.25
       },
       {
         "id": 38,
@@ -2981,7 +2828,7 @@
         "http": 200,
         "items": 56,
         "eligible": 11,
-        "seconds": 0.25
+        "seconds": 0.31
       },
       {
         "id": 39,
@@ -2991,7 +2838,7 @@
         "http": 200,
         "items": 40,
         "eligible": 13,
-        "seconds": 0.39
+        "seconds": 0.37
       },
       {
         "id": 40,
@@ -3000,8 +2847,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 44,
-        "seconds": 0.35
+        "eligible": 46,
+        "seconds": 0.34
       },
       {
         "id": 41,
@@ -3010,8 +2857,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 5,
-        "seconds": 0.4
+        "eligible": 4,
+        "seconds": 0.47
       },
       {
         "id": 42,
@@ -3019,9 +2866,9 @@
         "url": "https://feeds.bbci.co.uk/sport/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 69,
+        "items": 64,
         "eligible": 0,
-        "seconds": 0.21
+        "seconds": 0.05
       },
       {
         "id": 43,
@@ -3031,7 +2878,7 @@
         "http": 200,
         "items": 40,
         "eligible": 0,
-        "seconds": 0.39
+        "seconds": 0.38
       },
       {
         "id": 44,
@@ -3040,8 +2887,8 @@
         "status": "ok",
         "http": 200,
         "items": 100,
-        "eligible": 2,
-        "seconds": 0.39
+        "eligible": 3,
+        "seconds": 0.42
       },
       {
         "id": 45,
@@ -3050,8 +2897,8 @@
         "status": "ok",
         "http": 200,
         "items": 31,
-        "eligible": 1,
-        "seconds": 0.2
+        "eligible": 2,
+        "seconds": 0.05
       },
       {
         "id": 47,
@@ -3061,7 +2908,7 @@
         "http": 200,
         "items": 36,
         "eligible": 0,
-        "seconds": 0.58
+        "seconds": 0.4
       }
     ],
     "sources": [
@@ -3072,7 +2919,6 @@
       "BBC Health",
       "BBC Science",
       "BBC World",
-      "BS Economy",
       "DW World",
       "ESPNcricinfo",
       "ET Economy",
