@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "title": "News for Adults",
-  "updated_at": "2026-10-17T02:45:05.867812+00:00",
+  "updated_at": "2026-10-17T04:47:44.252124+00:00",
   "schedule": {
     "active": true,
     "window_ist": "08:00-22:00",
@@ -19,6 +19,347 @@
     "Health"
   ],
   "stories": [
+    {
+      "id": "d286fea9dcb645d7811c",
+      "topic": "Business",
+      "headline": "Gary Marcus की चेतावनी: AI bubble फूटा तो 2008 जैसा banking crisis संभव",
+      "bullets": [
+        "Marcus ने OpenAI की fiscal जिम्मेदारियों पर गंभीर सवाल उठाए हैं।",
+        "उनका कहना है कि stock market की instability के बीच leading AI firms के गिरने का खतरा बढ़ गया है।"
+      ],
+      "published": "2026-10-17T04:26:04+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/ai-bubble-burst-may-trigger-2008-like-banking-crisis-says-gary-marcus/articleshow/135007219.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "333a106992abe93165b2",
+      "topic": "India",
+      "headline": "L.K. Advani छाती के संक्रमण से hospital में भर्ती, हालत स्थिर",
+      "bullets": [
+        "98 साल के वरिष्ठ BJP नेता का New Delhi के Apollo Hospital में इलाज चल रहा है।"
+      ],
+      "published": "2026-10-17T04:24:04+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/lk-advani-health-updates-oct-16-2026/article71594161.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "874208eff2b3d07b2984",
+      "topic": "Tech",
+      "headline": "Shareholders से partners: Jio में Google-Meta का निवेश strategic साझेदारी में बदला",
+      "bullets": [
+        "दोनों tech giants अब Reliance के साथ enterprise AI initiatives पर काम कर रहे हैं।"
+      ],
+      "published": "2026-10-17T04:18:50+00:00",
+      "sources": [
+        {
+          "name": "ET Tech",
+          "url": "https://economictimes.indiatimes.com/tech/technology/from-shareholders-to-partners-how-google-and-metas-jio-investments-evolved-into-an-ai-alliance/articleshow/135007212.cms",
+          "feed_id": 25
+        }
+      ]
+    },
+    {
+      "id": "8e0f7880c9c2991f03e9",
+      "topic": "India",
+      "headline": "Census 2027: अब private teachers और संस्थान भी बन सकेंगे enumerators",
+      "bullets": [
+        "अब तक गणना का काम ज्यादातर सरकारी school teachers और revenue विभाग के अधिकारी करते थे।",
+        "सरकार ने enumerator की भूमिका private teachers, institutions और trusts के लिए खोल दी है।"
+      ],
+      "published": "2026-10-17T04:18:49+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/census-2027-govt-opens-enumerator-roles-to-private-teachers-institutions-trust-and-society-members/article71593693.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "0f8d813d455093ad5298",
+      "topic": "Business",
+      "headline": "Nifty IT हफ्ते में 11.7% उछला, 18 साल का सबसे बड़ा weekly gain",
+      "bullets": [
+        "HCLTech जैसी कंपनियों के उम्मीद से बेहतर quarterly results ने IT sector में तेजी लाई।"
+      ],
+      "published": "2026-10-17T04:16:40+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/its-time-to-celebrate-when-chips-are-down-nifty-it-soars-11-7-to-log-biggest-weekly-rally-since-2008/articleshow/135007166.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "dfde18d48e7333881837",
+      "topic": "India",
+      "headline": "Illinois temple हमले की साजिश के बाद MEA बोला: US, Indians की सुरक्षा सुनिश्चित करे",
+      "bullets": [
+        "MEA प्रवक्ता Randhir Jaiswal ने कहा कि temple पर mass shooting की कोशिश Indian community के खिलाफ hate crimes की बढ़ती घटनाओं को उजागर करती है।"
+      ],
+      "published": "2026-10-17T04:15:04+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/mea-calls-on-us-to-ensure-safety-security-of-indians-after-foiled-illinois-temple-attack/article71594327.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "c162359c084acd1073ad",
+      "topic": "Business",
+      "headline": "Fed hike के अनुमान फीके पड़ते ही dollar हफ्ते में नुकसान की ओर",
+      "bullets": [
+        "Fed officials की टिप्पणियों से Treasury yields स्थिर हुए, लेकिन AI से जुड़ी बेचवाली की चिंता बनी रही।"
+      ],
+      "published": "2026-10-17T04:08:05+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-heads-for-weekly-loss-as-fed-hike-bets-fade-ai-jitters-linger/articleshow/135007121.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "3a27c75670333e81f77f",
+      "topic": "Business",
+      "headline": "Fed के संकेतों पर नजर रखते traders, gold हफ्ते में गिरावट की ओर",
+      "bullets": [
+        "बाजार Fed rate hike की संभावना का आकलन कर रहा है, जिससे spot gold साप्ताहिक नुकसान की राह पर है।"
+      ],
+      "published": "2026-10-17T04:06:22+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-set-for-a-weekly-drop-as-traders-assess-fed-signals/articleshow/135007093.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "42fd9db24f395313c996",
+      "topic": "India",
+      "headline": "Airfare को regulate करने वाले नए नियम दो हफ्ते में: Centre ने High Court को बताया",
+      "bullets": [
+        "एक PIL में मनमानी airfare pricing रोकने के लिए binding regulatory norms की मांग की गई थी।"
+      ],
+      "published": "2026-10-17T04:03:19+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/new-rules-to-regulate-volatile-airfares-to-be-published-in-two-weeks-centre-tells-sc/article71592356.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "d70230b70a17b7b8741b",
+      "topic": "Health",
+      "headline": "सिरदर्द और चक्कर को न समझें मामूली, कब जरूरी है BP check",
+      "bullets": [
+        "High blood pressure अक्सर बिना साफ लक्षणों के भी रह सकता है।",
+        "लगातार बढ़ा BP दिल, दिमाग, किडनी और आंखों को नुकसान पहुंचा सकता है।"
+      ],
+      "published": "2026-10-17T04:00:03+00:00",
+      "sources": [
+        {
+          "name": "AmarUjala Lifestyle",
+          "url": "https://www.amarujala.com/photo-gallery/lifestyle/fitness/how-to-recognize-high-blood-pressure-signs-you-should-not-ignore-2026-10-16",
+          "feed_id": 39
+        }
+      ]
+    },
+    {
+      "id": "d6b28d26c5482d3dcd1a",
+      "topic": "Business",
+      "headline": "India-New Zealand FTA: पहली duty concessions जारी, 20 October से लागू",
+      "bullets": [
+        "Sheep meat पर zero duty मिलेगी, kiwi समेत कई products पर preferential rates होंगे।"
+      ],
+      "published": "2026-10-17T03:49:31+00:00",
+      "sources": [
+        {
+          "name": "ET Economy",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-notifies-first-new-zealand-fta-duty-cuts-wine-honey-kiwi-fruit-to-get-concessions-from-oct-20/articleshow/135006873.cms",
+          "feed_id": 17
+        }
+      ]
+    },
+    {
+      "id": "fb58d41dceca2ecab4e2",
+      "topic": "IPO",
+      "headline": "Jio का $3.2 billion IPO: young Indians के बीच Ambani की appeal की परीक्षा",
+      "bullets": [
+        "देखना होगा कि युवा retail निवेशक Reliance के telecom brand पर कितना भरोसा दिखाते हैं।"
+      ],
+      "published": "2026-10-17T03:48:41+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jios-3-2-billion-ipo-tests-ambani-appeal-with-young-indians/articleshow/135006812.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "a9f7d79c93f5e8475e1e",
+      "topic": "Science",
+      "headline": "Whey protein महंगा: isolate के दाम ₹2,200 से ₹3,400 प्रति kg पहुंचे",
+      "bullets": [
+        "बढ़ती global demand, सीमित domestic production और import पर निर्भरता से कीमतें उछली हैं।"
+      ],
+      "published": "2026-10-17T03:45:38+00:00",
+      "sources": [
+        {
+          "name": "Hindu SciTech",
+          "url": "https://www.thehindu.com/sci-tech/health/whey-protein-prices-soar-in-india-why-your-daily-scoop-is-getting-expensive/article71554298.ece",
+          "feed_id": 36
+        }
+      ]
+    },
+    {
+      "id": "2690edfee55cbd6e6987",
+      "topic": "World",
+      "headline": "US में H-1B workers को झटका: work permit की 540 दिन की automatic राहत खत्म",
+      "bullets": [
+        "H-1B और H-4 visa धारकों के लिए renewal के दौरान काम जारी रखना मुश्किल हो सकता है।"
+      ],
+      "published": "2026-10-17T03:27:18+00:00",
+      "sources": [
+        {
+          "name": "AmarUjala World",
+          "url": "https://www.amarujala.com/world/us-ends-540-day-automatic-work-permit-extension-h1b-h4-visa-workers-know-impact-on-indians-2026-10-17",
+          "feed_id": 7
+        }
+      ]
+    },
+    {
+      "id": "a5ed6be3bea62fa7e023",
+      "topic": "Science",
+      "headline": "Climate change से कौन से mammals सबसे ज्यादा खतरे में? नया simple test",
+      "bullets": [
+        "Argentina और Brazil के वैज्ञानिकों ने नौ rodent species की adaptability तीन मापदंडों पर आंकी है।"
+      ],
+      "published": "2026-10-17T03:23:09+00:00",
+      "sources": [
+        {
+          "name": "Hindu SciTech",
+          "url": "https://www.thehindu.com/sci-tech/energy-and-environment/new-study-proposes-simple-test-to-spot-mammals-most-vulnerable-to-climate/article71587719.ece",
+          "feed_id": 36
+        }
+      ]
+    },
+    {
+      "id": "dd46b0a4ca6664f9ee76",
+      "topic": "World",
+      "headline": "Biya की वापसी के बाद Cameroon में नई सरकार के गठन का इंतजार",
+      "bullets": [
+        "10 हफ्ते विदेश में रहने के बाद लौटे Biya ने अभी तक नई सरकार या vice president नियुक्त नहीं किया है।"
+      ],
+      "published": "2026-10-17T03:14:28+00:00",
+      "sources": [
+        {
+          "name": "Aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/17/cameroonians-await-government-reshuffle-after-biyas-return?traffic_source=rss",
+          "feed_id": 9
+        }
+      ]
+    },
+    {
+      "id": "1fc6b9afb75ca36c7c83",
+      "topic": "Science",
+      "headline": "NIMHANS की online course से faculty बनेंगे student well-being ambassadors",
+      "bullets": [
+        "यह Karnataka की higher education के लिए student mental health policy को लागू करने की दिशा में एक कदम है।"
+      ],
+      "published": "2026-10-17T03:13:44+00:00",
+      "sources": [
+        {
+          "name": "Hindu SciTech",
+          "url": "https://www.thehindu.com/news/cities/bangalore/nimhans-bengaluru-launches-online-course-to-train-faculty-as-student-well-being-ambassadors/article71563138.ece",
+          "feed_id": 36
+        }
+      ]
+    },
+    {
+      "id": "646f117a86323fcc0a0c",
+      "topic": "Business",
+      "headline": "Starlink बोला: India में high-speed internet देने को तैयार, 5 साल से regulators के साथ काम",
+      "bullets": [
+        "बयान Musk के Ambani पर तंज के बाद आया है।",
+        "Starlink ने कहा कि वह regulators और industry partners के साथ मिलकर काम करता रहा है।"
+      ],
+      "published": "2026-10-17T03:10:53+00:00",
+      "sources": [
+        {
+          "name": "Mint Companies",
+          "url": "https://www.livemint.com/companies/starlink-responds-to-reliance-says-worked-closely-with-regulators-ready-to-connect-india-with-high-speed-internet-11792205826693.html",
+          "feed_id": 13
+        }
+      ]
+    },
+    {
+      "id": "7564ae6ce91646ca911a",
+      "topic": "Science",
+      "headline": "IIIT-H study: doctors medical diagnosis में पूरी तरह AI पर भरोसा न करें",
+      "bullets": [
+        "Chest X-ray में vision-language models और radiologists ने अलग-अलग हिस्से highlight किए, जिससे अंतर सामने आया।"
+      ],
+      "published": "2026-10-17T03:07:22+00:00",
+      "sources": [
+        {
+          "name": "Hindu SciTech",
+          "url": "https://www.thehindu.com/news/cities/Hyderabad/iiit-h-study-caution-doctors-against-relying-entirely-on-ai-for-medical-diagnosis/article71562754.ece",
+          "feed_id": 36
+        }
+      ]
+    },
+    {
+      "id": "dd6da8ae33a00842723e",
+      "topic": "Science",
+      "headline": "India में cardiac rehabilitation पूरी करने की दर बढ़ाना क्यों जरूरी है",
+      "bullets": [
+        "Rehab programme से cardiac procedures के बाद recovery तेज होती है और future complications का खतरा घटता है।"
+      ],
+      "published": "2026-10-17T02:58:46+00:00",
+      "sources": [
+        {
+          "name": "Hindu SciTech",
+          "url": "https://www.thehindu.com/sci-tech/health/why-it-is-essential-to-improve-cardiac-rehabilitation-completion-rates-in-india/article71539721.ece",
+          "feed_id": 36
+        }
+      ]
+    },
+    {
+      "id": "b793bc2d60c87cbe59e8",
+      "topic": "World",
+      "headline": "Brazil: Amazon में वनों की कटाई record निचले स्तर पर, 42% की गिरावट",
+      "bullets": [
+        "एक साल पहले की तुलना में forest clearance में 42% की कमी दर्ज की गई है।",
+        "आंकड़ों से election run-off से पहले Lula को बढ़त मिली है।"
+      ],
+      "published": "2026-10-17T02:49:21+00:00",
+      "sources": [
+        {
+          "name": "Aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/17/brazils-amazon-deforestation-hits-lowest-level-on-record?traffic_source=rss",
+          "feed_id": 9
+        }
+      ]
+    },
     {
       "id": "723fd637701474d7b030",
       "topic": "World",
@@ -145,6 +486,22 @@
           "name": "BBC World",
           "url": "https://www.bbc.co.uk/news/articles/c623dnn3xvpko?at_medium=RSS&at_campaign=rss",
           "feed_id": 6
+        }
+      ]
+    },
+    {
+      "id": "694546b54fd13699e915",
+      "topic": "Tech",
+      "headline": "WhatsApp का guest calling feature: बिना account वालों से भी होगी call",
+      "bullets": [
+        "नए feature से बिना WhatsApp account वाले लोग भी calls में शामिल हो सकते हैं।"
+      ],
+      "published": "2026-10-17T00:45:03+00:00",
+      "sources": [
+        {
+          "name": "AmarUjala Tech",
+          "url": "https://www.amarujala.com/video/technology/tech-diary/whatsapp-introduces-a-guest-calling-feature-for-those-without-an-account-here-s-how-to-use-it-2026-10-17",
+          "feed_id": 24
         }
       ]
     },
@@ -2707,406 +3064,40 @@
           "feed_id": 15
         }
       ]
-    },
-    {
-      "id": "692e0309aaba07d150d6",
-      "topic": "World",
-      "headline": "Canada के PM Carney: US Canada को तोड़ने की कोशिश कर रहा है",
-      "bullets": [
-        "Alberta में अलगाव पर वोट होना है।",
-        "Carney ने इसे 'divide and rule' की रणनीति बताया।"
-      ],
-      "published": "2026-10-16T04:24:00+00:00",
-      "sources": [
-        {
-          "name": "DW World",
-          "url": "https://www.dw.com/en/carney-says-us-trying-to-break-canada-amid-vote-for-alberta-independence-referendum/a-79675652?maca=en-rss-en-all-1573-rdf",
-          "feed_id": 10
-        }
-      ]
-    },
-    {
-      "id": "63f32562e254a844a08e",
-      "topic": "Tech",
-      "headline": "Meta ने Muse Spark Open के weights जारी किए",
-      "bullets": [
-        "Meta के मुताबिक यह अब तक का 'सबसे सक्षम US open-weight model' है।"
-      ],
-      "published": "2026-10-16T04:21:55+00:00",
-      "sources": [
-        {
-          "name": "Hindu SciTech",
-          "url": "https://www.thehindu.com/sci-tech/technology/meta-releases-weights-for-muse-spark-open/article71591085.ece",
-          "feed_id": 36
-        }
-      ]
-    },
-    {
-      "id": "b9edb1cf8f8cd2e22c91",
-      "topic": "World",
-      "headline": "Russia के Kamchatka में 7 magnitude का भूकंप",
-      "bullets": [
-        "स्थानीय समय 3:35 बजे (करीब 9:05 AM IST) झटका आया।",
-        "भूकंप करीब 140 km की गहराई पर था।"
-      ],
-      "published": "2026-10-16T04:20:32+00:00",
-      "sources": [
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/world/earthquake-today-magnitude-7-quake-strikes-russias-kamchatka-peninsula-12193165#publisher=newsstand",
-          "feed_id": 21
-        }
-      ]
-    },
-    {
-      "id": "f6d58532c4a42dfe0777",
-      "topic": "Business",
-      "headline": "Persistent Systems के shares करीब 5% गिरे, Q2 profit 27% घटा",
-      "bullets": [
-        "Net profit ₹352 cr रहा, जबकि revenue 8.4% बढ़कर ₹4,664 cr हुआ।",
-        "Brokerages की राय बंटी है: Kotak की Buy, Citi की Sell।"
-      ],
-      "published": "2026-10-16T04:19:25+00:00",
-      "sources": [
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/markets/persistent-systems-shares-fall-nearly-5-after-q2-net-profit-drops-27-12193090#publisher=newsstand",
-          "feed_id": 21
-        },
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/markets/persistent-systems-q2-review-kotak-securities-maintains-buy-citi-retains-sell-after-q2-results-12192875#publisher=newsstand",
-          "feed_id": 21
-        }
-      ]
-    },
-    {
-      "id": "5a26a5e1077796280db2",
-      "topic": "IPO",
-      "headline": "HD Fire Protect IPO 131.70 गुना भरा, GMP 30%",
-      "bullets": [
-        "₹712 cr के इस issue का allotment आज संभावित है।"
-      ],
-      "published": "2026-10-16T04:18:26+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/hd-fire-protect-ipo-allotment-likely-today-gmp-at-30-heres-how-to-check-status/articleshow/134982258.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "7bf4142eed25512a67ad",
-      "topic": "Business",
-      "headline": "SEBI के नए closing auction framework से BSE, Angel One 3% से ज्यादा गिरे",
-      "bullets": [
-        "Closing auction 3:30 से 3:40 बजे चलेगा।",
-        "ज्यादातर बदलाव 7 December 2026 से लागू होंगे।"
-      ],
-      "published": "2026-10-16T04:17:01+00:00",
-      "sources": [
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/markets/bse-angel-one-fall-over-3-percent-on-sebi-cas-changes-mcx-groww-nse-decline-broking-stocks-sensex-today-bse-nse-12193148#publisher=newsstand",
-          "feed_id": 21
-        },
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/nse-bse-groww-other-capital-market-stocks-rise-up-to-3-as-sebi-revises-cas-framework-what-traders-must-know/articleshow/134981937.cms",
-          "feed_id": 15
-        },
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/following-chaos-sebi-goes-back-to-vwap-settlement/articleshow/134980701.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "4a1e78b14e7605d6d1c6",
-      "topic": "Tech",
-      "headline": "New York City pension fund ने Anthropic से IPO टालने को कहा",
-      "bullets": [
-        "मांग है कि AI के जोखिम काबू में आने तक listing रोकी जाए।",
-        "फंड का करीब $7 mn इसमें लगा है।"
-      ],
-      "published": "2026-10-16T04:12:45+00:00",
-      "sources": [
-        {
-          "name": "ET Tech",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/new-york-city-pension-fund-asks-anthropic-to-delay-ipo/articleshow/134982189.cms",
-          "feed_id": 25
-        }
-      ]
-    },
-    {
-      "id": "11d8aa85b5c8d80d8bb3",
-      "topic": "Business",
-      "headline": "Sensex शुरुआती कारोबार में 209 अंक से ज्यादा गिरा, Nifty 23,000 के नीचे",
-      "bullets": [
-        "RIL और Eternal के shares भी करीब 1% फिसले।"
-      ],
-      "published": "2026-10-16T04:12:39+00:00",
-      "sources": [
-        {
-          "name": "AmarUjala Business",
-          "url": "https://www.amarujala.com/business/bazaar/sensex-opening-bell-share-market-opening-sensex-nifty-share-market-news-and-updates-2026-10-16",
-          "feed_id": 14
-        }
-      ]
-    },
-    {
-      "id": "5365cca773fdd2099081",
-      "topic": "IPO",
-      "headline": "Zetwerk Manufacturing IPO के दूसरे दिन GMP 9%",
-      "bullets": [
-        "पहले दिन 23% subscription मिला, retail में 22%।",
-        "GMP अनौपचारिक है और listing gains की गारंटी नहीं।"
-      ],
-      "published": "2026-10-16T04:12:02+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/zetwerk-manufacturing-business-ipo-day-2-gmp-at-9-check-subscription-status-and-key-details/articleshow/134982156.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "7e180b8b8afb20eb4b6c",
-      "topic": "Business",
-      "headline": "Sitharaman: चीन की trade barriers India-China रिश्तों में बड़ी बाधा",
-      "bullets": [
-        "उन्होंने कहा कि non-tariff बाधाओं से generic drugs, beef और सब्जियों का export रुकता है।"
-      ],
-      "published": "2026-10-16T04:10:42+00:00",
-      "sources": [
-        {
-          "name": "BS Economy",
-          "url": "https://www.business-standard.com/economy/news/china-s-trade-barriers-remain-a-hurdle-to-closer-bilateral-ties-sitharaman-126101600181_1.html",
-          "feed_id": 19
-        },
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/india/finance-minister-nirmala-sitharaman-says-trade-barriers-a-hurdle-to-china-india-ties-12193134#publisher=newsstand",
-          "feed_id": 21
-        },
-        {
-          "name": "ET Economy",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/chinas-trade-barriers-biggest-hurdle-in-bilateral-ties-says-nirmala-sitharaman-flags-100-billion-trade-gap/articleshow/134982053.cms",
-          "feed_id": 17
-        }
-      ]
-    },
-    {
-      "id": "52f2e8fba5cdfa5bbd68",
-      "topic": "Business",
-      "headline": "S&P: Yes Bank पर AT-1 फैसले से rating पर असर नहीं, पर कमाई को झटका",
-      "bullets": [
-        "अदालत ने 2020 write-down की प्रक्रिया में खामियां बताई थीं।"
-      ],
-      "published": "2026-10-16T04:08:41+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/indias-yes-bank-at-1-ruling-wont-impact-ratings-despite-earnings-hit-sp-says/articleshow/134982074.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "31c209e61d717328197a",
-      "topic": "IPO",
-      "headline": "Tonbo Imaging का ₹852 cr का IPO पहले दिन 4 गुना भरा, GMP 71%",
-      "bullets": [
-        "यह offer-for-sale है।",
-        "FY26 में कंपनी की revenue और profit घटे हैं।"
-      ],
-      "published": "2026-10-16T04:08:05+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/tonbo-imaging-india-ipo-day-2-gmp-at-71-issue-subscribed-4x-check-key-details/articleshow/134981885.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "cf1a2f6ae7a31c51413d",
-      "topic": "Business",
-      "headline": "Yes Bank के shares शुक्रवार को और गिरे, गुरुवार को 15% से ज्यादा टूटे थे",
-      "bullets": [
-        "बैंक ने कहा है कि वह फैसले की जांच कर रहा है और कानूनी विकल्प देख रहा है।"
-      ],
-      "published": "2026-10-16T04:02:05+00:00",
-      "sources": [
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/markets/yes-bank-shares-extend-fall-after-supreme-court-sets-aside-rs-8-415-crore-at-1-bond-write-down-12193100#publisher=newsstand",
-          "feed_id": 21
-        },
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/markets/yes-bank-issues-clarification-at-1-bond-case-lender-evaluating-legal-options-supreme-court-sets-aside-rs-8-415-crore-write-down-12192996#publisher=newsstand",
-          "feed_id": 21
-        }
-      ]
-    },
-    {
-      "id": "fa1a376461c7aa5e0e75",
-      "topic": "Health",
-      "headline": "India में लगातार अमीर रहने वालों में दिल की बीमारी का खतरा ज्यादा: study",
-      "bullets": [
-        "Heart failure, heart attack और abnormal heart rhythm की संभावना ज्यादा पाई गई।"
-      ],
-      "published": "2026-10-16T04:01:59+00:00",
-      "sources": [
-        {
-          "name": "Hindu SciTech",
-          "url": "https://www.thehindu.com/sci-tech/health/indias-consistently-rich-more-prone-to-heart-disease-than-thepoor-study/article71574031.ece",
-          "feed_id": 36
-        }
-      ]
-    },
-    {
-      "id": "1c072656e5233f51bb23",
-      "topic": "India",
-      "headline": "Mumbai में बाहर खाना होगा महंगा, restaurants 10-15% menu price बढ़ाने की तैयारी में",
-      "bullets": [
-        "AHAR ने cooking gas, खाने की लागत, किराए और wages बढ़ने को वजह बताया।",
-        "नए रेट आने वाले हफ्तों में लागू हो सकते हैं।"
-      ],
-      "published": "2026-10-16T04:01:26+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/maharashtra/eating-out-in-mumbai-to-get-costlier-as-restaurants-plan-1015-menu-price-hike/article71588146.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "6e6d82c81dc2d09eb235",
-      "topic": "Business",
-      "headline": "Tech Mahindra के shares Q2 नतीजों के बाद 3% चढ़े",
-      "bullets": [
-        "कंपनी ने लगातार 12वीं तिमाही margin में सुधार दर्ज किया।",
-        "Jefferies ने stock को Hold किया और Kotak ने target price बढ़ाया।"
-      ],
-      "published": "2026-10-16T03:54:56+00:00",
-      "sources": [
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/markets/tech-mahindra-shares-rise-3-after-q2-results-jefferies-upgrades-stock-12193066#publisher=newsstand",
-          "feed_id": 21
-        },
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/markets/tech-mahindra-q2-results-review-jefferies-kotak-hike-target-price-citi-maintains-caution-on-valuation-12192944#publisher=newsstand",
-          "feed_id": 21
-        }
-      ]
-    },
-    {
-      "id": "f7ac6c95d292092c846f",
-      "topic": "Sports",
-      "headline": "Rose Bowl अब Australia बनाम New Zealand T20I में भी",
-      "bullets": [
-        "1985 से यह trophy दोनों टीमों की ODI series के विजेता को मिलती थी।"
-      ],
-      "published": "2026-10-16T03:37:19+00:00",
-      "sources": [
-        {
-          "name": "ESPNcricinfo",
-          "url": "https://www.cricinfo.com/ci/content/story/1558639.html?ex_cid=OTC-RSS",
-          "feed_id": 44
-        }
-      ]
-    },
-    {
-      "id": "8ff8ed783fc3e34e9a7b",
-      "topic": "India",
-      "headline": "कमजोर monsoon से kharif की बुवाई 2022 के बाद सबसे कम",
-      "bullets": [
-        "Groundwater घटने से किसानों और power utilities दोनों पर दबाव है।"
-      ],
-      "published": "2026-10-16T03:08:19+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/telangana/poor-rains-this-monsoon-bleed-farmers-power-utilities/article71544168.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "1d1c647cbf53fb9515d9",
-      "topic": "Science",
-      "headline": "Fiji में UN का 'pre-COP' climate summit शुरू",
-      "bullets": [
-        "यह अगले महीने Turkey में होने वाले COP31 की तैयारी है।"
-      ],
-      "published": "2026-10-16T03:01:38+00:00",
-      "sources": [
-        {
-          "name": "Hindu SciTech",
-          "url": "https://www.thehindu.com/sci-tech/energy-and-environment/pacific-pre-cop31-in-fiji-ahead-of-cop31-in-turkey/article71545658.ece",
-          "feed_id": 36
-        }
-      ]
-    },
-    {
-      "id": "58d96647b3001d3da9c9",
-      "topic": "Business",
-      "headline": "Starlink विवाद पर Reliance: मुकाबले से डर नहीं, पर सबको India के नियम मानने होंगे",
-      "bullets": [
-        "Jio की अपनी satellite services सरकारी मंजूरी का इंतजार कर रही हैं।"
-      ],
-      "published": "2026-10-16T02:56:47+00:00",
-      "sources": [
-        {
-          "name": "Mint Companies",
-          "url": "https://www.livemint.com/companies/news/jio-parent-reliance-industries-breaks-silence-on-starlink-row-we-have-never-feared-competition-11792118824211.html",
-          "feed_id": 13
-        }
-      ]
-    },
-    {
-      "id": "5d61e4299dd3665f6427",
-      "topic": "World",
-      "headline": "China ने Israel से West Bank में 'जबरन बस्तियां' बसाना रोकने को कहा",
-      "bullets": [
-        "चीन के विदेश मंत्री ने फिलिस्तीन मसले को इस सदी का सबसे बड़ा ऐतिहासिक अन्याय बताया।"
-      ],
-      "published": "2026-10-16T02:56:21+00:00",
-      "sources": [
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/16/china-tells-israel-to-stop-forced-establishment-of-west-bank-settlements?traffic_source=rss",
-          "feed_id": 9
-        }
-      ]
-    },
-    {
-      "id": "9c95d52e12b97932c708",
-      "topic": "Tech",
-      "headline": "Google AI mode में news और website links ज्यादा ऊपर और साफ दिखाएगा",
-      "bullets": [
-        "News publishers ने traffic में तेज गिरावट की चेतावनी दी थी।"
-      ],
-      "published": "2026-10-16T02:53:04+00:00",
-      "sources": [
-        {
-          "name": "ET Tech",
-          "url": "https://economictimes.indiatimes.com/tech/technology/google-boosts-news-and-link-visibility-in-ai-mode/articleshow/134980737.cms",
-          "feed_id": 25
-        }
-      ]
     }
   ],
   "metadata": {
     "refreshes": [
+      {
+        "at": "2026-10-17T04:47:44.252124+00:00",
+        "feed_checked_at": "2026-10-17T04:44:42.213321+00:00",
+        "items_read": 1716,
+        "candidates": 510,
+        "written": 22,
+        "added": 22,
+        "dropped": 22,
+        "total": 186,
+        "counts": {
+          "India": 23,
+          "World": 33,
+          "Business": 59,
+          "IPO": 8,
+          "Tech": 26,
+          "Sports": 4,
+          "Science": 18,
+          "Health": 15
+        },
+        "fetch_seconds": 2.66,
+        "rejected": {
+          "older_than_24h": 1023,
+          "editorial_keyword": 8,
+          "question_headline": 79,
+          "undated": 4,
+          "not_cricket": 55,
+          "duplicate": 37
+        },
+        "editorial_skipped": 488
+      },
       {
         "at": "2026-10-17T02:45:05.867812+00:00",
         "feed_checked_at": "2026-10-17T02:44:17.425739+00:00",
@@ -3166,56 +3157,26 @@
           "duplicate": 52
         },
         "editorial_skipped": 517
-      },
-      {
-        "at": "2026-10-16T14:44:52.999164+00:00",
-        "feed_checked_at": "2026-10-16T14:44:15.049547+00:00",
-        "items_read": 1721,
-        "candidates": 528,
-        "written": 30,
-        "added": 30,
-        "dropped": 18,
-        "total": 172,
-        "counts": {
-          "India": 17,
-          "World": 29,
-          "Business": 67,
-          "IPO": 12,
-          "Tech": 24,
-          "Sports": 3,
-          "Science": 13,
-          "Health": 7
-        },
-        "fetch_seconds": 2.57,
-        "rejected": {
-          "older_than_24h": 935,
-          "question_headline": 138,
-          "editorial_keyword": 11,
-          "undated": 4,
-          "not_cricket": 59,
-          "duplicate": 46
-        },
-        "editorial_skipped": 498
       }
     ],
     "topic_counts": {
-      "India": 21,
+      "India": 23,
       "World": 33,
-      "Business": 61,
-      "IPO": 10,
-      "Tech": 27,
-      "Sports": 5,
-      "Science": 14,
+      "Business": 59,
+      "IPO": 8,
+      "Tech": 26,
+      "Sports": 4,
+      "Science": 18,
       "Health": 15
     },
     "topic_gap_minutes": {
-      "India": 40,
+      "India": 43,
       "World": 60,
       "Business": 60,
-      "IPO": 19,
-      "Tech": 51,
-      "Sports": 10,
-      "Science": 27,
+      "IPO": 15,
+      "Tech": 49,
+      "Sports": 8,
+      "Science": 34,
       "Health": 28
     },
     "gap_is_metadata_only": true,
@@ -3228,7 +3189,7 @@
         "http": 200,
         "items": 18,
         "eligible": 2,
-        "seconds": 0.28
+        "seconds": 0.06
       },
       {
         "id": 2,
@@ -3237,8 +3198,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 16,
-        "seconds": 0.38
+        "eligible": 18,
+        "seconds": 0.4
       },
       {
         "id": 3,
@@ -3247,8 +3208,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 59,
-        "seconds": 0.07
+        "eligible": 60,
+        "seconds": 0.09
       },
       {
         "id": 4,
@@ -3258,7 +3219,7 @@
         "http": 200,
         "items": 35,
         "eligible": 7,
-        "seconds": 0.78
+        "seconds": 0.56
       },
       {
         "id": 5,
@@ -3268,7 +3229,7 @@
         "http": 200,
         "items": 20,
         "eligible": 20,
-        "seconds": 0.34
+        "seconds": 0.33
       },
       {
         "id": 6,
@@ -3276,9 +3237,9 @@
         "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 34,
-        "eligible": 21,
-        "seconds": 0.13
+        "items": 32,
+        "eligible": 23,
+        "seconds": 0.06
       },
       {
         "id": 7,
@@ -3288,7 +3249,7 @@
         "http": 200,
         "items": 40,
         "eligible": 6,
-        "seconds": 0.4
+        "seconds": 0.07
       },
       {
         "id": 9,
@@ -3298,7 +3259,7 @@
         "http": 200,
         "items": 25,
         "eligible": 23,
-        "seconds": 0.11
+        "seconds": 0.05
       },
       {
         "id": 10,
@@ -3308,7 +3269,7 @@
         "http": 200,
         "items": 136,
         "eligible": 18,
-        "seconds": 0.11
+        "seconds": 0.14
       },
       {
         "id": 11,
@@ -3318,7 +3279,7 @@
         "http": 200,
         "items": 35,
         "eligible": 7,
-        "seconds": 0.51
+        "seconds": 0.27
       },
       {
         "id": 12,
@@ -3328,7 +3289,7 @@
         "http": 200,
         "items": 9,
         "eligible": 0,
-        "seconds": 0.45
+        "seconds": 0.34
       },
       {
         "id": 13,
@@ -3338,7 +3299,7 @@
         "http": 200,
         "items": 35,
         "eligible": 19,
-        "seconds": 0.15
+        "seconds": 0.09
       },
       {
         "id": 14,
@@ -3348,7 +3309,7 @@
         "http": 200,
         "items": 40,
         "eligible": 4,
-        "seconds": 0.44
+        "seconds": 0.39
       },
       {
         "id": 15,
@@ -3357,8 +3318,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 46,
-        "seconds": 0.12
+        "eligible": 48,
+        "seconds": 0.18
       },
       {
         "id": 16,
@@ -3367,8 +3328,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 7,
-        "seconds": 0.11
+        "eligible": 2,
+        "seconds": 0.16
       },
       {
         "id": 17,
@@ -3378,7 +3339,7 @@
         "http": 200,
         "items": 50,
         "eligible": 22,
-        "seconds": 0.08
+        "seconds": 0.09
       },
       {
         "id": 19,
@@ -3387,8 +3348,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 6,
-        "seconds": 0.2
+        "eligible": 5,
+        "seconds": 0.11
       },
       {
         "id": 20,
@@ -3398,7 +3359,7 @@
         "http": 200,
         "items": 60,
         "eligible": 58,
-        "seconds": 0.33
+        "seconds": 0.09
       },
       {
         "id": 21,
@@ -3408,7 +3369,7 @@
         "http": 200,
         "items": 20,
         "eligible": 17,
-        "seconds": 0.32
+        "seconds": 0.35
       },
       {
         "id": 22,
@@ -3418,7 +3379,7 @@
         "http": 200,
         "items": 35,
         "eligible": 3,
-        "seconds": 0.13
+        "seconds": 0.11
       },
       {
         "id": 23,
@@ -3428,7 +3389,7 @@
         "http": 200,
         "items": 21,
         "eligible": 3,
-        "seconds": 0.1
+        "seconds": 0.06
       },
       {
         "id": 24,
@@ -3438,7 +3399,7 @@
         "http": 200,
         "items": 40,
         "eligible": 3,
-        "seconds": 0.38
+        "seconds": 0.39
       },
       {
         "id": 25,
@@ -3447,8 +3408,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 16,
-        "seconds": 0.34
+        "eligible": 14,
+        "seconds": 0.25
       },
       {
         "id": 26,
@@ -3457,8 +3418,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 7,
-        "seconds": 0.11
+        "eligible": 6,
+        "seconds": 1.29
       },
       {
         "id": 27,
@@ -3468,7 +3429,7 @@
         "http": 200,
         "items": 20,
         "eligible": 12,
-        "seconds": 0.06
+        "seconds": 0.08
       },
       {
         "id": 28,
@@ -3478,7 +3439,7 @@
         "http": 200,
         "items": 10,
         "eligible": 10,
-        "seconds": 0.05
+        "seconds": 0.04
       },
       {
         "id": 29,
@@ -3488,7 +3449,7 @@
         "http": 200,
         "items": 20,
         "eligible": 14,
-        "seconds": 0.05
+        "seconds": 0.07
       },
       {
         "id": 32,
@@ -3498,7 +3459,7 @@
         "http": 200,
         "items": 42,
         "eligible": 2,
-        "seconds": 0.11
+        "seconds": 0.21
       },
       {
         "id": 33,
@@ -3507,8 +3468,8 @@
         "status": "ok",
         "http": 200,
         "items": 10,
-        "eligible": 6,
-        "seconds": 0.2
+        "eligible": 5,
+        "seconds": 0.21
       },
       {
         "id": 34,
@@ -3517,7 +3478,7 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 9,
+        "eligible": 7,
         "seconds": 0.13
       },
       {
@@ -3527,8 +3488,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 39,
-        "seconds": 0.34
+        "eligible": 58,
+        "seconds": 0.1
       },
       {
         "id": 37,
@@ -3538,7 +3499,7 @@
         "http": 200,
         "items": 35,
         "eligible": 7,
-        "seconds": 0.69
+        "seconds": 0.34
       },
       {
         "id": 38,
@@ -3548,7 +3509,7 @@
         "http": 200,
         "items": 56,
         "eligible": 14,
-        "seconds": 0.31
+        "seconds": 0.28
       },
       {
         "id": 39,
@@ -3557,8 +3518,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 9,
-        "seconds": 0.43
+        "eligible": 8,
+        "seconds": 0.38
       },
       {
         "id": 40,
@@ -3567,8 +3528,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 13,
-        "seconds": 0.33
+        "eligible": 12,
+        "seconds": 0.08
       },
       {
         "id": 41,
@@ -3578,7 +3539,7 @@
         "http": 200,
         "items": 50,
         "eligible": 6,
-        "seconds": 0.46
+        "seconds": 0.47
       },
       {
         "id": 42,
@@ -3588,7 +3549,7 @@
         "http": 200,
         "items": 76,
         "eligible": 1,
-        "seconds": 0.33
+        "seconds": 0.35
       },
       {
         "id": 43,
@@ -3598,7 +3559,7 @@
         "http": 200,
         "items": 40,
         "eligible": 0,
-        "seconds": 0.39
+        "seconds": 0.37
       },
       {
         "id": 44,
@@ -3607,8 +3568,8 @@
         "status": "ok",
         "http": 200,
         "items": 100,
-        "eligible": 2,
-        "seconds": 0.43
+        "eligible": 1,
+        "seconds": 0.41
       },
       {
         "id": 45,
@@ -3618,7 +3579,7 @@
         "http": 200,
         "items": 31,
         "eligible": 2,
-        "seconds": 0.25
+        "seconds": 0.18
       },
       {
         "id": 47,
@@ -3628,13 +3589,14 @@
         "http": 200,
         "items": 35,
         "eligible": 0,
-        "seconds": 0.64
+        "seconds": 0.68
       }
     ],
     "sources": [
       "Aljazeera",
-      "AmarUjala Business",
+      "AmarUjala Lifestyle",
       "AmarUjala Tech",
+      "AmarUjala World",
       "Ars",
       "BBC Cricket",
       "BBC Health",
