@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "title": "News for Adults",
-  "updated_at": "2026-10-18T14:27:59.923208+00:00",
+  "updated_at": "2026-10-18T16:46:05.818526+00:00",
   "schedule": {
     "active": false,
     "window_ist": "08:00-22:00",
@@ -19,6 +19,193 @@
     "Health"
   ],
   "stories": [
+    {
+      "id": "58c238811ae8222ab723",
+      "topic": "Sports",
+      "headline": "Nahida Akter बनीं Bangladesh women की T20I captain",
+      "bullets": [
+        "Nahida Akter को Bangladesh women's T20I team की captain बनाया गया है; शुरुआती term एक साल के लिए है।",
+        "अगले महीने होने वाली ICC Women's Emerging Nations Trophy उनका पहला assignment होगा।"
+      ],
+      "published": "2026-10-18T16:42:34+00:00",
+      "sources": [
+        {
+          "name": "ESPNcricinfo",
+          "url": "https://www.cricinfo.com/ci/content/story/1558998.html?ex_cid=OTC-RSS",
+          "feed_id": 44
+        }
+      ]
+    },
+    {
+      "id": "86b91e79a7bfbe35cc1b",
+      "topic": "Business",
+      "headline": "April-August में India के exports हर क्षेत्र में बढ़े, West Asia में recovery",
+      "bullets": [
+        "April-August में India के merchandise exports Africa को 47% बढ़कर $26.19 billion और ASEAN को 56% बढ़कर $23.08 billion पहुंचे।",
+        "US-Iran war के झटके से उबरते हुए West Asia को shipments भी सुधर रही हैं; North-East Asia में भी मजबूत growth रही।"
+      ],
+      "published": "2026-10-18T16:38:58+00:00",
+      "sources": [
+        {
+          "name": "Mint Economy",
+          "url": "https://www.livemint.com/economy/indias-exports-to-west-asia-recover-from-us-iran-war-shock-in-april-august-shipments-to-africa-asean-rise-11792339021890.html",
+          "feed_id": 22
+        }
+      ]
+    },
+    {
+      "id": "dfe02d707c1e0783c4be",
+      "topic": "World",
+      "headline": "Houthi threats के बीच Riyadh की Kingdom Center tower ने employees को घर भेजा",
+      "bullets": [
+        "Riyadh की Kingdom Center tower के management ने employees को 'अगले notice तक' घर से काम करने को कहा है; कोई कारण नहीं बताया गया।",
+        "यह कदम Houthi attacks बढ़ने के बीच आया है।"
+      ],
+      "published": "2026-10-18T16:34:00+00:00",
+      "sources": [
+        {
+          "name": "DW World",
+          "url": "https://www.dw.com/en/saudi-arabia-sends-skyscraper-employees-home-amid-houthi-threats/a-79693225?maca=en-rss-en-all-1573-rdf",
+          "feed_id": 10
+        }
+      ]
+    },
+    {
+      "id": "35cd62faf12b8e71eb0b",
+      "topic": "Tech",
+      "headline": "Character.AI bankruptcy के बाद Disney hire करेगी ज्यादातर employees को",
+      "bullets": [
+        "Chatbot startup Character.AI के इस हफ्ते bankruptcy file करने के बाद Disney उसके ज्यादातर employees को नौकरी देगी।",
+        "Disney पहले ही startup की कुछ assets $20 million में लेने पर सहमत हो चुकी थी; पूर्व CEO Karandeep Anand हाल में Disney के पहले CTO बने हैं।"
+      ],
+      "published": "2026-10-18T16:30:00+00:00",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+          "feed_id": 29
+        }
+      ]
+    },
+    {
+      "id": "00c9b0587d50ae00807b",
+      "topic": "World",
+      "headline": "Taiwan ने 16 Chinese ships खदेड़े, 'hybrid warfare' का आरोप",
+      "bullets": [
+        "Taiwan ने अपने आसपास 16 Chinese ships को खदेड़ने का दावा किया है।",
+        "Taipei का कहना है कि China अपनी मौजूदगी बढ़ा रहा है — यह pattern 'status quo बदलने' के इरादे का हिस्सा है।"
+      ],
+      "published": "2026-10-18T16:25:52+00:00",
+      "sources": [
+        {
+          "name": "Aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/18/taiwan-drives-away-16-chinese-ships-accused-of-maritime-harassment?traffic_source=rss",
+          "feed_id": 9
+        }
+      ]
+    },
+    {
+      "id": "5c4863a6a40f21e1744e",
+      "topic": "Business",
+      "headline": "TRAI mandate के बाद Airtel के voice-only plans: ₹185, ₹203, ₹206",
+      "bullets": [
+        "Airtel ने TRAI के mandate के बाद ₹185, ₹203 और ₹206 के voice-only plans उतारे हैं।",
+        "ये plans उन subscribers के लिए हैं जो mobile internet के बजाय मुख्यतः calling और messaging करते हैं।"
+      ],
+      "published": "2026-10-18T16:15:05+00:00",
+      "sources": [
+        {
+          "name": "Mint Companies",
+          "url": "https://www.livemint.com/companies/news/airtel-launches-voice-only-plans-at-185-203-and-206-after-trais-mandate-what-each-plan-offers-11792338781359.html",
+          "feed_id": 13
+        }
+      ]
+    },
+    {
+      "id": "dda9e806e05fc33e0750",
+      "topic": "World",
+      "headline": "Italy में cost-of-living प्रदर्शन हिंसक, Meloni police के साथ; 20 November को general strike",
+      "bullets": [
+        "महंगाई और कम wages के खिलाफ Italy के कई शहरों में प्रदर्शन हिंसक हुए; PM Meloni ने police का बचाव किया।",
+        "एक बड़े union ने 20 November को general strike बुलाई है।"
+      ],
+      "published": "2026-10-18T16:02:00+00:00",
+      "sources": [
+        {
+          "name": "DW World",
+          "url": "https://www.dw.com/en/meloni-backs-police-after-cost-of-living-protests-turn-violent-in-italian-cities/a-79692755?maca=en-rss-en-all-1573-rdf",
+          "feed_id": 10
+        }
+      ]
+    },
+    {
+      "id": "f998c76eb0e4343b58b5",
+      "topic": "Tech",
+      "headline": "MeitY की Meta को advisory: recommendation systems सीमित narratives न दिखाएं",
+      "bullets": [
+        "MeitY ने 10 October की advisory में Meta से कहा है कि उसके recommendation systems users को सीमित narratives तक ही न पहुंचाएं।",
+        "Ongoing public events से जुड़े photos, videos और दूसरे content के साथ adequate context देने को भी कहा गया है, खासकर जहां authenticity, date या location संदिग्ध हो।"
+      ],
+      "published": "2026-10-18T15:56:50+00:00",
+      "sources": [
+        {
+          "name": "ET Tech",
+          "url": "https://economictimes.indiatimes.com/tech/technology/govt-asks-meta-to-ensure-its-recommendation-systems-do-not-expose-users-to-a-limited-set-of-narratives/articleshow/135031354.cms",
+          "feed_id": 25
+        }
+      ]
+    },
+    {
+      "id": "689340d7d37088f71bd5",
+      "topic": "Business",
+      "headline": "Maharashtra सूखा: IAS-IPS officers देंगे एक दिन की salary, 305 talukas प्रभावित",
+      "bullets": [
+        "Maharashtra में 305 talukas सूखे से जूझ रहे हैं; राज्य के IAS और IPS officers October की एक दिन की salary drought-hit farmers के लिए देंगे।",
+        "राज्य ने loan relief, land revenue में छूट और education fee waivers भी घोषित किए हैं।"
+      ],
+      "published": "2026-10-18T15:21:28+00:00",
+      "sources": [
+        {
+          "name": "NDTV Business",
+          "url": "https://www.ndtvprofit.com/india/maharashtra-drought-crisis-ias-ips-officers-to-donate-one-day-s-salary-to-aid-farmers-12198778#publisher=newsstand",
+          "feed_id": 21
+        }
+      ]
+    },
+    {
+      "id": "df3d44445ed27191cab1",
+      "topic": "World",
+      "headline": "Albania में छठे दिन भी हिंसक प्रदर्शन, PM ने इस्तीफे से किया इनकार",
+      "bullets": [
+        "Albania की राजधानी Tirana में छठे दिन भी हिंसक प्रदर्शन जारी रहे; police ने rubber bullets, water cannons और tear gas इस्तेमाल किए।",
+        "सैकड़ों प्रदर्शनकारियों पर कार्रवाई के बीच PM ने इस्तीफा देने से साफ इनकार कर दिया है।"
+      ],
+      "published": "2026-10-18T15:08:18+00:00",
+      "sources": [
+        {
+          "name": "Aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/18/chaos-in-tirana-demonstrators-determined-to-not-give-up-so-easily?traffic_source=rss",
+          "feed_id": 9
+        }
+      ]
+    },
+    {
+      "id": "df77f5ee47652385f57c",
+      "topic": "India",
+      "headline": "Gujarat के Bharuch में chemical unit में blast, 5 workers की मौत",
+      "bullets": [
+        "Gujarat के Bharuch में एक chemical unit में हुए blast में 5 workers की मौत हुई, कई घायल हैं।",
+        "SDM Manisha Manani के मुताबिक विस्फोट hydrogenation process के दौरान हुआ होना संभावित है; इतना जोरदार था कि reactor tank उड़ गया और machinery के हिस्से परिसर में बिखर गए।"
+      ],
+      "published": "2026-10-18T15:03:29+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/gujarat/workers-killed-as-many-injured-in-blast-at-chemical-unit-in-gujarats-bharuch/article71595455.ece",
+          "feed_id": 3
+        }
+      ]
+    },
     {
       "id": "1041274724dc44351107",
       "topic": "World",
@@ -1589,200 +1776,40 @@
           "feed_id": 36
         }
       ]
-    },
-    {
-      "id": "c05ebf94d4925147d051",
-      "topic": "World",
-      "headline": "West Bank: Israeli settlers ने EU diplomats के काफिले पर हमला किया, Belgium ने की निंदा",
-      "bullets": [
-        "Settlers ने West Bank में European diplomats को ले जा रहे vehicles पर हमला किया।",
-        "अलग हमलों में एक बच्चे समेत चार Palestinian महिलाएं घायल हुईं; हमले एक far-right rabbi के Palestinian जैतून जब्त करने वाले फतवे के बाद बढ़े हैं।"
-      ],
-      "published": "2026-10-17T16:29:00+00:00",
-      "sources": [
-        {
-          "name": "DW World",
-          "url": "https://www.dw.com/en/west-bank-israeli-settlers-attack-eu-diplomats/a-79688819?maca=en-rss-en-all-1573-rdf",
-          "feed_id": 10
-        },
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/17/several-palestinians-injured-detained-in-ongoing-west-bank-pogrom?traffic_source=rss",
-          "feed_id": 9
-        }
-      ]
-    },
-    {
-      "id": "fcdf96ee98a6b156f707",
-      "topic": "Business",
-      "headline": "FSSAI ने Nestle India और HUL को notices भेजे, misleading claims और labelling violations का आरोप",
-      "bullets": [
-        "HUL को show-cause notice दिया गया है और तय समय के भीतर जवाब मांगा गया है।"
-      ],
-      "published": "2026-10-17T16:09:29+00:00",
-      "sources": [
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/business/fssai-issues-notices-to-nestle-india-hul-over-allegedly-misleading-product-claims-labelling-violations-12200174#publisher=newsstand",
-          "feed_id": 21
-        }
-      ]
-    },
-    {
-      "id": "fe087ce78b40101a0f06",
-      "topic": "World",
-      "headline": "France में महंगाई के खिलाफ प्रदर्शन उग्र: गाड़ियां और इमारतें जलाई गईं",
-      "bullets": [
-        "Paris समेत कई शहरों में students, teachers, unions और 'yellow vest' कार्यकर्ता एक साथ सड़कों पर उतरे।",
-        "प्रदर्शनकारियों ने कई जगह cars और buildings में आग लगाई।"
-      ],
-      "published": "2026-10-17T16:00:40+00:00",
-      "sources": [
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/17-10-clip-france-clashes-protests-fr?traffic_source=rss",
-          "feed_id": 9
-        },
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/17/france-wave-of-nationwide-protests?traffic_source=rss",
-          "feed_id": 9
-        }
-      ]
-    },
-    {
-      "id": "1290d3f004baa584f6b2",
-      "topic": "Business",
-      "headline": "IMF ने 2026 का global growth अनुमान बढ़ाया, लेकिन 'split' outlook की चेतावनी दी",
-      "bullets": [
-        "World Economic Outlook report में 2027 के लिए global growth अनुमान 3.4% पर अपरिवर्तित रखा गया।"
-      ],
-      "published": "2026-10-17T15:13:56+00:00",
-      "sources": [
-        {
-          "name": "Hindu Business",
-          "url": "https://www.thehindu.com/business/Economy/imf-slightly-raises-forecast-for-2026-global-growth-to-31-citing-resilience-to-shocks/article71577836.ece",
-          "feed_id": 20
-        }
-      ]
-    },
-    {
-      "id": "0b81a58f5b3fe1314623",
-      "topic": "Tech",
-      "headline": "Meta ने terms से हटाई वह भाषा जो news sites का content scrape कर AI को सिखाने की राह दे सकती थी",
-      "bullets": [
-        "विरोध के बाद Meta अपने commercial terms update कर रहा है; अब इनमें domains और web pages के content इस्तेमाल वाली clause नहीं रहेगी।"
-      ],
-      "published": "2026-10-17T15:04:36+00:00",
-      "sources": [
-        {
-          "name": "Verge",
-          "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
-          "feed_id": 28
-        }
-      ]
-    },
-    {
-      "id": "e2088a80c31e14b03767",
-      "topic": "Tech",
-      "headline": "Hackers ने France के supermarkets के connected refrigerators गरम किए, आग लगी और खाना बर्बाद",
-      "bullets": [
-        "Paris prosecutor के मुताबिक कई बड़ी food retailers के connected fridges को निशाना बनाने वाला यह 'large-scale' हमला था, जिससे food losses और आग की घटनाएं हुईं।"
-      ],
-      "published": "2026-10-17T15:03:48+00:00",
-      "sources": [
-        {
-          "name": "Hindu SciTech",
-          "url": "https://www.thehindu.com/news/international/hackers-heat-french-supermarket-fridges-sparking-fires-and-spoiling-food/article71577848.ece",
-          "feed_id": 36
-        }
-      ]
-    },
-    {
-      "id": "abf73fdf99fe33f5ec31",
-      "topic": "Health",
-      "headline": "Supreme Court: सभी essential medicines और medical products पर trade margin की सीमा क्यों नहीं?",
-      "bullets": [
-        "सरकार ने patented और non-patented cancer दवाओं पर 30% trade-margin cap का प्रस्ताव रखा, लेकिन कोर्ट ने पूछा कि margin cap सभी दवाओं तक क्यों न बढ़ाया जाए।",
-        "कोर्ट ने कहा कि सरकार को यह सुनिश्चित करना होगा कि DPCO-approved, कानूनी तौर पर price-regulated दवाएं मरीजों तक पहुंचें।"
-      ],
-      "published": "2026-10-17T15:01:40+00:00",
-      "sources": [
-        {
-          "name": "Hindu SciTech",
-          "url": "https://www.thehindu.com/sci-tech/health/supreme-court-wants-cap-on-trade-margin-for-all-essential-medicines-and-medical-products/article71575807.ece",
-          "feed_id": 36
-        }
-      ]
-    },
-    {
-      "id": "f7d18d0083a1efc06c61",
-      "topic": "World",
-      "headline": "Tunisia: President Saied के खिलाफ वर्षों का सबसे बड़ा प्रदर्शन, हजारों लोग उतरे",
-      "bullets": [
-        "Unions और opposition groups ने खराब रहन-सहन और राजनीतिक आजादी पर पाबंदियों के खिलाफ एकजुट होकर प्रदर्शन किया।"
-      ],
-      "published": "2026-10-17T14:57:24+00:00",
-      "sources": [
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/17/thousands-rally-for-biggest-protest-in-years-against-tunisias-saied?traffic_source=rss",
-          "feed_id": 9
-        }
-      ]
-    },
-    {
-      "id": "d46db689c015a0e65d19",
-      "topic": "Business",
-      "headline": "Yes Bank का Q2 net profit 65% उछलकर ₹1,080 crore, NII 23% बढ़ा",
-      "bullets": [
-        "September तिमाही में standalone net profit एक साल पहले के ₹654 crore से बढ़कर ₹1,080 crore हुआ; net interest income ₹2,822 crore रहा।",
-        "Operating profit 29.4% बढ़ा, provisions घटे और asset quality स्थिर रही।"
-      ],
-      "published": "2026-10-17T14:50:27+00:00",
-      "sources": [
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/markets/yes-bank-q2-results-net-profit-surges-655-to-rs-1-080-crore-nii-up-23-yoy-asset-quality-stable-12199741#publisher=newsstand",
-          "feed_id": 21
-        }
-      ]
-    },
-    {
-      "id": "154514742ef7efdf0fac",
-      "topic": "India",
-      "headline": "Cervical cancer detection: RGCB को ₹7 crore का grant, biopsy-free तकनीक बनेगी",
-      "bullets": [
-        "Researchers rapid, biopsy-free cervical cancer detection technology विकसित करने के लिए ₹7 crore के grant का उपयोग करेंगे।"
-      ],
-      "published": "2026-10-17T14:36:00+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/kerala/rgcb-researchers-receive-7-crore-grant-to-develop-rapid-biopsy-free-cervical-cancer-detection-technology/article71596856.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "d32951e5b429540f256b",
-      "topic": "World",
-      "headline": "Hurricane Trudy Mexico की ओर बढ़ रहा है, भारी बारिश का खतरा",
-      "bullets": [
-        "Trudy इस साल Mexico के Pacific coast से टकराने वाले लगातार तूफानों की श्रृंखला का नवीनतम है।"
-      ],
-      "published": "2026-10-17T14:28:07+00:00",
-      "sources": [
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/17/hurricane-trudy-makes-its-way-towards-mexico-threatening-heavy-rain?traffic_source=rss",
-          "feed_id": 9
-        }
-      ]
     }
   ],
   "metadata": {
     "refreshes": [
+      {
+        "at": "2026-10-18T16:46:05.818526+00:00",
+        "feed_checked_at": "2026-10-18T16:44:20.866597+00:00",
+        "items_read": 1708,
+        "candidates": 427,
+        "written": 11,
+        "added": 11,
+        "dropped": 11,
+        "total": 101,
+        "counts": {
+          "India": 19,
+          "World": 21,
+          "Business": 27,
+          "IPO": 2,
+          "Tech": 10,
+          "Sports": 3,
+          "Science": 13,
+          "Health": 6
+        },
+        "fetch_seconds": 2.42,
+        "rejected": {
+          "older_than_24h": 1070,
+          "question_headline": 83,
+          "editorial_keyword": 7,
+          "undated": 4,
+          "not_cricket": 63,
+          "duplicate": 54
+        },
+        "editorial_skipped": 416
+      },
       {
         "at": "2026-10-18T14:27:59.923208+00:00",
         "feed_checked_at": "2026-10-18T14:26:36.602690+00:00",
@@ -1842,36 +1869,6 @@
           "duplicate": 59
         },
         "editorial_skipped": 408
-      },
-      {
-        "at": "2026-10-18T10:46:07.089076+00:00",
-        "feed_checked_at": "2026-10-18T10:44:15.436767+00:00",
-        "items_read": 1712,
-        "candidates": 417,
-        "written": 7,
-        "added": 7,
-        "dropped": 16,
-        "total": 114,
-        "counts": {
-          "India": 19,
-          "World": 23,
-          "Business": 34,
-          "IPO": 2,
-          "Tech": 10,
-          "Sports": 3,
-          "Science": 14,
-          "Health": 9
-        },
-        "fetch_seconds": 2.59,
-        "rejected": {
-          "older_than_24h": 1065,
-          "question_headline": 92,
-          "editorial_keyword": 4,
-          "undated": 4,
-          "not_cricket": 67,
-          "duplicate": 63
-        },
-        "editorial_skipped": 410
       }
     ],
     "topic_counts": {
@@ -1880,9 +1877,9 @@
       "Business": 27,
       "IPO": 2,
       "Tech": 10,
-      "Sports": 2,
+      "Sports": 3,
       "Science": 13,
-      "Health": 7
+      "Health": 6
     },
     "topic_gap_minutes": {
       "India": 36,
@@ -1890,9 +1887,9 @@
       "Business": 51,
       "IPO": 5,
       "Tech": 19,
-      "Sports": 5,
+      "Sports": 6,
       "Science": 25,
-      "Health": 14
+      "Health": 12
     },
     "gap_is_metadata_only": true,
     "feeds": [
@@ -1904,7 +1901,7 @@
         "http": 200,
         "items": 19,
         "eligible": 1,
-        "seconds": 0.24
+        "seconds": 0.31
       },
       {
         "id": 2,
@@ -1913,8 +1910,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 23,
-        "seconds": 0.39
+        "eligible": 24,
+        "seconds": 0.37
       },
       {
         "id": 3,
@@ -1923,8 +1920,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 58,
-        "seconds": 0.07
+        "eligible": 59,
+        "seconds": 0.1
       },
       {
         "id": 4,
@@ -1933,8 +1930,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 9,
-        "seconds": 0.63
+        "eligible": 7,
+        "seconds": 0.73
       },
       {
         "id": 5,
@@ -1943,8 +1940,8 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 17,
-        "seconds": 0.32
+        "eligible": 18,
+        "seconds": 0.36
       },
       {
         "id": 6,
@@ -1954,7 +1951,7 @@
         "http": 200,
         "items": 29,
         "eligible": 12,
-        "seconds": 0.11
+        "seconds": 0.13
       },
       {
         "id": 7,
@@ -1963,8 +1960,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 15,
-        "seconds": 0.41
+        "eligible": 16,
+        "seconds": 0.39
       },
       {
         "id": 9,
@@ -1973,8 +1970,8 @@
         "status": "ok",
         "http": 200,
         "items": 25,
-        "eligible": 17,
-        "seconds": 0.09
+        "eligible": 18,
+        "seconds": 0.14
       },
       {
         "id": 10,
@@ -1984,7 +1981,7 @@
         "http": 200,
         "items": 136,
         "eligible": 16,
-        "seconds": 0.11
+        "seconds": 0.08
       },
       {
         "id": 11,
@@ -1993,8 +1990,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 9,
-        "seconds": 0.34
+        "eligible": 7,
+        "seconds": 0.28
       },
       {
         "id": 12,
@@ -2004,7 +2001,7 @@
         "http": 200,
         "items": 9,
         "eligible": 0,
-        "seconds": 0.32
+        "seconds": 0.08
       },
       {
         "id": 13,
@@ -2014,7 +2011,7 @@
         "http": 200,
         "items": 35,
         "eligible": 21,
-        "seconds": 0.11
+        "seconds": 0.06
       },
       {
         "id": 14,
@@ -2024,7 +2021,7 @@
         "http": 200,
         "items": 40,
         "eligible": 2,
-        "seconds": 0.43
+        "seconds": 0.4
       },
       {
         "id": 15,
@@ -2034,7 +2031,7 @@
         "http": 200,
         "items": 50,
         "eligible": 17,
-        "seconds": 0.19
+        "seconds": 0.11
       },
       {
         "id": 16,
@@ -2042,9 +2039,9 @@
         "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms",
         "status": "ok",
         "http": 200,
-        "items": 50,
+        "items": 49,
         "eligible": 2,
-        "seconds": 0.57
+        "seconds": 0.53
       },
       {
         "id": 17,
@@ -2054,7 +2051,7 @@
         "http": 200,
         "items": 50,
         "eligible": 8,
-        "seconds": 0.13
+        "seconds": 0.12
       },
       {
         "id": 19,
@@ -2063,7 +2060,7 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 3,
+        "eligible": 4,
         "seconds": 0.09
       },
       {
@@ -2074,7 +2071,7 @@
         "http": 200,
         "items": 60,
         "eligible": 59,
-        "seconds": 0.32
+        "seconds": 0.39
       },
       {
         "id": 21,
@@ -2083,8 +2080,8 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 17,
-        "seconds": 0.37
+        "eligible": 16,
+        "seconds": 0.36
       },
       {
         "id": 22,
@@ -2093,8 +2090,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 1,
-        "seconds": 0.08
+        "eligible": 2,
+        "seconds": 0.09
       },
       {
         "id": 23,
@@ -2104,7 +2101,7 @@
         "http": 200,
         "items": 21,
         "eligible": 1,
-        "seconds": 0.25
+        "seconds": 0.09
       },
       {
         "id": 24,
@@ -2114,7 +2111,7 @@
         "http": 200,
         "items": 40,
         "eligible": 6,
-        "seconds": 0.39
+        "seconds": 0.38
       },
       {
         "id": 25,
@@ -2123,8 +2120,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 4,
-        "seconds": 0.1
+        "eligible": 6,
+        "seconds": 0.44
       },
       {
         "id": 26,
@@ -2133,8 +2130,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 7,
-        "seconds": 0.15
+        "eligible": 5,
+        "seconds": 0.2
       },
       {
         "id": 27,
@@ -2153,7 +2150,7 @@
         "status": "ok",
         "http": 200,
         "items": 10,
-        "eligible": 10,
+        "eligible": 9,
         "seconds": 0.05
       },
       {
@@ -2163,8 +2160,8 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 5,
-        "seconds": 0.05
+        "eligible": 6,
+        "seconds": 0.06
       },
       {
         "id": 32,
@@ -2194,7 +2191,7 @@
         "http": 200,
         "items": 60,
         "eligible": 12,
-        "seconds": 0.23
+        "seconds": 0.2
       },
       {
         "id": 36,
@@ -2204,7 +2201,7 @@
         "http": 200,
         "items": 60,
         "eligible": 57,
-        "seconds": 0.33
+        "seconds": 0.36
       },
       {
         "id": 37,
@@ -2213,8 +2210,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 9,
-        "seconds": 0.59
+        "eligible": 7,
+        "seconds": 0.61
       },
       {
         "id": 38,
@@ -2224,7 +2221,7 @@
         "http": 200,
         "items": 56,
         "eligible": 3,
-        "seconds": 0.11
+        "seconds": 0.38
       },
       {
         "id": 39,
@@ -2233,8 +2230,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 9,
-        "seconds": 0.36
+        "eligible": 10,
+        "seconds": 0.82
       },
       {
         "id": 40,
@@ -2243,8 +2240,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 41,
-        "seconds": 0.35
+        "eligible": 36,
+        "seconds": 0.34
       },
       {
         "id": 41,
@@ -2253,8 +2250,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 3,
-        "seconds": 0.4
+        "eligible": 2,
+        "seconds": 0.44
       },
       {
         "id": 42,
@@ -2262,9 +2259,9 @@
         "url": "https://feeds.bbci.co.uk/sport/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 71,
+        "items": 68,
         "eligible": 0,
-        "seconds": 0.13
+        "seconds": 0.15
       },
       {
         "id": 43,
@@ -2274,7 +2271,7 @@
         "http": 200,
         "items": 40,
         "eligible": 0,
-        "seconds": 0.4
+        "seconds": 0.39
       },
       {
         "id": 44,
@@ -2283,8 +2280,8 @@
         "status": "ok",
         "http": 200,
         "items": 100,
-        "eligible": 2,
-        "seconds": 0.34
+        "eligible": 3,
+        "seconds": 0.51
       },
       {
         "id": 45,
@@ -2292,9 +2289,9 @@
         "url": "https://feeds.bbci.co.uk/sport/cricket/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 29,
+        "items": 30,
         "eligible": 0,
-        "seconds": 0.28
+        "seconds": 0.39
       },
       {
         "id": 47,
@@ -2304,7 +2301,7 @@
         "http": 200,
         "items": 36,
         "eligible": 0,
-        "seconds": 0.35
+        "seconds": 0.36
       }
     ],
     "sources": [
@@ -2324,12 +2321,12 @@
       "Hindu India",
       "Hindu SciTech",
       "Mint Companies",
+      "Mint Economy",
       "Mint Tech",
       "NDTV Business",
       "NDTV Top",
       "ScienceDaily",
-      "TechCrunch",
-      "Verge"
+      "TechCrunch"
     ],
     "summary_notice": "Own-word feed-based summaries, not original reporting. Publisher timestamps determine the 24-hour window."
   }
