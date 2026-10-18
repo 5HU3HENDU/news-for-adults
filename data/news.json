@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "title": "News for Adults",
-  "updated_at": "2026-10-18T06:45:36.346328+00:00",
+  "updated_at": "2026-10-18T08:46:35.855529+00:00",
   "schedule": {
     "active": false,
     "window_ist": "08:00-22:00",
@@ -19,6 +19,91 @@
     "Health"
   ],
   "stories": [
+    {
+      "id": "31d7992b56aa6dec513f",
+      "topic": "World",
+      "headline": "US में Trump के खिलाफ 'No Kings' प्रदर्शन फैले, midterms से पहले हजारों सड़कों पर",
+      "bullets": [
+        "Midterm elections से पहले US भर में President Donald Trump के खिलाफ 'No Kings' demonstrations हुए।",
+        "हजारों लोग रैलियों में शामिल हुए।"
+      ],
+      "published": "2026-10-18T08:25:24+00:00",
+      "sources": [
+        {
+          "name": "Aljazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/no-kings-protests-spread-across-the-us-ahead-of-midterm-elections?traffic_source=rss",
+          "feed_id": 9
+        }
+      ]
+    },
+    {
+      "id": "da2d5d207df9a8e9a49d",
+      "topic": "Business",
+      "headline": "₹3 lakh वाला iPhone Duo मिनटों में sold out, delivery January 2027 तक पहुंची",
+      "bullets": [
+        "Apple के ₹3 lakh के iPhone Duo मिनटों में बिक गए; deliveries अब January 2027 तक पहुंच गई हैं।",
+        "देरी सिर्फ India तक सीमित नहीं — US और दूसरे markets में भी इंतजार लंबा; official sales figures के बिना असली demand का पूरा चित्र साफ नहीं।"
+      ],
+      "published": "2026-10-18T08:23:12+00:00",
+      "sources": [
+        {
+          "name": "NDTV Business",
+          "url": "https://www.ndtvprofit.com/technology/apple-s-rs-3-lakh-iphone-duo-sells-out-within-minutes-deliveries-pushed-to-january-2027-12202029#publisher=newsstand",
+          "feed_id": 21
+        }
+      ]
+    },
+    {
+      "id": "bb5f00a3ffb7ab9c4f14",
+      "topic": "India",
+      "headline": "Pakistan ने Indian aircraft पर airspace बैन 24 November तक बढ़ाया",
+      "bullets": [
+        "Pakistan ने Indian aircraft के लिए अपना airspace 24 November तक बंद रखने का फैसला बढ़ाया।",
+        "Pakistan का airspace Karachi और Lahore — दो flight information regions में बंटा है: Pakistan Civil Aviation Authority का document।"
+      ],
+      "published": "2026-10-18T08:15:06+00:00",
+      "sources": [
+        {
+          "name": "NDTV Top",
+          "url": "https://www.ndtv.com/world-news/pakistan-extends-ban-on-indian-aircraft-in-its-airspace-till-november-24-12202114#publisher=newsstand",
+          "feed_id": 5
+        }
+      ]
+    },
+    {
+      "id": "2b5630790e756891b217",
+      "topic": "Business",
+      "headline": "FIITJEE पर ED का chargesheet: 32 centres बंद, 14,000 से ज्यादा students प्रभावित",
+      "bullets": [
+        "ED ने FIITJEE और उसके director couple के खिलाफ chargesheet दाखिल की; 32 centres बंद हो चुके हैं।",
+        "14,000 से ज्यादा students प्रभावित हुए; आरोप है कि IIT-JEE जैसे 2-4 साल के courses के लिए हर student से ₹2.8-3.5 lakh advance fees ली गई।"
+      ],
+      "published": "2026-10-18T07:40:44+00:00",
+      "sources": [
+        {
+          "name": "Mint Companies",
+          "url": "https://www.livemint.com/companies/ed-files-chargesheet-against-fiitjee-director-couple-32-centres-shut-over-14-000-students-hit-all-you-need-to-know-11792306852623.html",
+          "feed_id": 13
+        }
+      ]
+    },
+    {
+      "id": "02d21c2ceaa0d75e0c05",
+      "topic": "India",
+      "headline": "Bengal के Asansol में बन रहे power plant में हादसा: 4 की मौत, कई दबे होने की आशंका",
+      "bullets": [
+        "पश्चिम बंगाल के Asansol में एक under-construction power plant में हादसा हुआ है, 4 लोगों की मौत की खबर है।",
+        "कई लोगों के मलबे में दबे होने की आशंका जताई जा रही है।"
+      ],
+      "published": "2026-10-18T07:07:19+00:00",
+      "sources": [
+        {
+          "name": "AmarUjala India",
+          "url": "https://www.amarujala.com/india-news/several-killed-after-part-of-chimney-collapses-at-power-plant-in-bengal-s-asansol-2026-10-18",
+          "feed_id": 2
+        }
+      ]
+    },
     {
       "id": "a772e3d4b3de9b87c3de",
       "topic": "India",
@@ -177,6 +262,23 @@
           "name": "Hindu SciTech",
           "url": "https://www.thehindu.com/sci-tech/science/russian-military-satellite-stalks-us-radar-satellite-in-orbit/article71599219.ece",
           "feed_id": 36
+        }
+      ]
+    },
+    {
+      "id": "e5fc63652daac8a65475",
+      "topic": "India",
+      "headline": "Leh में Ladakh की पहली permanent High Court Bench, CJI Surya Kant करेंगे उद्घाटन",
+      "bullets": [
+        "CJI Surya Kant आज Leh में Ladakh की पहली permanent High Court Bench का उद्घाटन करेंगे।",
+        "Ladakh Chief Secretary Ashish Kundra ने कहा कि यह कदम Union Territory के लोगों के लिए न्याय को और करीब लाएगा।"
+      ],
+      "published": "2026-10-18T05:57:51+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/ladakh/cji-surya-kant-inaugurates-lehs-first-permanent-high-court-bench/article71599224.ece",
+          "feed_id": 3
         }
       ]
     },
@@ -2045,269 +2147,40 @@
           "feed_id": 15
         }
       ]
-    },
-    {
-      "id": "e4fa978298846b4eacdc",
-      "topic": "Business",
-      "headline": "Crypto का leverage खेल अब Bitcoin से आगे: real-world asset contracts में $9 billion",
-      "bullets": [
-        "Crypto trading घटने के बावजूद real-world asset contracts का open interest $9 billion तक पहुंचा, जो कुल का 14% है।"
-      ],
-      "published": "2026-10-17T08:27:30+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/cryptos-leverage-machine-finds-new-life-beyond-bitcoin-bets/articleshow/135007267.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "0e299fac6ee9adb8722d",
-      "topic": "World",
-      "headline": "Rubio की Uzbekistan यात्रा: Central Asia में नए partners की तलाश",
-      "bullets": [
-        "सवाल यह है कि क्या US व्यावहारिक, transaction-based नीति से Central Asia में अपना प्रभाव फिर से बढ़ा सकता है।"
-      ],
-      "published": "2026-10-17T08:27:28+00:00",
-      "sources": [
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/news-analysis/2026/10/17/rubios-uzbekistan-trip-underlines-central-asias-hunt-for-diverse-partners?traffic_source=rss",
-          "feed_id": 9
-        }
-      ]
-    },
-    {
-      "id": "487f31335eba3f8e87ca",
-      "topic": "India",
-      "headline": "Census 2027 पूरा करने वाला पहला राज्य बनने का Mizoram का लक्ष्य",
-      "bullets": [
-        "Chief Secretary Khilli Ram Meena ने census के दूसरे चरण की तैयारियों की समीक्षा के लिए state-level conference की।"
-      ],
-      "published": "2026-10-17T08:21:23+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/mizoram/mizoram-aims-to-be-first-state-to-complete-census-2027/article71568091.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "20ed8217fc8813fd077a",
-      "topic": "Science",
-      "headline": "Dental anxiety: जब डर इलाज की राह में रोड़ा बन जाता है",
-      "bullets": [
-        "क्यों इतने लोग dentist से बचते हैं और modern, patient-centred care इसमें कैसे मदद कर सकती है।"
-      ],
-      "published": "2026-10-17T08:01:42+00:00",
-      "sources": [
-        {
-          "name": "Hindu SciTech",
-          "url": "https://www.thehindu.com/sci-tech/health/dental-anxiety-when-fear-becomes-a-barrier-to-care/article71539979.ece",
-          "feed_id": 36
-        }
-      ]
-    },
-    {
-      "id": "61d3e2bcc97670488301",
-      "topic": "Science",
-      "headline": "Anthropic ने Claude AI के साथ 'क्रूर' व्यवहार पर लगाया प्रतिबंध",
-      "bullets": [
-        "पिछले साल कंपनी ने Claude को बहुत हानिकारक या abusive बातचीत खत्म करने की क्षमता दी थी।"
-      ],
-      "published": "2026-10-17T07:59:00+00:00",
-      "sources": [
-        {
-          "name": "Hindu SciTech",
-          "url": "https://www.thehindu.com/sci-tech/technology/anthropic-bans-cruel-behaviour-against-its-claude-ai/article71562464.ece",
-          "feed_id": 36
-        }
-      ]
-    },
-    {
-      "id": "f6e5322230b199e8aeb3",
-      "topic": "India",
-      "headline": "Power plants को coal supplies September के निचले स्तर से 36% बढ़ीं",
-      "bullets": [
-        "Coal Ministry के मुताबिक rail loading भी सुधरी है; mid-October में stock कमी और power demand घटने की उम्मीद है।"
-      ],
-      "published": "2026-10-17T07:54:31+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/business/Economy/coal-supplies-to-power-plants-rise-36-from-september-lows-rail-loading-hits-465-rakes-a-day/article71564570.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "806cdad4c8a397dc0930",
-      "topic": "Business",
-      "headline": "Global greenfield investments में India की हिस्सेदारी China से दोगुने से ज्यादा",
-      "bullets": [
-        "UNCTAD report के मुताबिक greenfield निवेश strategic sectors में बढ़ रहा है।",
-        "Report में India को सबसे तेज बढ़ती major economy बताया गया है।"
-      ],
-      "published": "2026-10-17T07:54:20+00:00",
-      "sources": [
-        {
-          "name": "Hindu Business",
-          "url": "https://www.thehindu.com/business/Economy/indias-share-of-global-greenfield-investments-more-than-double-chinas-in-2020-25/article71564075.ece",
-          "feed_id": 20
-        }
-      ]
-    },
-    {
-      "id": "b12d115563feffb474c2",
-      "topic": "Tech",
-      "headline": "iQOO Neo12 अक्टूबर में launch: Snapdragon 8 Elite Gen 5, 9000mAh battery",
-      "bullets": [
-        "फोन में 2K 185Hz screen भी होगी।"
-      ],
-      "published": "2026-10-17T07:46:12+00:00",
-      "sources": [
-        {
-          "name": "Mint Tech",
-          "url": "https://www.livemint.com/technology/tech-news/iqoo-neo12-to-launch-in-october-with-snapdragon-8-elite-gen-5-9000mah-battery-what-we-know-so-far-11792219878963.html",
-          "feed_id": 26
-        }
-      ]
-    },
-    {
-      "id": "68bcbb44065e4d968901",
-      "topic": "India",
-      "headline": "NIMHANS study: अकेलापन psychological distress से जुड़ा",
-      "bullets": [
-        "World Mental Health Day के आसपास आए निष्कर्ष mental health पर ध्यान की जरूरत उजागर करते हैं।"
-      ],
-      "published": "2026-10-17T07:45:01+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/karnataka/nimhans-study-finds-loneliness-linked-to-psychological-distress-excessive-series-watching-among-parents-of-emigrated-children/article71564189.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "e9359c3fc52e173b6e70",
-      "topic": "World",
-      "headline": "Senegal जितना बड़ा Antarctic glacier सोच से तेज पिघल रहा है",
-      "bullets": [
-        "Thwaites glacier दशकों से ice खो रहा है; अब तेजी से बढ़ते नुकसान की चिंता है।"
-      ],
-      "published": "2026-10-17T07:43:19+00:00",
-      "sources": [
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/17/senegal-sized-antarctic-glacier-melting-faster-than-thought-why-it-matters?traffic_source=rss",
-          "feed_id": 9
-        }
-      ]
-    },
-    {
-      "id": "789e3d663203c3d2b9bd",
-      "topic": "Business",
-      "headline": "Axis Bank का Q2 net profit 38% बढ़कर ₹7,003 crore",
-      "bullets": [
-        "FY27 की दूसरी तिमाही में profit पिछले साल की ₹5,089 crore से बढ़ा; NII भी बढ़ा।"
-      ],
-      "published": "2026-10-17T07:42:58+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/axis-bank-q2-results-net-profit-jumps-38-yoy-to-rs-7003-crore-nii-rises-12/articleshow/135009892.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "2ae4faa5ba0f0c72a828",
-      "topic": "Business",
-      "headline": "Renault का India में hybrids पर दांव: EV outlier में fuel efficiency का रास्ता",
-      "bullets": [
-        "India में charging की दिक्कत और ऊंची कीमत से buyers EV को लेकर सावधान हैं; Renault strong hybrids से यह gap भरना चाहता है।"
-      ],
-      "published": "2026-10-17T07:30:31+00:00",
-      "sources": [
-        {
-          "name": "Mint Companies",
-          "url": "https://www.livemint.com/companies/news/why-renault-is-betting-on-hybrids-in-ev-outlier-india-11792212070041.html",
-          "feed_id": 13
-        }
-      ]
-    },
-    {
-      "id": "f6a89afdd1d189e36b4f",
-      "topic": "Tech",
-      "headline": "'Dad, घर का internet बहुत slow है': Jio का founding idea कैसे बना",
-      "bullets": [
-        "Isha Ambani की घर के खराब internet को लेकर चिंता से बड़ी बातचीत शुरू हुई, जिसका नतीजा Reliance Jio बना।"
-      ],
-      "published": "2026-10-17T07:22:56+00:00",
-      "sources": [
-        {
-          "name": "ET Tech",
-          "url": "https://economictimes.indiatimes.com/tech/technology/dad-the-internet-at-home-is-too-slow-how-jios-founding-idea-took-shape/articleshow/135009724.cms",
-          "feed_id": 25
-        }
-      ]
-    },
-    {
-      "id": "cc70d7a3d160cb0eb436",
-      "topic": "Business",
-      "headline": "Priyagold biscuits और Dodla Dairy पर FSSAI की कार्रवाई",
-      "bullets": [
-        "कथित food safety violations पर Priyagold, Dodla Dairy और Ueir Organic Foods के खिलाफ prosecution मंजूर किया गया।",
-        "तीन अन्य businesses को hygiene, storage और licensing को लेकर notices जारी हुए।"
-      ],
-      "published": "2026-10-17T07:14:30+00:00",
-      "sources": [
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/business/dodla-dairy-milk-priyagold-biscuits-face-fssai-heat-over-multiple-food-safety-violations-12198202#publisher=newsstand",
-          "feed_id": 21
-        }
-      ]
-    },
-    {
-      "id": "366877d12e0d16f79905",
-      "topic": "Science",
-      "headline": "Prescription दवाओं के विज्ञापन पर Centre की tighter पाबंदियों का प्रस्ताव",
-      "bullets": [
-        "प्रस्तावित संशोधन पूरी drug supply chain में advertisement प्रतिबंध बढ़ाएगा।"
-      ],
-      "published": "2026-10-17T07:14:19+00:00",
-      "sources": [
-        {
-          "name": "Hindu SciTech",
-          "url": "https://www.thehindu.com/sci-tech/health/centre-proposes-tighter-curbs-on-advertising-of-prescription-drugs/article71564255.ece",
-          "feed_id": 36
-        }
-      ]
-    },
-    {
-      "id": "eff484814d8210f34369",
-      "topic": "India",
-      "headline": "Mumbai Learjet हादसा: अस्थिर landing और खराब मौसम संभावित वजह, AAIB report में खामियां",
-      "bullets": [
-        "AAIB की report में unstabilised approach और खराब मौसम को दुर्घटना की संभावित वजह बताया गया है।",
-        "Report में DGCA के लिए सिफारिशें भी शामिल हैं।"
-      ],
-      "published": "2026-10-17T07:11:22+00:00",
-      "sources": [
-        {
-          "name": "AmarUjala India",
-          "url": "https://www.amarujala.com/india-news/mumbai-learjet-crash-aaib-report-unstabilised-approach-poor-weather-dgca-recommendations-2026-10-17",
-          "feed_id": 2
-        }
-      ]
     }
   ],
   "metadata": {
     "refreshes": [
+      {
+        "at": "2026-10-18T08:46:35.855529+00:00",
+        "feed_checked_at": "2026-10-18T08:44:23.208568+00:00",
+        "items_read": 1714,
+        "candidates": 413,
+        "written": 6,
+        "added": 6,
+        "dropped": 16,
+        "total": 124,
+        "counts": {
+          "India": 21,
+          "World": 24,
+          "Business": 41,
+          "IPO": 2,
+          "Tech": 11,
+          "Sports": 4,
+          "Science": 12,
+          "Health": 9
+        },
+        "fetch_seconds": 2.3,
+        "rejected": {
+          "older_than_24h": 1079,
+          "question_headline": 83,
+          "editorial_keyword": 2,
+          "undated": 4,
+          "not_cricket": 65,
+          "duplicate": 68
+        },
+        "editorial_skipped": 407
+      },
       {
         "at": "2026-10-18T06:45:36.346328+00:00",
         "feed_checked_at": "2026-10-18T06:44:20.226494+00:00",
@@ -2369,57 +2242,26 @@
           "duplicate": 45
         },
         "editorial_skipped": 381
-      },
-      {
-        "at": "2026-10-18T02:47:32.323225+00:00",
-        "feed_checked_at": "2026-10-18T02:44:17.792581+00:00",
-        "items_read": 1715,
-        "candidates": 420,
-        "written": 24,
-        "added": 24,
-        "dropped": 33,
-        "total": 133,
-        "counts": {
-          "India": 26,
-          "World": 24,
-          "Business": 46,
-          "IPO": 2,
-          "Tech": 10,
-          "Sports": 4,
-          "Science": 15,
-          "Health": 6
-        },
-        "fetch_seconds": 2.39,
-        "rejected": {
-          "older_than_24h": 1092,
-          "question_headline": 77,
-          "future": 2,
-          "editorial_keyword": 2,
-          "undated": 4,
-          "not_cricket": 68,
-          "duplicate": 50
-        },
-        "editorial_skipped": 396
       }
     ],
     "topic_counts": {
-      "India": 22,
-      "World": 25,
-      "Business": 44,
+      "India": 21,
+      "World": 24,
+      "Business": 41,
       "IPO": 2,
-      "Tech": 13,
+      "Tech": 11,
       "Sports": 4,
-      "Science": 15,
+      "Science": 12,
       "Health": 9
     },
     "topic_gap_minutes": {
-      "India": 42,
-      "World": 47,
+      "India": 40,
+      "World": 45,
       "Business": 60,
       "IPO": 5,
-      "Tech": 25,
+      "Tech": 21,
       "Sports": 8,
-      "Science": 28,
+      "Science": 23,
       "Health": 17
     },
     "gap_is_metadata_only": true,
@@ -2432,7 +2274,7 @@
         "http": 200,
         "items": 19,
         "eligible": 1,
-        "seconds": 0.05
+        "seconds": 0.27
       },
       {
         "id": 2,
@@ -2441,8 +2283,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 14,
-        "seconds": 0.36
+        "eligible": 21,
+        "seconds": 0.39
       },
       {
         "id": 3,
@@ -2451,8 +2293,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 59,
-        "seconds": 0.11
+        "eligible": 60,
+        "seconds": 0.07
       },
       {
         "id": 4,
@@ -2461,8 +2303,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 10,
-        "seconds": 0.75
+        "eligible": 9,
+        "seconds": 0.72
       },
       {
         "id": 5,
@@ -2471,7 +2313,7 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 20,
+        "eligible": 19,
         "seconds": 0.36
       },
       {
@@ -2480,9 +2322,9 @@
         "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 26,
-        "eligible": 14,
-        "seconds": 0.05
+        "items": 27,
+        "eligible": 15,
+        "seconds": 0.06
       },
       {
         "id": 7,
@@ -2491,8 +2333,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 10,
-        "seconds": 0.39
+        "eligible": 11,
+        "seconds": 0.44
       },
       {
         "id": 9,
@@ -2501,7 +2343,7 @@
         "status": "ok",
         "http": 200,
         "items": 25,
-        "eligible": 25,
+        "eligible": 24,
         "seconds": 0.05
       },
       {
@@ -2511,8 +2353,8 @@
         "status": "ok",
         "http": 200,
         "items": 136,
-        "eligible": 14,
-        "seconds": 0.11
+        "eligible": 13,
+        "seconds": 0.07
       },
       {
         "id": 11,
@@ -2521,8 +2363,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 10,
-        "seconds": 0.25
+        "eligible": 9,
+        "seconds": 0.28
       },
       {
         "id": 12,
@@ -2532,7 +2374,7 @@
         "http": 200,
         "items": 9,
         "eligible": 0,
-        "seconds": 0.35
+        "seconds": 0.4
       },
       {
         "id": 13,
@@ -2541,8 +2383,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 15,
-        "seconds": 0.08
+        "eligible": 17,
+        "seconds": 0.1
       },
       {
         "id": 14,
@@ -2552,7 +2394,7 @@
         "http": 200,
         "items": 40,
         "eligible": 2,
-        "seconds": 0.36
+        "seconds": 0.4
       },
       {
         "id": 15,
@@ -2561,8 +2403,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 27,
-        "seconds": 0.08
+        "eligible": 24,
+        "seconds": 0.09
       },
       {
         "id": 16,
@@ -2572,7 +2414,7 @@
         "http": 200,
         "items": 50,
         "eligible": 2,
-        "seconds": 0.42
+        "seconds": 0.52
       },
       {
         "id": 17,
@@ -2581,8 +2423,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 8,
-        "seconds": 0.09
+        "eligible": 9,
+        "seconds": 0.12
       },
       {
         "id": 19,
@@ -2592,7 +2434,7 @@
         "http": 200,
         "items": 35,
         "eligible": 3,
-        "seconds": 0.06
+        "seconds": 0.1
       },
       {
         "id": 20,
@@ -2602,7 +2444,7 @@
         "http": 200,
         "items": 60,
         "eligible": 60,
-        "seconds": 0.07
+        "seconds": 0.08
       },
       {
         "id": 21,
@@ -2611,8 +2453,8 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 16,
-        "seconds": 0.35
+        "eligible": 11,
+        "seconds": 0.33
       },
       {
         "id": 22,
@@ -2622,7 +2464,7 @@
         "http": 200,
         "items": 35,
         "eligible": 1,
-        "seconds": 0.07
+        "seconds": 0.09
       },
       {
         "id": 23,
@@ -2642,7 +2484,7 @@
         "http": 200,
         "items": 40,
         "eligible": 2,
-        "seconds": 0.39
+        "seconds": 0.37
       },
       {
         "id": 25,
@@ -2651,8 +2493,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 1,
-        "seconds": 0.13
+        "eligible": 0,
+        "seconds": 0.94
       },
       {
         "id": 26,
@@ -2661,8 +2503,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 7,
-        "seconds": 0.19
+        "eligible": 8,
+        "seconds": 0.11
       },
       {
         "id": 27,
@@ -2672,7 +2514,7 @@
         "http": 200,
         "items": 20,
         "eligible": 2,
-        "seconds": 0.07
+        "seconds": 0.06
       },
       {
         "id": 28,
@@ -2692,7 +2534,7 @@
         "http": 200,
         "items": 20,
         "eligible": 5,
-        "seconds": 0.05
+        "seconds": 0.06
       },
       {
         "id": 32,
@@ -2702,7 +2544,7 @@
         "http": 200,
         "items": 42,
         "eligible": 4,
-        "seconds": 0.07
+        "seconds": 0.04
       },
       {
         "id": 33,
@@ -2712,7 +2554,7 @@
         "http": 200,
         "items": 10,
         "eligible": 1,
-        "seconds": 0.2
+        "seconds": 0.19
       },
       {
         "id": 34,
@@ -2732,7 +2574,7 @@
         "http": 200,
         "items": 60,
         "eligible": 56,
-        "seconds": 0.35
+        "seconds": 0.32
       },
       {
         "id": 37,
@@ -2741,8 +2583,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 10,
-        "seconds": 0.31
+        "eligible": 9,
+        "seconds": 0.48
       },
       {
         "id": 38,
@@ -2751,8 +2593,8 @@
         "status": "ok",
         "http": 200,
         "items": 56,
-        "eligible": 3,
-        "seconds": 0.07
+        "eligible": 4,
+        "seconds": 0.26
       },
       {
         "id": 39,
@@ -2761,8 +2603,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 5,
-        "seconds": 0.42
+        "eligible": 7,
+        "seconds": 0.37
       },
       {
         "id": 40,
@@ -2771,7 +2613,7 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 52,
+        "eligible": 49,
         "seconds": 0.32
       },
       {
@@ -2782,7 +2624,7 @@
         "http": 200,
         "items": 50,
         "eligible": 5,
-        "seconds": 0.41
+        "seconds": 0.59
       },
       {
         "id": 42,
@@ -2790,9 +2632,9 @@
         "url": "https://feeds.bbci.co.uk/sport/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 75,
+        "items": 76,
         "eligible": 0,
-        "seconds": 0.24
+        "seconds": 0.2
       },
       {
         "id": 43,
@@ -2802,7 +2644,7 @@
         "http": 200,
         "items": 40,
         "eligible": 0,
-        "seconds": 0.36
+        "seconds": 0.39
       },
       {
         "id": 44,
@@ -2811,8 +2653,8 @@
         "status": "ok",
         "http": 200,
         "items": 100,
-        "eligible": 4,
-        "seconds": 0.43
+        "eligible": 3,
+        "seconds": 0.41
       },
       {
         "id": 45,
@@ -2820,9 +2662,9 @@
         "url": "https://feeds.bbci.co.uk/sport/cricket/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 31,
+        "items": 29,
         "eligible": 0,
-        "seconds": 0.16
+        "seconds": 0.18
       },
       {
         "id": 47,
@@ -2832,7 +2674,7 @@
         "http": 200,
         "items": 36,
         "eligible": 0,
-        "seconds": 0.24
+        "seconds": 0.25
       }
     ],
     "sources": [
@@ -2846,7 +2688,6 @@
       "ET Economy",
       "ET Health",
       "ET Markets",
-      "ET Tech",
       "Hindu Business",
       "Hindu India",
       "Hindu SciTech",
