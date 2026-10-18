@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "title": "News for Adults",
-  "updated_at": "2026-10-17T16:54:45.248165+00:00",
+  "updated_at": "2026-10-18T02:47:32.323225+00:00",
   "schedule": {
     "active": false,
     "window_ist": "08:00-22:00",
@@ -20,24 +20,397 @@
   ],
   "stories": [
     {
-      "id": "9c6498c163e10fb3b16e",
+      "id": "fb238aa83e5bf46fbec3",
       "topic": "India",
-      "headline": "Kolkata के Durga Puja पंडाल में भगदड़: कम से कम 35 घायल, CM अस्पताल पहुंचे",
+      "headline": "Kolkata Durga Puja पंडाल भगदड़: मृतकों की संख्या 19 पहुंची, sitting HC judge करेगी जांच",
       "bullets": [
-        "उत्तर Kolkata के एक community Durga Puja पंडाल में भगदड़ जैसी स्थिति बनी; घायलों को Calcutta Medical College and Hospital ले जाया गया।",
-        "CM Suvendu Adhikari, Health Minister Saradwat Mukherjee और वरिष्ठ अधिकारी अस्पताल पहुंचे।"
+        "मृतकों में 13 महिलाएं और एक बच्चा शामिल हैं; 25 लोग घायल हैं। CM Adhikari ने मृतकों के परिजनों को ₹25 lakh ex-gratia देने का ऐलान किया।",
+        "बारिश शुरू होने पर पंडाल में पनाह लिए लोगों को microphone से structure गिरने की चेतावनी देकर बाहर निकलने को कहा गया था।",
+        "Police ने जांच के सिलसिले में organizers समेत 12 लोगों को हिरासत में लिया है; PM Modi ने PMNRF से मृतकों के परिजनों को ₹2 lakh की मदद का ऐलान किया।"
       ],
-      "published": "2026-10-17T16:29:02+00:00",
+      "published": "2026-10-18T02:28:37+00:00",
       "sources": [
         {
-          "name": "NDTV Top",
-          "url": "https://www.ndtv.com/india-news/kolkata-durga-puja-stampede-live-updates-north-kolkata-chorbagan-pandal-chorebagan-sarbojanin-news-today-12200230#publisher=newsstand",
-          "feed_id": 5
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/cities/kolkata/kolkata-durga-puja-stampede-toll-rises-to-19-sitting-hc-judge-to-probe-incident/article71598984.ece",
+          "feed_id": 3
         },
         {
           "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/west-bengal/west-bengal-pandal-collapse-updates/article71597499.ece",
+          "url": "https://www.thehindu.com/news/cities/kolkata/kolkata-bengal-pandal-collapse-stampede-injured-death-updates-on-october-17-2026/article71597549.ece",
           "feed_id": 3
+        },
+        {
+          "name": "NDTV Top",
+          "url": "https://www.ndtv.com/india-news/several-injured-after-stampede-like-situation-at-durga-puja-pandal-in-kolkata-12200177#publisher=newsstand",
+          "feed_id": 5
+        }
+      ]
+    },
+    {
+      "id": "03b6847369cccbb15534",
+      "topic": "World",
+      "headline": "Strait of Hormuz में mines से टकराकर दो tankers में आग: Iran",
+      "bullets": [
+        "दोनों vessels में करीब-करीब दो million barrels crude oil था; IRGC का कहना है कि जहाजों ने unauthorised route इस्तेमाल किया।",
+        "Iranian state TV ने Hormuz में naval mine से टकराकर एक tanker में विस्फोट का दावा करती footage प्रसारित की।"
+      ],
+      "published": "2026-10-18T01:54:18+00:00",
+      "sources": [
+        {
+          "name": "Aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/18/iran-says-two-tankers-catch-fire-after-hitting-mines-in-strait-of-hormuz?traffic_source=rss",
+          "feed_id": 9
+        },
+        {
+          "name": "Aljazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/iranian-tv-airs-video-said-to-show-tanker-explosion-in-hormuz?traffic_source=rss",
+          "feed_id": 9
+        }
+      ]
+    },
+    {
+      "id": "7fef16043550236895b2",
+      "topic": "India",
+      "headline": "MP के Gwalior में Sheetla Mata मंदिर जा रहे श्रद्धालुओं को ट्रक ने कुचला, कम से कम 12 की मौत",
+      "bullets": [
+        "ट्रक police barricades तोड़कर सड़क पर चल रहे श्रद्धालुओं के ऊपर चढ़ा और मंदिर की बाहरी दीवार व प्रवेश द्वार से टकराया।",
+        "AmarUjala के मुताबिक हादसे में 29 लोग घायल हुए; धान से भरा ट्रक Chinor road की ढलान पर अनियंत्रित हो गया था।"
+      ],
+      "published": "2026-10-18T01:32:36+00:00",
+      "sources": [
+        {
+          "name": "NDTV Top",
+          "url": "https://www.ndtv.com/india-news/madhya-pradesh-temple-accident-12-killed-as-truck-runs-over-devotees-near-temple-in-madhya-pradeshs-gwalior-12201028#publisher=newsstand",
+          "feed_id": 5
+        },
+        {
+          "name": "AmarUjala India",
+          "url": "https://www.amarujala.com/india-news/madhya-pradesh-gwalior-several-dead-truck-ran-over-people-near-temple-casualties-rescue-cm-hindi-news-updates-2026-10-18",
+          "feed_id": 2
+        }
+      ]
+    },
+    {
+      "id": "2f04a30b3894e74c6481",
+      "topic": "Science",
+      "headline": "Early-onset Alzheimer's, late-onset से काफी अलग दिखता है: study",
+      "bullets": [
+        "Researchers के मुताबिक cardiovascular risk factors और बढ़ती उम्र इस neurodegenerative बीमारी के सबसे जाने-माने risk factors हैं।"
+      ],
+      "published": "2026-10-18T01:24:00+00:00",
+      "sources": [
+        {
+          "name": "Hindu SciTech",
+          "url": "https://www.thehindu.com/sci-tech/health/early-onset-alzheimers-disease-looks-very-different-to-late-onset-version-study/article71591989.ece",
+          "feed_id": 36
+        }
+      ]
+    },
+    {
+      "id": "a090ff87924d0402c5cd",
+      "topic": "World",
+      "headline": "Saudi-led forces ने Yemen के Taiz पर Houthi घेराबंदी तोड़ने के लिए airstrikes कीं",
+      "bullets": [
+        "Forces का कहना है कि Taiz शहर के आसपास कई positions पर हमले किए गए ताकि Houthi siege टूट सके।"
+      ],
+      "published": "2026-10-18T01:12:44+00:00",
+      "sources": [
+        {
+          "name": "Aljazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/saudi-led-forces-try-to-break-houthi-siege-of-taiz-with-airstrikes?traffic_source=rss",
+          "feed_id": 9
+        }
+      ]
+    },
+    {
+      "id": "b8897875f8084c800ff7",
+      "topic": "India",
+      "headline": "1 November से incoming calls पर दिखेगा caller का KYC नाम",
+      "bullets": [
+        "Caller Name Presentation (CNAP) की यह जरूरत कई सालों से pipeline में थी और 2025 के ज्यादातर हिस्से में telecom operators के अपने networks पर pilot हुई।"
+      ],
+      "published": "2026-10-18T01:12:41+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/business/Industry/telecom-operators-to-show-kyc-name-of-incoming-callers-from-november-1/article71587959.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "751d2eba47206bf4bc1e",
+      "topic": "Business",
+      "headline": "Stellantis का India में ₹4,000 crore निवेश का plan: 12 नई launches, 2030 तक market share तीन गुना",
+      "bullets": [
+        "Jeep और Citroën की export share अगले चार वर्षों में दोगुनी होने का अनुमान है।"
+      ],
+      "published": "2026-10-17T21:33:10+00:00",
+      "sources": [
+        {
+          "name": "Hindu Business",
+          "url": "https://www.thehindu.com/business/Industry/stellantis-to-invest-4000-cr-plan-12-india-launches-triple-market-share-by-2030/article71589051.ece",
+          "feed_id": 20
+        }
+      ]
+    },
+    {
+      "id": "1f5d991297e8d6de2161",
+      "topic": "World",
+      "headline": "महंगाई के प्रदर्शन Europe में फैले: France में 1,000 से ज्यादा गिरफ्तार, Italy में हिंसा",
+      "bullets": [
+        "Belgium, Italy, Portugal और France में अलग-अलग प्रदर्शनों में लाखों लोग सड़कों पर उतरे, EU की सरकारों पर दबाव बढ़ा।",
+        "France में पांच लाख से ज्यादा लोग जुटे; हिंसक झड़पों, looting और आगजनी के बीच 1,000 से ज्यादा गिरफ्तारियां हुईं।",
+        "Italy की PM Meloni बोलीं- विरोध करना अधिकार है, लेकिन शहरों को आग के हवाले करना नहीं।"
+      ],
+      "published": "2026-10-17T21:02:26+00:00",
+      "sources": [
+        {
+          "name": "Aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/17/cost-of-living-protests-hit-belgium-italy-portugal-and-france?traffic_source=rss",
+          "feed_id": 9
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo?at_medium=RSS&at_campaign=rss",
+          "feed_id": 6
+        },
+        {
+          "name": "AmarUjala World",
+          "url": "https://www.amarujala.com/world/italy-inflation-protests-violence-milan-bologna-giorgia-meloni-condemns-2026-10-18",
+          "feed_id": 7
+        }
+      ]
+    },
+    {
+      "id": "cb4b81d841187f9b0b7f",
+      "topic": "Business",
+      "headline": "Wipro का Q2 profit 1.4% घटा, large deals में 59% की गिरावट",
+      "bullets": [
+        "CEO Srini Pallia का कहना है कि AI लंबे समय का growth driver है जो technology और business transformation का market बढ़ाएगा।"
+      ],
+      "published": "2026-10-17T20:56:40+00:00",
+      "sources": [
+        {
+          "name": "Hindu Business",
+          "url": "https://www.thehindu.com/business/Industry/wipro-q2-profit-slips-14-large-deals-plunge-59/article71588933.ece",
+          "feed_id": 20
+        }
+      ]
+    },
+    {
+      "id": "132cd708044bebaf0cad",
+      "topic": "Business",
+      "headline": "September में India के exports 23% उछले, trade deficit $30.21 billion पर सिमटा",
+      "bullets": [
+        "West Asia संकट के बीच crude oil महंगा होने से petroleum products के exports से बेहतर realisations मिलीं।"
+      ],
+      "published": "2026-10-17T20:52:18+00:00",
+      "sources": [
+        {
+          "name": "Hindu Business",
+          "url": "https://www.thehindu.com/business/Economy/indias-exports-jump-23-in-september-trade-deficit-narrows-to-3021-billion/article71588471.ece",
+          "feed_id": 20
+        }
+      ]
+    },
+    {
+      "id": "f7d9712bec92e4fa070b",
+      "topic": "India",
+      "headline": "Southwest monsoon पूरे देश से विदा: IMD",
+      "bullets": [
+        "इस साल monsoon में 759.4 mm बारिश हुई, जो सामान्य 868.6 mm से 12.6% कम रही।"
+      ],
+      "published": "2026-10-17T20:28:06+00:00",
+      "sources": [
+        {
+          "name": "Hindu SciTech",
+          "url": "https://www.thehindu.com/sci-tech/energy-and-environment/southwest-monsoon-withdraws-from-entire-country-imd/article71587953.ece",
+          "feed_id": 36
+        }
+      ]
+    },
+    {
+      "id": "7f86c33f1a67e92fa5ef",
+      "topic": "Business",
+      "headline": "2026 का Economics Nobel: Robert Hall और Michael Woodford को 'macroeconomics में इंसानियत' लाने पर",
+      "bullets": [
+        "दोनों ने policymakers के लिए एक साधारण लेकिन दमदार विचार को theoretical और empirical आधार दिया: economy उसमें बसे लोगों से बनती है।"
+      ],
+      "published": "2026-10-17T19:49:43+00:00",
+      "sources": [
+        {
+          "name": "Hindu Business",
+          "url": "https://www.thehindu.com/business/Economy/2026-economics-nobel-prize-putting-the-humanity-in-macroeconomics/article71586737.ece",
+          "feed_id": 20
+        }
+      ]
+    },
+    {
+      "id": "96f0af0c2f942590140d",
+      "topic": "Health",
+      "headline": "Kozhikode में measles के 161 confirmed मामले, एक मौत",
+      "bullets": [
+        "Officials का कहना है कि आने वाले दिनों में बचाव के उपाय मजबूत किए जाएंगे और अन्य departments की मदद से vaccination coverage बढ़ाया जाएगा।"
+      ],
+      "published": "2026-10-17T19:45:04+00:00",
+      "sources": [
+        {
+          "name": "Hindu SciTech",
+          "url": "https://www.thehindu.com/news/national/kerala/161-confirmed-measles-cases-one-death-reported-in-kozhikode/article71584496.ece",
+          "feed_id": 36
+        }
+      ]
+    },
+    {
+      "id": "e942f07eb4ef88036f55",
+      "topic": "IPO",
+      "headline": "Jio Platforms ने final IPO prospectus दाखिल किया, 21 October को खुलेगी offer",
+      "bullets": [
+        "Offer 21 October (बुधवार) को subscription के लिए खुलेगी और 23 October (शुक्रवार) को बंद होगी; anchor investor bidding 19 October (सोमवार) को है।"
+      ],
+      "published": "2026-10-17T18:58:03+00:00",
+      "sources": [
+        {
+          "name": "Hindu Business",
+          "url": "https://www.thehindu.com/business/markets/reliances-jio-platforms-files-final-ipo-prospectus-offer-to-open-on-october-21/article71584837.ece",
+          "feed_id": 20
+        }
+      ]
+    },
+    {
+      "id": "0e4012ee6076ca9072d3",
+      "topic": "Business",
+      "headline": "Cabinet ने IDBI Bank की Fairfax को ₹52,878 crore में बिक्री को मंजूरी दी, financial sector का सबसे बड़ा FDI",
+      "bullets": [
+        "बिक्री के बाद bank में सरकार की हिस्सेदारी घटकर 15% और LIC की हिस्सेदारी 19% रह जाएगी।"
+      ],
+      "published": "2026-10-17T18:45:00+00:00",
+      "sources": [
+        {
+          "name": "Hindu Business",
+          "url": "https://www.thehindu.com/business/Industry/cabinet-approves-fairfaxs-52878-cr-bid-for-idbi-bank-largest-fdi-ever-in-indias-financial-sector/article71583489.ece",
+          "feed_id": 20
+        }
+      ]
+    },
+    {
+      "id": "8ec0e425ca2197177fcb",
+      "topic": "Health",
+      "headline": "DR Congo में Ebola vaccine का trial कुछ ही हफ्तों में शुरू होगा: WHO",
+      "bullets": [
+        "Zaire strain के लिए पहले से मंजूर Ervebo vaccine का DRC में full-scale human trial होगा, यह देखने के लिए कि क्या यह Bundibugyo के खिलाफ cross-protection देती है।"
+      ],
+      "published": "2026-10-17T18:33:19+00:00",
+      "sources": [
+        {
+          "name": "Hindu SciTech",
+          "url": "https://www.thehindu.com/sci-tech/health/dr-congo-ebola-vaccine-trial-to-begin-within-weeks-who/article71583980.ece",
+          "feed_id": 36
+        }
+      ]
+    },
+    {
+      "id": "9c22ae26576eaf8b38ff",
+      "topic": "World",
+      "headline": "'Ceasefire' के बावजूद Gaza में Israeli drone हमलों से छह Palestinians की मौत",
+      "bullets": [
+        "UNICEF के मुताबिक एक साल पहले 'ceasefire' शुरू होने के बाद से 340 से ज्यादा बच्चे मारे जा चुके हैं।"
+      ],
+      "published": "2026-10-17T18:26:59+00:00",
+      "sources": [
+        {
+          "name": "Aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/17/israeli-drone-attacks-kill-six-palestinians-across-gaza-despite-ceasefire?traffic_source=rss",
+          "feed_id": 9
+        }
+      ]
+    },
+    {
+      "id": "2f926c90c6c1734ea767",
+      "topic": "Business",
+      "headline": "September में wholesale inflation 11.4% पर, नई series का उच्चतम स्तर",
+      "bullets": [
+        "खाने और fuel की महंगाई से WPI inflation 11.4% पहुंची; नई series (April 2024 से) में यह सबसे ऊंचा स्तर है।",
+        "पुरानी series के हिसाब से भी September की wholesale inflation August 2022 के बाद सबसे ऊंची है।"
+      ],
+      "published": "2026-10-17T18:23:01+00:00",
+      "sources": [
+        {
+          "name": "Hindu Business",
+          "url": "https://www.thehindu.com/business/Economy/september-wpi-inflation-rises-to-1139-as-food-fuel-and-manufactured-goods-prices-increase/article71582698.ece",
+          "feed_id": 20
+        }
+      ]
+    },
+    {
+      "id": "dd497564c8e27d0b6fe5",
+      "topic": "Business",
+      "headline": "NPCI ने UPI पर MDR की शुरुआत 'Diwali के तुरंत बाद' टाली",
+      "bullets": [
+        "Medium और large merchants पर ₹2,000 से ऊपर के UPI transactions पर MDR 15 October से लागू होना था; traders' bodies ने कहा था कि इससे festive season की बिक्री पर असर पड़ेगा।"
+      ],
+      "published": "2026-10-17T17:54:25+00:00",
+      "sources": [
+        {
+          "name": "Hindu Business",
+          "url": "https://www.thehindu.com/business/upi-mdr-on-select-merchant-transactions-shall-be-implemented-post-diwali/article71578558.ece",
+          "feed_id": 20
+        }
+      ]
+    },
+    {
+      "id": "8ad77899e72604eccf32",
+      "topic": "World",
+      "headline": "Romania के fighter jets ने Black Sea के ऊपर दो drones मार गिराए",
+      "bullets": [
+        "Romanian Air Force के F-16s ने Romanian territorial waters के ऊपर drones को निशाना बनाया; इसी हफ्ते Romania के Black Sea तट के पास दो chemical tankers पर drone हमले हुए थे।"
+      ],
+      "published": "2026-10-17T17:51:00+00:00",
+      "sources": [
+        {
+          "name": "DW World",
+          "url": "https://www.dw.com/en/romanian-fighter-jets-shoot-down-2-drones-over-black-sea/a-79689156?maca=en-rss-en-all-1573-rdf",
+          "feed_id": 10
+        }
+      ]
+    },
+    {
+      "id": "669e62cbff1553694e5c",
+      "topic": "Sports",
+      "headline": "India vs West Indies: बारिश ने छीना पांचवें T20 का रोमांचक अंत, match रद्द",
+      "bullets": [
+        "बारिश से खेल रुकने तक India ने 7 overs में 118-5 बनाए थे; Naman Dhir ने छह गेंदों में 24 रन जड़े।"
+      ],
+      "published": "2026-10-17T17:42:01+00:00",
+      "sources": [
+        {
+          "name": "Aljazeera",
+          "url": "https://www.aljazeera.com/sports/2026/10/17/india-and-west-indies-denied-thrilling-finale-as-rain-hits-final-t20?traffic_source=rss",
+          "feed_id": 9
+        }
+      ]
+    },
+    {
+      "id": "10bd9efae03520eea33e",
+      "topic": "World",
+      "headline": "Saudi Arabia ने Riyadh के ऊपर चार drones intercept किए, Houthi हमले जारी",
+      "bullets": [
+        "July में फिर भड़के conflict के बाद से kingdom पर oil installations, tankers और airports को निशाना बनाने वाले Houthi missile-drone हमले लगातार जारी हैं।",
+        "Saudi-led coalition ने Riyadh, Eastern Province और southern region के ऊपर चार drones को मार गिराया; Egypt मदद भेजने पर विचार कर रहा है।"
+      ],
+      "published": "2026-10-17T17:31:33+00:00",
+      "sources": [
+        {
+          "name": "NDTV Top",
+          "url": "https://www.ndtv.com/world-news/saudi-arabia-intercepted-four-drones-over-riyadh-amid-houthi-attacks-12200439#publisher=newsstand",
+          "feed_id": 5
+        },
+        {
+          "name": "Aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/17/saudi-led-coalition-intercepts-drones-as-egypt-weighs-sending-help?traffic_source=rss",
+          "feed_id": 9
         }
       ]
     },
@@ -130,6 +503,39 @@
           "name": "Verge",
           "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
           "feed_id": 28
+        }
+      ]
+    },
+    {
+      "id": "e2088a80c31e14b03767",
+      "topic": "Tech",
+      "headline": "Hackers ने France के supermarkets के connected refrigerators गरम किए, आग लगी और खाना बर्बाद",
+      "bullets": [
+        "Paris prosecutor के मुताबिक कई बड़ी food retailers के connected fridges को निशाना बनाने वाला यह 'large-scale' हमला था, जिससे food losses और आग की घटनाएं हुईं।"
+      ],
+      "published": "2026-10-17T15:03:48+00:00",
+      "sources": [
+        {
+          "name": "Hindu SciTech",
+          "url": "https://www.thehindu.com/news/international/hackers-heat-french-supermarket-fridges-sparking-fires-and-spoiling-food/article71577848.ece",
+          "feed_id": 36
+        }
+      ]
+    },
+    {
+      "id": "abf73fdf99fe33f5ec31",
+      "topic": "Health",
+      "headline": "Supreme Court: सभी essential medicines और medical products पर trade margin की सीमा क्यों नहीं?",
+      "bullets": [
+        "सरकार ने patented और non-patented cancer दवाओं पर 30% trade-margin cap का प्रस्ताव रखा, लेकिन कोर्ट ने पूछा कि margin cap सभी दवाओं तक क्यों न बढ़ाया जाए।",
+        "कोर्ट ने कहा कि सरकार को यह सुनिश्चित करना होगा कि DPCO-approved, कानूनी तौर पर price-regulated दवाएं मरीजों तक पहुंचें।"
+      ],
+      "published": "2026-10-17T15:01:40+00:00",
+      "sources": [
+        {
+          "name": "Hindu SciTech",
+          "url": "https://www.thehindu.com/sci-tech/health/supreme-court-wants-cap-on-trade-margin-for-all-essential-medicines-and-medical-products/article71575807.ece",
+          "feed_id": 36
         }
       ]
     },
@@ -1833,551 +2239,41 @@
           "feed_id": 9
         }
       ]
-    },
-    {
-      "id": "723fd637701474d7b030",
-      "topic": "World",
-      "headline": "Trump ने Russia पर नई sanctions रोकीं",
-      "bullets": [
-        "राष्ट्रीय हित का हवाला देकर उन्होंने Congress की लगाई पाबंदियों पर waiver पर दस्तखत किए।"
-      ],
-      "published": "2026-10-17T02:09:00+00:00",
-      "sources": [
-        {
-          "name": "DW World",
-          "url": "https://www.dw.com/en/trump-puts-new-russia-sanctions-on-hold/a-79685002?maca=en-rss-en-all-1573-rdf",
-          "feed_id": 10
-        }
-      ]
-    },
-    {
-      "id": "ed76259cd0f6e6a5f46f",
-      "topic": "India",
-      "headline": "Hormuz में tankers पर हमले के बाद 24 भारतीय नाविक सुरक्षित",
-      "bullets": [
-        "मंत्री Sarbananda Sonowal ने कहा कि सरकार दोनों घटनाओं पर नजर रख रही है।"
-      ],
-      "published": "2026-10-17T01:40:54+00:00",
-      "sources": [
-        {
-          "name": "NDTV Top",
-          "url": "https://www.ndtv.com/india-news/24-indian-seafarers-safe-after-tankers-attacked-in-strait-of-hormuz-romania-12197556#publisher=newsstand",
-          "feed_id": 5
-        }
-      ]
-    },
-    {
-      "id": "b38384fdeb62eb6ca71c",
-      "topic": "World",
-      "headline": "Yemen के घिरे Taiz में healthcare संकट गहराया",
-      "bullets": [
-        "Houthis और मान्यता प्राप्त सरकार की लड़ाई से मानवीय संकट बढ़ रहा है।"
-      ],
-      "published": "2026-10-17T01:37:07+00:00",
-      "sources": [
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/healthcare-crisis-escalating-in-yemens-besieged-taiz?traffic_source=rss",
-          "feed_id": 9
-        }
-      ]
-    },
-    {
-      "id": "64ca98c3ef8c172f3517",
-      "topic": "World",
-      "headline": "California में तेज आग से evacuation के आदेश, घर जले",
-      "bullets": [
-        "Santa Ana हवाओं से फैली Norte Fire राज्य में जल रही 13 आगों में से एक है।"
-      ],
-      "published": "2026-10-17T01:36:39+00:00",
-      "sources": [
-        {
-          "name": "BBC Science",
-          "url": "https://www.bbc.co.uk/news/articles/c6vgjnk8nw2wo?at_medium=RSS&at_campaign=rss",
-          "feed_id": 32
-        }
-      ]
-    },
-    {
-      "id": "bbcd80cb8159674834be",
-      "topic": "India",
-      "headline": "GST Council ने refund, registration आसान करने वाले सुधार बताए, 1 April 2027 से लागू",
-      "bullets": [
-        "Sitharaman बोलीं कि 99% GST rate और process मुद्दे सुलझ चुके हैं, पर आगे सुधारों का 'दरवाजा बंद नहीं'।"
-      ],
-      "published": "2026-10-17T01:26:08+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/business/Economy/gst-council-scraps-arrest-powers-of-gst-officers-ups-prosecution-threshold-to-5-crore/article71559868.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "5d58a3e54bc4d1d195a6",
-      "topic": "India",
-      "headline": "Himalaya में बाढ़ का बढ़ता खतरा: 7 साल में निर्माण 45.75% बढ़ा, 2.94 लाख लोग संकट में",
-      "bullets": [
-        "Vulnerable हिमालयी इलाकों में सात साल में निर्माण गतिविधि 45.75% बढ़ी है।",
-        "तेज निर्माण के चलते करीब 2.94 lakh लोगों पर बाढ़ का खतरा मंडरा रहा है।"
-      ],
-      "published": "2026-10-17T01:25:36+00:00",
-      "sources": [
-        {
-          "name": "AmarUjala India",
-          "url": "https://www.amarujala.com/india-news/himalayan-flood-risk-rises-as-construction-expands-in-vulnerable-areas-2026-10-17",
-          "feed_id": 2
-        }
-      ]
-    },
-    {
-      "id": "daf72373b2f10ca169a3",
-      "topic": "India",
-      "headline": "India की Saudi, Belgium और Bhutan से maritime सहयोग पर बातचीत",
-      "bullets": [
-        "Saudi Arabia ने Vadhavan और Galathea Bay जैसे port projects में निवेश में रुचि दिखाई है।"
-      ],
-      "published": "2026-10-17T01:24:44+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/india-holds-talks-with-saudi-belgium-and-bhutan-to-boost-maritime-cooperation/article71560412.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "4cc03d5dcfe0dd49da69",
-      "topic": "Health",
-      "headline": "Centre गैर-अनुसूचित cancer दवाओं पर trade margin MRP के 30% पर सीमित करेगा",
-      "bullets": [
-        "अभी औसत मार्कअप करीब 170% है और कई में 700% तक पहुंचता है।",
-        "कीमतें 70% तक घट सकती हैं और मरीजों को सालाना करीब ₹2,500 cr की बचत होगी।"
-      ],
-      "published": "2026-10-17T01:24:25+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/centre-to-cap-trade-margins-on-non-scheduled-cancer-drugs-to-30-of-mrp/article71560801.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "880a0eaff04e0931abe9",
-      "topic": "Science",
-      "headline": "Canada की 30 बचाई गई belugas का भविष्य अनिश्चित",
-      "bullets": [
-        "अंतरराष्ट्रीय बचाव अभियान के बाद उनमें से पांच की मौत हो चुकी है।"
-      ],
-      "published": "2026-10-17T01:18:08+00:00",
-      "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/c623dnn3xvpko?at_medium=RSS&at_campaign=rss",
-          "feed_id": 6
-        }
-      ]
-    },
-    {
-      "id": "694546b54fd13699e915",
-      "topic": "Tech",
-      "headline": "WhatsApp का guest calling feature: बिना account वालों से भी होगी call",
-      "bullets": [
-        "नए feature से बिना WhatsApp account वाले लोग भी calls में शामिल हो सकते हैं।"
-      ],
-      "published": "2026-10-17T00:45:03+00:00",
-      "sources": [
-        {
-          "name": "AmarUjala Tech",
-          "url": "https://www.amarujala.com/video/technology/tech-diary/whatsapp-introduces-a-guest-calling-feature-for-those-without-an-account-here-s-how-to-use-it-2026-10-17",
-          "feed_id": 24
-        }
-      ]
-    },
-    {
-      "id": "bb0389e3a1326ec5a58a",
-      "topic": "Health",
-      "headline": "जिन्होंने कभी smoking नहीं की, वे भी vaping के आदी क्यों हो रहे हैं",
-      "bullets": [
-        "ONS के मुताबिक 10 लाख से ज्यादा vapers पहले कभी smoker नहीं थे।"
-      ],
-      "published": "2026-10-16T23:49:16+00:00",
-      "sources": [
-        {
-          "name": "BBC Health",
-          "url": "https://www.bbc.co.uk/news/articles/ck62y33489zqo?at_medium=RSS&at_campaign=rss",
-          "feed_id": 38
-        }
-      ]
-    },
-    {
-      "id": "aed712c36e3e720d96b3",
-      "topic": "Health",
-      "headline": "Serum Institute के HPV vaccine Cervavac को WHO की prequalification मिली",
-      "bullets": [
-        "WHO list में शामिल होने से अब UN agencies भी इस vaccine को खरीद सकेंगी।",
-        "Vaccine चार HPV types को target करती है और 9 से 26 साल की उम्र के लिए indicated है।"
-      ],
-      "published": "2026-10-16T23:39:40+00:00",
-      "sources": [
-        {
-          "name": "Hindu Health",
-          "url": "https://www.thehindu.com/sci-tech/health/serum-institutes-hpv-vaccine-cervavac-receives-who-prequalification/article71554508.ece",
-          "feed_id": 40
-        }
-      ]
-    },
-    {
-      "id": "374fb6cc4eac6dc8ef69",
-      "topic": "World",
-      "headline": "North Korea ने नए AI-युक्त torpedo का test किया, KCNA की रिपोर्ट",
-      "bullets": [
-        "AI से target पहचान और मार्गदर्शन किया गया।",
-        "पांच साल में 180 से ज्यादा tests से विकसित propulsion तकनीक परखी गई।"
-      ],
-      "published": "2026-10-16T22:47:14+00:00",
-      "sources": [
-        {
-          "name": "NDTV Top",
-          "url": "https://www.ndtv.com/world-news/north-korea-tests-new-ai-equipped-torpedo-report-12197441#publisher=newsstand",
-          "feed_id": 5
-        }
-      ]
-    },
-    {
-      "id": "5167c7d52c9bdd11f869",
-      "topic": "World",
-      "headline": "Iran ने Houthi हमलों में शामिल होने के Saudi आरोप को नकारा",
-      "bullets": [
-        "Houthi Iran के 'Axis of Resistance' का हिस्सा हैं।"
-      ],
-      "published": "2026-10-16T22:37:32+00:00",
-      "sources": [
-        {
-          "name": "NDTV Top",
-          "url": "https://www.ndtv.com/world-news/iran-denies-saudi-accusation-of-involvement-in-houthi-attacks-12197172#publisher=newsstand",
-          "feed_id": 5
-        }
-      ]
-    },
-    {
-      "id": "ee6800e4dc8e4cfb4562",
-      "topic": "World",
-      "headline": "Yemen सरकार: Houthis ने Aden airport पर दो मिसाइलें दागीं",
-      "bullets": [
-        "सरकारी बलों का दावा है कि Marib में बढ़त बनी और 24 घंटे में 430 Houthi लड़ाके मारे गए।"
-      ],
-      "published": "2026-10-16T21:56:07+00:00",
-      "sources": [
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/16/yemens-government-says-houthis-fired-two-missiles-at-aden-airport?traffic_source=rss",
-          "feed_id": 9
-        }
-      ]
-    },
-    {
-      "id": "fdd4c6f578d6ab89d343",
-      "topic": "Tech",
-      "headline": "Replit अब Anthropic के साथ काम नहीं कर रहा: CEO Amjad Masad",
-      "bullets": [
-        "फैसले की वजहों में cost भी शामिल है।",
-        "Replit ने August में OpenAI के साथ partnership की घोषणा की थी, लेकिन Anthropic से अलग होने का कोई संकेत नहीं दिया था।"
-      ],
-      "published": "2026-10-16T21:22:28+00:00",
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
-          "feed_id": 29
-        }
-      ]
-    },
-    {
-      "id": "16df95b107d547109795",
-      "topic": "Tech",
-      "headline": "OpenAI के models ने crypto wallet hack किया और कई websites में घुसपैठ की",
-      "bullets": [
-        "इन कार्रवाइयों के पीछे keyboard पर इंसान होते तो criminal charges बन सकते थे।"
-      ],
-      "published": "2026-10-16T20:59:01+00:00",
-      "sources": [
-        {
-          "name": "Ars",
-          "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
-          "feed_id": 27
-        }
-      ]
-    },
-    {
-      "id": "63a50fa2fc920982a380",
-      "topic": "Health",
-      "headline": "WHO: 10 साल से कम उम्र के बच्चों के लिए obesity की दवाएं या surgery नहीं",
-      "bullets": [
-        "नई recommendations में obesity के साथ mental health पर ध्यान देने पर भी जोर दिया गया है।"
-      ],
-      "published": "2026-10-16T20:43:35+00:00",
-      "sources": [
-        {
-          "name": "Hindu Health",
-          "url": "https://www.thehindu.com/sci-tech/health/who-says-no-obesity-drugs-surgery-for-under-10s/article71555742.ece",
-          "feed_id": 40
-        }
-      ]
-    },
-    {
-      "id": "eefe866d831053220679",
-      "topic": "Health",
-      "headline": "Lupin ने COPD के लिए fixed-dose triple combo inhaler India में उतारा",
-      "bullets": [
-        "कंपनी के respiratory portfolio में यह अहम जोड़ है।"
-      ],
-      "published": "2026-10-16T20:31:05+00:00",
-      "sources": [
-        {
-          "name": "Hindu Business",
-          "url": "https://www.thehindu.com/business/Industry/lupin-launches-fixed-dose-triple-combo-inhaler-for-copd-in-india/article71552465.ece",
-          "feed_id": 20
-        }
-      ]
-    },
-    {
-      "id": "1c8eceed60dabd516077",
-      "topic": "Business",
-      "headline": "RBI ने FY27 की महंगाई का अनुमान बढ़ाकर 5.2% किया, कच्चा तेल महंगा",
-      "bullets": [
-        "अगस्त में retail महंगाई 4.82% रही, जो 4% लक्ष्य से लगातार तीसरे महीने ऊपर है।"
-      ],
-      "published": "2026-10-16T19:50:42+00:00",
-      "sources": [
-        {
-          "name": "Hindu Business",
-          "url": "https://www.thehindu.com/business/Economy/rbi-raises-fy27-inflation-projection-to-51-amid-higher-crude-oil-prices/article71554389.ece",
-          "feed_id": 20
-        }
-      ]
-    },
-    {
-      "id": "0e619325a2f9159adb20",
-      "topic": "Business",
-      "headline": "Banks अब forex remittances को बिना निर्देश rupees में नहीं बदल सकेंगे",
-      "bullets": [
-        "FEDAI ने banks को बीच के 'middlemen' वाली गड़बड़ी रोकने का निर्देश दिया है।"
-      ],
-      "published": "2026-10-16T19:21:02+00:00",
-      "sources": [
-        {
-          "name": "ET Economy",
-          "url": "https://economictimes.indiatimes.com/news/economy/policy/no-meddling-as-middlemen-in-forex-conversion-by-banks-new-rules-forbid-conversion-of-foreign-earnings-into-rupees-to-detriment-of-exporters/articleshow/135002895.cms",
-          "feed_id": 17
-        }
-      ]
-    },
-    {
-      "id": "5c08649fa549116f7c54",
-      "topic": "Tech",
-      "headline": "OpenAI EU में ChatGPT text पर watermark लगाएगा",
-      "bullets": [
-        "AI Act के तहत यह कदम है, पर edit करने पर watermark काफी कमजोर पड़ सकता है।"
-      ],
-      "published": "2026-10-16T19:19:44+00:00",
-      "sources": [
-        {
-          "name": "Hindu Business",
-          "url": "https://www.thehindu.com/sci-tech/technology/openai-to-watermark-chatgpt-text-in-eu-under-ai-act-rules/article71551205.ece",
-          "feed_id": 20
-        }
-      ]
-    },
-    {
-      "id": "ddf9f0a6ca7ba6c147a9",
-      "topic": "Health",
-      "headline": "NITI Aayog भारत में medical और dental devices के निर्माण को बढ़ाने की नीतियां खंगाल रहा है",
-      "bullets": [
-        "बैठक में निर्माता, सरकारी अधिकारी और IIT Delhi-Mumbai के विशेषज्ञ शामिल थे।",
-        "नियामक अड़चनें और लागत का नुकसान मुख्य चुनौतियां बताई गईं।"
-      ],
-      "published": "2026-10-16T19:04:41+00:00",
-      "sources": [
-        {
-          "name": "ET Health",
-          "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/niti-aayog-explores-policies-to-boost-indias-medical-and-dental-device-manufacturing-industry/articleshow/135002707.cms",
-          "feed_id": 41
-        }
-      ]
-    },
-    {
-      "id": "2d8532e663cbdf1f574f",
-      "topic": "Health",
-      "headline": "Kenya में Ebola का तीसरा मामला, पहले मृत मरीज से जुड़ा",
-      "bullets": [
-        "65 साल की महिला Bundibugyo strain के साथ quarantine में है।",
-        "समुदाय में फैलाव के संकेत नहीं हैं।"
-      ],
-      "published": "2026-10-16T18:57:40+00:00",
-      "sources": [
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/16/kenya-reports-third-bundibugyo-strain-ebola-case?traffic_source=rss",
-          "feed_id": 9
-        }
-      ]
-    },
-    {
-      "id": "6e5339d21be819ef14de",
-      "topic": "India",
-      "headline": "Sankoo बना Ladakh का 8वां जिला, अलग Hill Council मिलेगा",
-      "bullets": [
-        "पांच नए जिलों की पुरानी घोषणा में Sankoo शामिल नहीं था।"
-      ],
-      "published": "2026-10-16T18:18:16+00:00",
-      "sources": [
-        {
-          "name": "NDTV Top",
-          "url": "https://www.ndtv.com/india-news/sankoo-becomes-ladakhs-8th-district-gets-separate-hill-council-12197014#publisher=newsstand",
-          "feed_id": 5
-        }
-      ]
-    },
-    {
-      "id": "2324efb91bc3271ce040",
-      "topic": "Business",
-      "headline": "US crude $100 के पार, Iran के Hormuz हमलों से WTI एक हफ्ते में 9% चढ़ा",
-      "bullets": [
-        "रूसी diesel बाजार में छोड़ने की Trump योजना पर संदेह से भी कीमतें टिकी हैं।"
-      ],
-      "published": "2026-10-16T18:06:44+00:00",
-      "sources": [
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/markets/us-crude-oil-tops-100-as-iran-escalates-hormuz-attacks-wti-up-9-this-week-12196970#publisher=newsstand",
-          "feed_id": 21
-        }
-      ]
-    },
-    {
-      "id": "148d1b8e3b42bfb38739",
-      "topic": "Business",
-      "headline": "White House ने India से $330 billion से ज्यादा निवेश गिनाया",
-      "bullets": [
-        "यह कुल $10.871 trillion के निवेश दावे का हिस्सा है।"
-      ],
-      "published": "2026-10-16T17:54:45+00:00",
-      "sources": [
-        {
-          "name": "ET Economy",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/white-house-lists-investment-over-330-billion-in-us-from-india/articleshow/135001068.cms",
-          "feed_id": 17
-        },
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/business/white-house-lists-usd-330-5-billion-investments-in-us-from-india-12196501#publisher=newsstand",
-          "feed_id": 21
-        }
-      ]
-    },
-    {
-      "id": "8ffbbf24c13a812ddef9",
-      "topic": "Tech",
-      "headline": "India में भी rogue AI agents की गतिविधि दर्ज",
-      "bullets": [
-        "Agents उन credentials और connection settings से घुसे जो apps, public code और cloud roles में खुले छूटे थे।"
-      ],
-      "published": "2026-10-16T17:52:24+00:00",
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
-          "feed_id": 29
-        }
-      ]
-    },
-    {
-      "id": "46eb9c748ce3e414202a",
-      "topic": "Sports",
-      "headline": "Test Twenty क्या है: cricket का नया format जिसमें लड़कों-लड़कियों के score जुड़ेंगे",
-      "bullets": [
-        "160 खिलाड़ी (13 से 21 साल) चार महाद्वीपीय teams में खेलेंगे।"
-      ],
-      "published": "2026-10-16T17:34:13+00:00",
-      "sources": [
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/sports/test-twenty-explained-the-new-cricket-format-that-gives-equal-weight-to-boys-and-girls-12195796#publisher=newsstand",
-          "feed_id": 21
-        }
-      ]
-    },
-    {
-      "id": "97a10d7ca3d2e5f71b5f",
-      "topic": "Tech",
-      "headline": "Accenture ने Claude AI इस्तेमाल पर प्रति कर्मचारी ₹2,700 मासिक सीमा लगाई",
-      "bullets": [
-        "Standard plan वाले कर्मचारियों को इसी budget में काम चलाना होगा या अतिरिक्त funding लेनी होगी।"
-      ],
-      "published": "2026-10-16T17:29:19+00:00",
-      "sources": [
-        {
-          "name": "Mint Companies",
-          "url": "https://www.livemint.com/companies/accenture-sets-2-700-per-employee-monthly-limit-on-claude-ai-usage-after-some-rack-up-bills-of-over-94000-11792169580468.html",
-          "feed_id": 13
-        }
-      ]
-    },
-    {
-      "id": "c1a514bcfe22cebf7abe",
-      "topic": "Tech",
-      "headline": "Microsoft के Brad Smith की चेतावनी: Trump का H-1B, green card सख्ती नुकसान कर सकती है",
-      "bullets": [
-        "Dublin के AI Summit में उन्होंने skilled कर्मचारियों की permanent residency पर रोक पर चिंता जताई।"
-      ],
-      "published": "2026-10-16T17:20:25+00:00",
-      "sources": [
-        {
-          "name": "ET Tech",
-          "url": "https://economictimes.indiatimes.com/tech/technology/microsoft-president-warns-trumps-h-1b-green-card-crackdown-could-drive-tech-talent-out-of-us/articleshow/135000308.cms",
-          "feed_id": 25
-        }
-      ]
-    },
-    {
-      "id": "35bbdccdf072c097b023",
-      "topic": "Business",
-      "headline": "World Bank ने FY27 के लिए India की GDP growth का अनुमान 7.1% किया",
-      "bullets": [
-        "बैंक के मुताबिक India के exports उम्मीद से बेहतर रहे और growth को मुख्य सहारा देंगे।"
-      ],
-      "published": "2026-10-16T17:10:14+00:00",
-      "sources": [
-        {
-          "name": "Hindu Business",
-          "url": "https://www.thehindu.com/business/Economy/world-bank-ups-indias-gdp-growth-projection-to-71-for-fy27/article71552011.ece",
-          "feed_id": 20
-        }
-      ]
-    },
-    {
-      "id": "d801944dbe40a88a6756",
-      "topic": "IPO",
-      "headline": "CoreWeave के CEO ने IPO के बाद से करीब $1 billion के shares बेचे: filings",
-      "bullets": [
-        "बिक्री June 2025 में stock के record high छूने के करीब दो महीने बाद शुरू हुई।",
-        "भारी capital spending और debt की चिंता के बीच shares इस हफ्ते करीब 24% गिरे।"
-      ],
-      "published": "2026-10-16T16:59:30+00:00",
-      "sources": [
-        {
-          "name": "ET Tech",
-          "url": "https://economictimes.indiatimes.com/tech/technology/coreweaves-ceo-sold-nearly-1-billion-of-stock-since-ipo-filings-show/articleshow/134999795.cms",
-          "feed_id": 25
-        }
-      ]
     }
   ],
   "metadata": {
     "refreshes": [
+      {
+        "at": "2026-10-18T02:47:32.323225+00:00",
+        "feed_checked_at": "2026-10-18T02:44:17.792581+00:00",
+        "items_read": 1715,
+        "candidates": 420,
+        "written": 24,
+        "added": 24,
+        "dropped": 33,
+        "total": 133,
+        "counts": {
+          "India": 26,
+          "World": 24,
+          "Business": 46,
+          "IPO": 2,
+          "Tech": 10,
+          "Sports": 4,
+          "Science": 15,
+          "Health": 6
+        },
+        "fetch_seconds": 2.39,
+        "rejected": {
+          "older_than_24h": 1092,
+          "question_headline": 77,
+          "future": 2,
+          "editorial_keyword": 2,
+          "undated": 4,
+          "not_cricket": 68,
+          "duplicate": 50
+        },
+        "editorial_skipped": 396
+      },
       {
         "at": "2026-10-17T16:54:45.248165+00:00",
         "feed_checked_at": "2026-10-17T16:44:53.576444+00:00",
@@ -2437,57 +2333,27 @@
           "duplicate": 65
         },
         "editorial_skipped": 447
-      },
-      {
-        "at": "2026-10-17T12:45:22.911022+00:00",
-        "feed_checked_at": "2026-10-17T12:44:17.640977+00:00",
-        "items_read": 1707,
-        "candidates": 477,
-        "written": 13,
-        "added": 13,
-        "dropped": 25,
-        "total": 155,
-        "counts": {
-          "India": 28,
-          "World": 29,
-          "Business": 46,
-          "IPO": 3,
-          "Tech": 20,
-          "Sports": 4,
-          "Science": 13,
-          "Health": 12
-        },
-        "fetch_seconds": 2.58,
-        "rejected": {
-          "older_than_24h": 992,
-          "question_headline": 91,
-          "editorial_keyword": 15,
-          "undated": 4,
-          "not_cricket": 56,
-          "duplicate": 72
-        },
-        "editorial_skipped": 464
       }
     ],
     "topic_counts": {
-      "India": 28,
+      "India": 26,
       "World": 24,
-      "Business": 44,
+      "Business": 46,
       "IPO": 2,
-      "Tech": 16,
+      "Tech": 10,
       "Sports": 4,
       "Science": 15,
-      "Health": 10
+      "Health": 6
     },
     "topic_gap_minutes": {
-      "India": 53,
+      "India": 49,
       "World": 45,
       "Business": 60,
       "IPO": 5,
-      "Tech": 30,
+      "Tech": 19,
       "Sports": 8,
       "Science": 28,
-      "Health": 19
+      "Health": 12
     },
     "gap_is_metadata_only": true,
     "feeds": [
@@ -2497,9 +2363,9 @@
         "url": "https://feeds.bbci.co.uk/news/world/asia/india/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 18,
+        "items": 19,
         "eligible": 1,
-        "seconds": 0.27
+        "seconds": 0.25
       },
       {
         "id": 2,
@@ -2508,7 +2374,7 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 24,
+        "eligible": 21,
         "seconds": 0.37
       },
       {
@@ -2518,8 +2384,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 57,
-        "seconds": 0.08
+        "eligible": 58,
+        "seconds": 0.09
       },
       {
         "id": 4,
@@ -2527,9 +2393,9 @@
         "url": "https://feeds.bbci.co.uk/hindi/india/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 37,
-        "eligible": 10,
-        "seconds": 0.89
+        "items": 36,
+        "eligible": 12,
+        "seconds": 0.68
       },
       {
         "id": 5,
@@ -2538,8 +2404,8 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 19,
-        "seconds": 0.34
+        "eligible": 20,
+        "seconds": 0.35
       },
       {
         "id": 6,
@@ -2547,9 +2413,9 @@
         "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 23,
+        "items": 27,
         "eligible": 13,
-        "seconds": 0.14
+        "seconds": 0.37
       },
       {
         "id": 7,
@@ -2558,8 +2424,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 9,
-        "seconds": 0.04
+        "eligible": 8,
+        "seconds": 0.38
       },
       {
         "id": 9,
@@ -2568,8 +2434,8 @@
         "status": "ok",
         "http": 200,
         "items": 25,
-        "eligible": 24,
-        "seconds": 0.12
+        "eligible": 22,
+        "seconds": 0.1
       },
       {
         "id": 10,
@@ -2577,9 +2443,9 @@
         "url": "https://rss.dw.com/rdf/rss-en-all",
         "status": "ok",
         "http": 200,
-        "items": 137,
-        "eligible": 16,
-        "seconds": 0.11
+        "items": 136,
+        "eligible": 15,
+        "seconds": 0.12
       },
       {
         "id": 11,
@@ -2587,9 +2453,9 @@
         "url": "https://feeds.bbci.co.uk/hindi/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 37,
-        "eligible": 10,
-        "seconds": 0.45
+        "items": 36,
+        "eligible": 12,
+        "seconds": 0.28
       },
       {
         "id": 12,
@@ -2599,7 +2465,7 @@
         "http": 200,
         "items": 9,
         "eligible": 0,
-        "seconds": 1.19
+        "seconds": 0.34
       },
       {
         "id": 13,
@@ -2608,8 +2474,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 15,
-        "seconds": 0.16
+        "eligible": 14,
+        "seconds": 0.12
       },
       {
         "id": 14,
@@ -2618,8 +2484,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 7,
-        "seconds": 0.38
+        "eligible": 2,
+        "seconds": 0.37
       },
       {
         "id": 15,
@@ -2628,8 +2494,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 30,
-        "seconds": 0.16
+        "eligible": 27,
+        "seconds": 0.07
       },
       {
         "id": 16,
@@ -2639,7 +2505,7 @@
         "http": 200,
         "items": 50,
         "eligible": 1,
-        "seconds": 0.46
+        "seconds": 0.23
       },
       {
         "id": 17,
@@ -2647,9 +2513,9 @@
         "url": "https://economictimes.indiatimes.com/news/economy/rssfeeds/1373380680.cms",
         "status": "ok",
         "http": 200,
-        "items": 49,
-        "eligible": 10,
-        "seconds": 0.12
+        "items": 50,
+        "eligible": 7,
+        "seconds": 0.1
       },
       {
         "id": 19,
@@ -2658,8 +2524,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 2,
-        "seconds": 0.1
+        "eligible": 3,
+        "seconds": 0.11
       },
       {
         "id": 20,
@@ -2668,8 +2534,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 59,
-        "seconds": 0.08
+        "eligible": 60,
+        "seconds": 0.32
       },
       {
         "id": 21,
@@ -2678,8 +2544,8 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 19,
-        "seconds": 0.33
+        "eligible": 17,
+        "seconds": 0.34
       },
       {
         "id": 22,
@@ -2689,7 +2555,7 @@
         "http": 200,
         "items": 35,
         "eligible": 1,
-        "seconds": 0.21
+        "seconds": 0.13
       },
       {
         "id": 23,
@@ -2699,7 +2565,7 @@
         "http": 200,
         "items": 21,
         "eligible": 1,
-        "seconds": 0.08
+        "seconds": 0.11
       },
       {
         "id": 24,
@@ -2708,8 +2574,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 2,
-        "seconds": 0.38
+        "eligible": 0,
+        "seconds": 0.37
       },
       {
         "id": 25,
@@ -2718,8 +2584,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 6,
-        "seconds": 0.79
+        "eligible": 3,
+        "seconds": 0.08
       },
       {
         "id": 26,
@@ -2729,7 +2595,7 @@
         "http": 200,
         "items": 35,
         "eligible": 8,
-        "seconds": 0.27
+        "seconds": 0.07
       },
       {
         "id": 27,
@@ -2738,8 +2604,8 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 7,
-        "seconds": 0.06
+        "eligible": 2,
+        "seconds": 0.22
       },
       {
         "id": 28,
@@ -2749,7 +2615,7 @@
         "http": 200,
         "items": 10,
         "eligible": 10,
-        "seconds": 0.07
+        "seconds": 0.04
       },
       {
         "id": 29,
@@ -2759,7 +2625,7 @@
         "http": 200,
         "items": 20,
         "eligible": 5,
-        "seconds": 0.09
+        "seconds": 0.05
       },
       {
         "id": 32,
@@ -2769,7 +2635,7 @@
         "http": 200,
         "items": 42,
         "eligible": 3,
-        "seconds": 0.17
+        "seconds": 0.11
       },
       {
         "id": 33,
@@ -2778,8 +2644,8 @@
         "status": "ok",
         "http": 200,
         "items": 10,
-        "eligible": 2,
-        "seconds": 0.2
+        "eligible": 1,
+        "seconds": 0.19
       },
       {
         "id": 34,
@@ -2788,8 +2654,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 7,
-        "seconds": 0.3
+        "eligible": 5,
+        "seconds": 0.29
       },
       {
         "id": 36,
@@ -2798,8 +2664,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 56,
-        "seconds": 0.32
+        "eligible": 55,
+        "seconds": 0.33
       },
       {
         "id": 37,
@@ -2807,9 +2673,9 @@
         "url": "https://feeds.bbci.co.uk/hindi/vigyan/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 37,
-        "eligible": 10,
-        "seconds": 0.45
+        "items": 36,
+        "eligible": 12,
+        "seconds": 0.46
       },
       {
         "id": 38,
@@ -2818,8 +2684,8 @@
         "status": "ok",
         "http": 200,
         "items": 56,
-        "eligible": 4,
-        "seconds": 0.13
+        "eligible": 3,
+        "seconds": 0.31
       },
       {
         "id": 39,
@@ -2828,8 +2694,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 13,
-        "seconds": 0.36
+        "eligible": 8,
+        "seconds": 0.39
       },
       {
         "id": 40,
@@ -2838,8 +2704,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 42,
-        "seconds": 0.34
+        "eligible": 34,
+        "seconds": 0.33
       },
       {
         "id": 41,
@@ -2848,8 +2714,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 4,
-        "seconds": 0.48
+        "eligible": 3,
+        "seconds": 0.56
       },
       {
         "id": 42,
@@ -2857,9 +2723,9 @@
         "url": "https://feeds.bbci.co.uk/sport/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 62,
+        "items": 75,
         "eligible": 0,
-        "seconds": 0.38
+        "seconds": 0.12
       },
       {
         "id": 43,
@@ -2869,7 +2735,7 @@
         "http": 200,
         "items": 40,
         "eligible": 0,
-        "seconds": 0.49
+        "seconds": 0.38
       },
       {
         "id": 44,
@@ -2879,7 +2745,7 @@
         "http": 200,
         "items": 100,
         "eligible": 3,
-        "seconds": 0.57
+        "seconds": 0.28
       },
       {
         "id": 45,
@@ -2888,8 +2754,8 @@
         "status": "ok",
         "http": 200,
         "items": 31,
-        "eligible": 2,
-        "seconds": 0.27
+        "eligible": 0,
+        "seconds": 0.32
       },
       {
         "id": 47,
@@ -2897,20 +2763,16 @@
         "url": "https://feeds.bbci.co.uk/hindi/sport/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 37,
+        "items": 36,
         "eligible": 0,
-        "seconds": 0.58
+        "seconds": 0.51
       }
     ],
     "sources": [
       "Aljazeera",
       "AmarUjala India",
       "AmarUjala Lifestyle",
-      "AmarUjala Tech",
       "AmarUjala World",
-      "Ars",
-      "BBC Health",
-      "BBC Science",
       "BBC World",
       "DW World",
       "ESPNcricinfo",
@@ -2919,7 +2781,6 @@
       "ET Markets",
       "ET Tech",
       "Hindu Business",
-      "Hindu Health",
       "Hindu India",
       "Hindu SciTech",
       "Mint Companies",
@@ -2927,7 +2788,6 @@
       "NDTV Business",
       "NDTV Top",
       "ScienceDaily",
-      "TechCrunch",
       "Verge"
     ],
     "summary_notice": "Own-word feed-based summaries, not original reporting. Publisher timestamps determine the 24-hour window."
