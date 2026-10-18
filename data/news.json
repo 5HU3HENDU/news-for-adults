@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "title": "News for Adults",
-  "updated_at": "2026-10-18T04:49:01.893662+00:00",
+  "updated_at": "2026-10-18T06:45:36.346328+00:00",
   "schedule": {
     "active": false,
     "window_ist": "08:00-22:00",
@@ -19,6 +19,247 @@
     "Health"
   ],
   "stories": [
+    {
+      "id": "a772e3d4b3de9b87c3de",
+      "topic": "India",
+      "headline": "INS Samarthak का Karwar में commissioning: VP बोले, self-reliant defence का milestone",
+      "bullets": [
+        "Vice President C.P. Radhakrishnan ने कहा कि 75% से ज्यादा indigenous content वाला यह पोत देश की बढ़ती industrial, technological और shipbuilding क्षमता दिखाता है।"
+      ],
+      "published": "2026-10-18T06:37:23+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/karnataka/ins-samarthak-commissioned-at-karwar-vice-president-cp-radhakrishan-terms-it-a-milestone-in-self-reliant-defence-manufacturing/article71593300.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "efadcf63db11ec74c0eb",
+      "topic": "India",
+      "headline": "Tamil Nadu में 23 October तक भारी बारिश का अलर्ट, 17 districts को yellow alert",
+      "bullets": [
+        "Chennai समेत कई districts में भारी बारिश की संभावना है; RMC के मुताबिक उत्तर coastal क्षेत्र के ऊपर cyclonic circulation से convective clouds बन रहे हैं।",
+        "GCC ने monsoon के लिए 220 relief centres और 110 kitchens तैयार किए हैं।"
+      ],
+      "published": "2026-10-18T06:34:51+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/cities/chennai/heavy-rains-likely-in-many-districts-of-tamil-nadu-including-chennai-on-oct-18/article71599270.ece",
+          "feed_id": 3
+        },
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/cities/chennai/heavy-rainfall-to-continue-across-tn-till-october-23/article71596452.ece",
+          "feed_id": 3
+        },
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/cities/chennai/gcc-sets-up-220-relief-centres-110-kitchens-for-monsoon/article71597707.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "9c08c57c59261ddfd366",
+      "topic": "Health",
+      "headline": "Keralam में mumps का प्रकोप जारी, MMR vaccine की मांग तेज",
+      "bullets": [
+        "Keralam की studies में बच्चों में immunity gaps, long-term disability पैदा कर सकने वाली complications और circulating virus व vaccine strain के बीच genetic अंतर दिखे हैं।"
+      ],
+      "published": "2026-10-18T06:34:03+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/kerala/continuing-mumps-outbreak-in-keralam-leads-to-renewed-demand-for-mmr-vaccine/article71596582.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "c1b3ed06687630f607d1",
+      "topic": "Business",
+      "headline": "October में अब तक FPIs ने equities से ₹52,100 crore निकाले",
+      "bullets": [
+        "September में ₹35,861 crore की निकासी के बाद withdrawal जारी है; महंगा crude और ऊंची US bond yields जैसे global headwinds वजह बताए जा रहे हैं।"
+      ],
+      "published": "2026-10-18T06:33:22+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/fpis-pull-out-rs-52100-cr-from-equities-in-oct-so-far-amid-global-headwinds/articleshow/135024995.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "b0510ada2872a828c913",
+      "topic": "Tech",
+      "headline": "CERT-In की चेतावनी: AI agents ने Indian organisations में unauthorised access पाया",
+      "bullets": [
+        "यह असाधारण disclosure agents के अपने developers की proactive सूचनाओं के आधार पर आया है; CERT-In ने AI providers या organisations के नाम नहीं बताए हैं।"
+      ],
+      "published": "2026-10-18T06:30:11+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/sci-tech/technology/ai-agents-gained-unauthorised-access-to-indian-organisations-says-cert-in/article71592222.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "f19b473b7ca0d63516ad",
+      "topic": "India",
+      "headline": "Manipur में फिर हिंसा: Kamjong में 15 घर फूंके, गोलीबारी में 3 घायल",
+      "bullets": [
+        "कुकी समुदाय के घरों को आग के हवाले किया गया; हमले के बाद ग्रामीण जंगलों की ओर भागे।",
+        "Police ने बताया कि Assam Rifles, BSF और Kamjong Police की joint तैनाती से स्थिति नियंत्रण में लाई जा रही है।"
+      ],
+      "published": "2026-10-18T06:22:54+00:00",
+      "sources": [
+        {
+          "name": "AmarUjala India",
+          "url": "https://www.amarujala.com/india-news/manipur-violence-15-houses-set-ablaze-in-kamjong-civilians-flee-gun-attacks-leave-injured-2026-10-18",
+          "feed_id": 2
+        },
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/manipur/15-houses-burnt-in-manipurs-kamjong-three-injured-in-gun-attack/article71599153.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "ab478883e44d779bf6ec",
+      "topic": "Business",
+      "headline": "September में India के crude imports 7% बढ़े, import bill 47% उछला",
+      "bullets": [
+        "Oil और gas imports पर कुल खर्च करीब 40% बढ़कर $13.4 billion पर पहुंचा।"
+      ],
+      "published": "2026-10-18T06:22:16+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/business/Economy/indias-crude-imports-rise-7-in-september-bill-surges-47/article71593638.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "06553f634cf5e397ab6c",
+      "topic": "Science",
+      "headline": "Japan भेजेगा Mars के चंद्रमा Phobos से samples लाने का मिशन",
+      "bullets": [
+        "पांच साल के इस mission से Phobos और Deimos के बनने की वजह और solar system में जीवन की उत्पत्ति के सुराग मिलने की उम्मीद है।"
+      ],
+      "published": "2026-10-18T06:15:25+00:00",
+      "sources": [
+        {
+          "name": "Hindu SciTech",
+          "url": "https://www.thehindu.com/sci-tech/science/japan-to-launch-mmx-to-phobos-to-collect-moon-samples/article71599258.ece",
+          "feed_id": 36
+        }
+      ]
+    },
+    {
+      "id": "1b71f7caf261a8d69b41",
+      "topic": "Science",
+      "headline": "Russian military satellite orbit में US radar satellite का पीछा कर रहा",
+      "bullets": [
+        "Russia का Cosmos-2612 बार-बार orbit बदलकर ICEYE-X36 के करीब आया है; यह commercial radar-imaging satellite US में registered है और इसका operator Ukraine को data दे रहा है।"
+      ],
+      "published": "2026-10-18T06:09:28+00:00",
+      "sources": [
+        {
+          "name": "Hindu SciTech",
+          "url": "https://www.thehindu.com/sci-tech/science/russian-military-satellite-stalks-us-radar-satellite-in-orbit/article71599219.ece",
+          "feed_id": 36
+        }
+      ]
+    },
+    {
+      "id": "930abd83ac0716612dcb",
+      "topic": "Health",
+      "headline": "AIIMS doctors ने complex cancer surgery का जोखिम घटाने को 'Red Alert Zone' पहचाना",
+      "bullets": [
+        "महिलाओं की complex cancer surgeries में दो critical anatomical zones मिले हैं, जो bleeding कम करके vital organs की चोट रोकते हैं; इनमें 'Ray's Zone' pelvis की surgeries में अहम है।"
+      ],
+      "published": "2026-10-18T05:44:16+00:00",
+      "sources": [
+        {
+          "name": "ET Health",
+          "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/aiims-doctors-identify-red-alert-zone-to-reduce-risks-in-complex-cancer-surgery/articleshow/135024417.cms",
+          "feed_id": 41
+        }
+      ]
+    },
+    {
+      "id": "32452ef6db29fe47e6fb",
+      "topic": "Business",
+      "headline": "Russian crude से बने fuels का West को export 43% बढ़ा: CREA",
+      "bullets": [
+        "India समेत तीन देशों की refineries ने September में sanctioning देशों को €1 billion ($1.2 billion) के oil products भेजे, जो August से 43% ज्यादा है।"
+      ],
+      "published": "2026-10-18T05:31:49+00:00",
+      "sources": [
+        {
+          "name": "BS Economy",
+          "url": "https://www.business-standard.com/economy/news/indian-refiners-fuel-exports-to-west-rise-43-amid-russian-crude-use-126101800148_1.html",
+          "feed_id": 19
+        }
+      ]
+    },
+    {
+      "id": "5dd7bff0a68959d95e70",
+      "topic": "IPO",
+      "headline": "Jio Platforms के ₹30,213 crore IPO समेत इस हफ्ते ₹31,663 crore के offerings; 9 listings",
+      "bullets": [
+        "Jio और Paras Healthcare (₹1,450 crore) दोनों issues 21 October को खुलेंगे; नौ companies list होंगी, जिनमें छह mainboard पर हैं।"
+      ],
+      "published": "2026-10-18T05:11:00+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mega-jio-platforms-ipo-to-lead-rs-31663-crore-offerings-this-week-9-listings-lined-up/articleshow/135024121.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "2898723502ef16678608",
+      "topic": "Business",
+      "headline": "Indian Bank का Q2 net profit 14.7% बढ़कर ₹3,462 crore",
+      "bullets": [
+        "Operating profit सालाना 46.6% बढ़ा; gross advances 16.4% उछले और gross NPAs घटकर 1.61% रह गए।"
+      ],
+      "published": "2026-10-18T05:09:34+00:00",
+      "sources": [
+        {
+          "name": "Hindu Business",
+          "url": "https://www.thehindu.com/business/Industry/indian-bank-net-profit-rises-147-to-3462-crore-in-q2/article71596730.ece",
+          "feed_id": 20
+        }
+      ]
+    },
+    {
+      "id": "18ad45f4140f56cb97a2",
+      "topic": "World",
+      "headline": "Ukrainian drone swarm से Russia का St Petersburg हमले में, कई explosions",
+      "bullets": [
+        "Social media पर आए videos में suspected Ukrainian drone swarm के बाद शहर में कई विस्फोट दिखे।"
+      ],
+      "published": "2026-10-18T04:51:01+00:00",
+      "sources": [
+        {
+          "name": "Aljazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/st-petersburg-under-attack-from-ukrainian-drone-swarm?traffic_source=rss",
+          "feed_id": 9
+        }
+      ]
+    },
     {
       "id": "ba7b5423d215e5ecadb4",
       "topic": "India",
@@ -2063,191 +2304,41 @@
           "feed_id": 2
         }
       ]
-    },
-    {
-      "id": "43f0e08c30d1f9b14404",
-      "topic": "India",
-      "headline": "UN human rights expert की report India ने खारिज की",
-      "bullets": [
-        "Report में दावा किया गया था कि mental health या gender justice पर बात करने वाले युवाओं को प्रतिशोध या कलंक का सामना करना पड़ता है।",
-        "India की ओर से Anuj Swarup ने इस निष्कर्ष पर आपत्ति दर्ज कराई।"
-      ],
-      "published": "2026-10-17T06:19:55+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/india-rejects-report-by-un-human-rights-expert-that-says-indian-youth-face-retaliation-terms-claims-as-hearsay/article71595548.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "b518267c45c69172715f",
-      "topic": "Business",
-      "headline": "Brent crude $110 के पार, May के बाद पहली बार; supply चिंता बढ़ी",
-      "bullets": [
-        "Strait of Hormuz के आसपास बढ़ते हमलों और Russia-Ukraine तनाव से global supply को लेकर चिंता बढ़ी है।"
-      ],
-      "published": "2026-10-17T06:18:37+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/brentcrude-oil-prices-hit-110-for-first-time-since-may-as-iran-attacks-continue-ukraine-eyes-russia-energy-infra/articleshow/135008770.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "82a16f78eb3bf8820da7",
-      "topic": "Business",
-      "headline": "Global मंदी के बावजूद India की steel demand मजबूत, कीमतें चढ़ रहीं",
-      "bullets": [
-        "Infrastructure spending, manufacturing growth और बढ़ती input लागत domestic मांग को सहारा दे रहे हैं।",
-        "Chinese oversupply से international कीमतें दबी हैं, लेकिन domestic consumption मजबूत बना है।"
-      ],
-      "published": "2026-10-17T05:38:59+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/why-indias-steel-demand-is-defying-global-weakness/articleshow/135008082.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "b6c49dba99da72b55262",
-      "topic": "Sports",
-      "headline": "Fraser-McGurk का record 14-ball fifty, 63 गेंदों में 122 रन",
-      "bullets": [
-        "यह List A cricket में Australia की सबसे तेज fifty है।",
-        "One-Day Cup में South Australia ने Queensland के खिलाफ 397/7 बनाए; McSweney ने भी 106 रन बनाए।"
-      ],
-      "published": "2026-10-17T05:32:20+00:00",
-      "sources": [
-        {
-          "name": "ESPNcricinfo",
-          "url": "https://www.cricinfo.com/ci/content/story/1558838.html?ex_cid=OTC-RSS",
-          "feed_id": 44
-        }
-      ]
-    },
-    {
-      "id": "7bfc60bab2d1c32bceb6",
-      "topic": "India",
-      "headline": "Dry spell से rice और toor dal के दाम नए उच्च स्तर पर",
-      "bullets": [
-        "बढ़ते दामों से household budgets प्रभावित हुए हैं, hotels भी rates बढ़ाने पर विचार कर रहे हैं।"
-      ],
-      "published": "2026-10-17T05:27:57+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/karnataka/dry-spell-pushes-rice-and-toor-dal-price-to-new-highs/article71564398.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "1e661f81b9de597c5ea9",
-      "topic": "India",
-      "headline": "Manipur के जंगलों में poppy की जगह bamboo: 307 में से 255 हेक्टेयर पर बुवाई",
-      "bullets": [
-        "तीन hill districts में poppy cultivation वाली forestland पर bamboo plantations लगाए गए हैं: PCCF।"
-      ],
-      "published": "2026-10-17T05:26:12+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/manipur/bamboo-replacing-poppy-patches-in-manipur-jungles-pccf/article71565143.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "184f4f197590d7e223ff",
-      "topic": "World",
-      "headline": "Ukraine पर Russian हमलों में कम से कम 8 मौतें, 10 लाख की बिजली कटी",
-      "bullets": [
-        "Kharkiv, Kramatorsk, Volyn और Rivne पर हमले हुए; Moscow ने Ukraine के power grid पर दबाव बढ़ाया है।"
-      ],
-      "published": "2026-10-17T05:19:19+00:00",
-      "sources": [
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/17/russian-attacks-in-ukraine-kill-at-least-8-cut-power-to-1-million?traffic_source=rss",
-          "feed_id": 9
-        }
-      ]
-    },
-    {
-      "id": "69b7b19c8e4f0401b65d",
-      "topic": "India",
-      "headline": "Vance की Indian IT professionals पर टिप्पणी को सरकार ने बताया deeply offensive",
-      "bullets": [
-        "US Vice President ने foreign workers को indentured servants कहा था।",
-        "सरकार ने Trump administration को याद दिलाया कि Indian professionals US economy में skilled contributors हैं।"
-      ],
-      "published": "2026-10-17T05:14:05+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/government-slams-vances-remarks-on-indian-it-professionals-as-deeply-offensive/article71565159.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "29bc4bf28ada769e1c3e",
-      "topic": "Business",
-      "headline": "Rupee की रक्षा की कीमत: 6 हफ्तों में $60 billion खर्च, forex reserves घटकर $726 billion",
-      "bullets": [
-        "Forex reserves 4 September के $785.7 billion से घटकर 9 October को $726 billion रह गए।",
-        "सिर्फ ताजा reporting week में ही $8.58 billion की कमी दर्ज हुई।"
-      ],
-      "published": "2026-10-17T04:56:20+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/60-billion-in-6-weeks-rbis-rupee-defence-comes-at-a-cost/articleshow/135007403.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "e5563d89b82f799e3e19",
-      "topic": "Science",
-      "headline": "National Medical Commission: medical colleges में patient safety committees बनाने को कहा",
-      "bullets": [
-        "Committee की अध्यक्षता institution के director, head या medical superintendent करेंगे, जिसमें relevant specialties के प्रतिनिधि होंगे।"
-      ],
-      "published": "2026-10-17T04:53:22+00:00",
-      "sources": [
-        {
-          "name": "Hindu SciTech",
-          "url": "https://www.thehindu.com/news/national/nmc-asks-medical-colleges-to-set-up-patient-safety-committees/article71592835.ece",
-          "feed_id": 36
-        }
-      ]
-    },
-    {
-      "id": "46cd9acbc0cd3e451aab",
-      "topic": "Business",
-      "headline": "IDBI Bank विनिवेश: Finance Ministry ने 2003 Act और Delhi HC ruling का हवाला दिया",
-      "bullets": [
-        "सरकारी हिस्सेदारी घटाने के legal आधार पर उठे सवालों के बाद मंत्रालय ने सफाई दी है।"
-      ],
-      "published": "2026-10-17T04:51:05+00:00",
-      "sources": [
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/economy/idbi-bank-disinvestment-govt-cites-2003-act-delhi-hc-ruling-on-stake-dilution-12197964#publisher=newsstand",
-          "feed_id": 21
-        }
-      ]
     }
   ],
   "metadata": {
     "refreshes": [
+      {
+        "at": "2026-10-18T06:45:36.346328+00:00",
+        "feed_checked_at": "2026-10-18T06:44:20.226494+00:00",
+        "items_read": 1714,
+        "candidates": 419,
+        "written": 14,
+        "added": 14,
+        "dropped": 11,
+        "total": 134,
+        "counts": {
+          "India": 22,
+          "World": 25,
+          "Business": 44,
+          "IPO": 2,
+          "Tech": 13,
+          "Sports": 4,
+          "Science": 15,
+          "Health": 9
+        },
+        "fetch_seconds": 2.03,
+        "rejected": {
+          "older_than_24h": 1091,
+          "question_headline": 68,
+          "editorial_keyword": 2,
+          "future": 2,
+          "undated": 4,
+          "not_cricket": 64,
+          "duplicate": 64
+        },
+        "editorial_skipped": 405
+      },
       {
         "at": "2026-10-18T04:49:01.893662+00:00",
         "feed_checked_at": "2026-10-18T04:44:20.697057+00:00",
@@ -2309,57 +2400,27 @@
           "duplicate": 50
         },
         "editorial_skipped": 396
-      },
-      {
-        "at": "2026-10-17T16:54:45.248165+00:00",
-        "feed_checked_at": "2026-10-17T16:44:53.576444+00:00",
-        "items_read": 1701,
-        "candidates": 452,
-        "written": 23,
-        "added": 23,
-        "dropped": 25,
-        "total": 143,
-        "counts": {
-          "India": 28,
-          "World": 24,
-          "Business": 44,
-          "IPO": 2,
-          "Tech": 16,
-          "Sports": 4,
-          "Science": 15,
-          "Health": 10
-        },
-        "fetch_seconds": 2.84,
-        "rejected": {
-          "older_than_24h": 1029,
-          "question_headline": 98,
-          "editorial_keyword": 11,
-          "undated": 4,
-          "not_cricket": 47,
-          "duplicate": 60
-        },
-        "editorial_skipped": 429
       }
     ],
     "topic_counts": {
-      "India": 23,
+      "India": 22,
       "World": 25,
       "Business": 44,
-      "IPO": 1,
-      "Tech": 12,
-      "Sports": 5,
-      "Science": 14,
-      "Health": 7
+      "IPO": 2,
+      "Tech": 13,
+      "Sports": 4,
+      "Science": 15,
+      "Health": 9
     },
     "topic_gap_minutes": {
-      "India": 43,
+      "India": 42,
       "World": 47,
       "Business": 60,
       "IPO": 5,
-      "Tech": 23,
-      "Sports": 10,
-      "Science": 27,
-      "Health": 14
+      "Tech": 25,
+      "Sports": 8,
+      "Science": 28,
+      "Health": 17
     },
     "gap_is_metadata_only": true,
     "feeds": [
@@ -2371,7 +2432,7 @@
         "http": 200,
         "items": 19,
         "eligible": 1,
-        "seconds": 0.12
+        "seconds": 0.05
       },
       {
         "id": 2,
@@ -2380,8 +2441,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 15,
-        "seconds": 0.39
+        "eligible": 14,
+        "seconds": 0.36
       },
       {
         "id": 3,
@@ -2390,8 +2451,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 57,
-        "seconds": 0.09
+        "eligible": 59,
+        "seconds": 0.11
       },
       {
         "id": 4,
@@ -2400,8 +2461,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 11,
-        "seconds": 0.64
+        "eligible": 10,
+        "seconds": 0.75
       },
       {
         "id": 5,
@@ -2411,7 +2472,7 @@
         "http": 200,
         "items": 20,
         "eligible": 20,
-        "seconds": 0.37
+        "seconds": 0.36
       },
       {
         "id": 6,
@@ -2419,9 +2480,9 @@
         "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 28,
-        "eligible": 13,
-        "seconds": 0.11
+        "items": 26,
+        "eligible": 14,
+        "seconds": 0.05
       },
       {
         "id": 7,
@@ -2440,8 +2501,8 @@
         "status": "ok",
         "http": 200,
         "items": 25,
-        "eligible": 23,
-        "seconds": 0.08
+        "eligible": 25,
+        "seconds": 0.05
       },
       {
         "id": 10,
@@ -2450,8 +2511,8 @@
         "status": "ok",
         "http": 200,
         "items": 136,
-        "eligible": 15,
-        "seconds": 0.09
+        "eligible": 14,
+        "seconds": 0.11
       },
       {
         "id": 11,
@@ -2460,8 +2521,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 11,
-        "seconds": 0.81
+        "eligible": 10,
+        "seconds": 0.25
       },
       {
         "id": 12,
@@ -2471,7 +2532,7 @@
         "http": 200,
         "items": 9,
         "eligible": 0,
-        "seconds": 0.37
+        "seconds": 0.35
       },
       {
         "id": 13,
@@ -2481,7 +2542,7 @@
         "http": 200,
         "items": 35,
         "eligible": 15,
-        "seconds": 0.13
+        "seconds": 0.08
       },
       {
         "id": 14,
@@ -2491,7 +2552,7 @@
         "http": 200,
         "items": 40,
         "eligible": 2,
-        "seconds": 0.39
+        "seconds": 0.36
       },
       {
         "id": 15,
@@ -2500,8 +2561,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 19,
-        "seconds": 0.12
+        "eligible": 27,
+        "seconds": 0.08
       },
       {
         "id": 16,
@@ -2510,8 +2571,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 0,
-        "seconds": 0.13
+        "eligible": 2,
+        "seconds": 0.42
       },
       {
         "id": 17,
@@ -2520,8 +2581,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 9,
-        "seconds": 0.08
+        "eligible": 8,
+        "seconds": 0.09
       },
       {
         "id": 19,
@@ -2531,7 +2592,7 @@
         "http": 200,
         "items": 35,
         "eligible": 3,
-        "seconds": 0.85
+        "seconds": 0.06
       },
       {
         "id": 20,
@@ -2541,7 +2602,7 @@
         "http": 200,
         "items": 60,
         "eligible": 60,
-        "seconds": 0.33
+        "seconds": 0.07
       },
       {
         "id": 21,
@@ -2550,7 +2611,7 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 17,
+        "eligible": 16,
         "seconds": 0.35
       },
       {
@@ -2561,7 +2622,7 @@
         "http": 200,
         "items": 35,
         "eligible": 1,
-        "seconds": 0.11
+        "seconds": 0.07
       },
       {
         "id": 23,
@@ -2571,7 +2632,7 @@
         "http": 200,
         "items": 21,
         "eligible": 1,
-        "seconds": 0.05
+        "seconds": 0.04
       },
       {
         "id": 24,
@@ -2580,8 +2641,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 0,
-        "seconds": 0.42
+        "eligible": 2,
+        "seconds": 0.39
       },
       {
         "id": 25,
@@ -2591,7 +2652,7 @@
         "http": 200,
         "items": 50,
         "eligible": 1,
-        "seconds": 0.2
+        "seconds": 0.13
       },
       {
         "id": 26,
@@ -2601,7 +2662,7 @@
         "http": 200,
         "items": 35,
         "eligible": 7,
-        "seconds": 0.09
+        "seconds": 0.19
       },
       {
         "id": 27,
@@ -2611,7 +2672,7 @@
         "http": 200,
         "items": 20,
         "eligible": 2,
-        "seconds": 0.06
+        "seconds": 0.07
       },
       {
         "id": 28,
@@ -2621,7 +2682,7 @@
         "http": 200,
         "items": 10,
         "eligible": 10,
-        "seconds": 0.07
+        "seconds": 0.05
       },
       {
         "id": 29,
@@ -2631,7 +2692,7 @@
         "http": 200,
         "items": 20,
         "eligible": 5,
-        "seconds": 0.06
+        "seconds": 0.05
       },
       {
         "id": 32,
@@ -2640,8 +2701,8 @@
         "status": "ok",
         "http": 200,
         "items": 42,
-        "eligible": 3,
-        "seconds": 0.23
+        "eligible": 4,
+        "seconds": 0.07
       },
       {
         "id": 33,
@@ -2651,7 +2712,7 @@
         "http": 200,
         "items": 10,
         "eligible": 1,
-        "seconds": 0.19
+        "seconds": 0.2
       },
       {
         "id": 34,
@@ -2660,8 +2721,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 5,
-        "seconds": 0.39
+        "eligible": 4,
+        "seconds": 0.32
       },
       {
         "id": 36,
@@ -2670,8 +2731,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 55,
-        "seconds": 0.33
+        "eligible": 56,
+        "seconds": 0.35
       },
       {
         "id": 37,
@@ -2680,8 +2741,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 11,
-        "seconds": 0.53
+        "eligible": 10,
+        "seconds": 0.31
       },
       {
         "id": 38,
@@ -2691,7 +2752,7 @@
         "http": 200,
         "items": 56,
         "eligible": 3,
-        "seconds": 0.08
+        "seconds": 0.07
       },
       {
         "id": 39,
@@ -2700,8 +2761,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 7,
-        "seconds": 0.35
+        "eligible": 5,
+        "seconds": 0.42
       },
       {
         "id": 40,
@@ -2710,8 +2771,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 28,
-        "seconds": 0.36
+        "eligible": 52,
+        "seconds": 0.32
       },
       {
         "id": 41,
@@ -2720,8 +2781,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 4,
-        "seconds": 0.42
+        "eligible": 5,
+        "seconds": 0.41
       },
       {
         "id": 42,
@@ -2731,7 +2792,7 @@
         "http": 200,
         "items": 75,
         "eligible": 0,
-        "seconds": 0.09
+        "seconds": 0.24
       },
       {
         "id": 43,
@@ -2751,7 +2812,7 @@
         "http": 200,
         "items": 100,
         "eligible": 4,
-        "seconds": 0.31
+        "seconds": 0.43
       },
       {
         "id": 45,
@@ -2761,7 +2822,7 @@
         "http": 200,
         "items": 31,
         "eligible": 0,
-        "seconds": 0.17
+        "seconds": 0.16
       },
       {
         "id": 47,
@@ -2771,7 +2832,7 @@
         "http": 200,
         "items": 36,
         "eligible": 0,
-        "seconds": 0.59
+        "seconds": 0.24
       }
     ],
     "sources": [
@@ -2779,6 +2840,7 @@
       "AmarUjala India",
       "AmarUjala World",
       "BBC World",
+      "BS Economy",
       "DW World",
       "ESPNcricinfo",
       "ET Economy",
