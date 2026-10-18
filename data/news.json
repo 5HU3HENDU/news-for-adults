@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "title": "News for Adults",
-  "updated_at": "2026-10-18T10:46:07.089076+00:00",
+  "updated_at": "2026-10-18T12:45:49.302278+00:00",
   "schedule": {
     "active": false,
     "window_ist": "08:00-22:00",
@@ -19,6 +19,176 @@
     "Health"
   ],
   "stories": [
+    {
+      "id": "cae4297ec407ec6afa34",
+      "topic": "World",
+      "headline": "St Petersburg पर रातभर हमले: oil facilities में आग, एक की मौत",
+      "bullets": [
+        "St Petersburg पर रातभर हुए घातक हमलों में कम से कम एक व्यक्ति की मौत हुई और oil facilities निशाना बनीं।",
+        "हमलों में Russia के Facebook-जैसे platform से जुड़ा एक data centre भी निशाना बना।"
+      ],
+      "published": "2026-10-18T11:57:49+00:00",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss",
+          "feed_id": 6
+        }
+      ]
+    },
+    {
+      "id": "333a106992abe93165b2",
+      "topic": "India",
+      "headline": "L.K. Advani chest infection से hospital में भर्ती, हालत स्थिर",
+      "bullets": [
+        "98 साल के BJP नेता L.K. Advani को chest infection के बाद New Delhi के Apollo Hospital में भर्ती कराया गया है।",
+        "उनकी हालत स्थिर बताई जा रही है।"
+      ],
+      "published": "2026-10-18T11:56:56+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/lk-advani-health-updates-oct-16-2026/article71594161.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "980c11f188bdb2a22f3e",
+      "topic": "India",
+      "headline": "Strait of Hormuz फिर खोलने के Iran के proposal पर US से मंजूरी की अपील",
+      "bullets": [
+        "Iran ने interim ceasefire टूटने के बाद mid-September में Strait of Hormuz फिर से खोलने का proposal दिया था।",
+        "Tehran का कहना है कि Washington ने strait खोलने की सात शर्तों का जवाब नहीं दिया, इसलिए बातचीत अटकी है; अब US से proposal मंजूर करने की अपील की गई है।"
+      ],
+      "published": "2026-10-18T11:52:29+00:00",
+      "sources": [
+        {
+          "name": "NDTV Top",
+          "url": "https://www.ndtv.com/world-news/iran-urges-us-to-accept-proposal-to-reopen-strait-of-hormuz-12202784#publisher=newsstand",
+          "feed_id": 5
+        }
+      ]
+    },
+    {
+      "id": "b8603cecdf33e3636056",
+      "topic": "Business",
+      "headline": "Accenture अपना China business $1.5 billion में बेचने पर विचार कर रहा: FT report",
+      "bullets": [
+        "Financial Times की report के मुताबिक Accenture अपने Greater China business की $1.5 billion तक में बिक्री पर विचार कर रहा है।",
+        "कंपनी ने इस review के लिए JPMorgan को advisor नियुक्त किया है; इसका focus अब AI services और growth पर है।"
+      ],
+      "published": "2026-10-18T11:48:17+00:00",
+      "sources": [
+        {
+          "name": "Mint Companies",
+          "url": "https://www.livemint.com/companies/news/accenture-weighs-1-5-billion-sale-of-china-business-as-ai-push-reshapes-growth-strategy-report-11792323492872.html",
+          "feed_id": 13
+        }
+      ]
+    },
+    {
+      "id": "6030a0869825e9b352e6",
+      "topic": "Business",
+      "headline": "JSW Steel को ₹2,169 crore mining विवाद में Orissa HC से राहत",
+      "bullets": [
+        "Orissa High Court ने ₹2,169 crore के mining विवाद में JSW Steel को राहत दी।",
+        "कंपनी ने exchange filing में बताया कि court ने 16 October को सुनवाई पूरी कर अपना फैसला सुनाया।"
+      ],
+      "published": "2026-10-18T11:35:32+00:00",
+      "sources": [
+        {
+          "name": "Mint Companies",
+          "url": "https://www.livemint.com/companies/what-was-the-jsw-steel-mining-case-orissa-hc-quashes-696-crore-demand-orders-fresh-review-of-1-473-crore-11792321515297.html",
+          "feed_id": 13
+        }
+      ]
+    },
+    {
+      "id": "e47741d1ed69e1b42e59",
+      "topic": "Tech",
+      "headline": "Microsoft ने UK में Nscale के साथ data center deal से हाथ खींचे: report",
+      "bullets": [
+        "Telegraph की report के मुताबिक Microsoft ने Essex के Loughton में Nscale के साथ अपना data center agreement खत्म कर दिया।",
+        "Microsoft Nscale के दो सबसे बड़े customers में से एक था।"
+      ],
+      "published": "2026-10-18T11:28:10+00:00",
+      "sources": [
+        {
+          "name": "ET Tech",
+          "url": "https://economictimes.indiatimes.com/tech/technology/microsoft-pulls-out-of-uk-data-center-deal-with-nscale-telegraph-reports/articleshow/135028020.cms",
+          "feed_id": 25
+        }
+      ]
+    },
+    {
+      "id": "a5ed6be3bea62fa7e023",
+      "topic": "Science",
+      "headline": "Climate change से सबसे ज्यादा खतरे में कौन से mammals? Simple test का proposal",
+      "bullets": [
+        "Argentina और Brazil के scientists ने नौ rodent species की adaptability तीन parameters पर score की।",
+        "उनका कहना है कि यह तरीका दुनिया के दूसरे हिस्सों के दूसरे जानवरों पर भी इस्तेमाल हो सकता है।"
+      ],
+      "published": "2026-10-18T11:10:25+00:00",
+      "sources": [
+        {
+          "name": "Hindu SciTech",
+          "url": "https://www.thehindu.com/sci-tech/energy-and-environment/new-study-proposes-simple-test-to-spot-mammals-most-vulnerable-to-climate/article71587719.ece",
+          "feed_id": 36
+        }
+      ]
+    },
+    {
+      "id": "e309b6179d9cef38b9a9",
+      "topic": "Business",
+      "headline": "Renault Duster Hybrid ₹16.99 lakh में launch, 29 kmpl mileage का दावा",
+      "bullets": [
+        "Renault ने India में नई Duster SUV का strong hybrid version ₹16.99 lakh में launch किया।",
+        "1.8 litre petrol engine और दो electric motors के साथ claimed fuel efficiency 29 kmpl।"
+      ],
+      "published": "2026-10-18T11:02:16+00:00",
+      "sources": [
+        {
+          "name": "NDTV Business",
+          "url": "https://www.ndtvprofit.com/business/renault-duster-hybrid-launched-at-16-99-lakh-mileage-specs-features-and-more-12201900#publisher=newsstand",
+          "feed_id": 21
+        }
+      ]
+    },
+    {
+      "id": "c5c5a1dd1c07e76181a4",
+      "topic": "India",
+      "headline": "Army officer की पत्नी ने Chinese agents को दी जानकारी, Jammu में case",
+      "bullets": [
+        "J&K Police ने एक senior Army officer की पत्नी के खिलाफ academicians बनकर संपर्क कर रहे Chinese agents को जानकारी देने का case दर्ज किया।",
+        "आरोपी Telangana की रहने वाली हैं; पुलिस यह भी जांच रही है कि foreign intelligence operatives को क्या सामग्री भेजी गई।"
+      ],
+      "published": "2026-10-18T10:35:25+00:00",
+      "sources": [
+        {
+          "name": "NDTV Top",
+          "url": "https://www.ndtv.com/india-news/chinese-agents-pose-as-academicians-extract-info-from-army-officers-wife-12202444#publisher=newsstand",
+          "feed_id": 5
+        }
+      ]
+    },
+    {
+      "id": "548637213bfa88cbc648",
+      "topic": "Business",
+      "headline": "Ferrari की पहली electric car Luce की India में entry: 1,000 PS power, 530 km range",
+      "bullets": [
+        "Ferrari ने अपनी पहली all-electric car Luce को India में showcase किया।",
+        "Luce में चार electric motors और 122 kWh battery हैं; power 1,000 PS और claimed range 530 km से ज्यादा।"
+      ],
+      "published": "2026-10-18T10:33:17+00:00",
+      "sources": [
+        {
+          "name": "NDTV Business",
+          "url": "https://www.ndtvprofit.com/business/ferrari-luce-makes-india-debut-with-1-000-ps-power-530-km-range-key-details-12202031#publisher=newsstand",
+          "feed_id": 21
+        }
+      ]
+    },
     {
       "id": "331b26c4fe79f667887e",
       "topic": "World",
@@ -462,22 +632,6 @@
           "name": "Hindu Business",
           "url": "https://www.thehindu.com/business/Industry/indian-bank-net-profit-rises-147-to-3462-crore-in-q2/article71596730.ece",
           "feed_id": 20
-        }
-      ]
-    },
-    {
-      "id": "18ad45f4140f56cb97a2",
-      "topic": "World",
-      "headline": "Ukrainian drone swarm से Russia का St Petersburg हमले में, कई explosions",
-      "bullets": [
-        "Social media पर आए videos में suspected Ukrainian drone swarm के बाद शहर में कई विस्फोट दिखे।"
-      ],
-      "published": "2026-10-18T04:51:01+00:00",
-      "sources": [
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/st-petersburg-under-attack-from-ukrainian-drone-swarm?traffic_source=rss",
-          "feed_id": 9
         }
       ]
     },
@@ -1702,285 +1856,40 @@
           "feed_id": 20
         }
       ]
-    },
-    {
-      "id": "7f7a137455c4f8bb6e55",
-      "topic": "Science",
-      "headline": "सुरक्षा करने वाली brain cells उम्र के साथ memory और सोचने की क्षमता को नुकसान पहुंचा सकती हैं",
-      "bullets": [
-        "Dysfunctional होने पर ये cells असामान्य मात्रा में myelin बनाती हैं, जिससे nerve fibers बिगड़ते हैं।",
-        "Scientists के मुताबिक यह age-related cognitive decline की एक अप्रत्याशित वजह हो सकती है।"
-      ],
-      "published": "2026-10-17T12:44:22+00:00",
-      "sources": [
-        {
-          "name": "ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261015073222.htm",
-          "feed_id": 34
-        }
-      ]
-    },
-    {
-      "id": "1b1224a8933e6419d07a",
-      "topic": "Business",
-      "headline": "Volvo Car India ने ₹1.26 crore में electric luxury SUV EX90 पेश की",
-      "bullets": [
-        "Company ने bookings खोल दी हैं और deliveries January 2027 से शुरू होंगी।"
-      ],
-      "published": "2026-10-17T12:42:39+00:00",
-      "sources": [
-        {
-          "name": "Hindu Business",
-          "url": "https://www.thehindu.com/business/Industry/volvo-car-india-introduces-electric-luxury-suv-ex90-at-126-crore/article71574275.ece",
-          "feed_id": 20
-        }
-      ]
-    },
-    {
-      "id": "06387c0bdb6775265670",
-      "topic": "Business",
-      "headline": "Russia sanctions में US की छूट से India के exporters और energy security को राहत: experts",
-      "bullets": [
-        "Sanctioning Russia and Iran Act के तहत छूट से Russian crude की आपूर्ति जारी रहने में मदद मिलेगी।",
-        "Experts के मुताबिक़ इससे growth को समर्थन और inflationary दबाव कम होगा, पर आगे के contracts को लेकर अनिश्चितता बनी है।"
-      ],
-      "published": "2026-10-17T12:40:48+00:00",
-      "sources": [
-        {
-          "name": "ET Economy",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-russia-sanction-waiver-a-relief-for-indias-exporters-energy-security-experts/articleshow/135014460.cms",
-          "feed_id": 17
-        }
-      ]
-    },
-    {
-      "id": "8e2aa409f0824ff1d73c",
-      "topic": "World",
-      "headline": "Pope lung cancer surgery के कुछ दिन बाद hospital से छुट्टी पाएंगे",
-      "bullets": [
-        "वे रविवार को St Peter’s Square में पारंपरिक Angelus prayer और blessing देंगे।"
-      ],
-      "published": "2026-10-17T12:37:26+00:00",
-      "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/c5x2vkddrkrko?at_medium=RSS&at_campaign=rss",
-          "feed_id": 6
-        }
-      ]
-    },
-    {
-      "id": "d6f16b25e0cbdacffe02",
-      "topic": "Health",
-      "headline": "Shridevi Institute और US की Vaxonyx के बीच AI-driven cancer research का MoU",
-      "bullets": [
-        "Tumakuru के इस संस्थान की partnership AI-enabled bioinformatics और genomic research पर केंद्रित होगी।"
-      ],
-      "published": "2026-10-17T12:31:25+00:00",
-      "sources": [
-        {
-          "name": "ET Health",
-          "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/shridevi-institute-us-based-vaxonyx-sign-mou-for-ai-driven-cancer-and-genomic-research/articleshow/135014184.cms",
-          "feed_id": 41
-        }
-      ]
-    },
-    {
-      "id": "adad373c794c011aa125",
-      "topic": "India",
-      "headline": "Air India और AI Express की Saudi Arabia flights 24 October तक रद्द",
-      "bullets": [
-        "इस हफ्ते की शुरुआत में IndiGo और Akasa Air ने भी Saudi cities की सेवाएं रद्द की थीं।"
-      ],
-      "published": "2026-10-17T12:28:26+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/air-india-and-ai-express-cancel-saudi-arabia-flights-till-oct-24/article71595997.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "ada24c679dd65ef11fec",
-      "topic": "Science",
-      "headline": "Webb telescope ने 20 light-years दूर उथल-पुथल भरी दुनिया का अद्भुत weather system दिखाया",
-      "bullets": [
-        "इस दूर के ग्रह पर तीन recurring atmospheric states temperature बदलाव और घूमते बादलों से चलते हैं।",
-        "खोज दूर के ग्रहों के weather patterns समझने का एक नया तरीका देती है।"
-      ],
-      "published": "2026-10-17T12:26:49+00:00",
-      "sources": [
-        {
-          "name": "ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261015073215.htm",
-          "feed_id": 34
-        }
-      ]
-    },
-    {
-      "id": "76ecc9b5a7cf630597bf",
-      "topic": "India",
-      "headline": "Madurai-Guruvayur Express में Keralam की पहली Vistadome coach",
-      "bullets": [
-        "Extra-large glass windows वाली यह coach tourists और leisure travellers के लिए बनाई गई है।"
-      ],
-      "published": "2026-10-17T12:22:20+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/kerala/vistadome-coach-set-for-keralam-debut-on-maduraiguruvayur-express/article71596309.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "8507474276b1bb0b0352",
-      "topic": "India",
-      "headline": "Delhi में भारी बारिश और thunderstorms; IMD का red alert",
-      "bullets": [
-        "बारिश से ठंडक आई, कई इलाकों में waterlogging हुई।"
-      ],
-      "published": "2026-10-17T12:18:08+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/cities/Delhi/heavy-rain-thunderstorms-lash-delhi-imd-issues-red-alert/article71573688.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "259ac9c586ef08518e86",
-      "topic": "Business",
-      "headline": "Central Bank of India का Q2 profit 21% बढ़कर ₹1,469 crore",
-      "bullets": [
-        "Net interest income 26% और loans 30% बढ़े; asset quality भी सुधरी।"
-      ],
-      "published": "2026-10-17T12:14:25+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/central-bank-of-india-q2-profit-rises-21-as-loans-grow-30/articleshow/135014014.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "d85e52835b4722e0e5f6",
-      "topic": "World",
-      "headline": "Hormuz Strait पर US और Iran दोनों कब्जे का दावा कर रहे हैं",
-      "bullets": [
-        "इस हफ्ते Strait में दो vessels naval mines से टकराए हैं।"
-      ],
-      "published": "2026-10-17T12:10:56+00:00",
-      "sources": [
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/17/us-and-iran-both-claim-control-of-strait-of-hormuz-amid-attacks-on-vessels?traffic_source=rss",
-          "feed_id": 9
-        }
-      ]
-    },
-    {
-      "id": "742b811341ce80f2fbc9",
-      "topic": "Tech",
-      "headline": "Apple का HomeView online recipe writers के लिए नई चुनौती",
-      "bullets": [
-        "Apple ने HomeView का खुलासा एक तीन मिनट के विज्ञापन से किया, जिसमें अव्यवस्थित सुबह की real झलक दिखी।"
-      ],
-      "published": "2026-10-17T12:00:00+00:00",
-      "sources": [
-        {
-          "name": "Verge",
-          "url": "https://www.theverge.com/tech/1012820/apple-homeview-recipe-formatting",
-          "feed_id": 28
-        }
-      ]
-    },
-    {
-      "id": "0a1d8776af62dca65020",
-      "topic": "Business",
-      "headline": "HDFC Bank के MD Kaizad Bharucha ने सेवा समाप्ति का अनुरोध किया",
-      "bullets": [
-        "Wholesale banking, credit और risk operations संभालने वाले Bharucha बैंक के प्रमुख institutional pillars माने जाते रहे हैं।"
-      ],
-      "published": "2026-10-17T11:06:31+00:00",
-      "sources": [
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/business/hdfc-bank-md-kaizad-bharucha-requests-cessation-of-services-from-dec-31-2026-12199067#publisher=newsstand",
-          "feed_id": 21
-        }
-      ]
-    },
-    {
-      "id": "436e3fb415c57628ef04",
-      "topic": "Business",
-      "headline": "Global AI expansion को खतरा: बढ़ती borrowing costs से funding risks",
-      "bullets": [
-        "Oracle और CoreWeave जैसी companies पर बढ़ता credit दबाव दिख रहा है।"
-      ],
-      "published": "2026-10-17T11:04:01+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/rising-borrowing-costs-signal-funding-risks-for-global-ai-expansion-jefferies-report/articleshow/135012567.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "53825f1443a978644784",
-      "topic": "Business",
-      "headline": "ixigo का Q2 profit ₹63 crore; hotel booking से turnaround",
-      "bullets": [
-        "पिछले साल ₹3.46 crore के घाटे से उबरकर September तिमाही में ₹63.42 crore का मुनाफा।"
-      ],
-      "published": "2026-10-17T10:51:46+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/ixigo-q2-profit-at-rs-63-cr-on-robust-show-in-hotel-booking-biz/articleshow/135012396.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "7e39fb7475e956543f7e",
-      "topic": "World",
-      "headline": "Palestine Action समर्थन पर UK में Sally Rooney की किताबें हटाई गईं",
-      "bullets": [
-        "लेखिका के Palestine Action को समर्थन किए जाने के बाद यह कदम आया है।"
-      ],
-      "published": "2026-10-17T10:50:39+00:00",
-      "sources": [
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/sally-rooneys-books-pulled-from-uk-over-palestine-action-support-2?traffic_source=rss",
-          "feed_id": 9
-        }
-      ]
-    },
-    {
-      "id": "77b386c30370c768bd4a",
-      "topic": "World",
-      "headline": "100 साल पहले चोरी हुई rare pink diamond France में display पर",
-      "bullets": [
-        "1926 की चोरी के दौरान apple में छिपाई गई French royal jewel पहली बार public display पर है।"
-      ],
-      "published": "2026-10-17T10:46:41+00:00",
-      "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/c61m4zkx47vlo?at_medium=RSS&at_campaign=rss",
-          "feed_id": 6
-        }
-      ]
     }
   ],
   "metadata": {
     "refreshes": [
+      {
+        "at": "2026-10-18T12:45:49.302278+00:00",
+        "feed_checked_at": "2026-10-18T12:44:22.784262+00:00",
+        "items_read": 1713,
+        "candidates": 418,
+        "written": 10,
+        "added": 10,
+        "dropped": 17,
+        "total": 106,
+        "counts": {
+          "India": 19,
+          "World": 19,
+          "Business": 32,
+          "IPO": 2,
+          "Tech": 10,
+          "Sports": 3,
+          "Science": 13,
+          "Health": 8
+        },
+        "fetch_seconds": 2.35,
+        "rejected": {
+          "older_than_24h": 1071,
+          "question_headline": 91,
+          "editorial_keyword": 4,
+          "undated": 4,
+          "not_cricket": 66,
+          "duplicate": 59
+        },
+        "editorial_skipped": 408
+      },
       {
         "at": "2026-10-18T10:46:07.089076+00:00",
         "feed_checked_at": "2026-10-18T10:44:15.436767+00:00",
@@ -2040,58 +1949,27 @@
           "duplicate": 68
         },
         "editorial_skipped": 407
-      },
-      {
-        "at": "2026-10-18T06:45:36.346328+00:00",
-        "feed_checked_at": "2026-10-18T06:44:20.226494+00:00",
-        "items_read": 1714,
-        "candidates": 419,
-        "written": 14,
-        "added": 14,
-        "dropped": 11,
-        "total": 134,
-        "counts": {
-          "India": 22,
-          "World": 25,
-          "Business": 44,
-          "IPO": 2,
-          "Tech": 13,
-          "Sports": 4,
-          "Science": 15,
-          "Health": 9
-        },
-        "fetch_seconds": 2.03,
-        "rejected": {
-          "older_than_24h": 1091,
-          "question_headline": 68,
-          "editorial_keyword": 2,
-          "future": 2,
-          "undated": 4,
-          "not_cricket": 64,
-          "duplicate": 64
-        },
-        "editorial_skipped": 405
       }
     ],
     "topic_counts": {
       "India": 19,
-      "World": 23,
-      "Business": 34,
+      "World": 19,
+      "Business": 32,
       "IPO": 2,
       "Tech": 10,
       "Sports": 3,
-      "Science": 14,
-      "Health": 9
+      "Science": 13,
+      "Health": 8
     },
     "topic_gap_minutes": {
       "India": 36,
-      "World": 43,
+      "World": 36,
       "Business": 60,
       "IPO": 5,
       "Tech": 19,
       "Sports": 6,
-      "Science": 27,
-      "Health": 17
+      "Science": 25,
+      "Health": 15
     },
     "gap_is_metadata_only": true,
     "feeds": [
@@ -2112,8 +1990,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 24,
-        "seconds": 0.38
+        "eligible": 25,
+        "seconds": 1.26
       },
       {
         "id": 3,
@@ -2122,8 +2000,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 59,
-        "seconds": 0.08
+        "eligible": 58,
+        "seconds": 0.09
       },
       {
         "id": 4,
@@ -2132,8 +2010,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 9,
-        "seconds": 0.27
+        "eligible": 8,
+        "seconds": 0.67
       },
       {
         "id": 5,
@@ -2143,7 +2021,7 @@
         "http": 200,
         "items": 20,
         "eligible": 18,
-        "seconds": 0.34
+        "seconds": 0.35
       },
       {
         "id": 6,
@@ -2151,8 +2029,8 @@
         "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 26,
-        "eligible": 12,
+        "items": 29,
+        "eligible": 13,
         "seconds": 0.06
       },
       {
@@ -2162,8 +2040,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 13,
-        "seconds": 0.38
+        "eligible": 15,
+        "seconds": 0.42
       },
       {
         "id": 9,
@@ -2172,8 +2050,8 @@
         "status": "ok",
         "http": 200,
         "items": 25,
-        "eligible": 23,
-        "seconds": 0.1
+        "eligible": 22,
+        "seconds": 0.05
       },
       {
         "id": 10,
@@ -2183,7 +2061,7 @@
         "http": 200,
         "items": 136,
         "eligible": 14,
-        "seconds": 0.08
+        "seconds": 0.14
       },
       {
         "id": 11,
@@ -2192,8 +2070,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 9,
-        "seconds": 0.12
+        "eligible": 8,
+        "seconds": 0.21
       },
       {
         "id": 12,
@@ -2203,7 +2081,7 @@
         "http": 200,
         "items": 9,
         "eligible": 0,
-        "seconds": 0.4
+        "seconds": 0.32
       },
       {
         "id": 13,
@@ -2212,8 +2090,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 21,
-        "seconds": 0.09
+        "eligible": 23,
+        "seconds": 0.13
       },
       {
         "id": 14,
@@ -2223,7 +2101,7 @@
         "http": 200,
         "items": 40,
         "eligible": 2,
-        "seconds": 0.47
+        "seconds": 0.38
       },
       {
         "id": 15,
@@ -2232,8 +2110,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 21,
-        "seconds": 0.1
+        "eligible": 17,
+        "seconds": 0.08
       },
       {
         "id": 16,
@@ -2243,7 +2121,7 @@
         "http": 200,
         "items": 50,
         "eligible": 2,
-        "seconds": 0.71
+        "seconds": 0.35
       },
       {
         "id": 17,
@@ -2252,8 +2130,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 10,
-        "seconds": 0.1
+        "eligible": 9,
+        "seconds": 0.07
       },
       {
         "id": 19,
@@ -2263,7 +2141,7 @@
         "http": 200,
         "items": 35,
         "eligible": 2,
-        "seconds": 0.86
+        "seconds": 0.88
       },
       {
         "id": 20,
@@ -2273,7 +2151,7 @@
         "http": 200,
         "items": 60,
         "eligible": 59,
-        "seconds": 0.34
+        "seconds": 0.55
       },
       {
         "id": 21,
@@ -2282,8 +2160,8 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 11,
-        "seconds": 0.32
+        "eligible": 14,
+        "seconds": 0.33
       },
       {
         "id": 22,
@@ -2293,7 +2171,7 @@
         "http": 200,
         "items": 35,
         "eligible": 1,
-        "seconds": 0.08
+        "seconds": 0.22
       },
       {
         "id": 23,
@@ -2312,8 +2190,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 4,
-        "seconds": 0.37
+        "eligible": 6,
+        "seconds": 0.38
       },
       {
         "id": 25,
@@ -2322,8 +2200,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 0,
-        "seconds": 0.08
+        "eligible": 2,
+        "seconds": 0.16
       },
       {
         "id": 26,
@@ -2342,7 +2220,7 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 2,
+        "eligible": 0,
         "seconds": 0.06
       },
       {
@@ -2353,7 +2231,7 @@
         "http": 200,
         "items": 10,
         "eligible": 10,
-        "seconds": 0.05
+        "seconds": 0.08
       },
       {
         "id": 29,
@@ -2363,7 +2241,7 @@
         "http": 200,
         "items": 20,
         "eligible": 5,
-        "seconds": 0.05
+        "seconds": 0.06
       },
       {
         "id": 32,
@@ -2372,8 +2250,8 @@
         "status": "ok",
         "http": 200,
         "items": 42,
-        "eligible": 6,
-        "seconds": 0.04
+        "eligible": 8,
+        "seconds": 0.08
       },
       {
         "id": 33,
@@ -2383,7 +2261,7 @@
         "http": 200,
         "items": 10,
         "eligible": 1,
-        "seconds": 0.2
+        "seconds": 0.21
       },
       {
         "id": 34,
@@ -2392,8 +2270,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 4,
-        "seconds": 0.23
+        "eligible": 2,
+        "seconds": 0.29
       },
       {
         "id": 36,
@@ -2402,8 +2280,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 57,
-        "seconds": 0.34
+        "eligible": 58,
+        "seconds": 0.36
       },
       {
         "id": 37,
@@ -2412,8 +2290,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 9,
-        "seconds": 0.4
+        "eligible": 8,
+        "seconds": 0.41
       },
       {
         "id": 38,
@@ -2423,7 +2301,7 @@
         "http": 200,
         "items": 56,
         "eligible": 4,
-        "seconds": 0.28
+        "seconds": 0.21
       },
       {
         "id": 39,
@@ -2432,8 +2310,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 7,
-        "seconds": 0.38
+        "eligible": 8,
+        "seconds": 0.35
       },
       {
         "id": 40,
@@ -2442,8 +2320,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 45,
-        "seconds": 0.34
+        "eligible": 40,
+        "seconds": 0.33
       },
       {
         "id": 41,
@@ -2452,8 +2330,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 5,
-        "seconds": 0.45
+        "eligible": 4,
+        "seconds": 0.39
       },
       {
         "id": 42,
@@ -2461,9 +2339,9 @@
         "url": "https://feeds.bbci.co.uk/sport/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 75,
+        "items": 73,
         "eligible": 0,
-        "seconds": 0.23
+        "seconds": 0.05
       },
       {
         "id": 43,
@@ -2473,7 +2351,7 @@
         "http": 200,
         "items": 40,
         "eligible": 0,
-        "seconds": 0.38
+        "seconds": 0.39
       },
       {
         "id": 44,
@@ -2483,7 +2361,7 @@
         "http": 200,
         "items": 100,
         "eligible": 3,
-        "seconds": 0.35
+        "seconds": 0.32
       },
       {
         "id": 45,
@@ -2493,7 +2371,7 @@
         "http": 200,
         "items": 29,
         "eligible": 0,
-        "seconds": 0.17
+        "seconds": 0.19
       },
       {
         "id": 47,
@@ -2503,7 +2381,7 @@
         "http": 200,
         "items": 36,
         "eligible": 0,
-        "seconds": 0.6
+        "seconds": 0.24
       }
     ],
     "sources": [
@@ -2518,6 +2396,7 @@
       "ET Economy",
       "ET Health",
       "ET Markets",
+      "ET Tech",
       "Hindu Business",
       "Hindu India",
       "Hindu SciTech",
