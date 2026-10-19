@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "title": "News for Adults",
-  "updated_at": "2026-10-19T04:44:54.995403+00:00",
+  "updated_at": "2026-10-19T06:44:58.524802+00:00",
   "schedule": {
     "active": false,
     "window_ist": "08:00-22:00",
@@ -19,6 +19,79 @@
     "Health"
   ],
   "stories": [
+    {
+      "id": "28713c2b0bca04eee62a",
+      "topic": "World",
+      "headline": "Funding कमी से World Food Programme ने Gaza में aid एक-तिहाई घटाई",
+      "bullets": [
+        "Funding shortages के चलते UN की World Food Programme Gaza में अपनी aid कटौती कर रही है।",
+        "मदद पाने वालों की संख्या 1.6 million से घटकर करीब 1.1 million रह जाएगी।"
+      ],
+      "published": "2026-10-19T06:00:18+00:00",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cm79plrvpl4vo?at_medium=RSS&at_campaign=rss",
+          "feed_id": 6
+        }
+      ]
+    },
+    {
+      "id": "34156c24499a2bd03e2d",
+      "topic": "Business",
+      "headline": "Rubio बोले: America, India के साथ trade deal को फाइनल करने के बहुत करीब",
+      "bullets": [
+        "US Secretary of State Marco Rubio ने कहा कि America India के साथ trade deal को final करने के बहुत करीब है।",
+        "यह बयान दोनों देशों के बीच लंबे समय से चल रही tariff और trade बातचीत के बीच आया है।"
+      ],
+      "published": "2026-10-19T05:53:51+00:00",
+      "sources": [
+        {
+          "name": "ET Economy",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/america-very-close-to-finalising-trade-deal-with-india-marco-rubio/videoshow/135041177.cms",
+          "feed_id": 17
+        },
+        {
+          "name": "ET Economy",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-very-close-to-finalising-trade-deal-with-india-says-marco-rubio/articleshow/135040499.cms",
+          "feed_id": 17
+        }
+      ]
+    },
+    {
+      "id": "28c133f0806d21029cef",
+      "topic": "Sports",
+      "headline": "एक rule change कैसे बदल रहा है one-day cricket का चेहरा",
+      "bullets": [
+        "एक ही rule change ने ODI cricket का रूप बदल दिया है; BBC Sport ने इसके असर का विश्लेषण किया है।",
+        "नियम से किसे फायदा हो रहा है और भविष्य पर इसका क्या मतलब हो सकता है, इस पर नजर डाली गई है।"
+      ],
+      "published": "2026-10-19T05:27:56+00:00",
+      "sources": [
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.co.uk/sport/cricket/articles/c6eweg47wv11o?at_medium=RSS&at_campaign=rss",
+          "feed_id": 42
+        }
+      ]
+    },
+    {
+      "id": "ffc5cbc6f34a2cab5516",
+      "topic": "World",
+      "headline": "Saudi Arabia में दो नागरिकों को मौत की सजा: Bangladesh ने मांगा जवाब, Vienna Convention की चर्चा",
+      "bullets": [
+        "Saudi Arabia में दो Bangladeshi नागरिकों को मस्जिद में कथित 'अनैतिक हरकत' के मामले में मौत की सजा दी गई है।",
+        "Bangladesh के अधिकारियों का कहना है कि दोनों को अपने देश के अधिकारियों से संपर्क और कानूनी मदद के अधिकार से वंचित रखा गया — सवाल उठ रहा है कि क्या यह Vienna Convention का उल्लंघन है।"
+      ],
+      "published": "2026-10-19T05:16:54+00:00",
+      "sources": [
+        {
+          "name": "BBC Hindi India",
+          "url": "https://www.bbc.com/hindi/articles/cx7vpl7dg29vo?at_medium=RSS&at_campaign=rss",
+          "feed_id": 4
+        }
+      ]
+    },
     {
       "id": "335092d89dc621f55267",
       "topic": "India",
@@ -1155,252 +1228,41 @@
           "feed_id": 2
         }
       ]
-    },
-    {
-      "id": "a772e3d4b3de9b87c3de",
-      "topic": "India",
-      "headline": "INS Samarthak का Karwar में commissioning: VP बोले, self-reliant defence का milestone",
-      "bullets": [
-        "Vice President C.P. Radhakrishnan ने कहा कि 75% से ज्यादा indigenous content वाला यह पोत देश की बढ़ती industrial, technological और shipbuilding क्षमता दिखाता है।"
-      ],
-      "published": "2026-10-18T06:37:23+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/karnataka/ins-samarthak-commissioned-at-karwar-vice-president-cp-radhakrishan-terms-it-a-milestone-in-self-reliant-defence-manufacturing/article71593300.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "efadcf63db11ec74c0eb",
-      "topic": "India",
-      "headline": "Tamil Nadu में 23 October तक भारी बारिश का अलर्ट, 17 districts को yellow alert",
-      "bullets": [
-        "Chennai समेत कई districts में भारी बारिश की संभावना है; RMC के मुताबिक उत्तर coastal क्षेत्र के ऊपर cyclonic circulation से convective clouds बन रहे हैं।",
-        "GCC ने monsoon के लिए 220 relief centres और 110 kitchens तैयार किए हैं।"
-      ],
-      "published": "2026-10-18T06:34:51+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/cities/chennai/heavy-rains-likely-in-many-districts-of-tamil-nadu-including-chennai-on-oct-18/article71599270.ece",
-          "feed_id": 3
-        },
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/cities/chennai/heavy-rainfall-to-continue-across-tn-till-october-23/article71596452.ece",
-          "feed_id": 3
-        },
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/cities/chennai/gcc-sets-up-220-relief-centres-110-kitchens-for-monsoon/article71597707.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "9c08c57c59261ddfd366",
-      "topic": "Health",
-      "headline": "Keralam में mumps का प्रकोप जारी, MMR vaccine की मांग तेज",
-      "bullets": [
-        "Keralam की studies में बच्चों में immunity gaps, long-term disability पैदा कर सकने वाली complications और circulating virus व vaccine strain के बीच genetic अंतर दिखे हैं।"
-      ],
-      "published": "2026-10-18T06:34:03+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/kerala/continuing-mumps-outbreak-in-keralam-leads-to-renewed-demand-for-mmr-vaccine/article71596582.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "c1b3ed06687630f607d1",
-      "topic": "Business",
-      "headline": "October में अब तक FPIs ने equities से ₹52,100 crore निकाले",
-      "bullets": [
-        "September में ₹35,861 crore की निकासी के बाद withdrawal जारी है; महंगा crude और ऊंची US bond yields जैसे global headwinds वजह बताए जा रहे हैं।"
-      ],
-      "published": "2026-10-18T06:33:22+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/fpis-pull-out-rs-52100-cr-from-equities-in-oct-so-far-amid-global-headwinds/articleshow/135024995.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "b0510ada2872a828c913",
-      "topic": "Tech",
-      "headline": "CERT-In की चेतावनी: AI agents ने Indian organisations में unauthorised access पाया",
-      "bullets": [
-        "यह असाधारण disclosure agents के अपने developers की proactive सूचनाओं के आधार पर आया है; CERT-In ने AI providers या organisations के नाम नहीं बताए हैं।"
-      ],
-      "published": "2026-10-18T06:30:11+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/sci-tech/technology/ai-agents-gained-unauthorised-access-to-indian-organisations-says-cert-in/article71592222.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "f19b473b7ca0d63516ad",
-      "topic": "India",
-      "headline": "Manipur में फिर हिंसा: Kamjong में 15 घर फूंके, गोलीबारी में 3 घायल",
-      "bullets": [
-        "कुकी समुदाय के घरों को आग के हवाले किया गया; हमले के बाद ग्रामीण जंगलों की ओर भागे।",
-        "Police ने बताया कि Assam Rifles, BSF और Kamjong Police की joint तैनाती से स्थिति नियंत्रण में लाई जा रही है।"
-      ],
-      "published": "2026-10-18T06:22:54+00:00",
-      "sources": [
-        {
-          "name": "AmarUjala India",
-          "url": "https://www.amarujala.com/india-news/manipur-violence-15-houses-set-ablaze-in-kamjong-civilians-flee-gun-attacks-leave-injured-2026-10-18",
-          "feed_id": 2
-        },
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/manipur/15-houses-burnt-in-manipurs-kamjong-three-injured-in-gun-attack/article71599153.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "ab478883e44d779bf6ec",
-      "topic": "Business",
-      "headline": "September में India के crude imports 7% बढ़े, import bill 47% उछला",
-      "bullets": [
-        "Oil और gas imports पर कुल खर्च करीब 40% बढ़कर $13.4 billion पर पहुंचा।"
-      ],
-      "published": "2026-10-18T06:22:16+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/business/Economy/indias-crude-imports-rise-7-in-september-bill-surges-47/article71593638.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "06553f634cf5e397ab6c",
-      "topic": "Science",
-      "headline": "Japan भेजेगा Mars के चंद्रमा Phobos से samples लाने का मिशन",
-      "bullets": [
-        "पांच साल के इस mission से Phobos और Deimos के बनने की वजह और solar system में जीवन की उत्पत्ति के सुराग मिलने की उम्मीद है।"
-      ],
-      "published": "2026-10-18T06:15:25+00:00",
-      "sources": [
-        {
-          "name": "Hindu SciTech",
-          "url": "https://www.thehindu.com/sci-tech/science/japan-to-launch-mmx-to-phobos-to-collect-moon-samples/article71599258.ece",
-          "feed_id": 36
-        }
-      ]
-    },
-    {
-      "id": "1b71f7caf261a8d69b41",
-      "topic": "Science",
-      "headline": "Russian military satellite orbit में US radar satellite का पीछा कर रहा",
-      "bullets": [
-        "Russia का Cosmos-2612 बार-बार orbit बदलकर ICEYE-X36 के करीब आया है; यह commercial radar-imaging satellite US में registered है और इसका operator Ukraine को data दे रहा है।"
-      ],
-      "published": "2026-10-18T06:09:28+00:00",
-      "sources": [
-        {
-          "name": "Hindu SciTech",
-          "url": "https://www.thehindu.com/sci-tech/science/russian-military-satellite-stalks-us-radar-satellite-in-orbit/article71599219.ece",
-          "feed_id": 36
-        }
-      ]
-    },
-    {
-      "id": "e5fc63652daac8a65475",
-      "topic": "India",
-      "headline": "Leh में Ladakh की पहली permanent High Court Bench, CJI Surya Kant करेंगे उद्घाटन",
-      "bullets": [
-        "CJI Surya Kant आज Leh में Ladakh की पहली permanent High Court Bench का उद्घाटन करेंगे।",
-        "Ladakh Chief Secretary Ashish Kundra ने कहा कि यह कदम Union Territory के लोगों के लिए न्याय को और करीब लाएगा।"
-      ],
-      "published": "2026-10-18T05:57:51+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/ladakh/cji-surya-kant-inaugurates-lehs-first-permanent-high-court-bench/article71599224.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "930abd83ac0716612dcb",
-      "topic": "Health",
-      "headline": "AIIMS doctors ने complex cancer surgery का जोखिम घटाने को 'Red Alert Zone' पहचाना",
-      "bullets": [
-        "महिलाओं की complex cancer surgeries में दो critical anatomical zones मिले हैं, जो bleeding कम करके vital organs की चोट रोकते हैं; इनमें 'Ray's Zone' pelvis की surgeries में अहम है।"
-      ],
-      "published": "2026-10-18T05:44:16+00:00",
-      "sources": [
-        {
-          "name": "ET Health",
-          "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/aiims-doctors-identify-red-alert-zone-to-reduce-risks-in-complex-cancer-surgery/articleshow/135024417.cms",
-          "feed_id": 41
-        }
-      ]
-    },
-    {
-      "id": "32452ef6db29fe47e6fb",
-      "topic": "Business",
-      "headline": "Russian crude से बने fuels का West को export 43% बढ़ा: CREA",
-      "bullets": [
-        "India समेत तीन देशों की refineries ने September में sanctioning देशों को €1 billion ($1.2 billion) के oil products भेजे, जो August से 43% ज्यादा है।"
-      ],
-      "published": "2026-10-18T05:31:49+00:00",
-      "sources": [
-        {
-          "name": "BS Economy",
-          "url": "https://www.business-standard.com/economy/news/indian-refiners-fuel-exports-to-west-rise-43-amid-russian-crude-use-126101800148_1.html",
-          "feed_id": 19
-        }
-      ]
-    },
-    {
-      "id": "5dd7bff0a68959d95e70",
-      "topic": "IPO",
-      "headline": "Jio Platforms के ₹30,213 crore IPO समेत इस हफ्ते ₹31,663 crore के offerings; 9 listings",
-      "bullets": [
-        "Jio और Paras Healthcare (₹1,450 crore) दोनों issues 21 October को खुलेंगे; नौ companies list होंगी, जिनमें छह mainboard पर हैं।"
-      ],
-      "published": "2026-10-18T05:11:00+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mega-jio-platforms-ipo-to-lead-rs-31663-crore-offerings-this-week-9-listings-lined-up/articleshow/135024121.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "2898723502ef16678608",
-      "topic": "Business",
-      "headline": "Indian Bank का Q2 net profit 14.7% बढ़कर ₹3,462 crore",
-      "bullets": [
-        "Operating profit सालाना 46.6% बढ़ा; gross advances 16.4% उछले और gross NPAs घटकर 1.61% रह गए।"
-      ],
-      "published": "2026-10-18T05:09:34+00:00",
-      "sources": [
-        {
-          "name": "Hindu Business",
-          "url": "https://www.thehindu.com/business/Industry/indian-bank-net-profit-rises-147-to-3462-crore-in-q2/article71596730.ece",
-          "feed_id": 20
-        }
-      ]
     }
   ],
   "metadata": {
     "refreshes": [
+      {
+        "at": "2026-10-19T06:44:58.524802+00:00",
+        "feed_checked_at": "2026-10-19T06:44:17.892784+00:00",
+        "items_read": 1719,
+        "candidates": 351,
+        "written": 4,
+        "added": 4,
+        "dropped": 14,
+        "total": 70,
+        "counts": {
+          "India": 14,
+          "World": 20,
+          "Business": 19,
+          "IPO": 0,
+          "Tech": 6,
+          "Sports": 2,
+          "Science": 6,
+          "Health": 3
+        },
+        "fetch_seconds": 2.22,
+        "rejected": {
+          "editorial_keyword": 11,
+          "older_than_24h": 1160,
+          "question_headline": 89,
+          "future": 2,
+          "undated": 4,
+          "not_cricket": 64,
+          "duplicate": 38
+        },
+        "editorial_skipped": 347
+      },
       {
         "at": "2026-10-19T04:44:54.995403+00:00",
         "feed_checked_at": "2026-10-19T04:44:26.808733+00:00",
@@ -1462,57 +1324,27 @@
           "duplicate": 37
         },
         "editorial_skipped": 346
-      },
-      {
-        "at": "2026-10-18T16:46:05.818526+00:00",
-        "feed_checked_at": "2026-10-18T16:44:20.866597+00:00",
-        "items_read": 1708,
-        "candidates": 427,
-        "written": 11,
-        "added": 11,
-        "dropped": 11,
-        "total": 101,
-        "counts": {
-          "India": 19,
-          "World": 21,
-          "Business": 27,
-          "IPO": 2,
-          "Tech": 10,
-          "Sports": 3,
-          "Science": 13,
-          "Health": 6
-        },
-        "fetch_seconds": 2.42,
-        "rejected": {
-          "older_than_24h": 1070,
-          "question_headline": 83,
-          "editorial_keyword": 7,
-          "undated": 4,
-          "not_cricket": 63,
-          "duplicate": 54
-        },
-        "editorial_skipped": 416
       }
     ],
     "topic_counts": {
-      "India": 18,
-      "World": 18,
-      "Business": 22,
-      "IPO": 1,
-      "Tech": 7,
-      "Sports": 1,
-      "Science": 8,
-      "Health": 5
+      "India": 14,
+      "World": 20,
+      "Business": 19,
+      "IPO": 0,
+      "Tech": 6,
+      "Sports": 2,
+      "Science": 6,
+      "Health": 3
     },
     "topic_gap_minutes": {
-      "India": 34,
-      "World": 34,
-      "Business": 42,
+      "India": 23,
+      "World": 33,
+      "Business": 32,
       "IPO": 5,
-      "Tech": 14,
+      "Tech": 10,
       "Sports": 5,
-      "Science": 15,
-      "Health": 10
+      "Science": 10,
+      "Health": 5
     },
     "gap_is_metadata_only": true,
     "feeds": [
@@ -1524,7 +1356,7 @@
         "http": 200,
         "items": 19,
         "eligible": 0,
-        "seconds": 0.3
+        "seconds": 0.29
       },
       {
         "id": 2,
@@ -1533,8 +1365,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 7,
-        "seconds": 0.39
+        "eligible": 11,
+        "seconds": 0.36
       },
       {
         "id": 3,
@@ -1544,7 +1376,7 @@
         "http": 200,
         "items": 60,
         "eligible": 59,
-        "seconds": 0.08
+        "seconds": 0.09
       },
       {
         "id": 4,
@@ -1553,8 +1385,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 4,
-        "seconds": 0.65
+        "eligible": 3,
+        "seconds": 0.7
       },
       {
         "id": 5,
@@ -1563,7 +1395,7 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 17,
+        "eligible": 19,
         "seconds": 0.31
       },
       {
@@ -1573,8 +1405,8 @@
         "status": "ok",
         "http": 200,
         "items": 29,
-        "eligible": 19,
-        "seconds": 0.12
+        "eligible": 18,
+        "seconds": 0.11
       },
       {
         "id": 7,
@@ -1583,8 +1415,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 3,
-        "seconds": 0.36
+        "eligible": 2,
+        "seconds": 0.43
       },
       {
         "id": 9,
@@ -1593,8 +1425,8 @@
         "status": "ok",
         "http": 200,
         "items": 25,
-        "eligible": 21,
-        "seconds": 0.13
+        "eligible": 20,
+        "seconds": 0.11
       },
       {
         "id": 10,
@@ -1603,8 +1435,8 @@
         "status": "ok",
         "http": 200,
         "items": 135,
-        "eligible": 17,
-        "seconds": 0.18
+        "eligible": 19,
+        "seconds": 0.2
       },
       {
         "id": 11,
@@ -1613,8 +1445,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 4,
-        "seconds": 0.37
+        "eligible": 3,
+        "seconds": 0.3
       },
       {
         "id": 12,
@@ -1624,7 +1456,7 @@
         "http": 200,
         "items": 9,
         "eligible": 0,
-        "seconds": 0.35
+        "seconds": 0.09
       },
       {
         "id": 13,
@@ -1633,8 +1465,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 25,
-        "seconds": 0.16
+        "eligible": 29,
+        "seconds": 0.08
       },
       {
         "id": 14,
@@ -1643,8 +1475,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 5,
-        "seconds": 0.37
+        "eligible": 3,
+        "seconds": 0.4
       },
       {
         "id": 15,
@@ -1652,9 +1484,9 @@
         "url": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
         "status": "ok",
         "http": 200,
-        "items": 50,
-        "eligible": 47,
-        "seconds": 0.25
+        "items": 49,
+        "eligible": 37,
+        "seconds": 0.09
       },
       {
         "id": 16,
@@ -1664,7 +1496,7 @@
         "http": 200,
         "items": 50,
         "eligible": 4,
-        "seconds": 0.24
+        "seconds": 0.12
       },
       {
         "id": 17,
@@ -1673,8 +1505,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 6,
-        "seconds": 0.08
+        "eligible": 8,
+        "seconds": 0.12
       },
       {
         "id": 19,
@@ -1683,8 +1515,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 4,
-        "seconds": 0.13
+        "eligible": 3,
+        "seconds": 0.12
       },
       {
         "id": 20,
@@ -1693,8 +1525,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 17,
-        "seconds": 0.07
+        "eligible": 19,
+        "seconds": 0.39
       },
       {
         "id": 21,
@@ -1704,7 +1536,7 @@
         "http": 200,
         "items": 20,
         "eligible": 18,
-        "seconds": 0.32
+        "seconds": 0.31
       },
       {
         "id": 22,
@@ -1714,7 +1546,7 @@
         "http": 200,
         "items": 35,
         "eligible": 3,
-        "seconds": 0.07
+        "seconds": 0.06
       },
       {
         "id": 23,
@@ -1724,7 +1556,7 @@
         "http": 200,
         "items": 21,
         "eligible": 3,
-        "seconds": 0.24
+        "seconds": 0.41
       },
       {
         "id": 24,
@@ -1733,8 +1565,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 4,
-        "seconds": 0.41
+        "eligible": 2,
+        "seconds": 0.37
       },
       {
         "id": 25,
@@ -1744,7 +1576,7 @@
         "http": 200,
         "items": 50,
         "eligible": 6,
-        "seconds": 0.08
+        "seconds": 0.14
       },
       {
         "id": 26,
@@ -1754,7 +1586,7 @@
         "http": 200,
         "items": 35,
         "eligible": 3,
-        "seconds": 0.33
+        "seconds": 0.05
       },
       {
         "id": 27,
@@ -1764,7 +1596,7 @@
         "http": 200,
         "items": 20,
         "eligible": 1,
-        "seconds": 0.4
+        "seconds": 0.05
       },
       {
         "id": 28,
@@ -1774,7 +1606,7 @@
         "http": 200,
         "items": 10,
         "eligible": 10,
-        "seconds": 0.06
+        "seconds": 0.04
       },
       {
         "id": 29,
@@ -1793,8 +1625,8 @@
         "status": "ok",
         "http": 200,
         "items": 42,
-        "eligible": 11,
-        "seconds": 0.11
+        "eligible": 10,
+        "seconds": 0.09
       },
       {
         "id": 33,
@@ -1814,7 +1646,7 @@
         "http": 200,
         "items": 60,
         "eligible": 9,
-        "seconds": 0.15
+        "seconds": 0.16
       },
       {
         "id": 36,
@@ -1823,8 +1655,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 28,
-        "seconds": 0.34
+        "eligible": 27,
+        "seconds": 0.35
       },
       {
         "id": 37,
@@ -1833,8 +1665,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 4,
-        "seconds": 0.62
+        "eligible": 3,
+        "seconds": 0.45
       },
       {
         "id": 38,
@@ -1842,9 +1674,9 @@
         "url": "https://feeds.bbci.co.uk/news/health/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 56,
-        "eligible": 4,
-        "seconds": 0.11
+        "items": 57,
+        "eligible": 6,
+        "seconds": 0.29
       },
       {
         "id": 39,
@@ -1854,7 +1686,7 @@
         "http": 200,
         "items": 40,
         "eligible": 5,
-        "seconds": 0.38
+        "seconds": 0.35
       },
       {
         "id": 40,
@@ -1864,7 +1696,7 @@
         "http": 200,
         "items": 60,
         "eligible": 16,
-        "seconds": 0.36
+        "seconds": 0.35
       },
       {
         "id": 41,
@@ -1873,8 +1705,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 1,
-        "seconds": 0.39
+        "eligible": 0,
+        "seconds": 0.34
       },
       {
         "id": 42,
@@ -1882,9 +1714,9 @@
         "url": "https://feeds.bbci.co.uk/sport/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 72,
-        "eligible": 0,
-        "seconds": 0.32
+        "items": 78,
+        "eligible": 1,
+        "seconds": 0.16
       },
       {
         "id": 43,
@@ -1894,7 +1726,7 @@
         "http": 200,
         "items": 40,
         "eligible": 0,
-        "seconds": 0.38
+        "seconds": 0.42
       },
       {
         "id": 44,
@@ -1903,8 +1735,8 @@
         "status": "ok",
         "http": 200,
         "items": 100,
-        "eligible": 3,
-        "seconds": 0.55
+        "eligible": 1,
+        "seconds": 0.29
       },
       {
         "id": 45,
@@ -1912,9 +1744,9 @@
         "url": "https://feeds.bbci.co.uk/sport/cricket/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 30,
-        "eligible": 0,
-        "seconds": 0.3
+        "items": 31,
+        "eligible": 1,
+        "seconds": 0.23
       },
       {
         "id": 47,
@@ -1924,21 +1756,22 @@
         "http": 200,
         "items": 36,
         "eligible": 0,
-        "seconds": 0.35
+        "seconds": 0.6
       }
     ],
     "sources": [
       "Aljazeera",
       "AmarUjala Business",
       "AmarUjala India",
+      "BBC Hindi India",
       "BBC Science",
+      "BBC Sport",
       "BBC Tech",
       "BBC World",
       "BS Economy",
       "DW World",
       "ESPNcricinfo",
       "ET Economy",
-      "ET Health",
       "ET Markets",
       "ET Tech",
       "Hindu Business",
