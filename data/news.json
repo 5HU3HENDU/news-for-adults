@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "title": "News for Adults",
-  "updated_at": "2026-10-19T10:45:19.696978+00:00",
+  "updated_at": "2026-10-19T14:45:35.812870+00:00",
   "schedule": {
     "active": false,
     "window_ist": "08:00-22:00",
@@ -19,6 +19,208 @@
     "Health"
   ],
   "stories": [
+    {
+      "id": "d09981c9adb66b0ebc5b",
+      "topic": "World",
+      "headline": "Yemen: Houthi strike से government military camp में कम से कम 50 की मौत",
+      "bullets": [
+        "Iran-backed Houthis ने Yemen के Shabwa governorate में एक military camp पर हमले की ज़िम्मेदारी ली; मारे गए लोगों में नए recruits शामिल हैं।",
+        "यह हमला weekend में Saudi-led forces पर आरोपित घातक हमलों के बाद हुआ है; Yemen में युद्ध फिर से तेज हो रहा है।"
+      ],
+      "published": "2026-10-19T14:39:00+00:00",
+      "sources": [
+        {
+          "name": "DW World",
+          "url": "https://www.dw.com/en/houthi-strike-on-yemen-government-military-camp-kills-at-least-50/a-79702163?maca=en-rss-en-all-1573-rdf",
+          "feed_id": 10
+        }
+      ]
+    },
+    {
+      "id": "d9940cfccfa1a5b62550",
+      "topic": "Sports",
+      "headline": "ODI World Cup की तैयारी: England और Pakistan की पुरानी rivalry फिर केंद्र में",
+      "bullets": [
+        "England अपनी 50-over cricket में summer की प्रगति से confidence लिए हुए है, जबकि Pakistan Sri Lanka पर जीत से उत्साहित है।"
+      ],
+      "published": "2026-10-19T13:49:34+00:00",
+      "sources": [
+        {
+          "name": "ESPNcricinfo",
+          "url": "https://www.cricinfo.com/ci/content/story/1559050.html?ex_cid=OTC-RSS",
+          "feed_id": 44
+        }
+      ]
+    },
+    {
+      "id": "f673553d3e6443e0b7af",
+      "topic": "IPO",
+      "headline": "Zetwerk का ₹5,012 crore IPO आखिरी दिन 3.06 गुना subscribed",
+      "bullets": [
+        "Zetwerk का ₹5,012 crore का IPO सोमवार को bids के आखिरी दिन 3.06 गुना subscribe हुआ।"
+      ],
+      "published": "2026-10-19T13:32:54+00:00",
+      "sources": [
+        {
+          "name": "ET Tech",
+          "url": "https://economictimes.indiatimes.com/tech/newsletters/tech-top-5/super-money-triples-revenues-zetwerk-ipo-fully-subscribed/articleshow/135049722.cms",
+          "feed_id": 25
+        }
+      ]
+    },
+    {
+      "id": "1dacb4d06e5db69e4c3a",
+      "topic": "Science",
+      "headline": "Alaska की monster tsunami: पानी पहाड़ पर 1,580 feet ऊपर तक उठा, अब तक की दूसरी सबसे ऊंची",
+      "bullets": [
+        "Alaska में एक विशाल landslide से बनी tsunami recorded history की दूसरी सबसे ऊंची tsunami है; पानी और मलबा mountainside पर 1,580 feet तक चढ़ा।",
+        "घटना tourists के इलाके से जाने के कुछ घंटों बाद हुई; scientists ने नए अध्ययन में इसका खुलासा किया है।"
+      ],
+      "published": "2026-10-19T13:09:18+00:00",
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261018205047.htm",
+          "feed_id": 34
+        }
+      ]
+    },
+    {
+      "id": "08482e50ac92aac76d80",
+      "topic": "Business",
+      "headline": "China का export curbs: tunnel boring machines पर रोक, India की infrastructure projects पर असर संभव",
+      "bullets": [
+        "Beijing ने essential machinery पर नए export controls लगाए हैं, जिनका असर India के infrastructure development पर पड़ सकता है।",
+        "पाबंदियां 18 November से लागू होंगी और tunnel boring machines (TBMs) से जुड़े equipment को कवर करेंगी।"
+      ],
+      "published": "2026-10-19T13:04:33+00:00",
+      "sources": [
+        {
+          "name": "ET Economy",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/china-announces-export-curbs-on-key-machinery-used-in-indias-infrastructure-development/articleshow/135049611.cms",
+          "feed_id": 17
+        }
+      ]
+    },
+    {
+      "id": "d11a520ef3c44bcf9dd3",
+      "topic": "Science",
+      "headline": "High-risk gene के बावजूद कुछ लोग Alzheimer’s से क्यों बच जाते हैं? नई study में जवाब",
+      "bullets": [
+        "Scientists ने खोजा कि high genetic risk के बावजूद कुछ लोग 80s तक mentally sharp क्यों रहते हैं।",
+        "एक rare mutation brain को harmful protein buildup से बचाता है।"
+      ],
+      "published": "2026-10-19T12:57:02+00:00",
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261018205044.htm",
+          "feed_id": 34
+        }
+      ]
+    },
+    {
+      "id": "963c92fdfa0e0a9be5e3",
+      "topic": "Tech",
+      "headline": "Apple ने guidelines बदलीं: regular apps की आड़ में छिपे nudify apps पर ban",
+      "bullets": [
+        "Apple ने कहा कि वह उन AI apps को ban करेगा जो offensive content को moderate नहीं करतीं।",
+        "नई guidelines app review पास करने के लिए regular apps का भेष बनाने वाले nudify apps को निशाना बनाती हैं।"
+      ],
+      "published": "2026-10-19T12:56:14+00:00",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/19/apple-updates-guidelines-to-ban-nudify-apps-masquerading-as-regular-apps-to-pass-review/",
+          "feed_id": 29
+        }
+      ]
+    },
+    {
+      "id": "c8d0d7274aa6f9a67309",
+      "topic": "India",
+      "headline": "2008 Ahmedabad serial blasts: Supreme Court ने एक convict की फांसी पर रोक लगाई",
+      "bullets": [
+        "Supreme Court ने 2008 Ahmedabad serial blasts case के एक convict की death sentence की execution पर रोक लगा दी।",
+        "इसी साल 7 July को High Court ने terror outfit Indian Mujahideen के 38 operatives की फांसी की सजा बरकरार रखी थी।"
+      ],
+      "published": "2026-10-19T12:54:02+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/supreme-court-stays-execution-of-death-sentence-of-convict-in-2008-ahmedabad-serial-blasts-case/article71602719.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "16d7aa62d3de7889ac99",
+      "topic": "Business",
+      "headline": "UltraTech Cement का Q2 मुनाफा 21.3% बढ़कर ₹1,501 crore, volumes में मजबूती",
+      "bullets": [
+        "UltraTech Cement का Q2 net profit 21.3% बढ़कर ₹1,501 crore रहा।",
+        "Domestic grey cement sales volumes 13.8% बढ़कर 35.94 million tonnes रहीं; capacity utilisation 66% से बढ़कर 71% हुआ।"
+      ],
+      "published": "2026-10-19T12:38:59+00:00",
+      "sources": [
+        {
+          "name": "Hindu Business",
+          "url": "https://www.thehindu.com/business/ultratech-cement-q2-net-profit-rises-213-to-1501-crore/article71602713.ece",
+          "feed_id": 20
+        }
+      ]
+    },
+    {
+      "id": "d92c23d01fa151890f72",
+      "topic": "Business",
+      "headline": "Bajaj Finance का Q2 मुनाफा 29% बढ़कर ₹6,367 crore, NII 24% ऊपर",
+      "bullets": [
+        "Bajaj Finance का September quarter net profit 29% बढ़कर ₹6,367 crore रहा, सालभर पहले ₹4,948 crore था।",
+        "Net interest income 24% बढ़कर ₹13,335 crore रहा।"
+      ],
+      "published": "2026-10-19T12:10:07+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/bajaj-finance-q2-results-net-profit-jumps-29-yoy-to-rs-6367-crore-nii-up-24/articleshow/135048431.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "4b526de3ac463d34b9f0",
+      "topic": "India",
+      "headline": "Manipur: firewood इकट्ठा करने गए 4 लोगों की गोली मारकर हत्या, शव लेकर CM के घर पहुंचे locals",
+      "bullets": [
+        "Imphal East में Kangpokpi border के पास firewood इकट्ठा करने गए लोगों पर कथित militants ने हमला किया; 4 की मौत हुई।",
+        "आक्रोशित locals शव लेकर Chief Minister के आवास पहुंचे; इलाके में तनाव बढ़ा है।"
+      ],
+      "published": "2026-10-19T12:09:02+00:00",
+      "sources": [
+        {
+          "name": "NDTV Top",
+          "url": "https://www.ndtv.com/india-news/3-killed-in-manipur-violence-locals-take-bodies-to-chief-ministers-house-12206124#publisher=newsstand",
+          "feed_id": 5
+        }
+      ]
+    },
+    {
+      "id": "c3c78dc0bbfe3a4c6e95",
+      "topic": "Business",
+      "headline": "Trump ने Russia sanctions में छूट दी, India की energy चिंता को राहत; trade deal करीब",
+      "bullets": [
+        "US President Donald Trump ने Russia पर लगे प्रमुख sanctions में छूट दी, जिससे India जैसे Russian crude importers को राहत मिलेगी।",
+        "इस फैसले से potential US-India trade deal की negotiations को space मिलने की उम्मीद है।"
+      ],
+      "published": "2026-10-19T12:03:41+00:00",
+      "sources": [
+        {
+          "name": "ET Economy",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/trump-waives-russia-sanctions-easing-indias-energy-concerns-as-us-trade-deal-nears/articleshow/135048374.cms",
+          "feed_id": 17
+        }
+      ]
+    },
     {
       "id": "4643176acac863852767",
       "topic": "World",
@@ -883,338 +1085,40 @@
           "feed_id": 3
         }
       ]
-    },
-    {
-      "id": "1041274724dc44351107",
-      "topic": "World",
-      "headline": "Lithuania में suspected Ukrainian drone गिरा, Ukraine ने मांगी माफी; NATO jets scrambled",
-      "bullets": [
-        "एक suspected Ukrainian drone Lithuania में गिरा और एक चलती car को नुकसान पहुंचा; NATO jets scramble हुए।",
-        "Ukraine ने माफी मांगी और कहा कि Russian jamming की वजह से Russia को target कर रहे drones भटक गए हो सकते हैं।"
-      ],
-      "published": "2026-10-18T14:20:00+00:00",
-      "sources": [
-        {
-          "name": "DW World",
-          "url": "https://www.dw.com/en/ukraine-apologizes-after-a-suspected-drone-crashes-in-lithuania-damaging-a-moving-car/a-79692905?maca=en-rss-en-all-1573-rdf",
-          "feed_id": 10
-        }
-      ]
-    },
-    {
-      "id": "430a12f3dfef8466f894",
-      "topic": "World",
-      "headline": "Pope surgery के बाद पहली बार public में दिखे, धीरे-धीरे duties संभालेंगे",
-      "bullets": [
-        "Lung operation के बाद Pope पहली बार public में नज़र आए और कहा कि वह धीरे-धीरे duties फिर से संभालेंगे।",
-        "उनके surgeon के मुताबिक South America दौरे को न रोकने का कोई clinical कारण नहीं है।"
-      ],
-      "published": "2026-10-18T14:14:00+00:00",
-      "sources": [
-        {
-          "name": "DW World",
-          "url": "https://www.dw.com/en/pope-appears-in-public-for-first-time-since-surgery/a-79692583?maca=en-rss-en-all-1573-rdf",
-          "feed_id": 10
-        }
-      ]
-    },
-    {
-      "id": "05a5c1c3b1ebaf5ab203",
-      "topic": "India",
-      "headline": "Punjab के Sangrur में car ने 8 road workers को रौंदा, सबकी मौत",
-      "bullets": [
-        "Punjab के Sangrur district में एक car ने 8 road workers को कुचल दिया; सभी की मौत हो गई।",
-        "गवाहों के मुताबिक घायल सड़क किनारे तड़पते रहे; 'formalities' में उलझी ambulance देर से पहुंची।"
-      ],
-      "published": "2026-10-18T14:04:47+00:00",
-      "sources": [
-        {
-          "name": "NDTV Top",
-          "url": "https://www.ndtv.com/india-news/8-labourers-mowed-down-by-car-in-punjabs-sangrur-witnesses-say-many-died-waiting-for-ambulance-12203175#publisher=newsstand",
-          "feed_id": 5
-        }
-      ]
-    },
-    {
-      "id": "31fc8ff575340e58688a",
-      "topic": "Science",
-      "headline": "4,000 से ज्यादा cancer research papers में fraudulent 'paper mill' activity",
-      "bullets": [
-        "एक analysis में 4,000 से ज्यादा cancer research articles में fraudulent 'paper mill' activity के संकेत मिले हैं।",
-        "संदिग्ध papers कुछ खास journals में ढेर हुए, जिनमें 'Journal of Experimental and Clinical Cancer Research' और 'Molecular Cancer' शामिल हैं।"
-      ],
-      "published": "2026-10-18T14:04:16+00:00",
-      "sources": [
-        {
-          "name": "Hindu SciTech",
-          "url": "https://www.thehindu.com/sci-tech/health/analysis-reveals-fraudulent-paper-mill-activity-across-over-4000-cancer-research-articles/article71600243.ece",
-          "feed_id": 36
-        }
-      ]
-    },
-    {
-      "id": "6a5fa6ed31b87d5251cc",
-      "topic": "Tech",
-      "headline": "Nvidia की next-gen memory के लिए Samsung इस्तेमाल करेगी TSMC technology: report",
-      "bullets": [
-        "Report के मुताबिक Nvidia ने Samsung, SK Hynix और Micron से NVHBM base dies के लिए TSMC की process इस्तेमाल करने को कहा है।",
-        "Core dies के लिए sixth-generation DRAM technology इस्तेमाल होगी।"
-      ],
-      "published": "2026-10-18T13:50:10+00:00",
-      "sources": [
-        {
-          "name": "ET Tech",
-          "url": "https://economictimes.indiatimes.com/tech/technology/samsung-to-use-tsmc-technology-for-nvidias-next-generation-memory-chips-report/articleshow/135029867.cms",
-          "feed_id": 25
-        }
-      ]
-    },
-    {
-      "id": "a7c1853eee81fefe9a63",
-      "topic": "World",
-      "headline": "Sudan में livestock market पर drone strike का आरोप, army बोली RSF centres निशाना थे",
-      "bullets": [
-        "RSF का आरोप है कि South Darfur में भीड़भाड़ वाले livestock market पर drone strike हुई।",
-        "Sudan की army का कहना है कि उसने RSF command centres को निशाना बनाया।"
-      ],
-      "published": "2026-10-18T13:37:03+00:00",
-      "sources": [
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/sudan-army-accused-of-drone-strike-on-livestock-market?traffic_source=rss",
-          "feed_id": 9
-        }
-      ]
-    },
-    {
-      "id": "eae4b955c78a7b5398f0",
-      "topic": "India",
-      "headline": "Telangana के 621 में से 315 mandals सूखे की चपेट में, Centre से राहत की मांग",
-      "bullets": [
-        "Telangana के 621 में से 315 mandals में drought conditions हैं; राज्य ने Centre से drought relief measures मांगे हैं।",
-        "22 से 30 October तक राज्य में 'khet bachao abhiyan' चलेगा, जिसमें national agricultural institutions और universities जुड़ेंगी।"
-      ],
-      "published": "2026-10-18T13:33:26+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/telangana/telangana-seeks-drought-relief-measures-from-centre/article71599480.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "fd6a5cc52136bbaa9e73",
-      "topic": "Business",
-      "headline": "Vedanta ने South Africa में zinc capacity दोगुनी की, $600 million निवेश",
-      "bullets": [
-        "Vedanta ने Gamsberg mine expansion में करीब $600 million लगाकर South Africa में अपनी सालाना zinc production capacity दोगुनी कर 500,000 tonnes की है।",
-        "कंपनी का लक्ष्य India और South Africa मिलाकर सालाना 3 million tonnes zinc production का है।"
-      ],
-      "published": "2026-10-18T13:31:08+00:00",
-      "sources": [
-        {
-          "name": "Mint Companies",
-          "url": "https://www.livemint.com/companies/news/vedanta-doubles-south-africa-zinc-production-capacity-to-500-000-tonnes-with-600-million-investment-11792329756823.html",
-          "feed_id": 13
-        }
-      ]
-    },
-    {
-      "id": "0755b9147b5e1eb81c99",
-      "topic": "Tech",
-      "headline": "AI adoption से सिर्फ 8% fund managers को बेहतर returns: report",
-      "bullets": [
-        "Morgan Stanley और Oliver Wyman की joint report के मुताबिक AI अपनाने वाले fund managers में से सिर्फ 8% को investment returns में measurable सुधार दिखा।",
-        "Global asset management industry में AI adoption बढ़ रहा है, लेकिन ठोस फायदा अभी गिनती के लोगों तक ही सीमित है।"
-      ],
-      "published": "2026-10-18T13:16:05+00:00",
-      "sources": [
-        {
-          "name": "ET Tech",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/only-8-of-fund-managers-report-improved-investment-returns-from-ai-adoption-report/articleshow/135029379.cms",
-          "feed_id": 25
-        },
-        {
-          "name": "Mint Tech",
-          "url": "https://www.livemint.com/technology/only-8-of-fund-managers-report-improved-investment-returns-from-ai-adoption-morgan-stanley-oliver-wyman-11792328833383.html",
-          "feed_id": 26
-        }
-      ]
-    },
-    {
-      "id": "c56f6bbcd9f5476210e0",
-      "topic": "Science",
-      "headline": "7,300 साल पुराने Japan के विनाशकारी volcano के असर का नया खुलासा",
-      "bullets": [
-        "7,300 साल पहले Japan में हुए विशाल volcanic eruption का prehistoric populations पर असर पहले से सोचा कहीं ज्यादा complex था।",
-        "नई research के मुताबिक कुछ communities गायब या घट गईं, जबकि दूसरी migrate और adapt करके फल-फूल गईं।"
-      ],
-      "published": "2026-10-18T12:36:21+00:00",
-      "sources": [
-        {
-          "name": "ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261017230023.htm",
-          "feed_id": 34
-        }
-      ]
-    },
-    {
-      "id": "ef5d5955d9b9812db562",
-      "topic": "Science",
-      "headline": "गहरे depression से lasting राहत से जुड़े brain के 3 pathways मिले",
-      "bullets": [
-        "Deep brain stimulation पाने severe, treatment-resistant depression के मरीजों में lasting सुधार से जुड़े तीन brain pathways की पहचान हुई है।",
-        "दो साल बाद भी सुधार न होने वाले patients में एक crucial brain connection को पर्याप्त stimulation न मिलने का common pattern दिखा।"
-      ],
-      "published": "2026-10-18T12:19:08+00:00",
-      "sources": [
-        {
-          "name": "ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261017230021.htm",
-          "feed_id": 34
-        }
-      ]
-    },
-    {
-      "id": "cae4297ec407ec6afa34",
-      "topic": "World",
-      "headline": "St Petersburg पर रातभर हमले: oil facilities में आग, एक की मौत",
-      "bullets": [
-        "St Petersburg पर रातभर हुए घातक हमलों में कम से कम एक व्यक्ति की मौत हुई और oil facilities निशाना बनीं।",
-        "हमलों में Russia के Facebook-जैसे platform से जुड़ा एक data centre भी निशाना बना।"
-      ],
-      "published": "2026-10-18T11:57:49+00:00",
-      "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss",
-          "feed_id": 6
-        }
-      ]
-    },
-    {
-      "id": "333a106992abe93165b2",
-      "topic": "India",
-      "headline": "L.K. Advani chest infection से hospital में भर्ती, हालत स्थिर",
-      "bullets": [
-        "98 साल के BJP नेता L.K. Advani को chest infection के बाद New Delhi के Apollo Hospital में भर्ती कराया गया है।",
-        "उनकी हालत स्थिर बताई जा रही है।"
-      ],
-      "published": "2026-10-18T11:56:56+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/lk-advani-health-updates-oct-16-2026/article71594161.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "980c11f188bdb2a22f3e",
-      "topic": "India",
-      "headline": "Strait of Hormuz फिर खोलने के Iran के proposal पर US से मंजूरी की अपील",
-      "bullets": [
-        "Iran ने interim ceasefire टूटने के बाद mid-September में Strait of Hormuz फिर से खोलने का proposal दिया था।",
-        "Tehran का कहना है कि Washington ने strait खोलने की सात शर्तों का जवाब नहीं दिया, इसलिए बातचीत अटकी है; अब US से proposal मंजूर करने की अपील की गई है।"
-      ],
-      "published": "2026-10-18T11:52:29+00:00",
-      "sources": [
-        {
-          "name": "NDTV Top",
-          "url": "https://www.ndtv.com/world-news/iran-urges-us-to-accept-proposal-to-reopen-strait-of-hormuz-12202784#publisher=newsstand",
-          "feed_id": 5
-        }
-      ]
-    },
-    {
-      "id": "b8603cecdf33e3636056",
-      "topic": "Business",
-      "headline": "Accenture अपना China business $1.5 billion में बेचने पर विचार कर रहा: FT report",
-      "bullets": [
-        "Financial Times की report के मुताबिक Accenture अपने Greater China business की $1.5 billion तक में बिक्री पर विचार कर रहा है।",
-        "कंपनी ने इस review के लिए JPMorgan को advisor नियुक्त किया है; इसका focus अब AI services और growth पर है।"
-      ],
-      "published": "2026-10-18T11:48:17+00:00",
-      "sources": [
-        {
-          "name": "Mint Companies",
-          "url": "https://www.livemint.com/companies/news/accenture-weighs-1-5-billion-sale-of-china-business-as-ai-push-reshapes-growth-strategy-report-11792323492872.html",
-          "feed_id": 13
-        }
-      ]
-    },
-    {
-      "id": "6030a0869825e9b352e6",
-      "topic": "Business",
-      "headline": "JSW Steel को ₹2,169 crore mining विवाद में Orissa HC से राहत",
-      "bullets": [
-        "Orissa High Court ने ₹2,169 crore के mining विवाद में JSW Steel को राहत दी।",
-        "कंपनी ने exchange filing में बताया कि court ने 16 October को सुनवाई पूरी कर अपना फैसला सुनाया।"
-      ],
-      "published": "2026-10-18T11:35:32+00:00",
-      "sources": [
-        {
-          "name": "Mint Companies",
-          "url": "https://www.livemint.com/companies/what-was-the-jsw-steel-mining-case-orissa-hc-quashes-696-crore-demand-orders-fresh-review-of-1-473-crore-11792321515297.html",
-          "feed_id": 13
-        }
-      ]
-    },
-    {
-      "id": "e47741d1ed69e1b42e59",
-      "topic": "Tech",
-      "headline": "Microsoft ने UK में Nscale के साथ data center deal से हाथ खींचे: report",
-      "bullets": [
-        "Telegraph की report के मुताबिक Microsoft ने Essex के Loughton में Nscale के साथ अपना data center agreement खत्म कर दिया।",
-        "Microsoft Nscale के दो सबसे बड़े customers में से एक था।"
-      ],
-      "published": "2026-10-18T11:28:10+00:00",
-      "sources": [
-        {
-          "name": "ET Tech",
-          "url": "https://economictimes.indiatimes.com/tech/technology/microsoft-pulls-out-of-uk-data-center-deal-with-nscale-telegraph-reports/articleshow/135028020.cms",
-          "feed_id": 25
-        }
-      ]
-    },
-    {
-      "id": "a5ed6be3bea62fa7e023",
-      "topic": "Science",
-      "headline": "Climate change से सबसे ज्यादा खतरे में कौन से mammals? Simple test का proposal",
-      "bullets": [
-        "Argentina और Brazil के scientists ने नौ rodent species की adaptability तीन parameters पर score की।",
-        "उनका कहना है कि यह तरीका दुनिया के दूसरे हिस्सों के दूसरे जानवरों पर भी इस्तेमाल हो सकता है।"
-      ],
-      "published": "2026-10-18T11:10:25+00:00",
-      "sources": [
-        {
-          "name": "Hindu SciTech",
-          "url": "https://www.thehindu.com/sci-tech/energy-and-environment/new-study-proposes-simple-test-to-spot-mammals-most-vulnerable-to-climate/article71587719.ece",
-          "feed_id": 36
-        }
-      ]
-    },
-    {
-      "id": "e309b6179d9cef38b9a9",
-      "topic": "Business",
-      "headline": "Renault Duster Hybrid ₹16.99 lakh में launch, 29 kmpl mileage का दावा",
-      "bullets": [
-        "Renault ने India में नई Duster SUV का strong hybrid version ₹16.99 lakh में launch किया।",
-        "1.8 litre petrol engine और दो electric motors के साथ claimed fuel efficiency 29 kmpl।"
-      ],
-      "published": "2026-10-18T11:02:16+00:00",
-      "sources": [
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/business/renault-duster-hybrid-launched-at-16-99-lakh-mileage-specs-features-and-more-12201900#publisher=newsstand",
-          "feed_id": 21
-        }
-      ]
     }
   ],
   "metadata": {
     "refreshes": [
+      {
+        "at": "2026-10-19T14:45:35.812870+00:00",
+        "feed_checked_at": "2026-10-19T14:44:23.898581+00:00",
+        "items_read": 1717,
+        "candidates": 407,
+        "written": 12,
+        "added": 12,
+        "dropped": 19,
+        "total": 62,
+        "counts": {
+          "India": 7,
+          "World": 20,
+          "Business": 19,
+          "IPO": 2,
+          "Tech": 5,
+          "Sports": 3,
+          "Science": 2,
+          "Health": 4
+        },
+        "fetch_seconds": 2.44,
+        "rejected": {
+          "editorial_keyword": 15,
+          "older_than_24h": 1071,
+          "question_headline": 97,
+          "undated": 4,
+          "not_cricket": 78,
+          "duplicate": 45
+        },
+        "editorial_skipped": 395
+      },
       {
         "at": "2026-10-19T10:45:19.696978+00:00",
         "feed_checked_at": "2026-10-19T10:44:31.220809+00:00",
@@ -1274,57 +1178,26 @@
           "duplicate": 37
         },
         "editorial_skipped": 342
-      },
-      {
-        "at": "2026-10-19T06:44:58.524802+00:00",
-        "feed_checked_at": "2026-10-19T06:44:17.892784+00:00",
-        "items_read": 1719,
-        "candidates": 351,
-        "written": 4,
-        "added": 4,
-        "dropped": 14,
-        "total": 70,
-        "counts": {
-          "India": 14,
-          "World": 20,
-          "Business": 19,
-          "IPO": 0,
-          "Tech": 6,
-          "Sports": 2,
-          "Science": 6,
-          "Health": 3
-        },
-        "fetch_seconds": 2.22,
-        "rejected": {
-          "editorial_keyword": 11,
-          "older_than_24h": 1160,
-          "question_headline": 89,
-          "future": 2,
-          "undated": 4,
-          "not_cricket": 64,
-          "duplicate": 38
-        },
-        "editorial_skipped": 347
       }
     ],
     "topic_counts": {
-      "India": 9,
-      "World": 23,
+      "India": 7,
+      "World": 20,
       "Business": 19,
-      "IPO": 1,
-      "Tech": 7,
-      "Sports": 2,
-      "Science": 4,
+      "IPO": 2,
+      "Tech": 5,
+      "Sports": 3,
+      "Science": 2,
       "Health": 4
     },
     "topic_gap_minutes": {
-      "India": 17,
-      "World": 43,
+      "India": 14,
+      "World": 38,
       "Business": 36,
       "IPO": 5,
-      "Tech": 14,
-      "Sports": 5,
-      "Science": 8,
+      "Tech": 10,
+      "Sports": 6,
+      "Science": 5,
       "Health": 8
     },
     "gap_is_metadata_only": true,
@@ -1337,7 +1210,7 @@
         "http": 200,
         "items": 19,
         "eligible": 0,
-        "seconds": 0.65
+        "seconds": 0.25
       },
       {
         "id": 2,
@@ -1346,8 +1219,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 16,
-        "seconds": 0.38
+        "eligible": 18,
+        "seconds": 0.37
       },
       {
         "id": 3,
@@ -1356,7 +1229,7 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 58,
+        "eligible": 57,
         "seconds": 0.09
       },
       {
@@ -1366,8 +1239,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 5,
-        "seconds": 1.62
+        "eligible": 8,
+        "seconds": 0.71
       },
       {
         "id": 5,
@@ -1376,8 +1249,8 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 17,
-        "seconds": 0.32
+        "eligible": 19,
+        "seconds": 0.31
       },
       {
         "id": 6,
@@ -1385,9 +1258,9 @@
         "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 27,
+        "items": 25,
         "eligible": 18,
-        "seconds": 0.25
+        "seconds": 0.1
       },
       {
         "id": 7,
@@ -1396,8 +1269,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 5,
-        "seconds": 0.4
+        "eligible": 8,
+        "seconds": 0.43
       },
       {
         "id": 9,
@@ -1406,8 +1279,8 @@
         "status": "ok",
         "http": 200,
         "items": 25,
-        "eligible": 23,
-        "seconds": 1.42
+        "eligible": 22,
+        "seconds": 0.23
       },
       {
         "id": 10,
@@ -1416,8 +1289,8 @@
         "status": "ok",
         "http": 200,
         "items": 135,
-        "eligible": 20,
-        "seconds": 0.07
+        "eligible": 19,
+        "seconds": 0.1
       },
       {
         "id": 11,
@@ -1426,8 +1299,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 5,
-        "seconds": 0.6
+        "eligible": 8,
+        "seconds": 0.31
       },
       {
         "id": 12,
@@ -1437,7 +1310,7 @@
         "http": 200,
         "items": 9,
         "eligible": 0,
-        "seconds": 0.68
+        "seconds": 0.37
       },
       {
         "id": 13,
@@ -1446,8 +1319,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 23,
-        "seconds": 0.06
+        "eligible": 22,
+        "seconds": 0.16
       },
       {
         "id": 14,
@@ -1456,8 +1329,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 6,
-        "seconds": 0.36
+        "eligible": 12,
+        "seconds": 0.37
       },
       {
         "id": 15,
@@ -1466,8 +1339,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 38,
-        "seconds": 0.08
+        "eligible": 43,
+        "seconds": 0.07
       },
       {
         "id": 16,
@@ -1476,8 +1349,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 4,
-        "seconds": 0.37
+        "eligible": 6,
+        "seconds": 0.34
       },
       {
         "id": 17,
@@ -1486,8 +1359,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 8,
-        "seconds": 0.09
+        "eligible": 12,
+        "seconds": 0.22
       },
       {
         "id": 19,
@@ -1496,8 +1369,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 4,
-        "seconds": 0.07
+        "eligible": 6,
+        "seconds": 0.08
       },
       {
         "id": 20,
@@ -1506,8 +1379,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 18,
-        "seconds": 0.08
+        "eligible": 21,
+        "seconds": 0.32
       },
       {
         "id": 21,
@@ -1516,8 +1389,8 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 18,
-        "seconds": 0.31
+        "eligible": 19,
+        "seconds": 0.32
       },
       {
         "id": 22,
@@ -1526,8 +1399,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 3,
-        "seconds": 0.09
+        "eligible": 4,
+        "seconds": 0.13
       },
       {
         "id": 23,
@@ -1536,7 +1409,7 @@
         "status": "ok",
         "http": 200,
         "items": 21,
-        "eligible": 3,
+        "eligible": 4,
         "seconds": 0.27
       },
       {
@@ -1546,8 +1419,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 6,
-        "seconds": 0.36
+        "eligible": 7,
+        "seconds": 0.37
       },
       {
         "id": 25,
@@ -1556,8 +1429,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 6,
-        "seconds": 0.18
+        "eligible": 7,
+        "seconds": 0.05
       },
       {
         "id": 26,
@@ -1566,8 +1439,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 3,
-        "seconds": 0.08
+        "eligible": 4,
+        "seconds": 0.52
       },
       {
         "id": 27,
@@ -1576,8 +1449,8 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 1,
-        "seconds": 0.06
+        "eligible": 4,
+        "seconds": 0.07
       },
       {
         "id": 28,
@@ -1587,7 +1460,7 @@
         "http": 200,
         "items": 10,
         "eligible": 10,
-        "seconds": 0.04
+        "seconds": 0.05
       },
       {
         "id": 29,
@@ -1596,8 +1469,8 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 6,
-        "seconds": 0.04
+        "eligible": 8,
+        "seconds": 0.05
       },
       {
         "id": 32,
@@ -1605,9 +1478,9 @@
         "url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 42,
+        "items": 41,
         "eligible": 11,
-        "seconds": 0.57
+        "seconds": 0.11
       },
       {
         "id": 33,
@@ -1626,8 +1499,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 8,
-        "seconds": 0.3
+        "eligible": 10,
+        "seconds": 0.29
       },
       {
         "id": 36,
@@ -1636,8 +1509,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 25,
-        "seconds": 0.06
+        "eligible": 21,
+        "seconds": 0.07
       },
       {
         "id": 37,
@@ -1646,8 +1519,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 5,
-        "seconds": 1.2
+        "eligible": 8,
+        "seconds": 0.72
       },
       {
         "id": 38,
@@ -1657,7 +1530,7 @@
         "http": 200,
         "items": 57,
         "eligible": 6,
-        "seconds": 0.07
+        "seconds": 0.32
       },
       {
         "id": 39,
@@ -1666,8 +1539,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 5,
-        "seconds": 0.39
+        "eligible": 6,
+        "seconds": 0.38
       },
       {
         "id": 40,
@@ -1676,8 +1549,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 16,
-        "seconds": 0.36
+        "eligible": 15,
+        "seconds": 0.35
       },
       {
         "id": 41,
@@ -1695,9 +1568,9 @@
         "url": "https://feeds.bbci.co.uk/sport/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 78,
+        "items": 81,
         "eligible": 1,
-        "seconds": 0.99
+        "seconds": 0.29
       },
       {
         "id": 43,
@@ -1707,7 +1580,7 @@
         "http": 200,
         "items": 40,
         "eligible": 0,
-        "seconds": 0.37
+        "seconds": 0.39
       },
       {
         "id": 44,
@@ -1716,8 +1589,8 @@
         "status": "ok",
         "http": 200,
         "items": 100,
-        "eligible": 1,
-        "seconds": 0.4
+        "eligible": 2,
+        "seconds": 0.62
       },
       {
         "id": 45,
@@ -1725,9 +1598,9 @@
         "url": "https://feeds.bbci.co.uk/sport/cricket/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 31,
+        "items": 30,
         "eligible": 3,
-        "seconds": 0.95
+        "seconds": 0.24
       },
       {
         "id": 47,
@@ -1737,7 +1610,7 @@
         "http": 200,
         "items": 36,
         "eligible": 0,
-        "seconds": 1.32
+        "seconds": 0.35
       }
     ],
     "sources": [
