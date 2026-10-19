@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "title": "News for Adults",
-  "updated_at": "2026-10-19T02:45:48.744114+00:00",
+  "updated_at": "2026-10-19T04:44:54.995403+00:00",
   "schedule": {
     "active": false,
     "window_ist": "08:00-22:00",
@@ -19,6 +19,74 @@
     "Health"
   ],
   "stories": [
+    {
+      "id": "335092d89dc621f55267",
+      "topic": "India",
+      "headline": "Manipur के Thoubal में हिंसक झड़पें: एक की मौत, prohibitory orders लागू",
+      "bullets": [
+        "Manipur के Thoubal district में झड़पों में एक व्यक्ति की मौत हुई, कई घायल हैं।",
+        "दो प्रभावित इलाकों में कुछ घर और गाड़ियां जलाए गए; authorities ने prohibitory orders लगा दिए हैं।"
+      ],
+      "published": "2026-10-19T04:08:26+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/manipur/one-dead-several-injured-in-clashes-in-manipurs-thoubal-district-prohibitory-orders-clamped/article71602051.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "7f6ed2c669d34312bc24",
+      "topic": "Business",
+      "headline": "Axis Bank का Q2 मुनाफा 38% बढ़कर ₹7,003 crore, फिर भी shares 4% टूटे",
+      "bullets": [
+        "Axis Bank का Q2 FY27 standalone net profit सालाना 38% बढ़कर ₹7,003 crore रहा; net interest income 12% बढ़ा।",
+        "Margin दबाव के चलते shares 4% से ज्यादा गिरे; Jefferies ने Buy रखा, Centrum और Dolat ने target prices घटाए।"
+      ],
+      "published": "2026-10-19T03:51:26+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/axis-bank-shares-in-focus-after-q2-results-why-jefferies-remains-bullish-even-as-other-brokerages-reduce-target-prices/articleshow/135039127.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "c59b4b47ae339b4ad976",
+      "topic": "India",
+      "headline": "खराब सड़क बनाने पर NHAI सख्त: 7 companies रडार पर, एक दो साल के लिए banned",
+      "bullets": [
+        "सड़क परिवहन और राजमार्ग मंत्रालय घटिया national highways और expressways के निर्माण पर कड़ा रुख अपना रहा है।",
+        "7 companies पर जांच शुरू हुई है; एक कंपनी को दो साल के लिए ban किया गया है।"
+      ],
+      "published": "2026-10-19T03:41:29+00:00",
+      "sources": [
+        {
+          "name": "AmarUjala Business",
+          "url": "https://www.amarujala.com/business/bonus/government-cracks-down-on-poor-road-construction-7-companies-under-scanner-one-banned-2026-10-19",
+          "feed_id": 14
+        }
+      ]
+    },
+    {
+      "id": "fd9092e1728ae47115d3",
+      "topic": "Business",
+      "headline": "RBI की ₹1 lakh crore liquidity infusion: repo operation से banks को राहत",
+      "bullets": [
+        "RBI repo operation के जरिए ₹1 lakh crore ($10.53 billion) तक की liquidity infuse करेगा।",
+        "Traders के मुताबिक कदम tax outflows और daily cash reserve requirement सख्त होने के बीच banks की मदद के लिए है।"
+      ],
+      "published": "2026-10-19T03:33:42+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/forex/rbi-announces-10-5-billion-liquidity-infusion-via-repo/articleshow/135038836.cms",
+          "feed_id": 15
+        }
+      ]
+    },
     {
       "id": "b93423fcf928cc5ec33d",
       "topic": "Tech",
@@ -1329,279 +1397,41 @@
           "feed_id": 20
         }
       ]
-    },
-    {
-      "id": "ba7b5423d215e5ecadb4",
-      "topic": "India",
-      "headline": "Kolkata पंडाल भगदड़: FIR दर्ज, 14 लोग हिरासत में; Chorbagan में prohibitory orders",
-      "bullets": [
-        "मृतकों की संख्या 19 है, जिनमें 13 महिलाएं और एक बच्चा शामिल हैं; police ने FIR दर्ज कर 14 लोगों को हिरासत में लिया है, जिनमें organizers भी शामिल हैं।",
-        "Kolkata Police के शुरुआती निष्कर्ष के मुताबिक कमजोर crowd control और confusing announcements ने हादसे को जन्म दिया; Chorbagan के आसपास prohibitory orders लगाए गए हैं।",
-        "Amit Shah घायलों से मिलेंगे; PM Modi ने PMNRF से मृतकों के परिजनों को ₹2 lakh और घायलों को ₹50,000 की मदद का ऐलान किया है।"
-      ],
-      "published": "2026-10-18T04:37:05+00:00",
-      "sources": [
-        {
-          "name": "AmarUjala India",
-          "url": "https://www.amarujala.com/live/india-news/west-bengal-stampede-live-updates-kolkata-chor-bagan-pandal-deaths-cm-suvendu-probe-police-forensic-photo-news-2026-10-18",
-          "feed_id": 2
-        },
-        {
-          "name": "NDTV Top",
-          "url": "https://www.ndtv.com/india-news/kolkata-durga-puja-girish-park-stampede-case-7-including-organisers-arrested-in-kolkata-durga-puja-stampede-that-killed-19-12201380#publisher=newsstand",
-          "feed_id": 5
-        },
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/cities/kolkata/kolkata-bengal-pandal-collapse-stampede-injured-death-updates-on-october-17-2026/article71597549.ece",
-          "feed_id": 3
-        },
-        {
-          "name": "NDTV Top",
-          "url": "https://www.ndtv.com/india-news/several-injured-after-stampede-like-situation-at-durga-puja-pandal-in-kolkata-12200177#publisher=newsstand",
-          "feed_id": 5
-        },
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/cities/kolkata/chorbagan-pandal-stampede-mismanagement-confusing-announcements-led-to-mishap-say-kolkata-police/article71599125.ece",
-          "feed_id": 3
-        },
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/india/kolkata-durga-puja-stampede-pm-modi-announces-rs-2-lakh-ex-gratia-to-kin-of-deceased-rs-50-000-for-injured-12200503#publisher=newsstand",
-          "feed_id": 21
-        }
-      ]
-    },
-    {
-      "id": "6536996020a07b36530f",
-      "topic": "India",
-      "headline": "Jaishankar अगले हफ्ते Mumbai में Rubio और UAE विदेश मंत्री से अलग-अलग मिलेंगे",
-      "bullets": [
-        "MEA ने कहा कि राजधानी के बाहर मेहमान नेताओं की मेजबानी सामान्य practice है; opposition के 'summoned' वाले आरोप खारिज किए गए।",
-        "UAE विदेश मंत्री Sheikh Abdullah की यात्रा की घोषणा पहले नहीं हुई थी।"
-      ],
-      "published": "2026-10-18T04:23:41+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/jaishankar-rubio-to-hold-meeting-in-mumbai-on-oct-20-mea/article71592380.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "712ecce7d9869d7edfe6",
-      "topic": "India",
-      "headline": "Gwalior ट्रक हादसा: Sheetla Mata मंदिर जा रहे श्रद्धालुओं में कम से कम 13 की मौत, 40 घायल",
-      "bullets": [
-        "रात करीब 1:30 बजे Chhinaur road की ढलान पर धान से भरा तेज रफ्तार ट्रक अनियंत्रित होकर दर्शनार्थियों को कुचलता हुआ मंदिर की दीवार से टकराया।",
-        "The Hindu की रिपोर्ट में 13 मौतें और 40 घायल बताए गए हैं; कुछ अन्य रिपोर्ट्स में मृतकों की संख्या 14 quoted है, आंकड़े बदल सकते हैं।"
-      ],
-      "published": "2026-10-18T04:14:24+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/madhya-pradesh/13-killed-40-injured-as-truck-hits-devotees-near-temple-in-madhya-pradeshs-gwalior/article71599095.ece",
-          "feed_id": 3
-        },
-        {
-          "name": "AmarUjala India",
-          "url": "https://www.amarujala.com/india-news/madhya-pradesh-gwalior-several-dead-truck-ran-over-people-near-temple-casualties-rescue-cm-hindi-news-updates-2026-10-18",
-          "feed_id": 2
-        },
-        {
-          "name": "AmarUjala India",
-          "url": "https://www.amarujala.com/video/india-news/havoc-in-gwalior-as-out-of-control-truck-mows-down-devotees-heading-to-a-temple-14-dead-2026-10-18",
-          "feed_id": 2
-        }
-      ]
-    },
-    {
-      "id": "b6647abade65d903812c",
-      "topic": "Business",
-      "headline": "Tata Trusts बनाएंगे 40-50 hospitals: Noel Tata बोले, असर मापना जरूरी",
-      "bullets": [
-        "Noel Tata ने कहा कि अब यह पूछना काफी नहीं कि Trusts ने कितना योगदान दिया; philanthropy को सिर्फ reach और खर्च गिनने से आगे बढ़ना होगा।"
-      ],
-      "published": "2026-10-18T04:14:07+00:00",
-      "sources": [
-        {
-          "name": "Mint Companies",
-          "url": "https://www.livemint.com/companies/news/tata-trusts-to-build-40-50-hospitals-focus-on-measurable-impact-noel-tata-11792295305604.html",
-          "feed_id": 13
-        }
-      ]
-    },
-    {
-      "id": "00529c3a4f22f9c057d6",
-      "topic": "Business",
-      "headline": "Rubio बोले: India 'important ally', Trump tariffs के असर का अध्ययन कर रहे हैं",
-      "bullets": [
-        "Trump ने Russian oil खरीदने वाले पांच सबसे बड़े देशों - जिनमें India भी शामिल है - पर 100% तक tariff की धमकी वाले sanctions में छूट दी है।",
-        "Rubio ने कहा कि India के लिए रातोंरात Russian energy से दूर जाना आसान नहीं; वे India को अहम साझेदार बताते रहे हैं।"
-      ],
-      "published": "2026-10-18T04:02:15+00:00",
-      "sources": [
-        {
-          "name": "ET Economy",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-an-important-ally-rubio-says-trump-studying-effects-of-tariffs-on-countries-like-india/videoshow/135023698.cms",
-          "feed_id": 17
-        },
-        {
-          "name": "AmarUjala World",
-          "url": "https://www.amarujala.com/world/marco-rubio-india-russia-energy-graham-act-sanctions-tariffs-donald-trump-2026-10-18",
-          "feed_id": 7
-        },
-        {
-          "name": "NDTV Top",
-          "url": "https://www.ndtv.com/world-news/team-trump-on-waivers-hard-for-india-to-move-away-from-russian-energy-says-marco-rubio-amid-ukraine-war-12201303#publisher=newsstand",
-          "feed_id": 5
-        }
-      ]
-    },
-    {
-      "id": "6bd483fb49bef24adff2",
-      "topic": "World",
-      "headline": "Canada के military base में भीषण आग, कई मौतें; PM Carney ने बताया 'गंभीर हादसा'",
-      "bullets": [
-        "आग Alberta के एक सैन्य अड्डे पर लगी; Defence Minister David McGuinty ने casualties की पुष्टि की, आधिकारिक आंकड़ा जारी नहीं हुआ।",
-        "PM Carney ने इसे serious incident कहा; तेज हवाओं की वजह से लपटें तेजी से फैलीं।"
-      ],
-      "published": "2026-10-18T04:00:50+00:00",
-      "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo?at_medium=RSS&at_campaign=rss",
-          "feed_id": 6
-        },
-        {
-          "name": "AmarUjala World",
-          "url": "https://www.amarujala.com/world/major-fire-at-canadian-military-base-in-alberta-pm-mark-carney-calls-it-a-serious-incident-2026-10-18",
-          "feed_id": 7
-        }
-      ]
-    },
-    {
-      "id": "90aab42d73037d423561",
-      "topic": "Tech",
-      "headline": "Bengaluru की The Guild ने Sriharikota के पास 150-acre rocket testing facility उतारी",
-      "bullets": [
-        "Ethereal Exploration Guild की यह facility उसके fully reusable medium-lift launch vehicle के development को support करेगी।"
-      ],
-      "published": "2026-10-18T03:50:24+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/business/Industry/bengaluru-space-tech-firm-the-guild-unveils-150-acre-rocket-testing-facility-near-sriharikota/article71593162.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "36aa7fa29a20d45ab2e6",
-      "topic": "Business",
-      "headline": "South Indian Bank का record तिमाही मुनाफा ₹426.13 crore",
-      "bullets": [
-        "Bank का net interest income भी सालाना 37.95% बढ़कर ₹1,116 crore पर पहुंचा, जो अब तक का उच्चतम है।"
-      ],
-      "published": "2026-10-18T03:46:15+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/kerala/south-indian-bank-records-highest-ever-quarterly-net-profit-of-42613-crore/article71592982.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "1855e19447edb54ef6cd",
-      "topic": "World",
-      "headline": "American journalist पर हमले के बाद Rubio बोले: settler violence पर 'crackdown' जरूरी",
-      "bullets": [
-        "US ambassador ने भी Israel से अमेरिकी photographer पर हमला करने वालों के खिलाफ कार्रवाई की मांग की है।"
-      ],
-      "published": "2026-10-18T03:44:25+00:00",
-      "sources": [
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/rubio-wants-crackdown-on-settler-violence-after-us-journalist-attack?traffic_source=rss",
-          "feed_id": 9
-        },
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/17/us-ambassador-calls-on-israel-to-prosecute-settlers-over-journalist-attack?traffic_source=rss",
-          "feed_id": 9
-        }
-      ]
-    },
-    {
-      "id": "f7d1cf679fac597f0d8d",
-      "topic": "Science",
-      "headline": "Gaganyaan: पहली uncrewed mission से पहले ISRO ने पूरा किया अहम test",
-      "bullets": [
-        "ISRO ने first uncrewed Gaganyaan mission से पहले एक key test पूरा किया है।"
-      ],
-      "published": "2026-10-18T03:41:37+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/sci-tech/science/gaganyaan-isro-completes-key-test-ahead-of-first-uncrewed-mission/article71592436.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "d2a26f973045a44ebbd7",
-      "topic": "Tech",
-      "headline": "Apple के October launches की उम्मीद: touchscreen MacBook Pro, M6 iMac, OLED iPad Mini",
-      "bullets": [
-        "Bloomberg के Mark Gurman के मुताबिक Apple ने 28 October को Los Angeles में product event के लिए चुनिंदा media को invite किया है।"
-      ],
-      "published": "2026-10-18T03:30:49+00:00",
-      "sources": [
-        {
-          "name": "Mint Tech",
-          "url": "https://www.livemint.com/technology/apple-october-2026-launches-touchscreen-macbook-pro-m6-imac-oled-ipad-mini-and-more-expected-11792144048285.html",
-          "feed_id": 26
-        }
-      ]
-    },
-    {
-      "id": "75ef76f185bcaedae736",
-      "topic": "Sports",
-      "headline": "'The swagger is back': coach Sammy West Indies के T20I प्रदर्शन से खुश",
-      "bullets": [
-        "India में 2-2 का नतीजा T20 World Cup की semi-final और घर में Sri Lanka पर T20I series जीत के बाद आया है।"
-      ],
-      "published": "2026-10-18T03:19:22+00:00",
-      "sources": [
-        {
-          "name": "ESPNcricinfo",
-          "url": "https://www.cricinfo.com/ci/content/story/1558905.html?ex_cid=OTC-RSS",
-          "feed_id": 44
-        }
-      ]
-    },
-    {
-      "id": "04454a205c399493a361",
-      "topic": "Tech",
-      "headline": "China कर रहा solar, AI और biotech पर नई export पाबंदियों का विचार",
-      "bullets": [
-        "Draft plan 'Announcement No. 48' में 14 technologies पर पूर्ण export ban और 26 पर प्रतिबंध का प्रस्ताव है; next-generation solar शामिल है, जिसका असर India जैसे देशों पर पड़ सकता है।"
-      ],
-      "published": "2026-10-18T02:57:39+00:00",
-      "sources": [
-        {
-          "name": "Hindu SciTech",
-          "url": "https://www.thehindu.com/news/international/china-considers-new-export-curbs-on-solar-ai-biotech/article71591880.ece",
-          "feed_id": 36
-        }
-      ]
     }
   ],
   "metadata": {
     "refreshes": [
+      {
+        "at": "2026-10-19T04:44:54.995403+00:00",
+        "feed_checked_at": "2026-10-19T04:44:26.808733+00:00",
+        "items_read": 1712,
+        "candidates": 357,
+        "written": 4,
+        "added": 4,
+        "dropped": 13,
+        "total": 80,
+        "counts": {
+          "India": 18,
+          "World": 18,
+          "Business": 22,
+          "IPO": 1,
+          "Tech": 7,
+          "Sports": 1,
+          "Science": 8,
+          "Health": 5
+        },
+        "fetch_seconds": 2.3,
+        "rejected": {
+          "editorial_keyword": 11,
+          "older_than_24h": 1155,
+          "question_headline": 83,
+          "future": 2,
+          "undated": 4,
+          "not_cricket": 62,
+          "duplicate": 38
+        },
+        "editorial_skipped": 353
+      },
       {
         "at": "2026-10-19T02:45:48.744114+00:00",
         "feed_checked_at": "2026-10-19T02:44:19.097092+00:00",
@@ -1662,56 +1492,26 @@
           "duplicate": 54
         },
         "editorial_skipped": 416
-      },
-      {
-        "at": "2026-10-18T14:27:59.923208+00:00",
-        "feed_checked_at": "2026-10-18T14:26:36.602690+00:00",
-        "items_read": 1711,
-        "candidates": 425,
-        "written": 12,
-        "added": 12,
-        "dropped": 17,
-        "total": 101,
-        "counts": {
-          "India": 19,
-          "World": 21,
-          "Business": 27,
-          "IPO": 2,
-          "Tech": 10,
-          "Sports": 2,
-          "Science": 13,
-          "Health": 7
-        },
-        "fetch_seconds": 2.35,
-        "rejected": {
-          "older_than_24h": 1065,
-          "question_headline": 88,
-          "editorial_keyword": 5,
-          "undated": 4,
-          "not_cricket": 64,
-          "duplicate": 60
-        },
-        "editorial_skipped": 413
       }
     ],
     "topic_counts": {
-      "India": 19,
-      "World": 20,
-      "Business": 23,
+      "India": 18,
+      "World": 18,
+      "Business": 22,
       "IPO": 1,
-      "Tech": 10,
-      "Sports": 2,
-      "Science": 9,
+      "Tech": 7,
+      "Sports": 1,
+      "Science": 8,
       "Health": 5
     },
     "topic_gap_minutes": {
-      "India": 36,
-      "World": 38,
-      "Business": 43,
+      "India": 34,
+      "World": 34,
+      "Business": 42,
       "IPO": 5,
-      "Tech": 19,
+      "Tech": 14,
       "Sports": 5,
-      "Science": 17,
+      "Science": 15,
       "Health": 10
     },
     "gap_is_metadata_only": true,
@@ -1733,8 +1533,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 8,
-        "seconds": 0.37
+        "eligible": 7,
+        "seconds": 0.39
       },
       {
         "id": 3,
@@ -1743,7 +1543,7 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 57,
+        "eligible": 59,
         "seconds": 0.08
       },
       {
@@ -1753,8 +1553,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 5,
-        "seconds": 0.77
+        "eligible": 4,
+        "seconds": 0.65
       },
       {
         "id": 5,
@@ -1764,7 +1564,7 @@
         "http": 200,
         "items": 20,
         "eligible": 17,
-        "seconds": 0.33
+        "seconds": 0.31
       },
       {
         "id": 6,
@@ -1772,9 +1572,9 @@
         "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 31,
-        "eligible": 14,
-        "seconds": 0.1
+        "items": 29,
+        "eligible": 19,
+        "seconds": 0.12
       },
       {
         "id": 7,
@@ -1783,8 +1583,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 9,
-        "seconds": 0.38
+        "eligible": 3,
+        "seconds": 0.36
       },
       {
         "id": 9,
@@ -1794,7 +1594,7 @@
         "http": 200,
         "items": 25,
         "eligible": 21,
-        "seconds": 0.12
+        "seconds": 0.13
       },
       {
         "id": 10,
@@ -1803,8 +1603,8 @@
         "status": "ok",
         "http": 200,
         "items": 135,
-        "eligible": 16,
-        "seconds": 0.09
+        "eligible": 17,
+        "seconds": 0.18
       },
       {
         "id": 11,
@@ -1813,8 +1613,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 5,
-        "seconds": 0.28
+        "eligible": 4,
+        "seconds": 0.37
       },
       {
         "id": 12,
@@ -1824,7 +1624,7 @@
         "http": 200,
         "items": 9,
         "eligible": 0,
-        "seconds": 0.36
+        "seconds": 0.35
       },
       {
         "id": 13,
@@ -1833,8 +1633,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 23,
-        "seconds": 0.13
+        "eligible": 25,
+        "seconds": 0.16
       },
       {
         "id": 14,
@@ -1843,8 +1643,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 2,
-        "seconds": 0.05
+        "eligible": 5,
+        "seconds": 0.37
       },
       {
         "id": 15,
@@ -1853,8 +1653,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 40,
-        "seconds": 0.08
+        "eligible": 47,
+        "seconds": 0.25
       },
       {
         "id": 16,
@@ -1863,8 +1663,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 3,
-        "seconds": 0.21
+        "eligible": 4,
+        "seconds": 0.24
       },
       {
         "id": 17,
@@ -1873,8 +1673,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 9,
-        "seconds": 0.11
+        "eligible": 6,
+        "seconds": 0.08
       },
       {
         "id": 19,
@@ -1884,7 +1684,7 @@
         "http": 200,
         "items": 35,
         "eligible": 4,
-        "seconds": 0.82
+        "seconds": 0.13
       },
       {
         "id": 20,
@@ -1893,8 +1693,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 24,
-        "seconds": 0.36
+        "eligible": 17,
+        "seconds": 0.07
       },
       {
         "id": 21,
@@ -1904,7 +1704,7 @@
         "http": 200,
         "items": 20,
         "eligible": 18,
-        "seconds": 0.37
+        "seconds": 0.32
       },
       {
         "id": 22,
@@ -1914,7 +1714,7 @@
         "http": 200,
         "items": 35,
         "eligible": 3,
-        "seconds": 0.19
+        "seconds": 0.07
       },
       {
         "id": 23,
@@ -1924,7 +1724,7 @@
         "http": 200,
         "items": 21,
         "eligible": 3,
-        "seconds": 0.23
+        "seconds": 0.24
       },
       {
         "id": 24,
@@ -1934,7 +1734,7 @@
         "http": 200,
         "items": 40,
         "eligible": 4,
-        "seconds": 0.39
+        "seconds": 0.41
       },
       {
         "id": 25,
@@ -1944,7 +1744,7 @@
         "http": 200,
         "items": 50,
         "eligible": 6,
-        "seconds": 0.12
+        "seconds": 0.08
       },
       {
         "id": 26,
@@ -1953,8 +1753,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 4,
-        "seconds": 0.37
+        "eligible": 3,
+        "seconds": 0.33
       },
       {
         "id": 27,
@@ -1964,7 +1764,7 @@
         "http": 200,
         "items": 20,
         "eligible": 1,
-        "seconds": 0.07
+        "seconds": 0.4
       },
       {
         "id": 28,
@@ -1974,7 +1774,7 @@
         "http": 200,
         "items": 10,
         "eligible": 10,
-        "seconds": 0.05
+        "seconds": 0.06
       },
       {
         "id": 29,
@@ -1994,7 +1794,7 @@
         "http": 200,
         "items": 42,
         "eligible": 11,
-        "seconds": 0.27
+        "seconds": 0.11
       },
       {
         "id": 33,
@@ -2003,7 +1803,7 @@
         "status": "ok",
         "http": 200,
         "items": 10,
-        "eligible": 1,
+        "eligible": 2,
         "seconds": 0.19
       },
       {
@@ -2013,8 +1813,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 11,
-        "seconds": 0.12
+        "eligible": 9,
+        "seconds": 0.15
       },
       {
         "id": 36,
@@ -2023,8 +1823,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 30,
-        "seconds": 0.36
+        "eligible": 28,
+        "seconds": 0.34
       },
       {
         "id": 37,
@@ -2033,8 +1833,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 5,
-        "seconds": 0.64
+        "eligible": 4,
+        "seconds": 0.62
       },
       {
         "id": 38,
@@ -2044,7 +1844,7 @@
         "http": 200,
         "items": 56,
         "eligible": 4,
-        "seconds": 0.27
+        "seconds": 0.11
       },
       {
         "id": 39,
@@ -2053,7 +1853,7 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 6,
+        "eligible": 5,
         "seconds": 0.38
       },
       {
@@ -2064,7 +1864,7 @@
         "http": 200,
         "items": 60,
         "eligible": 16,
-        "seconds": 0.34
+        "seconds": 0.36
       },
       {
         "id": 41,
@@ -2073,8 +1873,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 2,
-        "seconds": 0.54
+        "eligible": 1,
+        "seconds": 0.39
       },
       {
         "id": 42,
@@ -2084,7 +1884,7 @@
         "http": 200,
         "items": 72,
         "eligible": 0,
-        "seconds": 0.12
+        "seconds": 0.32
       },
       {
         "id": 43,
@@ -2094,7 +1894,7 @@
         "http": 200,
         "items": 40,
         "eligible": 0,
-        "seconds": 0.39
+        "seconds": 0.38
       },
       {
         "id": 44,
@@ -2104,7 +1904,7 @@
         "http": 200,
         "items": 100,
         "eligible": 3,
-        "seconds": 0.39
+        "seconds": 0.55
       },
       {
         "id": 45,
@@ -2114,7 +1914,7 @@
         "http": 200,
         "items": 30,
         "eligible": 0,
-        "seconds": 0.27
+        "seconds": 0.3
       },
       {
         "id": 47,
@@ -2124,13 +1924,13 @@
         "http": 200,
         "items": 36,
         "eligible": 0,
-        "seconds": 0.52
+        "seconds": 0.35
       }
     ],
     "sources": [
       "Aljazeera",
+      "AmarUjala Business",
       "AmarUjala India",
-      "AmarUjala World",
       "BBC Science",
       "BBC Tech",
       "BBC World",
