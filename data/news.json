@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "title": "News for Adults",
-  "updated_at": "2026-10-19T14:45:35.812870+00:00",
+  "updated_at": "2026-10-19T16:45:27.352413+00:00",
   "schedule": {
     "active": false,
     "window_ist": "08:00-22:00",
@@ -19,6 +19,142 @@
     "Health"
   ],
   "stories": [
+    {
+      "id": "fbdb630466dd91a3bd9d",
+      "topic": "Science",
+      "headline": "Mars पर सुबह: NASA के Curiosity ने भेजी अब तक की सबसे detailed तस्वीर",
+      "bullets": [
+        "NASA के Curiosity rover ने Mars की सुबह और हवा से बने elongated ridges (yardangs) की close-up तस्वीर भेजी है।",
+        "6 October 2026 को जारी यह panorama दूर की wind-carved Mars surface का अब तक का सबसे detailed view है।"
+      ],
+      "published": "2026-10-19T16:03:51+00:00",
+      "sources": [
+        {
+          "name": "NASA",
+          "url": "https://www.nasa.gov/image-article/martian-dawn/",
+          "feed_id": 33
+        }
+      ]
+    },
+    {
+      "id": "041bb2386a4d86d1de7d",
+      "topic": "Tech",
+      "headline": "Nvidia को चुनौती: Amazon के AI chips अब popular coding language PyTorch चलाएंगे",
+      "bullets": [
+        "Amazon ने TorchNeuron tool unveil किया, जिससे PyTorch code उसके Trainium AI chips पर आसानी से चल सकेगा।",
+        "कंपनी का दावा है कि इससे बड़े code changes की जरूरत कम होगी, जिससे integration आसान होगा।"
+      ],
+      "published": "2026-10-19T15:52:49+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/amazon-says-its-ai-chips-will-work-with-popular-coding-language-challenging-nvidia/articleshow/135051867.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "966a745487e6940b6f59",
+      "topic": "Tech",
+      "headline": "OpenAI के पूर्व employee ने device लगाई: court filing में Saudi backing का खुलासा",
+      "bullets": [
+        "US prosecutors के मुताबिक Abdulrahman Alfozan (35) एक unnamed Saudi royal family member के संपर्क में था और Saudi military के एक member ने उसके one-way plane ticket का पैसा दिया था।",
+        "उस पर oral communications intercept करने के लिए electronic device इस्तेमाल करने का आरोप है; पिछले हफ्ते charges लगाए गए थे।"
+      ],
+      "published": "2026-10-19T15:51:27+00:00",
+      "sources": [
+        {
+          "name": "Hindu SciTech",
+          "url": "https://www.thehindu.com/news/international/ex-openai-employee-accused-of-planting-device-appears-to-have-saudi-backing-court-filing-shows/article71602972.ece",
+          "feed_id": 36
+        }
+      ]
+    },
+    {
+      "id": "d8f7aa4f326dae5be128",
+      "topic": "World",
+      "headline": "Kenya: 191 लोगों को भूखा मराने वाला cult leader Paul Mackenzie दोषी करार",
+      "bullets": [
+        "Self-proclaimed pastor Paul Mackenzie को 191 murder charges में दोषी ठहराया गया — मृतकों में एक को छोड़ सभी बच्चे थे।",
+        "उसने अपने Good News International Church के followers को दुनिया के अंत का दावा कर भूखे रहने को कहा था।"
+      ],
+      "published": "2026-10-19T15:49:00+00:00",
+      "sources": [
+        {
+          "name": "DW World",
+          "url": "https://www.dw.com/en/kenyan-cult-leader-paul-mackenzie-found-guilty-over-191-starvation-deaths/a-79706279?maca=en-rss-en-all-1573-rdf",
+          "feed_id": 10
+        }
+      ]
+    },
+    {
+      "id": "b0ef1cc24d7131641e5d",
+      "topic": "Tech",
+      "headline": "Amazon Indiana में नया nuclear plant बनाने के लिए fund करेगी",
+      "bullets": [
+        "Amazon ने X-energy और American Electric Power के साथ agreement किया है ताकि Indiana में नई nuclear energy facility बनाई जा सके।",
+        "प्रस्तावित plant अब बंद हो चुके coal-fired Breed Generating Station की जगह लेगा।"
+      ],
+      "published": "2026-10-19T15:44:20+00:00",
+      "sources": [
+        {
+          "name": "Verge",
+          "url": "https://www.theverge.com/tech/1013735/amazon-x-energy-aep-nuclear-indiana",
+          "feed_id": 28
+        }
+      ]
+    },
+    {
+      "id": "45235adc5e21df71bac0",
+      "topic": "Business",
+      "headline": "NYSE बढ़ाएगा option-trading hours: ETFs और single stocks के लिए दूसरा बड़ा exchange",
+      "bullets": [
+        "NYSE option-trading hours बढ़ाने वाला दूसरा major exchange बन गया है।",
+        "Nvidia और Bank of America समेत 29 बड़े stocks और funds extended trading में उपलब्ध होंगे।"
+      ],
+      "published": "2026-10-19T14:58:10+00:00",
+      "sources": [
+        {
+          "name": "NDTV Business",
+          "url": "https://www.ndtvprofit.com/markets/nyse-becomes-second-major-exchange-to-extend-option-trading-hours-for-etfs-single-stocks-12207529#publisher=newsstand",
+          "feed_id": 21
+        }
+      ]
+    },
+    {
+      "id": "2b6321460e8cf9adae58",
+      "topic": "Business",
+      "headline": "Union Bank of India का Q2 मुनाफा 30% बढ़कर ₹5,537 crore",
+      "bullets": [
+        "Union Bank of India का Q2 net profit 30% बढ़कर ₹5,537 crore रहा।",
+        "Interest income 7.51% बढ़कर ₹28,158 crore रहा, जो सालभर पहले ₹26,191 crore था।"
+      ],
+      "published": "2026-10-19T14:51:20+00:00",
+      "sources": [
+        {
+          "name": "Hindu Business",
+          "url": "https://www.thehindu.com/business/union-bank-of-india-q2-net-profit-rises-30-to-5537-crore/article71602868.ece",
+          "feed_id": 20
+        }
+      ]
+    },
+    {
+      "id": "8b0c296daf1f90b97c46",
+      "topic": "Tech",
+      "headline": "Disney ने Character.AI को खरीदने का रास्ता निकाला — lawsuits के बिना",
+      "bullets": [
+        "Disney ने ऐसा structure बनाया जिससे वह Character.AI की lawsuits खरीदे बिना कंपनी हासिल कर सके।",
+        "Character.AI पर आरोप हैं कि उसके bots ने minors को self-harm के लिए उकसाया।"
+      ],
+      "published": "2026-10-19T14:45:43+00:00",
+      "sources": [
+        {
+          "name": "Ars",
+          "url": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/",
+          "feed_id": 27
+        }
+      ]
+    },
     {
       "id": "d09981c9adb66b0ebc5b",
       "topic": "World",
@@ -898,197 +1034,40 @@
           "feed_id": 9
         }
       ]
-    },
-    {
-      "id": "58c238811ae8222ab723",
-      "topic": "Sports",
-      "headline": "Nahida Akter बनीं Bangladesh women की T20I captain",
-      "bullets": [
-        "Nahida Akter को Bangladesh women's T20I team की captain बनाया गया है; शुरुआती term एक साल के लिए है।",
-        "अगले महीने होने वाली ICC Women's Emerging Nations Trophy उनका पहला assignment होगा।"
-      ],
-      "published": "2026-10-18T16:42:34+00:00",
-      "sources": [
-        {
-          "name": "ESPNcricinfo",
-          "url": "https://www.cricinfo.com/ci/content/story/1558998.html?ex_cid=OTC-RSS",
-          "feed_id": 44
-        }
-      ]
-    },
-    {
-      "id": "86b91e79a7bfbe35cc1b",
-      "topic": "Business",
-      "headline": "April-August में India के exports हर क्षेत्र में बढ़े, West Asia में recovery",
-      "bullets": [
-        "April-August में India के merchandise exports Africa को 47% बढ़कर $26.19 billion और ASEAN को 56% बढ़कर $23.08 billion पहुंचे।",
-        "US-Iran war के झटके से उबरते हुए West Asia को shipments भी सुधर रही हैं; North-East Asia में भी मजबूत growth रही।"
-      ],
-      "published": "2026-10-18T16:38:58+00:00",
-      "sources": [
-        {
-          "name": "Mint Economy",
-          "url": "https://www.livemint.com/economy/indias-exports-to-west-asia-recover-from-us-iran-war-shock-in-april-august-shipments-to-africa-asean-rise-11792339021890.html",
-          "feed_id": 22
-        }
-      ]
-    },
-    {
-      "id": "dfe02d707c1e0783c4be",
-      "topic": "World",
-      "headline": "Houthi threats के बीच Riyadh की Kingdom Center tower ने employees को घर भेजा",
-      "bullets": [
-        "Riyadh की Kingdom Center tower के management ने employees को 'अगले notice तक' घर से काम करने को कहा है; कोई कारण नहीं बताया गया।",
-        "यह कदम Houthi attacks बढ़ने के बीच आया है।"
-      ],
-      "published": "2026-10-18T16:34:00+00:00",
-      "sources": [
-        {
-          "name": "DW World",
-          "url": "https://www.dw.com/en/saudi-arabia-sends-skyscraper-employees-home-amid-houthi-threats/a-79693225?maca=en-rss-en-all-1573-rdf",
-          "feed_id": 10
-        }
-      ]
-    },
-    {
-      "id": "35cd62faf12b8e71eb0b",
-      "topic": "Tech",
-      "headline": "Character.AI bankruptcy के बाद Disney hire करेगी ज्यादातर employees को",
-      "bullets": [
-        "Chatbot startup Character.AI के इस हफ्ते bankruptcy file करने के बाद Disney उसके ज्यादातर employees को नौकरी देगी।",
-        "Disney पहले ही startup की कुछ assets $20 million में लेने पर सहमत हो चुकी थी; पूर्व CEO Karandeep Anand हाल में Disney के पहले CTO बने हैं।"
-      ],
-      "published": "2026-10-18T16:30:00+00:00",
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
-          "feed_id": 29
-        }
-      ]
-    },
-    {
-      "id": "00c9b0587d50ae00807b",
-      "topic": "World",
-      "headline": "Taiwan ने 16 Chinese ships खदेड़े, 'hybrid warfare' का आरोप",
-      "bullets": [
-        "Taiwan ने अपने आसपास 16 Chinese ships को खदेड़ने का दावा किया है।",
-        "Taipei का कहना है कि China अपनी मौजूदगी बढ़ा रहा है — यह pattern 'status quo बदलने' के इरादे का हिस्सा है।"
-      ],
-      "published": "2026-10-18T16:25:52+00:00",
-      "sources": [
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/18/taiwan-drives-away-16-chinese-ships-accused-of-maritime-harassment?traffic_source=rss",
-          "feed_id": 9
-        }
-      ]
-    },
-    {
-      "id": "5c4863a6a40f21e1744e",
-      "topic": "Business",
-      "headline": "TRAI mandate के बाद Airtel के voice-only plans: ₹185, ₹203, ₹206",
-      "bullets": [
-        "Airtel ने TRAI के mandate के बाद ₹185, ₹203 और ₹206 के voice-only plans उतारे हैं।",
-        "ये plans उन subscribers के लिए हैं जो mobile internet के बजाय मुख्यतः calling और messaging करते हैं।"
-      ],
-      "published": "2026-10-18T16:15:05+00:00",
-      "sources": [
-        {
-          "name": "Mint Companies",
-          "url": "https://www.livemint.com/companies/news/airtel-launches-voice-only-plans-at-185-203-and-206-after-trais-mandate-what-each-plan-offers-11792338781359.html",
-          "feed_id": 13
-        }
-      ]
-    },
-    {
-      "id": "dda9e806e05fc33e0750",
-      "topic": "World",
-      "headline": "Italy में cost-of-living प्रदर्शन हिंसक, Meloni police के साथ; 20 November को general strike",
-      "bullets": [
-        "महंगाई और कम wages के खिलाफ Italy के कई शहरों में प्रदर्शन हिंसक हुए; PM Meloni ने police का बचाव किया।",
-        "एक बड़े union ने 20 November को general strike बुलाई है।"
-      ],
-      "published": "2026-10-18T16:02:00+00:00",
-      "sources": [
-        {
-          "name": "DW World",
-          "url": "https://www.dw.com/en/meloni-backs-police-after-cost-of-living-protests-turn-violent-in-italian-cities/a-79692755?maca=en-rss-en-all-1573-rdf",
-          "feed_id": 10
-        }
-      ]
-    },
-    {
-      "id": "f998c76eb0e4343b58b5",
-      "topic": "Tech",
-      "headline": "MeitY की Meta को advisory: recommendation systems सीमित narratives न दिखाएं",
-      "bullets": [
-        "MeitY ने 10 October की advisory में Meta से कहा है कि उसके recommendation systems users को सीमित narratives तक ही न पहुंचाएं।",
-        "Ongoing public events से जुड़े photos, videos और दूसरे content के साथ adequate context देने को भी कहा गया है, खासकर जहां authenticity, date या location संदिग्ध हो।"
-      ],
-      "published": "2026-10-18T15:56:50+00:00",
-      "sources": [
-        {
-          "name": "ET Tech",
-          "url": "https://economictimes.indiatimes.com/tech/technology/govt-asks-meta-to-ensure-its-recommendation-systems-do-not-expose-users-to-a-limited-set-of-narratives/articleshow/135031354.cms",
-          "feed_id": 25
-        }
-      ]
-    },
-    {
-      "id": "689340d7d37088f71bd5",
-      "topic": "Business",
-      "headline": "Maharashtra सूखा: IAS-IPS officers देंगे एक दिन की salary, 305 talukas प्रभावित",
-      "bullets": [
-        "Maharashtra में 305 talukas सूखे से जूझ रहे हैं; राज्य के IAS और IPS officers October की एक दिन की salary drought-hit farmers के लिए देंगे।",
-        "राज्य ने loan relief, land revenue में छूट और education fee waivers भी घोषित किए हैं।"
-      ],
-      "published": "2026-10-18T15:21:28+00:00",
-      "sources": [
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/india/maharashtra-drought-crisis-ias-ips-officers-to-donate-one-day-s-salary-to-aid-farmers-12198778#publisher=newsstand",
-          "feed_id": 21
-        }
-      ]
-    },
-    {
-      "id": "df3d44445ed27191cab1",
-      "topic": "World",
-      "headline": "Albania में छठे दिन भी हिंसक प्रदर्शन, PM ने इस्तीफे से किया इनकार",
-      "bullets": [
-        "Albania की राजधानी Tirana में छठे दिन भी हिंसक प्रदर्शन जारी रहे; police ने rubber bullets, water cannons और tear gas इस्तेमाल किए।",
-        "सैकड़ों प्रदर्शनकारियों पर कार्रवाई के बीच PM ने इस्तीफा देने से साफ इनकार कर दिया है।"
-      ],
-      "published": "2026-10-18T15:08:18+00:00",
-      "sources": [
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/18/chaos-in-tirana-demonstrators-determined-to-not-give-up-so-easily?traffic_source=rss",
-          "feed_id": 9
-        }
-      ]
-    },
-    {
-      "id": "df77f5ee47652385f57c",
-      "topic": "India",
-      "headline": "Gujarat के Bharuch में chemical unit में blast, 5 workers की मौत",
-      "bullets": [
-        "Gujarat के Bharuch में एक chemical unit में हुए blast में 5 workers की मौत हुई, कई घायल हैं।",
-        "SDM Manisha Manani के मुताबिक विस्फोट hydrogenation process के दौरान हुआ होना संभावित है; इतना जोरदार था कि reactor tank उड़ गया और machinery के हिस्से परिसर में बिखर गए।"
-      ],
-      "published": "2026-10-18T15:03:29+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/gujarat/workers-killed-as-many-injured-in-blast-at-chemical-unit-in-gujarats-bharuch/article71595455.ece",
-          "feed_id": 3
-        }
-      ]
     }
   ],
   "metadata": {
     "refreshes": [
+      {
+        "at": "2026-10-19T16:45:27.352413+00:00",
+        "feed_checked_at": "2026-10-19T16:44:24.231831+00:00",
+        "items_read": 1710,
+        "candidates": 411,
+        "written": 8,
+        "added": 8,
+        "dropped": 10,
+        "total": 59,
+        "counts": {
+          "India": 6,
+          "World": 17,
+          "Business": 18,
+          "IPO": 2,
+          "Tech": 7,
+          "Sports": 2,
+          "Science": 3,
+          "Health": 4
+        },
+        "fetch_seconds": 2.57,
+        "rejected": {
+          "editorial_keyword": 16,
+          "older_than_24h": 1059,
+          "question_headline": 104,
+          "undated": 4,
+          "not_cricket": 69,
+          "duplicate": 47
+        },
+        "editorial_skipped": 403
+      },
       {
         "at": "2026-10-19T14:45:35.812870+00:00",
         "feed_checked_at": "2026-10-19T14:44:23.898581+00:00",
@@ -1148,56 +1127,26 @@
           "duplicate": 41
         },
         "editorial_skipped": 358
-      },
-      {
-        "at": "2026-10-19T08:46:27.398138+00:00",
-        "feed_checked_at": "2026-10-19T08:44:36.011085+00:00",
-        "items_read": 1720,
-        "candidates": 348,
-        "written": 6,
-        "added": 6,
-        "dropped": 5,
-        "total": 70,
-        "counts": {
-          "India": 12,
-          "World": 21,
-          "Business": 19,
-          "IPO": 1,
-          "Tech": 6,
-          "Sports": 2,
-          "Science": 6,
-          "Health": 3
-        },
-        "fetch_seconds": 2.21,
-        "rejected": {
-          "editorial_keyword": 15,
-          "older_than_24h": 1154,
-          "question_headline": 100,
-          "undated": 4,
-          "not_cricket": 62,
-          "duplicate": 37
-        },
-        "editorial_skipped": 342
       }
     ],
     "topic_counts": {
-      "India": 7,
-      "World": 20,
-      "Business": 19,
+      "India": 6,
+      "World": 17,
+      "Business": 18,
       "IPO": 2,
-      "Tech": 5,
-      "Sports": 3,
-      "Science": 2,
+      "Tech": 7,
+      "Sports": 2,
+      "Science": 3,
       "Health": 4
     },
     "topic_gap_minutes": {
-      "India": 14,
-      "World": 38,
-      "Business": 36,
+      "India": 12,
+      "World": 32,
+      "Business": 34,
       "IPO": 5,
-      "Tech": 10,
-      "Sports": 6,
-      "Science": 5,
+      "Tech": 14,
+      "Sports": 5,
+      "Science": 6,
       "Health": 8
     },
     "gap_is_metadata_only": true,
@@ -1219,8 +1168,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 18,
-        "seconds": 0.37
+        "eligible": 21,
+        "seconds": 0.39
       },
       {
         "id": 3,
@@ -1229,8 +1178,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 57,
-        "seconds": 0.09
+        "eligible": 56,
+        "seconds": 0.27
       },
       {
         "id": 4,
@@ -1240,7 +1189,7 @@
         "http": 200,
         "items": 36,
         "eligible": 8,
-        "seconds": 0.71
+        "seconds": 0.54
       },
       {
         "id": 5,
@@ -1249,8 +1198,8 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 19,
-        "seconds": 0.31
+        "eligible": 18,
+        "seconds": 0.32
       },
       {
         "id": 6,
@@ -1258,8 +1207,8 @@
         "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 25,
-        "eligible": 18,
+        "items": 26,
+        "eligible": 21,
         "seconds": 0.1
       },
       {
@@ -1270,7 +1219,7 @@
         "http": 200,
         "items": 40,
         "eligible": 8,
-        "seconds": 0.43
+        "seconds": 1.24
       },
       {
         "id": 9,
@@ -1279,8 +1228,8 @@
         "status": "ok",
         "http": 200,
         "items": 25,
-        "eligible": 22,
-        "seconds": 0.23
+        "eligible": 20,
+        "seconds": 0.09
       },
       {
         "id": 10,
@@ -1289,8 +1238,8 @@
         "status": "ok",
         "http": 200,
         "items": 135,
-        "eligible": 19,
-        "seconds": 0.1
+        "eligible": 18,
+        "seconds": 0.21
       },
       {
         "id": 11,
@@ -1300,7 +1249,7 @@
         "http": 200,
         "items": 36,
         "eligible": 8,
-        "seconds": 0.31
+        "seconds": 0.28
       },
       {
         "id": 12,
@@ -1310,7 +1259,7 @@
         "http": 200,
         "items": 9,
         "eligible": 0,
-        "seconds": 0.37
+        "seconds": 0.43
       },
       {
         "id": 13,
@@ -1320,7 +1269,7 @@
         "http": 200,
         "items": 35,
         "eligible": 22,
-        "seconds": 0.16
+        "seconds": 0.1
       },
       {
         "id": 14,
@@ -1340,7 +1289,7 @@
         "http": 200,
         "items": 50,
         "eligible": 43,
-        "seconds": 0.07
+        "seconds": 0.09
       },
       {
         "id": 16,
@@ -1350,7 +1299,7 @@
         "http": 200,
         "items": 50,
         "eligible": 6,
-        "seconds": 0.34
+        "seconds": 0.57
       },
       {
         "id": 17,
@@ -1359,8 +1308,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 12,
-        "seconds": 0.22
+        "eligible": 14,
+        "seconds": 0.07
       },
       {
         "id": 19,
@@ -1370,7 +1319,7 @@
         "http": 200,
         "items": 35,
         "eligible": 6,
-        "seconds": 0.08
+        "seconds": 0.11
       },
       {
         "id": 20,
@@ -1380,7 +1329,7 @@
         "http": 200,
         "items": 60,
         "eligible": 21,
-        "seconds": 0.32
+        "seconds": 0.37
       },
       {
         "id": 21,
@@ -1389,7 +1338,7 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 19,
+        "eligible": 16,
         "seconds": 0.32
       },
       {
@@ -1400,7 +1349,7 @@
         "http": 200,
         "items": 35,
         "eligible": 4,
-        "seconds": 0.13
+        "seconds": 0.1
       },
       {
         "id": 23,
@@ -1409,8 +1358,8 @@
         "status": "ok",
         "http": 200,
         "items": 21,
-        "eligible": 4,
-        "seconds": 0.27
+        "eligible": 5,
+        "seconds": 0.08
       },
       {
         "id": 24,
@@ -1420,7 +1369,7 @@
         "http": 200,
         "items": 40,
         "eligible": 7,
-        "seconds": 0.37
+        "seconds": 0.48
       },
       {
         "id": 25,
@@ -1429,8 +1378,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 7,
-        "seconds": 0.05
+        "eligible": 6,
+        "seconds": 0.07
       },
       {
         "id": 26,
@@ -1439,8 +1388,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 4,
-        "seconds": 0.52
+        "eligible": 5,
+        "seconds": 0.21
       },
       {
         "id": 27,
@@ -1449,8 +1398,8 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 4,
-        "seconds": 0.07
+        "eligible": 6,
+        "seconds": 0.06
       },
       {
         "id": 28,
@@ -1479,8 +1428,8 @@
         "status": "ok",
         "http": 200,
         "items": 41,
-        "eligible": 11,
-        "seconds": 0.11
+        "eligible": 12,
+        "seconds": 0.1
       },
       {
         "id": 33,
@@ -1489,8 +1438,8 @@
         "status": "ok",
         "http": 200,
         "items": 10,
-        "eligible": 2,
-        "seconds": 0.19
+        "eligible": 4,
+        "seconds": 0.18
       },
       {
         "id": 34,
@@ -1500,7 +1449,7 @@
         "http": 200,
         "items": 60,
         "eligible": 10,
-        "seconds": 0.29
+        "seconds": 0.38
       },
       {
         "id": 36,
@@ -1509,8 +1458,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 21,
-        "seconds": 0.07
+        "eligible": 22,
+        "seconds": 0.08
       },
       {
         "id": 37,
@@ -1520,7 +1469,7 @@
         "http": 200,
         "items": 36,
         "eligible": 8,
-        "seconds": 0.72
+        "seconds": 0.41
       },
       {
         "id": 38,
@@ -1530,7 +1479,7 @@
         "http": 200,
         "items": 57,
         "eligible": 6,
-        "seconds": 0.32
+        "seconds": 0.28
       },
       {
         "id": 39,
@@ -1540,7 +1489,7 @@
         "http": 200,
         "items": 40,
         "eligible": 6,
-        "seconds": 0.38
+        "seconds": 0.35
       },
       {
         "id": 40,
@@ -1558,9 +1507,9 @@
         "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/rssfeeds/13358050.cms",
         "status": "ok",
         "http": 200,
-        "items": 50,
+        "items": 48,
         "eligible": 1,
-        "seconds": 0.36
+        "seconds": 0.58
       },
       {
         "id": 42,
@@ -1568,9 +1517,9 @@
         "url": "https://feeds.bbci.co.uk/sport/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 81,
+        "items": 76,
         "eligible": 1,
-        "seconds": 0.29
+        "seconds": 0.3
       },
       {
         "id": 43,
@@ -1580,7 +1529,7 @@
         "http": 200,
         "items": 40,
         "eligible": 0,
-        "seconds": 0.39
+        "seconds": 0.38
       },
       {
         "id": 44,
@@ -1589,8 +1538,8 @@
         "status": "ok",
         "http": 200,
         "items": 100,
-        "eligible": 2,
-        "seconds": 0.62
+        "eligible": 1,
+        "seconds": 0.28
       },
       {
         "id": 45,
@@ -1598,9 +1547,9 @@
         "url": "https://feeds.bbci.co.uk/sport/cricket/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 30,
+        "items": 29,
         "eligible": 3,
-        "seconds": 0.24
+        "seconds": 0.25
       },
       {
         "id": 47,
@@ -1610,12 +1559,13 @@
         "http": 200,
         "items": 36,
         "eligible": 0,
-        "seconds": 0.35
+        "seconds": 0.63
       }
     ],
     "sources": [
       "Aljazeera",
       "AmarUjala Business",
+      "Ars",
       "BBC Hindi India",
       "BBC Science",
       "BBC Sport",
@@ -1631,12 +1581,13 @@
       "Hindu India",
       "Hindu SciTech",
       "Mint Companies",
-      "Mint Economy",
       "Mint Tech",
+      "NASA",
       "NDTV Business",
       "NDTV Top",
       "ScienceDaily",
-      "TechCrunch"
+      "TechCrunch",
+      "Verge"
     ],
     "summary_notice": "Own-word feed-based summaries, not original reporting. Publisher timestamps determine the 24-hour window."
   }
