@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "title": "News for Adults",
-  "updated_at": "2026-10-20T02:46:45.960024+00:00",
+  "updated_at": "2026-10-20T04:45:14.851784+00:00",
   "schedule": {
     "active": false,
     "window_ist": "08:00-22:00",
@@ -19,6 +19,102 @@
     "Health"
   ],
   "stories": [
+    {
+      "id": "93eb1595a31ef63bc901",
+      "topic": "Business",
+      "headline": "Korea का KOSPI एक दिन में 5% टूटा: AI rout गहराया, bellwether peak से 40% नीचे",
+      "bullets": [
+        "SK Hynix April के बाद के lowest close की ओर; SK Hynix और Samsung peak से क्रमशः 35% और 22% नीचे, debutant Elice 32% टूटा।"
+      ],
+      "published": "2026-10-20T04:08:50+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/koreas-kospi-crashes-another-5-as-ai-rout-deepens-ai-bellwether-down-over-40-from-peak/articleshow/135061021.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "0c71da5c59aad7b666a5",
+      "topic": "India",
+      "headline": "Kolkata: Durga Puja पंडाल में 19 की मौत, crowd management पर सवाल",
+      "bullets": [
+        "Chorbagan के popular puja venue की घटना के बाद administration और organisers के बीच coordination में lapses की आशंका।"
+      ],
+      "published": "2026-10-20T04:03:42+00:00",
+      "sources": [
+        {
+          "name": "NDTV Top",
+          "url": "https://www.ndtv.com/india-news/19-deaths-raise-questions-over-durga-puja-crowd-management-in-kolkata-12209128#publisher=newsstand",
+          "feed_id": 5
+        }
+      ]
+    },
+    {
+      "id": "912c1c41fe798f96e2f4",
+      "topic": "Science",
+      "headline": "नई study: Earth के water cycle पर इंसानी गतिविधियों का साफ असर",
+      "bullets": [
+        "Research के मुताबिक महाद्वीपों पर पानी की distribution अब human activities से गहराई से जुड़ चुकी है; study इन effects को sharper focus में लाती है।"
+      ],
+      "published": "2026-10-20T04:01:00+00:00",
+      "sources": [
+        {
+          "name": "NASA",
+          "url": "https://science.nasa.gov/earth/earth-observatory/the-human-fingerprint-on-earths-water-cycle/",
+          "feed_id": 33
+        }
+      ]
+    },
+    {
+      "id": "667587b788a90397342f",
+      "topic": "World",
+      "headline": "Sheikh Hasina बोलीं: December में Bangladesh लौटूंगी — 'मार डालें, गिरफ्तार करें, डर नहीं'",
+      "bullets": [
+        "उन्होंने return की exact date नहीं बताई, लेकिन कहा कि वापसी उनकी ज़िम्मेदारी है: 'I know they can kill me, arrest me and torture me'।"
+      ],
+      "published": "2026-10-20T04:00:15+00:00",
+      "sources": [
+        {
+          "name": "NDTV Top",
+          "url": "https://www.ndtv.com/world-news/kill-arrest-torture-sheikh-hasina-lists-risks-after-december-return-to-bangladesh-12209117#publisher=newsstand",
+          "feed_id": 5
+        }
+      ]
+    },
+    {
+      "id": "6c99ce5689c985394dab",
+      "topic": "Business",
+      "headline": "Yemen: Houthi strike में army camp पर 58 की मौत; Riyadh airport और Aramco भी निशाने पर",
+      "bullets": [
+        "Houthis ने Saudi Arabia पर हमले तेज किए हैं — Riyadh international airport और Saudi Aramco को target किया जा रहा है; देशभर में fighting बढ़ी है।"
+      ],
+      "published": "2026-10-20T03:19:21+00:00",
+      "sources": [
+        {
+          "name": "NDTV Business",
+          "url": "https://www.ndtvprofit.com/world/houthi-strike-kills-58-at-yemen-army-camp-as-fighting-intensifies-across-country-12209023#publisher=newsstand",
+          "feed_id": 21
+        }
+      ]
+    },
+    {
+      "id": "97c9b33701869dbf9d6a",
+      "topic": "Business",
+      "headline": "Tesla में December को vote: Musk के CEO role और $158 billion pay package पर फैसला",
+      "bullets": [
+        "Tesla के 2026 proxy में Musk के re-election और $158 billion reported pay package पर vote शामिल; SpaceX merger proposal ballot से बाहर रखा गया।"
+      ],
+      "published": "2026-10-20T03:06:23+00:00",
+      "sources": [
+        {
+          "name": "Mint Companies",
+          "url": "https://www.livemint.com/companies/people/tesla-sets-december-vote-on-elon-musk-s-ceo-role-and-his-158-billion-pay-package-spacex-merger-stays-off-ballot-11792462765668.html",
+          "feed_id": 13
+        }
+      ]
+    },
     {
       "id": "c3e9dc365f44004ca772",
       "topic": "World",
@@ -631,23 +727,6 @@
       ]
     },
     {
-      "id": "d09981c9adb66b0ebc5b",
-      "topic": "World",
-      "headline": "Yemen: Houthi strike से government military camp में कम से कम 50 की मौत",
-      "bullets": [
-        "Iran-backed Houthis ने Yemen के Shabwa governorate में एक military camp पर हमले की ज़िम्मेदारी ली; मारे गए लोगों में नए recruits शामिल हैं।",
-        "यह हमला weekend में Saudi-led forces पर आरोपित घातक हमलों के बाद हुआ है; Yemen में युद्ध फिर से तेज हो रहा है।"
-      ],
-      "published": "2026-10-19T14:39:00+00:00",
-      "sources": [
-        {
-          "name": "DW World",
-          "url": "https://www.dw.com/en/houthi-strike-on-yemen-government-military-camp-kills-at-least-50/a-79702163?maca=en-rss-en-all-1573-rdf",
-          "feed_id": 10
-        }
-      ]
-    },
-    {
       "id": "d9940cfccfa1a5b62550",
       "topic": "Sports",
       "headline": "ODI World Cup की तैयारी: England और Pakistan की पुरानी rivalry फिर केंद्र में",
@@ -1108,78 +1187,41 @@
           "feed_id": 4
         }
       ]
-    },
-    {
-      "id": "335092d89dc621f55267",
-      "topic": "India",
-      "headline": "Manipur के Thoubal में हिंसक झड़पें: एक की मौत, prohibitory orders लागू",
-      "bullets": [
-        "Manipur के Thoubal district में झड़पों में एक व्यक्ति की मौत हुई, कई घायल हैं।",
-        "दो प्रभावित इलाकों में कुछ घर और गाड़ियां जलाए गए; authorities ने prohibitory orders लगा दिए हैं।"
-      ],
-      "published": "2026-10-19T04:08:26+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/manipur/one-dead-several-injured-in-clashes-in-manipurs-thoubal-district-prohibitory-orders-clamped/article71602051.ece",
-          "feed_id": 3
-        }
-      ]
-    },
-    {
-      "id": "7f6ed2c669d34312bc24",
-      "topic": "Business",
-      "headline": "Axis Bank का Q2 मुनाफा 38% बढ़कर ₹7,003 crore, फिर भी shares 4% टूटे",
-      "bullets": [
-        "Axis Bank का Q2 FY27 standalone net profit सालाना 38% बढ़कर ₹7,003 crore रहा; net interest income 12% बढ़ा।",
-        "Margin दबाव के चलते shares 4% से ज्यादा गिरे; Jefferies ने Buy रखा, Centrum और Dolat ने target prices घटाए।"
-      ],
-      "published": "2026-10-19T03:51:26+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/axis-bank-shares-in-focus-after-q2-results-why-jefferies-remains-bullish-even-as-other-brokerages-reduce-target-prices/articleshow/135039127.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "c59b4b47ae339b4ad976",
-      "topic": "India",
-      "headline": "खराब सड़क बनाने पर NHAI सख्त: 7 companies रडार पर, एक दो साल के लिए banned",
-      "bullets": [
-        "सड़क परिवहन और राजमार्ग मंत्रालय घटिया national highways और expressways के निर्माण पर कड़ा रुख अपना रहा है।",
-        "7 companies पर जांच शुरू हुई है; एक कंपनी को दो साल के लिए ban किया गया है।"
-      ],
-      "published": "2026-10-19T03:41:29+00:00",
-      "sources": [
-        {
-          "name": "AmarUjala Business",
-          "url": "https://www.amarujala.com/business/bonus/government-cracks-down-on-poor-road-construction-7-companies-under-scanner-one-banned-2026-10-19",
-          "feed_id": 14
-        }
-      ]
-    },
-    {
-      "id": "fd9092e1728ae47115d3",
-      "topic": "Business",
-      "headline": "RBI की ₹1 lakh crore liquidity infusion: repo operation से banks को राहत",
-      "bullets": [
-        "RBI repo operation के जरिए ₹1 lakh crore ($10.53 billion) तक की liquidity infuse करेगा।",
-        "Traders के मुताबिक कदम tax outflows और daily cash reserve requirement सख्त होने के बीच banks की मदद के लिए है।"
-      ],
-      "published": "2026-10-19T03:33:42+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/forex/rbi-announces-10-5-billion-liquidity-infusion-via-repo/articleshow/135038836.cms",
-          "feed_id": 15
-        }
-      ]
     }
   ],
   "metadata": {
     "refreshes": [
+      {
+        "at": "2026-10-20T04:45:14.851784+00:00",
+        "feed_checked_at": "2026-10-20T04:44:30.104771+00:00",
+        "items_read": 1714,
+        "candidates": 403,
+        "written": 6,
+        "added": 6,
+        "dropped": 4,
+        "total": 70,
+        "counts": {
+          "India": 3,
+          "World": 24,
+          "Business": 17,
+          "IPO": 2,
+          "Tech": 14,
+          "Sports": 2,
+          "Science": 6,
+          "Health": 2
+        },
+        "fetch_seconds": 2.47,
+        "rejected": {
+          "editorial_keyword": 14,
+          "older_than_24h": 1117,
+          "question_headline": 78,
+          "undated": 4,
+          "future": 3,
+          "not_cricket": 64,
+          "duplicate": 31
+        },
+        "editorial_skipped": 397
+      },
       {
         "at": "2026-10-20T02:46:45.960024+00:00",
         "feed_checked_at": "2026-10-20T02:44:27.652540+00:00",
@@ -1240,56 +1282,26 @@
           "duplicate": 47
         },
         "editorial_skipped": 403
-      },
-      {
-        "at": "2026-10-19T14:45:35.812870+00:00",
-        "feed_checked_at": "2026-10-19T14:44:23.898581+00:00",
-        "items_read": 1717,
-        "candidates": 407,
-        "written": 12,
-        "added": 12,
-        "dropped": 19,
-        "total": 62,
-        "counts": {
-          "India": 7,
-          "World": 20,
-          "Business": 19,
-          "IPO": 2,
-          "Tech": 5,
-          "Sports": 3,
-          "Science": 2,
-          "Health": 4
-        },
-        "fetch_seconds": 2.44,
-        "rejected": {
-          "editorial_keyword": 15,
-          "older_than_24h": 1071,
-          "question_headline": 97,
-          "undated": 4,
-          "not_cricket": 78,
-          "duplicate": 45
-        },
-        "editorial_skipped": 395
       }
     ],
     "topic_counts": {
-      "India": 4,
+      "India": 3,
       "World": 24,
-      "Business": 16,
+      "Business": 17,
       "IPO": 2,
       "Tech": 14,
       "Sports": 2,
-      "Science": 5,
+      "Science": 6,
       "Health": 2
     },
     "topic_gap_minutes": {
-      "India": 8,
+      "India": 6,
       "World": 45,
-      "Business": 30,
+      "Business": 32,
       "IPO": 5,
       "Tech": 27,
       "Sports": 5,
-      "Science": 10,
+      "Science": 12,
       "Health": 5
     },
     "gap_is_metadata_only": true,
@@ -1301,8 +1313,8 @@
         "status": "ok",
         "http": 200,
         "items": 19,
-        "eligible": 0,
-        "seconds": 0.26
+        "eligible": 1,
+        "seconds": 0.3
       },
       {
         "id": 2,
@@ -1311,8 +1323,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 16,
-        "seconds": 0.36
+        "eligible": 14,
+        "seconds": 0.37
       },
       {
         "id": 3,
@@ -1322,7 +1334,7 @@
         "http": 200,
         "items": 60,
         "eligible": 54,
-        "seconds": 0.12
+        "seconds": 0.1
       },
       {
         "id": 4,
@@ -1332,7 +1344,7 @@
         "http": 200,
         "items": 36,
         "eligible": 7,
-        "seconds": 0.55
+        "seconds": 0.53
       },
       {
         "id": 5,
@@ -1342,7 +1354,7 @@
         "http": 200,
         "items": 20,
         "eligible": 17,
-        "seconds": 0.32
+        "seconds": 0.33
       },
       {
         "id": 6,
@@ -1352,7 +1364,7 @@
         "http": 200,
         "items": 28,
         "eligible": 24,
-        "seconds": 0.12
+        "seconds": 0.22
       },
       {
         "id": 7,
@@ -1361,8 +1373,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 4,
-        "seconds": 0.37
+        "eligible": 6,
+        "seconds": 0.35
       },
       {
         "id": 9,
@@ -1371,8 +1383,8 @@
         "status": "ok",
         "http": 200,
         "items": 25,
-        "eligible": 22,
-        "seconds": 0.1
+        "eligible": 23,
+        "seconds": 0.13
       },
       {
         "id": 10,
@@ -1382,7 +1394,7 @@
         "http": 200,
         "items": 134,
         "eligible": 19,
-        "seconds": 0.07
+        "seconds": 0.08
       },
       {
         "id": 11,
@@ -1392,7 +1404,7 @@
         "http": 200,
         "items": 36,
         "eligible": 7,
-        "seconds": 0.29
+        "seconds": 0.21
       },
       {
         "id": 12,
@@ -1402,7 +1414,7 @@
         "http": 200,
         "items": 9,
         "eligible": 0,
-        "seconds": 1.11
+        "seconds": 0.34
       },
       {
         "id": 13,
@@ -1411,8 +1423,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 22,
-        "seconds": 0.18
+        "eligible": 20,
+        "seconds": 0.14
       },
       {
         "id": 14,
@@ -1421,7 +1433,7 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 3,
+        "eligible": 1,
         "seconds": 0.38
       },
       {
@@ -1431,8 +1443,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 49,
-        "seconds": 0.07
+        "eligible": 45,
+        "seconds": 0.12
       },
       {
         "id": 16,
@@ -1441,8 +1453,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 7,
-        "seconds": 0.41
+        "eligible": 5,
+        "seconds": 0.45
       },
       {
         "id": 17,
@@ -1451,8 +1463,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 20,
-        "seconds": 0.39
+        "eligible": 21,
+        "seconds": 0.07
       },
       {
         "id": 19,
@@ -1462,7 +1474,7 @@
         "http": 200,
         "items": 35,
         "eligible": 6,
-        "seconds": 0.11
+        "seconds": 0.14
       },
       {
         "id": 20,
@@ -1472,7 +1484,7 @@
         "http": 200,
         "items": 60,
         "eligible": 9,
-        "seconds": 0.1
+        "seconds": 0.41
       },
       {
         "id": 21,
@@ -1481,8 +1493,8 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 18,
-        "seconds": 0.33
+        "eligible": 17,
+        "seconds": 0.32
       },
       {
         "id": 22,
@@ -1491,8 +1503,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 4,
-        "seconds": 0.11
+        "eligible": 5,
+        "seconds": 0.13
       },
       {
         "id": 23,
@@ -1502,7 +1514,7 @@
         "http": 200,
         "items": 21,
         "eligible": 5,
-        "seconds": 0.27
+        "seconds": 0.08
       },
       {
         "id": 24,
@@ -1511,8 +1523,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 2,
-        "seconds": 0.37
+        "eligible": 4,
+        "seconds": 0.58
       },
       {
         "id": 25,
@@ -1522,7 +1534,7 @@
         "http": 200,
         "items": 50,
         "eligible": 11,
-        "seconds": 0.06
+        "seconds": 0.26
       },
       {
         "id": 26,
@@ -1531,8 +1543,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 8,
-        "seconds": 0.11
+        "eligible": 11,
+        "seconds": 0.17
       },
       {
         "id": 27,
@@ -1542,7 +1554,7 @@
         "http": 200,
         "items": 20,
         "eligible": 13,
-        "seconds": 0.18
+        "seconds": 0.05
       },
       {
         "id": 28,
@@ -1552,7 +1564,7 @@
         "http": 200,
         "items": 10,
         "eligible": 10,
-        "seconds": 0.07
+        "seconds": 0.06
       },
       {
         "id": 29,
@@ -1562,7 +1574,7 @@
         "http": 200,
         "items": 20,
         "eligible": 19,
-        "seconds": 0.06
+        "seconds": 0.07
       },
       {
         "id": 32,
@@ -1572,7 +1584,7 @@
         "http": 200,
         "items": 41,
         "eligible": 8,
-        "seconds": 0.11
+        "seconds": 0.15
       },
       {
         "id": 33,
@@ -1592,7 +1604,7 @@
         "http": 200,
         "items": 60,
         "eligible": 8,
-        "seconds": 0.33
+        "seconds": 0.29
       },
       {
         "id": 36,
@@ -1602,7 +1614,7 @@
         "http": 200,
         "items": 60,
         "eligible": 7,
-        "seconds": 0.1
+        "seconds": 0.46
       },
       {
         "id": 37,
@@ -1612,7 +1624,7 @@
         "http": 200,
         "items": 36,
         "eligible": 7,
-        "seconds": 0.44
+        "seconds": 0.37
       },
       {
         "id": 38,
@@ -1622,7 +1634,7 @@
         "http": 200,
         "items": 57,
         "eligible": 7,
-        "seconds": 0.11
+        "seconds": 0.27
       },
       {
         "id": 39,
@@ -1631,8 +1643,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 5,
-        "seconds": 0.4
+        "eligible": 6,
+        "seconds": 0.37
       },
       {
         "id": 40,
@@ -1642,7 +1654,7 @@
         "http": 200,
         "items": 60,
         "eligible": 3,
-        "seconds": 0.34
+        "seconds": 0.45
       },
       {
         "id": 41,
@@ -1652,7 +1664,7 @@
         "http": 200,
         "items": 50,
         "eligible": 1,
-        "seconds": 0.34
+        "seconds": 0.48
       },
       {
         "id": 42,
@@ -1662,7 +1674,7 @@
         "http": 200,
         "items": 76,
         "eligible": 1,
-        "seconds": 0.12
+        "seconds": 0.34
       },
       {
         "id": 43,
@@ -1672,7 +1684,7 @@
         "http": 200,
         "items": 40,
         "eligible": 0,
-        "seconds": 0.34
+        "seconds": 0.37
       },
       {
         "id": 44,
@@ -1682,7 +1694,7 @@
         "http": 200,
         "items": 100,
         "eligible": 1,
-        "seconds": 0.32
+        "seconds": 0.29
       },
       {
         "id": 45,
@@ -1692,7 +1704,7 @@
         "http": 200,
         "items": 30,
         "eligible": 2,
-        "seconds": 0.27
+        "seconds": 0.25
       },
       {
         "id": 47,
@@ -1702,12 +1714,11 @@
         "http": 200,
         "items": 36,
         "eligible": 0,
-        "seconds": 0.4
+        "seconds": 0.43
       }
     ],
     "sources": [
       "Aljazeera",
-      "AmarUjala Business",
       "Ars",
       "BBC Hindi India",
       "BBC Science",
