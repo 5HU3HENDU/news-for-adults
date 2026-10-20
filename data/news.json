@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "title": "News for Adults",
-  "updated_at": "2026-10-20T10:45:47.080238+00:00",
+  "updated_at": "2026-10-20T12:45:16.887433+00:00",
   "schedule": {
     "active": false,
     "window_ist": "08:00-22:00",
@@ -19,6 +19,226 @@
     "Health"
   ],
   "stories": [
+    {
+      "id": "e2b1f409376e92087966",
+      "topic": "Tech",
+      "headline": "UK ने Apple से कहा: अपनी payment tech की access बढ़ाओ",
+      "bullets": [
+        "Regulator के मुताबिक proposed changes से नए digital wallets, keys और ticketing apps आ सकते हैं"
+      ],
+      "published": "2026-10-20T12:29:24+00:00",
+      "sources": [
+        {
+          "name": "BBC Tech",
+          "url": "https://www.bbc.co.uk/news/articles/cqm26zzl0k12o?at_medium=RSS&at_campaign=rss",
+          "feed_id": 23
+        }
+      ]
+    },
+    {
+      "id": "ef624b68b0213a9bd9e0",
+      "topic": "World",
+      "headline": "Zelensky Oslo में US envoys से बातचीत की तैयारी में; Rubio ने intelligence रोकने के आरोप झुठलाए",
+      "bullets": [
+        "US Secretary of State ने उन आरोपों को खारिज किया कि intelligence रोकने की वजह से Ukrainians मर रहे हैं",
+        "Zelensky US envoys के साथ Oslo talks की तैयारी कर रहे हैं"
+      ],
+      "published": "2026-10-20T12:08:41+00:00",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/ck9qzn193lrlo?at_medium=RSS&at_campaign=rss",
+          "feed_id": 6
+        }
+      ]
+    },
+    {
+      "id": "0aa2e029f22fcd333ef8",
+      "topic": "India",
+      "headline": "UN experts की India को सलाह: बिना हथियार वाले student protesters पर बल कम करें",
+      "bullets": [
+        "UN experts ने statement में कहा कि 'यह crackdown एक broader, troubling pattern दिखाता है'",
+        "उन्होंने Indian authorities को peaceful assembly पर undue restrictions, excessive use of force, arbitrary detentions और student activists को target करने को लेकर alert किया"
+      ],
+      "published": "2026-10-20T12:05:50+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/un-experts-urge-india-to-curb-force-against-unarmed-student-protesters/article71604310.ece",
+          "feed_id": 3
+        }
+      ]
+    },
+    {
+      "id": "aac91e0b0e2ead1dfb83",
+      "topic": "Business",
+      "headline": "Rubio बोले: India एक refining superpower, Venezuelan crude पर Reliance से होगी बातचीत",
+      "bullets": [
+        "Marco Rubio ने कहा India के पास heavy crude refine करने की क्षमता है; US delegation Venezuela में oil production को लेकर Reliance से बात करेगा",
+        "तीन दिन के India दौरे पर Mumbai पहुंचे Rubio ने दुनिया की energy demand में India की भूमिका पर यह टिप्पणी की"
+      ],
+      "published": "2026-10-20T12:00:54+00:00",
+      "sources": [
+        {
+          "name": "BS Economy",
+          "url": "https://www.business-standard.com/economy/news/india-is-a-refining-superpower-can-process-venezuelan-oil-marco-rubio-126102000549_1.html",
+          "feed_id": 19
+        }
+      ]
+    },
+    {
+      "id": "bb96be067fbb5a81c5e2",
+      "topic": "Health",
+      "headline": "US में जल्दी शुरू हुआ flu season: नया strain young लोगों के लिए जोखिम भरा, doctors ने shots की सलाह दी",
+      "bullets": [
+        "Scientists के मुताबिक नया mutation younger लोगों को कम protected छोड़ सकता है",
+        "पिछले season सिर्फ 58 million US adults ने flu shot लिया; 2019-20 में यह आंकड़ा 75 million था",
+        "West Coast पर positive flu test rate 10.7% पहुंच गया — पिछले साल इस समय सिर्फ 0.5% था"
+      ],
+      "published": "2026-10-20T11:57:50+00:00",
+      "sources": [
+        {
+          "name": "Hindu SciTech",
+          "url": "https://www.thehindu.com/sci-tech/health/early-us-flu-season-current-strain-may-signal-risk-for-younger-people-doctors-urge-shots/article71604363.ece",
+          "feed_id": 36
+        }
+      ]
+    },
+    {
+      "id": "90e4484a408eb5579da1",
+      "topic": "Business",
+      "headline": "Qualcomm में layoffs: November से 'globally' हजारों नौकरियां घटेंगी — report",
+      "bullets": [
+        "Report के मुताबिक कटौती employees के performance के आधार पर होगी"
+      ],
+      "published": "2026-10-20T11:56:14+00:00",
+      "sources": [
+        {
+          "name": "NDTV Business",
+          "url": "https://www.ndtvprofit.com/business/qualcomm-layoffs-thousands-of-jobs-to-be-trimmed-globally-starting-november-says-report-12210639#publisher=newsstand",
+          "feed_id": 21
+        }
+      ]
+    },
+    {
+      "id": "9354adb16c69eca46fac",
+      "topic": "World",
+      "headline": "UK भेजेगा Typhoon jets: Houthi attacks से Saudi Arabia की रक्षा में मदद",
+      "bullets": [
+        "Ministry of Defence के मुताबिक warplanes 'defensive role' में रहेंगे और Yemeni group पर हमले के लिए इस्तेमाल नहीं होंगे"
+      ],
+      "published": "2026-10-20T11:37:43+00:00",
+      "sources": [
+        {
+          "name": "Aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/20/uk-to-deploy-raf-fighter-jets-to-defend-saudi-arabia-from-houthi-attacks?traffic_source=rss",
+          "feed_id": 9
+        }
+      ]
+    },
+    {
+      "id": "a361a44cc5a6bf641fdb",
+      "topic": "IPO",
+      "headline": "OYO के parent PRISM का IPO fresh issue आधा से भी कम: अब ₹3,350 crore तक",
+      "bullets": [
+        "PRISM अपना IPO ₹6,650 crore से घटाकर ₹3,350 crore करने जा रहा है — robust cash flow और बेहतर balance sheet के चलते",
+        "नए structure में ज़्यादातर राशि कर्ज चुकाने या पहले से भुगतान पर जाएगी",
+        "Moody's ने PRISM का outlook positive किया; founder Ritesh Agarwal और SoftBank की बड़ी हिस्सेदारी बरकरार है"
+      ],
+      "published": "2026-10-20T11:30:10+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/oyo-parent-prism-to-nearly-halve-ipo-fresh-issue-size-to-up-to-rs-3350-cr-sources/articleshow/135068962.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "1c889394264ab2711382",
+      "topic": "World",
+      "headline": "Russia की drone factory में North Korean workers के साथ 'गुलामों जैसा' सलूक: report",
+      "bullets": [
+        "नई report में Russia की एक drone factory में काम कर रहे North Korean workers की दुर्दशा का खुलासा हुआ है",
+        "चिंता यह भी है कि Pyongyang भेजे गए workers के ज़रिए advanced weapons systems की जानकारी हासिल कर सकता है"
+      ],
+      "published": "2026-10-20T11:30:00+00:00",
+      "sources": [
+        {
+          "name": "DW World",
+          "url": "https://www.dw.com/en/north-korean-workers-treated-as-slaves-at-russian-drone-factory-says-new-report/a-79710877?maca=en-rss-en-all-1573-rdf",
+          "feed_id": 10
+        }
+      ]
+    },
+    {
+      "id": "f87cbd2192308d29b81f",
+      "topic": "Business",
+      "headline": "France के bond yields 24 साल के ऊंचे स्तर के करीब: नए protests की आहट",
+      "bullets": [
+        "Protests के बीच France की government securities (OAT) की yields 24 साल से ज़्यादा के शिखर पर पहुंचीं",
+        "Le Pen और Melenchon दोनों polls में आगे चल रहे हैं — किसी भी fiscal reform के सामने बड़ी बाधाएं हैं"
+      ],
+      "published": "2026-10-20T11:27:57+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/bonds/french-bond-yields-near-24-year-high-as-new-protests-loom/articleshow/135068905.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "e788c7fc279974cc44bd",
+      "topic": "World",
+      "headline": "South Africa में नल के पानी की चेतावनी: Pretoria के पास 400 से ज़्यादा बीमार",
+      "bullets": [
+        "Pretoria के पूर्व में contaminated water पीने से 400 से ज़्यादा लोग बीमार हुए; ज़्यादातर बच्चे हैं",
+        "Residents को नल का पानी न पीने की चेतावनी दी गई है"
+      ],
+      "published": "2026-10-20T11:09:09+00:00",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cvrly550780po?at_medium=RSS&at_campaign=rss",
+          "feed_id": 6
+        }
+      ]
+    },
+    {
+      "id": "2bb6d52be70271119a6b",
+      "topic": "Tech",
+      "headline": "Otter.ai ने $320 million जुटाए: General Catalyst के growth fund से",
+      "bullets": [
+        "Meeting note-taking tool ने General Catalyst के Customer Value Fund से capital उठाया — equity dilute किए बिना, marketing spend के results पर return वाला model",
+        "Funds enterprise growth, go-to-market strategy, international expansion और product innovation पर खर्च होंगे"
+      ],
+      "published": "2026-10-20T11:00:00+00:00",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
+          "feed_id": 29
+        }
+      ]
+    },
+    {
+      "id": "5abb218c275bef1d6a88",
+      "topic": "Business",
+      "headline": "US export curbs के बीच Chinese giants ने $35 billion के Nvidia GPUs के order दिए",
+      "bullets": [
+        "ByteDance, Alibaba और Tencent ने 30 लाख से ज़्यादा Nvidia RTX PRO 5500 GPUs के order दिए — कीमत $35 billion से ज़्यादा",
+        "US export curbs से China की advanced AI chips तक पहुंच सीमित है; इसी बीच यह बड़ी खरीद सामने आई है"
+      ],
+      "published": "2026-10-20T10:49:17+00:00",
+      "sources": [
+        {
+          "name": "NDTV Business",
+          "url": "https://www.ndtvprofit.com/technology/banned-from-top-ai-chips-china-just-dropped-35-billion-on-this-nvidia-gpu-12210396#publisher=newsstand",
+          "feed_id": 21
+        }
+      ]
+    },
     {
       "id": "c7fa16bcc73cb08000d7",
       "topic": "Tech",
@@ -1100,78 +1320,40 @@
           "feed_id": 3
         }
       ]
-    },
-    {
-      "id": "16d7aa62d3de7889ac99",
-      "topic": "Business",
-      "headline": "UltraTech Cement का Q2 मुनाफा 21.3% बढ़कर ₹1,501 crore, volumes में मजबूती",
-      "bullets": [
-        "UltraTech Cement का Q2 net profit 21.3% बढ़कर ₹1,501 crore रहा।",
-        "Domestic grey cement sales volumes 13.8% बढ़कर 35.94 million tonnes रहीं; capacity utilisation 66% से बढ़कर 71% हुआ।"
-      ],
-      "published": "2026-10-19T12:38:59+00:00",
-      "sources": [
-        {
-          "name": "Hindu Business",
-          "url": "https://www.thehindu.com/business/ultratech-cement-q2-net-profit-rises-213-to-1501-crore/article71602713.ece",
-          "feed_id": 20
-        }
-      ]
-    },
-    {
-      "id": "d92c23d01fa151890f72",
-      "topic": "Business",
-      "headline": "Bajaj Finance का Q2 मुनाफा 29% बढ़कर ₹6,367 crore, NII 24% ऊपर",
-      "bullets": [
-        "Bajaj Finance का September quarter net profit 29% बढ़कर ₹6,367 crore रहा, सालभर पहले ₹4,948 crore था।",
-        "Net interest income 24% बढ़कर ₹13,335 crore रहा।"
-      ],
-      "published": "2026-10-19T12:10:07+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/bajaj-finance-q2-results-net-profit-jumps-29-yoy-to-rs-6367-crore-nii-up-24/articleshow/135048431.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "4b526de3ac463d34b9f0",
-      "topic": "India",
-      "headline": "Manipur: firewood इकट्ठा करने गए 4 लोगों की गोली मारकर हत्या, शव लेकर CM के घर पहुंचे locals",
-      "bullets": [
-        "Imphal East में Kangpokpi border के पास firewood इकट्ठा करने गए लोगों पर कथित militants ने हमला किया; 4 की मौत हुई।",
-        "आक्रोशित locals शव लेकर Chief Minister के आवास पहुंचे; इलाके में तनाव बढ़ा है।"
-      ],
-      "published": "2026-10-19T12:09:02+00:00",
-      "sources": [
-        {
-          "name": "NDTV Top",
-          "url": "https://www.ndtv.com/india-news/3-killed-in-manipur-violence-locals-take-bodies-to-chief-ministers-house-12206124#publisher=newsstand",
-          "feed_id": 5
-        }
-      ]
-    },
-    {
-      "id": "c3c78dc0bbfe3a4c6e95",
-      "topic": "Business",
-      "headline": "Trump ने Russia sanctions में छूट दी, India की energy चिंता को राहत; trade deal करीब",
-      "bullets": [
-        "US President Donald Trump ने Russia पर लगे प्रमुख sanctions में छूट दी, जिससे India जैसे Russian crude importers को राहत मिलेगी।",
-        "इस फैसले से potential US-India trade deal की negotiations को space मिलने की उम्मीद है।"
-      ],
-      "published": "2026-10-19T12:03:41+00:00",
-      "sources": [
-        {
-          "name": "ET Economy",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/trump-waives-russia-sanctions-easing-indias-energy-concerns-as-us-trade-deal-nears/articleshow/135048374.cms",
-          "feed_id": 17
-        }
-      ]
     }
   ],
   "metadata": {
     "refreshes": [
+      {
+        "at": "2026-10-20T12:45:16.887433+00:00",
+        "feed_checked_at": "2026-10-20T12:44:21.930273+00:00",
+        "items_read": 1713,
+        "candidates": 412,
+        "written": 13,
+        "added": 13,
+        "dropped": 4,
+        "total": 78,
+        "counts": {
+          "India": 4,
+          "World": 22,
+          "Business": 20,
+          "IPO": 6,
+          "Tech": 17,
+          "Sports": 1,
+          "Science": 6,
+          "Health": 2
+        },
+        "fetch_seconds": 2.31,
+        "rejected": {
+          "older_than_24h": 1072,
+          "question_headline": 100,
+          "editorial_keyword": 12,
+          "undated": 4,
+          "not_cricket": 67,
+          "duplicate": 46
+        },
+        "editorial_skipped": 399
+      },
       {
         "at": "2026-10-20T10:45:47.080238+00:00",
         "feed_checked_at": "2026-10-20T10:44:20.554901+00:00",
@@ -1231,55 +1413,24 @@
           "duplicate": 41
         },
         "editorial_skipped": 403
-      },
-      {
-        "at": "2026-10-20T06:44:42.194089+00:00",
-        "feed_checked_at": "2026-10-20T06:44:16.721841+00:00",
-        "items_read": 1717,
-        "candidates": 396,
-        "written": 4,
-        "added": 4,
-        "dropped": 4,
-        "total": 70,
-        "counts": {
-          "India": 3,
-          "World": 23,
-          "Business": 17,
-          "IPO": 4,
-          "Tech": 14,
-          "Sports": 1,
-          "Science": 6,
-          "Health": 2
-        },
-        "fetch_seconds": 2.6,
-        "rejected": {
-          "editorial_keyword": 14,
-          "older_than_24h": 1130,
-          "question_headline": 76,
-          "undated": 4,
-          "future": 3,
-          "not_cricket": 62,
-          "duplicate": 32
-        },
-        "editorial_skipped": 392
       }
     ],
     "topic_counts": {
       "India": 4,
-      "World": 18,
-      "Business": 19,
-      "IPO": 5,
-      "Tech": 15,
+      "World": 22,
+      "Business": 20,
+      "IPO": 6,
+      "Tech": 17,
       "Sports": 1,
       "Science": 6,
-      "Health": 1
+      "Health": 2
     },
     "topic_gap_minutes": {
       "India": 8,
-      "World": 34,
-      "Business": 36,
-      "IPO": 10,
-      "Tech": 28,
+      "World": 42,
+      "Business": 38,
+      "IPO": 12,
+      "Tech": 32,
       "Sports": 5,
       "Science": 12,
       "Health": 5
@@ -1294,7 +1445,7 @@
         "http": 200,
         "items": 19,
         "eligible": 1,
-        "seconds": 0.58
+        "seconds": 0.27
       },
       {
         "id": 2,
@@ -1303,8 +1454,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 26,
-        "seconds": 0.41
+        "eligible": 25,
+        "seconds": 0.38
       },
       {
         "id": 3,
@@ -1313,8 +1464,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 52,
-        "seconds": 0.07
+        "eligible": 56,
+        "seconds": 0.08
       },
       {
         "id": 4,
@@ -1324,7 +1475,7 @@
         "http": 200,
         "items": 36,
         "eligible": 8,
-        "seconds": 1.51
+        "seconds": 0.64
       },
       {
         "id": 5,
@@ -1333,8 +1484,8 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 17,
-        "seconds": 0.32
+        "eligible": 15,
+        "seconds": 0.33
       },
       {
         "id": 6,
@@ -1342,8 +1493,8 @@
         "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 33,
-        "eligible": 25,
+        "items": 34,
+        "eligible": 24,
         "seconds": 0.12
       },
       {
@@ -1354,7 +1505,7 @@
         "http": 200,
         "items": 40,
         "eligible": 7,
-        "seconds": 0.4
+        "seconds": 0.36
       },
       {
         "id": 9,
@@ -1363,8 +1514,8 @@
         "status": "ok",
         "http": 200,
         "items": 25,
-        "eligible": 24,
-        "seconds": 0.34
+        "eligible": 23,
+        "seconds": 0.11
       },
       {
         "id": 10,
@@ -1384,7 +1535,7 @@
         "http": 200,
         "items": 36,
         "eligible": 8,
-        "seconds": 0.54
+        "seconds": 0.26
       },
       {
         "id": 12,
@@ -1394,7 +1545,7 @@
         "http": 200,
         "items": 9,
         "eligible": 0,
-        "seconds": 1.05
+        "seconds": 0.34
       },
       {
         "id": 13,
@@ -1403,8 +1554,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 19,
-        "seconds": 0.15
+        "eligible": 15,
+        "seconds": 0.06
       },
       {
         "id": 14,
@@ -1414,7 +1565,7 @@
         "http": 200,
         "items": 40,
         "eligible": 1,
-        "seconds": 0.36
+        "seconds": 0.37
       },
       {
         "id": 15,
@@ -1424,7 +1575,7 @@
         "http": 200,
         "items": 50,
         "eligible": 45,
-        "seconds": 0.16
+        "seconds": 0.13
       },
       {
         "id": 16,
@@ -1433,8 +1584,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 8,
-        "seconds": 0.14
+        "eligible": 7,
+        "seconds": 0.48
       },
       {
         "id": 17,
@@ -1443,8 +1594,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 20,
-        "seconds": 0.1
+        "eligible": 21,
+        "seconds": 0.12
       },
       {
         "id": 19,
@@ -1453,8 +1604,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 6,
-        "seconds": 0.26
+        "eligible": 5,
+        "seconds": 0.17
       },
       {
         "id": 20,
@@ -1463,8 +1614,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 9,
-        "seconds": 0.06
+        "eligible": 8,
+        "seconds": 0.08
       },
       {
         "id": 21,
@@ -1473,8 +1624,8 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 16,
-        "seconds": 0.31
+        "eligible": 15,
+        "seconds": 0.33
       },
       {
         "id": 22,
@@ -1484,7 +1635,7 @@
         "http": 200,
         "items": 35,
         "eligible": 4,
-        "seconds": 0.06
+        "seconds": 0.07
       },
       {
         "id": 23,
@@ -1493,8 +1644,8 @@
         "status": "ok",
         "http": 200,
         "items": 21,
-        "eligible": 4,
-        "seconds": 0.13
+        "eligible": 5,
+        "seconds": 0.24
       },
       {
         "id": 24,
@@ -1503,8 +1654,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 5,
-        "seconds": 0.35
+        "eligible": 6,
+        "seconds": 0.36
       },
       {
         "id": 25,
@@ -1513,8 +1664,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 10,
-        "seconds": 0.11
+        "eligible": 7,
+        "seconds": 0.08
       },
       {
         "id": 26,
@@ -1524,7 +1675,7 @@
         "http": 200,
         "items": 35,
         "eligible": 13,
-        "seconds": 0.05
+        "seconds": 0.08
       },
       {
         "id": 27,
@@ -1533,8 +1684,8 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 14,
-        "seconds": 0.07
+        "eligible": 13,
+        "seconds": 0.05
       },
       {
         "id": 28,
@@ -1544,7 +1695,7 @@
         "http": 200,
         "items": 10,
         "eligible": 10,
-        "seconds": 0.05
+        "seconds": 0.04
       },
       {
         "id": 29,
@@ -1553,8 +1704,8 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 19,
-        "seconds": 0.05
+        "eligible": 20,
+        "seconds": 0.06
       },
       {
         "id": 32,
@@ -1563,8 +1714,8 @@
         "status": "ok",
         "http": 200,
         "items": 41,
-        "eligible": 11,
-        "seconds": 0.3
+        "eligible": 12,
+        "seconds": 0.17
       },
       {
         "id": 33,
@@ -1574,7 +1725,7 @@
         "http": 200,
         "items": 10,
         "eligible": 9,
-        "seconds": 0.2
+        "seconds": 0.19
       },
       {
         "id": 34,
@@ -1583,8 +1734,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 5,
-        "seconds": 0.37
+        "eligible": 2,
+        "seconds": 0.31
       },
       {
         "id": 36,
@@ -1593,8 +1744,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 15,
-        "seconds": 0.06
+        "eligible": 17,
+        "seconds": 0.09
       },
       {
         "id": 37,
@@ -1604,7 +1755,7 @@
         "http": 200,
         "items": 36,
         "eligible": 8,
-        "seconds": 1.04
+        "seconds": 0.5
       },
       {
         "id": 38,
@@ -1613,8 +1764,8 @@
         "status": "ok",
         "http": 200,
         "items": 56,
-        "eligible": 6,
-        "seconds": 0.66
+        "eligible": 9,
+        "seconds": 0.34
       },
       {
         "id": 39,
@@ -1623,8 +1774,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 6,
-        "seconds": 0.35
+        "eligible": 8,
+        "seconds": 0.36
       },
       {
         "id": 40,
@@ -1633,7 +1784,7 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 6,
+        "eligible": 8,
         "seconds": 0.34
       },
       {
@@ -1643,8 +1794,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 0,
-        "seconds": 0.38
+        "eligible": 1,
+        "seconds": 0.37
       },
       {
         "id": 42,
@@ -1654,7 +1805,7 @@
         "http": 200,
         "items": 74,
         "eligible": 0,
-        "seconds": 0.61
+        "seconds": 0.32
       },
       {
         "id": 43,
@@ -1674,7 +1825,7 @@
         "http": 200,
         "items": 100,
         "eligible": 2,
-        "seconds": 0.3
+        "seconds": 0.31
       },
       {
         "id": 45,
@@ -1682,9 +1833,9 @@
         "url": "https://feeds.bbci.co.uk/sport/cricket/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 27,
+        "items": 26,
         "eligible": 0,
-        "seconds": 0.32
+        "seconds": 0.24
       },
       {
         "id": 47,
@@ -1694,7 +1845,7 @@
         "http": 200,
         "items": 36,
         "eligible": 1,
-        "seconds": 0.46
+        "seconds": 0.48
       }
     ],
     "sources": [
@@ -1703,6 +1854,7 @@
       "BBC Science",
       "BBC Tech",
       "BBC World",
+      "BS Economy",
       "DW World",
       "ESPNcricinfo",
       "ET Economy",
@@ -1710,6 +1862,7 @@
       "ET Tech",
       "Hindu Business",
       "Hindu India",
+      "Hindu SciTech",
       "Mint Companies",
       "NASA",
       "NDTV Business",
