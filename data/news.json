@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "title": "News for Adults",
-  "updated_at": "2026-10-20T14:45:16.659952+00:00",
+  "updated_at": "2026-10-20T16:45:25.746804+00:00",
   "schedule": {
     "active": false,
     "window_ist": "08:00-22:00",
@@ -19,6 +19,141 @@
     "Health"
   ],
   "stories": [
+    {
+      "id": "048e65d89395393aea2a",
+      "topic": "World",
+      "headline": "Sudan: army drones ने mourners और fuel market को निशाना बनाया, मृतकों का आंकड़ा 300 से ज़्यादा",
+      "bullets": [
+        "लोगों को funeral में ले जा रही एक truck और एक market — जिस पर RSF को fuel supply पहुंचाने का आरोप था — दोनों पर हमला हुआ",
+        "Sources के मुताबिक मरने वालों का आंकड़ा अब 300 से ज़्यादा है; पहले 200 से ज़्यादा बताया गया था"
+      ],
+      "published": "2026-10-20T16:09:54+00:00",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss",
+          "feed_id": 6
+        }
+      ]
+    },
+    {
+      "id": "fc41a1229f0aa9b7ff87",
+      "topic": "World",
+      "headline": "Gaza: Israel-backed militias का families पर आतंक, रात को घरों में घुसकर धमकियां",
+      "bullets": [
+        "Jabaliya refugee camp में Youssef Al-Sheikh के घर रात करीब 2 बजे बंदूकधारी घुस आए; powerful headlamps से कमरा भर दिया",
+        "एक gunman ने धमकी दी: 'I'll shoot them'"
+      ],
+      "published": "2026-10-20T16:06:54+00:00",
+      "sources": [
+        {
+          "name": "NDTV Top",
+          "url": "https://www.ndtv.com/world-news/ill-shoot-them-israel-backed-militias-terrorise-gaza-families-raid-homes-12212005#publisher=newsstand",
+          "feed_id": 5
+        }
+      ]
+    },
+    {
+      "id": "4f010a6a2d4950c84a7a",
+      "topic": "World",
+      "headline": "Germany: hackers ने far-right AfD party के हजारों emails release किए, party ने inquiry शुरू की",
+      "bullets": [
+        "Cyberattack के बाद हजारों emails सार्वजनिक हुए; AfD ने जांच शुरू की है"
+      ],
+      "published": "2026-10-20T15:41:00+00:00",
+      "sources": [
+        {
+          "name": "DW World",
+          "url": "https://www.dw.com/en/germany-news-hackers-release-afd-party-emails/live-79709090?maca=en-rss-en-all-1573-rdf",
+          "feed_id": 10
+        }
+      ]
+    },
+    {
+      "id": "1a9bb903c0ede7207cef",
+      "topic": "Tech",
+      "headline": "Google Cloud outage के बाद services recover हो रही हैं: UK banks और websites पर असर",
+      "bullets": [
+        "Google के मुताबिक cloud outage से प्रभावित services अब recover हो रही हैं",
+        "Revolut सबसे ज़्यादा प्रभावित services में से था — कई customers की banking services बंद रहीं"
+      ],
+      "published": "2026-10-20T15:37:26+00:00",
+      "sources": [
+        {
+          "name": "BBC Tech",
+          "url": "https://www.bbc.co.uk/news/articles/cxdd8mm6qy4mo?at_medium=RSS&at_campaign=rss",
+          "feed_id": 23
+        }
+      ]
+    },
+    {
+      "id": "2eb8826a3da4b03f0f2d",
+      "topic": "Health",
+      "headline": "UK Covid inquiry: government failings से care homes में virus 'wildfire की तरह' फैला",
+      "bullets": [
+        "Covid inquiry की छठी report में PPE की कमी और hospital से patients को discharge करने के तरीके की आलोचना की गई है",
+        "Report के मुताबिक इन failings की वजह से care homes में संक्रमण तेज़ी से फैला"
+      ],
+      "published": "2026-10-20T15:32:36+00:00",
+      "sources": [
+        {
+          "name": "BBC Health",
+          "url": "https://www.bbc.co.uk/news/articles/ck1l38z0v3v6o?at_medium=RSS&at_campaign=rss",
+          "feed_id": 38
+        }
+      ]
+    },
+    {
+      "id": "70b65bdd26268b2d1b30",
+      "topic": "Business",
+      "headline": "Sam Altman को राहत: US judge ने बहन का sexual abuse lawsuit खारिज किया",
+      "bullets": [
+        "Altman family का कहना है कि Annie Altman को mental health challenges हैं और उन्हें आर्थिक मदद दी गई थी",
+        "Sam Altman का कहना है कि और पैसों की मांग खारिज किए जाने के बाद बहन ने आरोप लगाना शुरू किया"
+      ],
+      "published": "2026-10-20T15:17:14+00:00",
+      "sources": [
+        {
+          "name": "NDTV Business",
+          "url": "https://www.ndtvprofit.com/world/sam-altman-avoids-trial-as-us-judge-dismisses-sisters-sexual-abuse-lawsuit-12211817#publisher=newsstand",
+          "feed_id": 21
+        }
+      ]
+    },
+    {
+      "id": "a65d86e42fc66290c9a5",
+      "topic": "World",
+      "headline": "Brazil: runoff से पहले Lula और Flavio Bolsonaro करीब-करीब बराबर — polls",
+      "bullets": [
+        "Presidential runoff election में अब एक हफ्ते से भी कम समय बचा है",
+        "Polls में left-wing incumbent Luiz Inacio Lula da Silva और right-wing challenger Flavio Bolsonaro virtually tied हैं"
+      ],
+      "published": "2026-10-20T15:12:00+00:00",
+      "sources": [
+        {
+          "name": "DW World",
+          "url": "https://www.dw.com/en/brazil-s-lula-flavio-bolsonaro-tied-ahead-of-runoff-vote/a-79715182?maca=en-rss-en-all-1573-rdf",
+          "feed_id": 10
+        }
+      ]
+    },
+    {
+      "id": "963ef40176075be19eb1",
+      "topic": "India",
+      "headline": "Manipur में Kuki युवक की हत्या; shutdown से Imphal Valley ठप",
+      "bullets": [
+        "हत्या के विरोध में एक Kuki organisation ने मंगलवार रात से 24 घंटे के shutdown का ऐलान किया",
+        "Organisation ने collective anguish जताया और न्याय की मांग की"
+      ],
+      "published": "2026-10-20T14:59:22+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/manipur/kuki-man-killed-in-manipur-shutdown-paralyses-imphal-valley/article71604827.ece",
+          "feed_id": 3
+        }
+      ]
+    },
     {
       "id": "475a3500379d119ba5ff",
       "topic": "Business",
@@ -38,23 +173,6 @@
           "name": "Mint Companies",
           "url": "https://www.livemint.com/companies/people/schaeffler-india-ceo-harsha-gopal-kadam-taken-into-custody-over-factory-accident-that-killed-2-workers-11792503983919.html",
           "feed_id": 13
-        }
-      ]
-    },
-    {
-      "id": "048e65d89395393aea2a",
-      "topic": "World",
-      "headline": "Sudan: army drones ने mourners और fuel market को निशाना बनाया, 200 से ज़्यादा की मौत",
-      "bullets": [
-        "लोगों को funeral में ले जा रही एक truck और एक market — जिस पर RSF को fuel supply पहुंचाने का आरोप था — दोनों पर हमला हुआ",
-        "पिछली reports में drone attacks में 160 की मौत बताई गई थी; sources के मुताबिक आंकड़ा अब 200 से ज़्यादा है"
-      ],
-      "published": "2026-10-20T14:24:19+00:00",
-      "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss",
-          "feed_id": 6
         }
       ]
     },
@@ -480,23 +598,6 @@
           "name": "NDTV Top",
           "url": "https://www.ndtv.com/world-news/us-woman-gifts-gun-to-16-year-old-son-he-kills-4-at-oregon-school-with-it-12210129#publisher=newsstand",
           "feed_id": 5
-        }
-      ]
-    },
-    {
-      "id": "1a9bb903c0ede7207cef",
-      "topic": "Tech",
-      "headline": "Revolut की services में outage: हजारों users को payments और funds access में दिक्कत",
-      "bullets": [
-        "British neobank के कुछ users मंगलवार को app में कुछ payments नहीं कर पाए और funds access नहीं हो सके",
-        "Company ने 'multiple services' पर असर की बात कही; हजारों users ने app issues की शिकायत की"
-      ],
-      "published": "2026-10-20T08:46:00+00:00",
-      "sources": [
-        {
-          "name": "BBC Tech",
-          "url": "https://www.bbc.co.uk/news/articles/cxdd8mm6qy4mo?at_medium=RSS&at_campaign=rss",
-          "feed_id": 23
         }
       ]
     },
@@ -1209,146 +1310,40 @@
           "feed_id": 21
         }
       ]
-    },
-    {
-      "id": "e3d5ab0af1ce7ec503a9",
-      "topic": "Tech",
-      "headline": "Florida DMV का बड़ा data breach: police department ने login info insecure रखी",
-      "bullets": [
-        "Hackers statewide DMV systems तक पहुंचे; current और former Florida residents प्रभावित, राज्य ने alerts जारी किए।",
-        "Breach का संबंध ShinyHunters group से बताया जा रहा है।"
-      ],
-      "published": "2026-10-19T16:38:13+00:00",
-      "sources": [
-        {
-          "name": "Ars",
-          "url": "https://arstechnica.com/tech-policy/2026/10/huge-dmv-data-breach-impacted-current-and-former-florida-residents/",
-          "feed_id": 27
-        }
-      ]
-    },
-    {
-      "id": "fbdb630466dd91a3bd9d",
-      "topic": "Science",
-      "headline": "Mars पर सुबह: NASA के Curiosity ने भेजी अब तक की सबसे detailed तस्वीर",
-      "bullets": [
-        "NASA के Curiosity rover ने Mars की सुबह और हवा से बने elongated ridges (yardangs) की close-up तस्वीर भेजी है।",
-        "6 October 2026 को जारी यह panorama दूर की wind-carved Mars surface का अब तक का सबसे detailed view है।"
-      ],
-      "published": "2026-10-19T16:03:51+00:00",
-      "sources": [
-        {
-          "name": "NASA",
-          "url": "https://www.nasa.gov/image-article/martian-dawn/",
-          "feed_id": 33
-        }
-      ]
-    },
-    {
-      "id": "041bb2386a4d86d1de7d",
-      "topic": "Tech",
-      "headline": "Nvidia को चुनौती: Amazon के AI chips अब popular coding language PyTorch चलाएंगे",
-      "bullets": [
-        "Amazon ने TorchNeuron tool unveil किया, जिससे PyTorch code उसके Trainium AI chips पर आसानी से चल सकेगा।",
-        "कंपनी का दावा है कि इससे बड़े code changes की जरूरत कम होगी, जिससे integration आसान होगा।"
-      ],
-      "published": "2026-10-19T15:52:49+00:00",
-      "sources": [
-        {
-          "name": "ET Markets",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/amazon-says-its-ai-chips-will-work-with-popular-coding-language-challenging-nvidia/articleshow/135051867.cms",
-          "feed_id": 15
-        }
-      ]
-    },
-    {
-      "id": "d8f7aa4f326dae5be128",
-      "topic": "World",
-      "headline": "Kenya: 191 लोगों को भूखा मराने वाला cult leader Paul Mackenzie दोषी करार",
-      "bullets": [
-        "Self-proclaimed pastor Paul Mackenzie को 191 murder charges में दोषी ठहराया गया — मृतकों में एक को छोड़ सभी बच्चे थे।",
-        "उसने अपने Good News International Church के followers को दुनिया के अंत का दावा कर भूखे रहने को कहा था।"
-      ],
-      "published": "2026-10-19T15:49:00+00:00",
-      "sources": [
-        {
-          "name": "DW World",
-          "url": "https://www.dw.com/en/kenyan-cult-leader-paul-mackenzie-found-guilty-over-191-starvation-deaths/a-79706279?maca=en-rss-en-all-1573-rdf",
-          "feed_id": 10
-        }
-      ]
-    },
-    {
-      "id": "b0ef1cc24d7131641e5d",
-      "topic": "Tech",
-      "headline": "Amazon Indiana में नया nuclear plant बनाने के लिए fund करेगी",
-      "bullets": [
-        "Amazon ने X-energy और American Electric Power के साथ agreement किया है ताकि Indiana में नई nuclear energy facility बनाई जा सके।",
-        "प्रस्तावित plant अब बंद हो चुके coal-fired Breed Generating Station की जगह लेगा।"
-      ],
-      "published": "2026-10-19T15:44:20+00:00",
-      "sources": [
-        {
-          "name": "Verge",
-          "url": "https://www.theverge.com/tech/1013735/amazon-x-energy-aep-nuclear-indiana",
-          "feed_id": 28
-        }
-      ]
-    },
-    {
-      "id": "45235adc5e21df71bac0",
-      "topic": "Business",
-      "headline": "NYSE बढ़ाएगा option-trading hours: ETFs और single stocks के लिए दूसरा बड़ा exchange",
-      "bullets": [
-        "NYSE option-trading hours बढ़ाने वाला दूसरा major exchange बन गया है।",
-        "Nvidia और Bank of America समेत 29 बड़े stocks और funds extended trading में उपलब्ध होंगे।"
-      ],
-      "published": "2026-10-19T14:58:10+00:00",
-      "sources": [
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/markets/nyse-becomes-second-major-exchange-to-extend-option-trading-hours-for-etfs-single-stocks-12207529#publisher=newsstand",
-          "feed_id": 21
-        }
-      ]
-    },
-    {
-      "id": "2b6321460e8cf9adae58",
-      "topic": "Business",
-      "headline": "Union Bank of India का Q2 मुनाफा 30% बढ़कर ₹5,537 crore",
-      "bullets": [
-        "Union Bank of India का Q2 net profit 30% बढ़कर ₹5,537 crore रहा।",
-        "Interest income 7.51% बढ़कर ₹28,158 crore रहा, जो सालभर पहले ₹26,191 crore था।"
-      ],
-      "published": "2026-10-19T14:51:20+00:00",
-      "sources": [
-        {
-          "name": "Hindu Business",
-          "url": "https://www.thehindu.com/business/union-bank-of-india-q2-net-profit-rises-30-to-5537-crore/article71602868.ece",
-          "feed_id": 20
-        }
-      ]
-    },
-    {
-      "id": "8b0c296daf1f90b97c46",
-      "topic": "Tech",
-      "headline": "Disney ने Character.AI को खरीदने का रास्ता निकाला — lawsuits के बिना",
-      "bullets": [
-        "Disney ने ऐसा structure बनाया जिससे वह Character.AI की lawsuits खरीदे बिना कंपनी हासिल कर सके।",
-        "Character.AI पर आरोप हैं कि उसके bots ने minors को self-harm के लिए उकसाया।"
-      ],
-      "published": "2026-10-19T14:45:43+00:00",
-      "sources": [
-        {
-          "name": "Ars",
-          "url": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/",
-          "feed_id": 27
-        }
-      ]
     }
   ],
   "metadata": {
     "refreshes": [
+      {
+        "at": "2026-10-20T16:45:25.746804+00:00",
+        "feed_checked_at": "2026-10-20T16:44:22.085962+00:00",
+        "items_read": 1719,
+        "candidates": 413,
+        "written": 8,
+        "added": 6,
+        "dropped": 8,
+        "total": 77,
+        "counts": {
+          "India": 4,
+          "World": 25,
+          "Business": 20,
+          "IPO": 5,
+          "Tech": 15,
+          "Sports": 0,
+          "Science": 5,
+          "Health": 3
+        },
+        "fetch_seconds": 2.15,
+        "rejected": {
+          "older_than_24h": 1062,
+          "editorial_keyword": 16,
+          "question_headline": 111,
+          "undated": 4,
+          "not_cricket": 67,
+          "duplicate": 46
+        },
+        "editorial_skipped": 405
+      },
       {
         "at": "2026-10-20T14:45:16.659952+00:00",
         "feed_checked_at": "2026-10-20T14:44:17.483710+00:00",
@@ -1408,56 +1403,26 @@
           "duplicate": 46
         },
         "editorial_skipped": 399
-      },
-      {
-        "at": "2026-10-20T10:45:47.080238+00:00",
-        "feed_checked_at": "2026-10-20T10:44:20.554901+00:00",
-        "items_read": 1713,
-        "candidates": 413,
-        "written": 6,
-        "added": 6,
-        "dropped": 8,
-        "total": 69,
-        "counts": {
-          "India": 4,
-          "World": 18,
-          "Business": 19,
-          "IPO": 5,
-          "Tech": 15,
-          "Sports": 1,
-          "Science": 6,
-          "Health": 1
-        },
-        "fetch_seconds": 2.83,
-        "rejected": {
-          "older_than_24h": 1082,
-          "question_headline": 89,
-          "editorial_keyword": 13,
-          "undated": 4,
-          "not_cricket": 66,
-          "duplicate": 46
-        },
-        "editorial_skipped": 407
       }
     ],
     "topic_counts": {
-      "India": 3,
-      "World": 23,
-      "Business": 21,
+      "India": 4,
+      "World": 25,
+      "Business": 20,
       "IPO": 5,
-      "Tech": 19,
+      "Tech": 15,
       "Sports": 0,
-      "Science": 6,
-      "Health": 2
+      "Science": 5,
+      "Health": 3
     },
     "topic_gap_minutes": {
-      "India": 5,
-      "World": 38,
-      "Business": 35,
+      "India": 7,
+      "World": 41,
+      "Business": 33,
       "IPO": 9,
-      "Tech": 32,
+      "Tech": 25,
       "Sports": 5,
-      "Science": 10,
+      "Science": 9,
       "Health": 5
     },
     "gap_is_metadata_only": true,
@@ -1470,7 +1435,7 @@
         "http": 200,
         "items": 19,
         "eligible": 1,
-        "seconds": 0.35
+        "seconds": 0.21
       },
       {
         "id": 2,
@@ -1479,7 +1444,7 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 26,
+        "eligible": 29,
         "seconds": 0.37
       },
       {
@@ -1490,7 +1455,7 @@
         "http": 200,
         "items": 60,
         "eligible": 56,
-        "seconds": 0.11
+        "seconds": 0.09
       },
       {
         "id": 4,
@@ -1499,8 +1464,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 7,
-        "seconds": 0.7
+        "eligible": 8,
+        "seconds": 0.66
       },
       {
         "id": 5,
@@ -1509,8 +1474,8 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 15,
-        "seconds": 0.36
+        "eligible": 18,
+        "seconds": 0.34
       },
       {
         "id": 6,
@@ -1518,9 +1483,9 @@
         "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 34,
-        "eligible": 22,
-        "seconds": 0.15
+        "items": 36,
+        "eligible": 24,
+        "seconds": 0.07
       },
       {
         "id": 7,
@@ -1529,8 +1494,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 7,
-        "seconds": 0.35
+        "eligible": 8,
+        "seconds": 0.38
       },
       {
         "id": 9,
@@ -1539,8 +1504,8 @@
         "status": "ok",
         "http": 200,
         "items": 25,
-        "eligible": 23,
-        "seconds": 0.2
+        "eligible": 18,
+        "seconds": 0.07
       },
       {
         "id": 10,
@@ -1549,8 +1514,8 @@
         "status": "ok",
         "http": 200,
         "items": 134,
-        "eligible": 18,
-        "seconds": 0.65
+        "eligible": 17,
+        "seconds": 0.07
       },
       {
         "id": 11,
@@ -1559,8 +1524,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 7,
-        "seconds": 0.38
+        "eligible": 8,
+        "seconds": 0.22
       },
       {
         "id": 12,
@@ -1570,7 +1535,7 @@
         "http": 200,
         "items": 9,
         "eligible": 0,
-        "seconds": 0.43
+        "seconds": 0.38
       },
       {
         "id": 13,
@@ -1579,8 +1544,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 18,
-        "seconds": 0.16
+        "eligible": 16,
+        "seconds": 0.28
       },
       {
         "id": 14,
@@ -1590,7 +1555,7 @@
         "http": 200,
         "items": 40,
         "eligible": 1,
-        "seconds": 0.36
+        "seconds": 0.37
       },
       {
         "id": 15,
@@ -1600,7 +1565,7 @@
         "http": 200,
         "items": 50,
         "eligible": 45,
-        "seconds": 0.08
+        "seconds": 0.15
       },
       {
         "id": 16,
@@ -1610,7 +1575,7 @@
         "http": 200,
         "items": 50,
         "eligible": 7,
-        "seconds": 0.35
+        "seconds": 0.41
       },
       {
         "id": 17,
@@ -1619,8 +1584,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 17,
-        "seconds": 0.11
+        "eligible": 16,
+        "seconds": 0.14
       },
       {
         "id": 19,
@@ -1629,8 +1594,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 4,
-        "seconds": 1.6
+        "eligible": 6,
+        "seconds": 0.13
       },
       {
         "id": 20,
@@ -1639,7 +1604,7 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 10,
+        "eligible": 9,
         "seconds": 0.09
       },
       {
@@ -1649,7 +1614,7 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 19,
+        "eligible": 12,
         "seconds": 0.32
       },
       {
@@ -1659,8 +1624,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 4,
-        "seconds": 0.13
+        "eligible": 3,
+        "seconds": 0.15
       },
       {
         "id": 23,
@@ -1670,7 +1635,7 @@
         "http": 200,
         "items": 21,
         "eligible": 4,
-        "seconds": 0.25
+        "seconds": 0.03
       },
       {
         "id": 24,
@@ -1680,7 +1645,7 @@
         "http": 200,
         "items": 40,
         "eligible": 6,
-        "seconds": 0.38
+        "seconds": 0.37
       },
       {
         "id": 25,
@@ -1689,8 +1654,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 6,
-        "seconds": 0.1
+        "eligible": 5,
+        "seconds": 0.19
       },
       {
         "id": 26,
@@ -1699,8 +1664,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 11,
-        "seconds": 0.08
+        "eligible": 10,
+        "seconds": 0.2
       },
       {
         "id": 27,
@@ -1709,7 +1674,7 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 12,
+        "eligible": 10,
         "seconds": 0.06
       },
       {
@@ -1720,7 +1685,7 @@
         "http": 200,
         "items": 10,
         "eligible": 10,
-        "seconds": 0.04
+        "seconds": 0.05
       },
       {
         "id": 29,
@@ -1730,7 +1695,7 @@
         "http": 200,
         "items": 20,
         "eligible": 20,
-        "seconds": 0.06
+        "seconds": 0.05
       },
       {
         "id": 32,
@@ -1739,8 +1704,8 @@
         "status": "ok",
         "http": 200,
         "items": 41,
-        "eligible": 12,
-        "seconds": 0.1
+        "eligible": 11,
+        "seconds": 0.07
       },
       {
         "id": 33,
@@ -1750,7 +1715,7 @@
         "http": 200,
         "items": 10,
         "eligible": 10,
-        "seconds": 0.82
+        "seconds": 0.19
       },
       {
         "id": 34,
@@ -1760,7 +1725,7 @@
         "http": 200,
         "items": 60,
         "eligible": 10,
-        "seconds": 0.31
+        "seconds": 0.35
       },
       {
         "id": 36,
@@ -1770,7 +1735,7 @@
         "http": 200,
         "items": 60,
         "eligible": 19,
-        "seconds": 0.1
+        "seconds": 0.37
       },
       {
         "id": 37,
@@ -1779,8 +1744,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 7,
-        "seconds": 0.35
+        "eligible": 8,
+        "seconds": 0.61
       },
       {
         "id": 38,
@@ -1789,8 +1754,8 @@
         "status": "ok",
         "http": 200,
         "items": 56,
-        "eligible": 9,
-        "seconds": 0.11
+        "eligible": 13,
+        "seconds": 0.19
       },
       {
         "id": 39,
@@ -1799,8 +1764,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 8,
-        "seconds": 0.34
+        "eligible": 9,
+        "seconds": 0.35
       },
       {
         "id": 40,
@@ -1809,8 +1774,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 8,
-        "seconds": 0.39
+        "eligible": 9,
+        "seconds": 0.36
       },
       {
         "id": 41,
@@ -1820,7 +1785,7 @@
         "http": 200,
         "items": 50,
         "eligible": 1,
-        "seconds": 0.47
+        "seconds": 0.35
       },
       {
         "id": 42,
@@ -1828,9 +1793,9 @@
         "url": "https://feeds.bbci.co.uk/sport/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 74,
+        "items": 77,
         "eligible": 0,
-        "seconds": 0.33
+        "seconds": 0.24
       },
       {
         "id": 43,
@@ -1850,7 +1815,7 @@
         "http": 200,
         "items": 100,
         "eligible": 1,
-        "seconds": 0.38
+        "seconds": 0.47
       },
       {
         "id": 45,
@@ -1860,7 +1825,7 @@
         "http": 200,
         "items": 27,
         "eligible": 0,
-        "seconds": 0.25
+        "seconds": 0.21
       },
       {
         "id": 47,
@@ -1870,12 +1835,13 @@
         "http": 200,
         "items": 36,
         "eligible": 1,
-        "seconds": 0.87
+        "seconds": 0.37
       }
     ],
     "sources": [
       "Aljazeera",
       "Ars",
+      "BBC Health",
       "BBC Science",
       "BBC Tech",
       "BBC World",
@@ -1884,7 +1850,6 @@
       "ET Economy",
       "ET Markets",
       "ET Tech",
-      "Hindu Business",
       "Hindu India",
       "Hindu SciTech",
       "Mint Companies",
