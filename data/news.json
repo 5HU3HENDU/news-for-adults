@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "title": "News for Adults",
-  "updated_at": "2026-10-20T08:45:59.712206+00:00",
+  "updated_at": "2026-10-20T10:45:47.080238+00:00",
   "schedule": {
     "active": false,
     "window_ist": "08:00-22:00",
@@ -19,6 +19,111 @@
     "Health"
   ],
   "stories": [
+    {
+      "id": "c7fa16bcc73cb08000d7",
+      "topic": "Tech",
+      "headline": "Google Home speakers का अजीब bug: background में सैकड़ों GB data download",
+      "bullets": [
+        "कुछ owners की devices लगातार सैकड़ों gigabytes data background में download कर रही हैं",
+        "9to5Google और Reddit users की reports के मुताबिक firmware update सही से download/install न होना इसकी वजह हो सकती है"
+      ],
+      "published": "2026-10-20T10:16:47+00:00",
+      "sources": [
+        {
+          "name": "Verge",
+          "url": "https://www.theverge.com/tech/1014209/google-home-speaker-bug-continuous-download",
+          "feed_id": 28
+        }
+      ]
+    },
+    {
+      "id": "fa3d8a01c44c30a59b51",
+      "topic": "Business",
+      "headline": "Flipkart की food-delivery service 'Eat-in by Minutes': October के अंत तक public launch की उम्मीद",
+      "bullets": [
+        "Flipkart Zomato और Swiggy को टक्कर देने के लिए food delivery में उतर रही है",
+        "Service अभी Bengaluru के करीब 8,000 employees के साथ test हो रही है",
+        "Public launch October 2026 के अंत तक expected है"
+      ],
+      "published": "2026-10-20T10:13:28+00:00",
+      "sources": [
+        {
+          "name": "Mint Companies",
+          "url": "https://www.livemint.com/companies/news/flipkart-to-challenge-zomato-and-swiggy-with-eat-in-by-minutes-launch-date-features-explained-11792488539637.html",
+          "feed_id": 13
+        }
+      ]
+    },
+    {
+      "id": "1a214578c4202aab6deb",
+      "topic": "Business",
+      "headline": "AI agents से semiconductor materials खोजेगा startup: Indian-origin founders ने $9 million जुटाए",
+      "bullets": [
+        "San Francisco-based यह startup AI agents के swarms से नए semiconductor materials की discovery तेज़ करेगा",
+        "निशाने पर AI chips की 'major heat problem' सुलझाने वाले materials हैं",
+        "Founders हैं Akash Ramdas और Advaith Sridhar"
+      ],
+      "published": "2026-10-20T09:43:30+00:00",
+      "sources": [
+        {
+          "name": "Mint Companies",
+          "url": "https://www.livemint.com/companies/people/meet-akash-ramdas-and-advaith-sridhar-ai-startup-founders-who-raised-9-million-to-discover-new-semiconductor-materials-11792488119594.html",
+          "feed_id": 13
+        }
+      ]
+    },
+    {
+      "id": "ea45f544062dda934f23",
+      "topic": "World",
+      "headline": "US: मां ने 16 साल के बेटे को gift की बंदूक, Oregon के school में 4 की हत्या",
+      "bullets": [
+        "किशोर ने Bend, Oregon के Silver Rail Elementary School में गोलीबारी की; 4 लोगों की मौत हुई",
+        "हमला पिछले गुरुवार को हुआ; किशोर कभी उसी school का special needs student रह चुका है"
+      ],
+      "published": "2026-10-20T09:02:17+00:00",
+      "sources": [
+        {
+          "name": "NDTV Top",
+          "url": "https://www.ndtv.com/world-news/us-woman-gifts-gun-to-16-year-old-son-he-kills-4-at-oregon-school-with-it-12210129#publisher=newsstand",
+          "feed_id": 5
+        }
+      ]
+    },
+    {
+      "id": "1a9bb903c0ede7207cef",
+      "topic": "Tech",
+      "headline": "Revolut की services में outage: हजारों users को payments और funds access में दिक्कत",
+      "bullets": [
+        "British neobank के कुछ users मंगलवार को app में कुछ payments नहीं कर पाए और funds access नहीं हो सके",
+        "Company ने 'multiple services' पर असर की बात कही; हजारों users ने app issues की शिकायत की"
+      ],
+      "published": "2026-10-20T08:46:00+00:00",
+      "sources": [
+        {
+          "name": "BBC Tech",
+          "url": "https://www.bbc.co.uk/news/articles/cxdd8mm6qy4mo?at_medium=RSS&at_campaign=rss",
+          "feed_id": 23
+        }
+      ]
+    },
+    {
+      "id": "0e86fa79204e1ce470d5",
+      "topic": "India",
+      "headline": "India करेगा पहले SCO Civilisation Dialogue Forum की मेज़बानी: Rajnath Singh ने Tajikistan से किया ऐलान",
+      "bullets": [
+        "India 2026 के अंत तक inaugural SCO Civilisation Dialogue Forum की मेज़बानी करेगा",
+        "Rajnath Singh दो दिन के official दौरे पर Tajikistan में हैं, जहाँ SCO के Council of Heads of Government की बैठक है",
+        "Dushanbe airport पहुंचने पर उन्हें ceremonial welcome दिया गया"
+      ],
+      "published": "2026-10-20T08:42:27+00:00",
+      "sources": [
+        {
+          "name": "Hindu India",
+          "url": "https://www.thehindu.com/news/national/defence-minister-rajnath-singh-tajikistan-visit-on-october-20-2026/article71603432.ece",
+          "feed_id": 3
+        }
+      ]
+    },
     {
       "id": "c526e793ace374fdc179",
       "topic": "IPO",
@@ -297,22 +402,6 @@
           "name": "DW World",
           "url": "https://www.dw.com/en/zelenskyy-accuses-us-of-delaying-patriot-missile-shipment/a-79707951?maca=en-rss-en-all-1573-rdf",
           "feed_id": 10
-        }
-      ]
-    },
-    {
-      "id": "2bd238535e48e95d389f",
-      "topic": "Tech",
-      "headline": "Walmart की Flipkart India में food delivery challenger बना रही है",
-      "bullets": [
-        "Public launch से पहले company ने अपनी food-delivery service को हजारों employees तक पहुंचा दिया है।"
-      ],
-      "published": "2026-10-20T02:00:00+00:00",
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/19/walmarts-flipkart-is-quietly-building-a-food-delivery-challenger-in-india/",
-          "feed_id": 29
         }
       ]
     },
@@ -1079,146 +1168,40 @@
           "feed_id": 17
         }
       ]
-    },
-    {
-      "id": "4643176acac863852767",
-      "topic": "World",
-      "headline": "Greece: रातभर दो अलग घटनाओं में 12 migrants डूबे, एक शिशु भी शामिल",
-      "bullets": [
-        "Greek waters में रातभर दो अलग-अलग घटनाओं में एक शिशु समेत 12 लोग डूब गए; 22 को बचाया गया।",
-        "Authorities के मुताबिक search-and-rescue operation अभी जारी है।"
-      ],
-      "published": "2026-10-19T10:19:00+00:00",
-      "sources": [
-        {
-          "name": "DW World",
-          "url": "https://www.dw.com/en/greece-at-least-12-die-in-migrant-drownings-overnight/a-79697504?maca=en-rss-en-all-1573-rdf",
-          "feed_id": 10
-        }
-      ]
-    },
-    {
-      "id": "32d3c448e535254510a2",
-      "topic": "Business",
-      "headline": "Hindustan Zinc का Q2 मुनाफा 17% बढ़कर ₹6,412 crore, revenue भी estimate से ऊपर",
-      "bullets": [
-        "Hindustan Zinc का Q2 net profit 17% बढ़कर ₹6,412 crore रहा; margin भी expand हुआ।",
-        "Revenue 9.8% बढ़कर ₹15,093 crore रहा, जो पिछली तिमाही के ₹13,747 crore और estimate के ₹14,035 crore दोनों से ऊपर है।"
-      ],
-      "published": "2026-10-19T10:18:32+00:00",
-      "sources": [
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/markets/hindustan-zinc-q2-results-net-profit-rises-17-to-rs-6-412-crore-margin-expands-12206035#publisher=newsstand",
-          "feed_id": 21
-        }
-      ]
-    },
-    {
-      "id": "45fc010a9f5ca821fbe9",
-      "topic": "Tech",
-      "headline": "एक hacker ने AI agents और कुछ हजार dollars से दर्जनों websites में घुसपैठ की: report",
-      "bullets": [
-        "Reuters exclusive report के मुताबिक एक hacker ने AI agents का इस्तेमाल कर कुछ हजार dollars की लागत से दर्जनों websites में घुसपैठ की।",
-        "घटना AI-driven cybercrime की बढ़ती क्षमता और सस्ती होती लागत को दर्शाती है।"
-      ],
-      "published": "2026-10-19T10:02:49+00:00",
-      "sources": [
-        {
-          "name": "Mint Tech",
-          "url": "https://www.livemint.com/technology/how-one-hacker-used-ai-agents-and-a-few-thousand-dollars-to-break-into-scores-of-sites-11792404169869.html",
-          "feed_id": 26
-        }
-      ]
-    },
-    {
-      "id": "b4afab848660a4ab8d97",
-      "topic": "World",
-      "headline": "Kyiv पर रातभर Russian ballistic strikes: Zelenskyy बोले, कोई चेतावनी नहीं मिली",
-      "bullets": [
-        "Russia ने रातभर Kyiv समेत कई शहरों पर भारी ballistic missile strikes कीं; power stations क्षतिग्रस्त, कम से कम एक की मौत।",
-        "लाखों लोगों की बिजली कटी; Zelenskyy ने कहा कि हमलों की कोई पूर्व चेतावनी नहीं मिली।"
-      ],
-      "published": "2026-10-19T10:01:00+00:00",
-      "sources": [
-        {
-          "name": "DW World",
-          "url": "https://www.dw.com/en/ukraine-got-no-warning-of-russian-ballistic-strikes-zelenskyy-says/a-79697476?maca=en-rss-en-all-1573-rdf",
-          "feed_id": 10
-        }
-      ]
-    },
-    {
-      "id": "95f8eb1c8231be1c0fd2",
-      "topic": "World",
-      "headline": "Australia की MP Helen Haines को car से कुचलने की कोशिश, PM बोले 'यह हादसा नहीं'",
-      "bullets": [
-        "Independent federal MP Helen Haines को एक car ने टक्कर मारी, हालत गंभीर है; PM Anthony Albanese ने इसे apparent attack बताया।",
-        "हमलावर का मकसद अभी अज्ञात है; Australia की counter-terrorism squad को सक्रिय किया गया है।"
-      ],
-      "published": "2026-10-19T09:52:55+00:00",
-      "sources": [
-        {
-          "name": "NDTV Top",
-          "url": "https://www.ndtv.com/world-news/australian-lawmaker-helen-haines-critical-after-being-hit-by-car-pm-anthony-albanese-says-not-an-accident-12205879#publisher=newsstand",
-          "feed_id": 5
-        }
-      ]
-    },
-    {
-      "id": "7787377ffa110c6b7412",
-      "topic": "World",
-      "headline": "Canada के military base पर घास की आग से 4 soldiers की मौत; आग 30-60 seconds में एक km फैली",
-      "bullets": [
-        "Canadian military base पर लगी घास की आग इतनी तेज थी कि 30 से 60 seconds में एक kilometre तक फैल गई; 4 soldiers की मौत, दर्जनों घायल।",
-        "आग का कारण अज्ञात है; PM Carney ने इसे Canadian military की सबसे बड़ी peacetime tragedies में से एक बताया।"
-      ],
-      "published": "2026-10-19T09:40:44+00:00",
-      "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/ckj0ly6qnp1lo?at_medium=RSS&at_campaign=rss",
-          "feed_id": 6
-        }
-      ]
-    },
-    {
-      "id": "30b1dc11bf1c78359ec1",
-      "topic": "Health",
-      "headline": "NATCO Pharma ने US में Carboplatin launch की, cancer drug की किल्लत में राहत की उम्मीद",
-      "bullets": [
-        "NATCO Pharma की American subsidiary ने US market में Carboplatin Injection launch की — यह Paraplatin का generic version है।",
-        "Launch का मकसद US में इस cancer drug की चल रही shortage को दूर करना है; manufacturing के लिए Chennai की इकाई से collaboration होगा।"
-      ],
-      "published": "2026-10-19T09:27:27+00:00",
-      "sources": [
-        {
-          "name": "ET Health",
-          "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/natco-pharma-subsidiary-launches-carboplatin-in-us-market-to-address-shortages/articleshow/135044938.cms",
-          "feed_id": 41
-        }
-      ]
-    },
-    {
-      "id": "cb57e59c27b0d8d50067",
-      "topic": "World",
-      "headline": "Iran war का energy झटका अभी peak पर नहीं: Qatar की चेतावनी, Tehran से बातचीत की अपील",
-      "bullets": [
-        "Qatar के Deputy PM ने कहा कि Iran war से global energy markets पर आए झटके अभी peak तक नहीं पहुंचे हैं।",
-        "उन्होंने Tehran से dialogue की अपील की, US defence ties रेखांकित कीं और Strait of Hormuz transit fees को खारिज किया।"
-      ],
-      "published": "2026-10-19T09:18:24+00:00",
-      "sources": [
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/19/qatar-warns-global-energy-shockwaves-from-iran-war-have-yet-to-peak?traffic_source=rss",
-          "feed_id": 9
-        }
-      ]
     }
   ],
   "metadata": {
     "refreshes": [
+      {
+        "at": "2026-10-20T10:45:47.080238+00:00",
+        "feed_checked_at": "2026-10-20T10:44:20.554901+00:00",
+        "items_read": 1713,
+        "candidates": 413,
+        "written": 6,
+        "added": 6,
+        "dropped": 8,
+        "total": 69,
+        "counts": {
+          "India": 4,
+          "World": 18,
+          "Business": 19,
+          "IPO": 5,
+          "Tech": 15,
+          "Sports": 1,
+          "Science": 6,
+          "Health": 1
+        },
+        "fetch_seconds": 2.83,
+        "rejected": {
+          "older_than_24h": 1082,
+          "question_headline": 89,
+          "editorial_keyword": 13,
+          "undated": 4,
+          "not_cricket": 66,
+          "duplicate": 46
+        },
+        "editorial_skipped": 407
+      },
       {
         "at": "2026-10-20T08:45:59.712206+00:00",
         "feed_checked_at": "2026-10-20T08:44:15.869711+00:00",
@@ -1279,53 +1262,22 @@
           "duplicate": 32
         },
         "editorial_skipped": 392
-      },
-      {
-        "at": "2026-10-20T04:45:14.851784+00:00",
-        "feed_checked_at": "2026-10-20T04:44:30.104771+00:00",
-        "items_read": 1714,
-        "candidates": 403,
-        "written": 6,
-        "added": 6,
-        "dropped": 4,
-        "total": 70,
-        "counts": {
-          "India": 3,
-          "World": 24,
-          "Business": 17,
-          "IPO": 2,
-          "Tech": 14,
-          "Sports": 2,
-          "Science": 6,
-          "Health": 2
-        },
-        "fetch_seconds": 2.47,
-        "rejected": {
-          "editorial_keyword": 14,
-          "older_than_24h": 1117,
-          "question_headline": 78,
-          "undated": 4,
-          "future": 3,
-          "not_cricket": 64,
-          "duplicate": 31
-        },
-        "editorial_skipped": 397
       }
     ],
     "topic_counts": {
-      "India": 3,
-      "World": 22,
-      "Business": 18,
+      "India": 4,
+      "World": 18,
+      "Business": 19,
       "IPO": 5,
       "Tech": 15,
       "Sports": 1,
       "Science": 6,
-      "Health": 2
+      "Health": 1
     },
     "topic_gap_minutes": {
-      "India": 6,
-      "World": 42,
-      "Business": 34,
+      "India": 8,
+      "World": 34,
+      "Business": 36,
       "IPO": 10,
       "Tech": 28,
       "Sports": 5,
@@ -1342,7 +1294,7 @@
         "http": 200,
         "items": 19,
         "eligible": 1,
-        "seconds": 0.05
+        "seconds": 0.58
       },
       {
         "id": 2,
@@ -1351,8 +1303,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 24,
-        "seconds": 0.39
+        "eligible": 26,
+        "seconds": 0.41
       },
       {
         "id": 3,
@@ -1361,8 +1313,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 51,
-        "seconds": 0.09
+        "eligible": 52,
+        "seconds": 0.07
       },
       {
         "id": 4,
@@ -1371,8 +1323,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 7,
-        "seconds": 0.6
+        "eligible": 8,
+        "seconds": 1.51
       },
       {
         "id": 5,
@@ -1381,7 +1333,7 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 18,
+        "eligible": 17,
         "seconds": 0.32
       },
       {
@@ -1390,9 +1342,9 @@
         "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 32,
+        "items": 33,
         "eligible": 25,
-        "seconds": 0.07
+        "seconds": 0.12
       },
       {
         "id": 7,
@@ -1402,7 +1354,7 @@
         "http": 200,
         "items": 40,
         "eligible": 7,
-        "seconds": 0.36
+        "seconds": 0.4
       },
       {
         "id": 9,
@@ -1411,8 +1363,8 @@
         "status": "ok",
         "http": 200,
         "items": 25,
-        "eligible": 25,
-        "seconds": 0.05
+        "eligible": 24,
+        "seconds": 0.34
       },
       {
         "id": 10,
@@ -1422,7 +1374,7 @@
         "http": 200,
         "items": 134,
         "eligible": 19,
-        "seconds": 0.13
+        "seconds": 0.36
       },
       {
         "id": 11,
@@ -1431,8 +1383,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 7,
-        "seconds": 0.21
+        "eligible": 8,
+        "seconds": 0.54
       },
       {
         "id": 12,
@@ -1442,7 +1394,7 @@
         "http": 200,
         "items": 9,
         "eligible": 0,
-        "seconds": 0.39
+        "seconds": 1.05
       },
       {
         "id": 13,
@@ -1451,8 +1403,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 16,
-        "seconds": 0.21
+        "eligible": 19,
+        "seconds": 0.15
       },
       {
         "id": 14,
@@ -1462,7 +1414,7 @@
         "http": 200,
         "items": 40,
         "eligible": 1,
-        "seconds": 0.38
+        "seconds": 0.36
       },
       {
         "id": 15,
@@ -1471,8 +1423,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 44,
-        "seconds": 0.14
+        "eligible": 45,
+        "seconds": 0.16
       },
       {
         "id": 16,
@@ -1481,8 +1433,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 7,
-        "seconds": 0.1
+        "eligible": 8,
+        "seconds": 0.14
       },
       {
         "id": 17,
@@ -1492,7 +1444,7 @@
         "http": 200,
         "items": 50,
         "eligible": 20,
-        "seconds": 0.09
+        "seconds": 0.1
       },
       {
         "id": 19,
@@ -1502,7 +1454,7 @@
         "http": 200,
         "items": 35,
         "eligible": 6,
-        "seconds": 0.08
+        "seconds": 0.26
       },
       {
         "id": 20,
@@ -1512,7 +1464,7 @@
         "http": 200,
         "items": 60,
         "eligible": 9,
-        "seconds": 0.37
+        "seconds": 0.06
       },
       {
         "id": 21,
@@ -1521,8 +1473,8 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 17,
-        "seconds": 0.33
+        "eligible": 16,
+        "seconds": 0.31
       },
       {
         "id": 22,
@@ -1531,8 +1483,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 5,
-        "seconds": 0.1
+        "eligible": 4,
+        "seconds": 0.06
       },
       {
         "id": 23,
@@ -1542,7 +1494,7 @@
         "http": 200,
         "items": 21,
         "eligible": 4,
-        "seconds": 0.03
+        "seconds": 0.13
       },
       {
         "id": 24,
@@ -1561,8 +1513,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 11,
-        "seconds": 0.35
+        "eligible": 10,
+        "seconds": 0.11
       },
       {
         "id": 26,
@@ -1572,7 +1524,7 @@
         "http": 200,
         "items": 35,
         "eligible": 13,
-        "seconds": 0.1
+        "seconds": 0.05
       },
       {
         "id": 27,
@@ -1582,7 +1534,7 @@
         "http": 200,
         "items": 20,
         "eligible": 14,
-        "seconds": 0.06
+        "seconds": 0.07
       },
       {
         "id": 28,
@@ -1612,7 +1564,7 @@
         "http": 200,
         "items": 41,
         "eligible": 11,
-        "seconds": 0.04
+        "seconds": 0.3
       },
       {
         "id": 33,
@@ -1622,7 +1574,7 @@
         "http": 200,
         "items": 10,
         "eligible": 9,
-        "seconds": 0.19
+        "seconds": 0.2
       },
       {
         "id": 34,
@@ -1631,8 +1583,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 8,
-        "seconds": 0.29
+        "eligible": 5,
+        "seconds": 0.37
       },
       {
         "id": 36,
@@ -1641,8 +1593,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 12,
-        "seconds": 0.33
+        "eligible": 15,
+        "seconds": 0.06
       },
       {
         "id": 37,
@@ -1651,8 +1603,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 7,
-        "seconds": 0.69
+        "eligible": 8,
+        "seconds": 1.04
       },
       {
         "id": 38,
@@ -1660,9 +1612,9 @@
         "url": "https://feeds.bbci.co.uk/news/health/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 57,
-        "eligible": 5,
-        "seconds": 0.23
+        "items": 56,
+        "eligible": 6,
+        "seconds": 0.66
       },
       {
         "id": 39,
@@ -1671,8 +1623,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 5,
-        "seconds": 0.34
+        "eligible": 6,
+        "seconds": 0.35
       },
       {
         "id": 40,
@@ -1681,8 +1633,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 4,
-        "seconds": 0.37
+        "eligible": 6,
+        "seconds": 0.34
       },
       {
         "id": 41,
@@ -1691,8 +1643,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 1,
-        "seconds": 0.36
+        "eligible": 0,
+        "seconds": 0.38
       },
       {
         "id": 42,
@@ -1700,9 +1652,9 @@
         "url": "https://feeds.bbci.co.uk/sport/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 73,
+        "items": 74,
         "eligible": 0,
-        "seconds": 0.05
+        "seconds": 0.61
       },
       {
         "id": 43,
@@ -1722,7 +1674,7 @@
         "http": 200,
         "items": 100,
         "eligible": 2,
-        "seconds": 0.33
+        "seconds": 0.3
       },
       {
         "id": 45,
@@ -1731,8 +1683,8 @@
         "status": "ok",
         "http": 200,
         "items": 27,
-        "eligible": 1,
-        "seconds": 0.44
+        "eligible": 0,
+        "seconds": 0.32
       },
       {
         "id": 47,
@@ -1741,25 +1693,24 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 0,
-        "seconds": 0.32
+        "eligible": 1,
+        "seconds": 0.46
       }
     ],
     "sources": [
       "Aljazeera",
       "Ars",
       "BBC Science",
+      "BBC Tech",
       "BBC World",
       "DW World",
       "ESPNcricinfo",
       "ET Economy",
-      "ET Health",
       "ET Markets",
       "ET Tech",
       "Hindu Business",
       "Hindu India",
       "Mint Companies",
-      "Mint Tech",
       "NASA",
       "NDTV Business",
       "NDTV Top",
