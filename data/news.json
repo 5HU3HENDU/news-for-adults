@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "title": "News for Adults",
-  "updated_at": "2026-10-20T04:45:14.851784+00:00",
+  "updated_at": "2026-10-20T06:44:42.194089+00:00",
   "schedule": {
     "active": false,
     "window_ist": "08:00-22:00",
@@ -19,6 +19,70 @@
     "Health"
   ],
   "stories": [
+    {
+      "id": "65441a8be008481ff5c2",
+      "topic": "World",
+      "headline": "Canada: Alberta ने separation proposal को नकारा, CBC का projection",
+      "bullets": [
+        "Voters ने independence की ओर legal process शुरू करने के proposal को decisively reject किया; economic grievances से चले movement को बड़ा झटका।"
+      ],
+      "published": "2026-10-20T06:13:00+00:00",
+      "sources": [
+        {
+          "name": "DW World",
+          "url": "https://www.dw.com/en/canada-alberta-rejects-separation-bid-cbc-projects/a-79708520?maca=en-rss-en-all-1573-rdf",
+          "feed_id": 10
+        }
+      ]
+    },
+    {
+      "id": "1542121684955e823f0c",
+      "topic": "IPO",
+      "headline": "Tonbo Imaging का ₹852 crore IPO 140 गुना subscribed; QIB हिस्सा 293 गुना",
+      "bullets": [
+        "Non-institutional category 170.94 गुना और retail 31.06 गुना भरा; offer के 85.26 lakh shares के मुकाबले 115.87 crore shares की bids आईं।"
+      ],
+      "published": "2026-10-20T05:45:38+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/tonbo-imagings-rs-852-crore-ipo-subscribed-140x-check-gmp-allotment-other-details/articleshow/135062276.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "b963220ea44c4ce58adf",
+      "topic": "IPO",
+      "headline": "Paras Healthcare को anchor investors से ₹652 crore; IPO कल 21 October को खुलेगा",
+      "bullets": [
+        "Company ने 39 funds को ₹693 प्रति share पर 94,15,584 shares आवंटित किए, कुल ₹652.5 crore; exchange circulars के मुताबिक आवंटन पूरा।"
+      ],
+      "published": "2026-10-20T04:58:38+00:00",
+      "sources": [
+        {
+          "name": "ET Markets",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/paras-healthcare-secures-rs-652-cr-from-anchor-investors-ipo-to-open-on-oct-21/articleshow/135061692.cms",
+          "feed_id": 15
+        }
+      ]
+    },
+    {
+      "id": "dae571f24f214aedb77d",
+      "topic": "Business",
+      "headline": "China ने export curbs बढ़ाए: अब और drones और industrial machinery पर रोक",
+      "bullets": [
+        "Commerce Ministry ने इन items को 'obvious military-civil dual-use nature' वाला घोषित किया; जिन देशों के साथ export control dialogue है उन्हें पहले से सूचित किया गया।"
+      ],
+      "published": "2026-10-20T04:40:49+00:00",
+      "sources": [
+        {
+          "name": "NDTV Business",
+          "url": "https://www.ndtvprofit.com/world/china-slaps-export-curbs-on-more-drones-and-industrial-machinery-12209248#publisher=newsstand",
+          "feed_id": 21
+        }
+      ]
+    },
     {
       "id": "93eb1595a31ef63bc901",
       "topic": "Business",
@@ -1114,83 +1178,41 @@
           "feed_id": 15
         }
       ]
-    },
-    {
-      "id": "28713c2b0bca04eee62a",
-      "topic": "World",
-      "headline": "Funding कमी से World Food Programme ने Gaza में aid एक-तिहाई घटाई",
-      "bullets": [
-        "Funding shortages के चलते UN की World Food Programme Gaza में अपनी aid कटौती कर रही है।",
-        "मदद पाने वालों की संख्या 1.6 million से घटकर करीब 1.1 million रह जाएगी।"
-      ],
-      "published": "2026-10-19T06:00:18+00:00",
-      "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cm79plrvpl4vo?at_medium=RSS&at_campaign=rss",
-          "feed_id": 6
-        }
-      ]
-    },
-    {
-      "id": "34156c24499a2bd03e2d",
-      "topic": "Business",
-      "headline": "Rubio बोले: America, India के साथ trade deal को फाइनल करने के बहुत करीब",
-      "bullets": [
-        "US Secretary of State Marco Rubio ने कहा कि America India के साथ trade deal को final करने के बहुत करीब है।",
-        "यह बयान दोनों देशों के बीच लंबे समय से चल रही tariff और trade बातचीत के बीच आया है।"
-      ],
-      "published": "2026-10-19T05:53:51+00:00",
-      "sources": [
-        {
-          "name": "ET Economy",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/america-very-close-to-finalising-trade-deal-with-india-marco-rubio/videoshow/135041177.cms",
-          "feed_id": 17
-        },
-        {
-          "name": "ET Economy",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-very-close-to-finalising-trade-deal-with-india-says-marco-rubio/articleshow/135040499.cms",
-          "feed_id": 17
-        }
-      ]
-    },
-    {
-      "id": "28c133f0806d21029cef",
-      "topic": "Sports",
-      "headline": "एक rule change कैसे बदल रहा है one-day cricket का चेहरा",
-      "bullets": [
-        "एक ही rule change ने ODI cricket का रूप बदल दिया है; BBC Sport ने इसके असर का विश्लेषण किया है।",
-        "नियम से किसे फायदा हो रहा है और भविष्य पर इसका क्या मतलब हो सकता है, इस पर नजर डाली गई है।"
-      ],
-      "published": "2026-10-19T05:27:56+00:00",
-      "sources": [
-        {
-          "name": "BBC Sport",
-          "url": "https://www.bbc.co.uk/sport/cricket/articles/c6eweg47wv11o?at_medium=RSS&at_campaign=rss",
-          "feed_id": 42
-        }
-      ]
-    },
-    {
-      "id": "ffc5cbc6f34a2cab5516",
-      "topic": "World",
-      "headline": "Saudi Arabia में दो नागरिकों को मौत की सजा: Bangladesh ने मांगा जवाब, Vienna Convention की चर्चा",
-      "bullets": [
-        "Saudi Arabia में दो Bangladeshi नागरिकों को मस्जिद में कथित 'अनैतिक हरकत' के मामले में मौत की सजा दी गई है।",
-        "Bangladesh के अधिकारियों का कहना है कि दोनों को अपने देश के अधिकारियों से संपर्क और कानूनी मदद के अधिकार से वंचित रखा गया — सवाल उठ रहा है कि क्या यह Vienna Convention का उल्लंघन है।"
-      ],
-      "published": "2026-10-19T05:16:54+00:00",
-      "sources": [
-        {
-          "name": "BBC Hindi India",
-          "url": "https://www.bbc.com/hindi/articles/cx7vpl7dg29vo?at_medium=RSS&at_campaign=rss",
-          "feed_id": 4
-        }
-      ]
     }
   ],
   "metadata": {
     "refreshes": [
+      {
+        "at": "2026-10-20T06:44:42.194089+00:00",
+        "feed_checked_at": "2026-10-20T06:44:16.721841+00:00",
+        "items_read": 1717,
+        "candidates": 396,
+        "written": 4,
+        "added": 4,
+        "dropped": 4,
+        "total": 70,
+        "counts": {
+          "India": 3,
+          "World": 23,
+          "Business": 17,
+          "IPO": 4,
+          "Tech": 14,
+          "Sports": 1,
+          "Science": 6,
+          "Health": 2
+        },
+        "fetch_seconds": 2.6,
+        "rejected": {
+          "editorial_keyword": 14,
+          "older_than_24h": 1130,
+          "question_headline": 76,
+          "undated": 4,
+          "future": 3,
+          "not_cricket": 62,
+          "duplicate": 32
+        },
+        "editorial_skipped": 392
+      },
       {
         "at": "2026-10-20T04:45:14.851784+00:00",
         "feed_checked_at": "2026-10-20T04:44:30.104771+00:00",
@@ -1252,53 +1274,23 @@
           "duplicate": 32
         },
         "editorial_skipped": 373
-      },
-      {
-        "at": "2026-10-19T16:45:27.352413+00:00",
-        "feed_checked_at": "2026-10-19T16:44:24.231831+00:00",
-        "items_read": 1710,
-        "candidates": 411,
-        "written": 8,
-        "added": 8,
-        "dropped": 10,
-        "total": 59,
-        "counts": {
-          "India": 6,
-          "World": 17,
-          "Business": 18,
-          "IPO": 2,
-          "Tech": 7,
-          "Sports": 2,
-          "Science": 3,
-          "Health": 4
-        },
-        "fetch_seconds": 2.57,
-        "rejected": {
-          "editorial_keyword": 16,
-          "older_than_24h": 1059,
-          "question_headline": 104,
-          "undated": 4,
-          "not_cricket": 69,
-          "duplicate": 47
-        },
-        "editorial_skipped": 403
       }
     ],
     "topic_counts": {
       "India": 3,
-      "World": 24,
+      "World": 23,
       "Business": 17,
-      "IPO": 2,
+      "IPO": 4,
       "Tech": 14,
-      "Sports": 2,
+      "Sports": 1,
       "Science": 6,
       "Health": 2
     },
     "topic_gap_minutes": {
       "India": 6,
-      "World": 45,
+      "World": 43,
       "Business": 32,
-      "IPO": 5,
+      "IPO": 8,
       "Tech": 27,
       "Sports": 5,
       "Science": 12,
@@ -1314,7 +1306,7 @@
         "http": 200,
         "items": 19,
         "eligible": 1,
-        "seconds": 0.3
+        "seconds": 0.08
       },
       {
         "id": 2,
@@ -1323,8 +1315,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 14,
-        "seconds": 0.37
+        "eligible": 18,
+        "seconds": 0.35
       },
       {
         "id": 3,
@@ -1334,7 +1326,7 @@
         "http": 200,
         "items": 60,
         "eligible": 54,
-        "seconds": 0.1
+        "seconds": 0.11
       },
       {
         "id": 4,
@@ -1343,8 +1335,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 7,
-        "seconds": 0.53
+        "eligible": 8,
+        "seconds": 0.8
       },
       {
         "id": 5,
@@ -1354,7 +1346,7 @@
         "http": 200,
         "items": 20,
         "eligible": 17,
-        "seconds": 0.33
+        "seconds": 0.32
       },
       {
         "id": 6,
@@ -1362,9 +1354,9 @@
         "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 28,
-        "eligible": 24,
-        "seconds": 0.22
+        "items": 31,
+        "eligible": 25,
+        "seconds": 0.09
       },
       {
         "id": 7,
@@ -1373,8 +1365,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 6,
-        "seconds": 0.35
+        "eligible": 7,
+        "seconds": 0.37
       },
       {
         "id": 9,
@@ -1383,8 +1375,8 @@
         "status": "ok",
         "http": 200,
         "items": 25,
-        "eligible": 23,
-        "seconds": 0.13
+        "eligible": 24,
+        "seconds": 0.09
       },
       {
         "id": 10,
@@ -1403,8 +1395,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 7,
-        "seconds": 0.21
+        "eligible": 8,
+        "seconds": 0.23
       },
       {
         "id": 12,
@@ -1414,7 +1406,7 @@
         "http": 200,
         "items": 9,
         "eligible": 0,
-        "seconds": 0.34
+        "seconds": 0.39
       },
       {
         "id": 13,
@@ -1423,8 +1415,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 20,
-        "seconds": 0.14
+        "eligible": 15,
+        "seconds": 0.13
       },
       {
         "id": 14,
@@ -1444,7 +1436,7 @@
         "http": 200,
         "items": 50,
         "eligible": 45,
-        "seconds": 0.12
+        "seconds": 0.15
       },
       {
         "id": 16,
@@ -1453,8 +1445,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 5,
-        "seconds": 0.45
+        "eligible": 6,
+        "seconds": 0.48
       },
       {
         "id": 17,
@@ -1463,8 +1455,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 21,
-        "seconds": 0.07
+        "eligible": 20,
+        "seconds": 0.09
       },
       {
         "id": 19,
@@ -1474,7 +1466,7 @@
         "http": 200,
         "items": 35,
         "eligible": 6,
-        "seconds": 0.14
+        "seconds": 0.08
       },
       {
         "id": 20,
@@ -1484,7 +1476,7 @@
         "http": 200,
         "items": 60,
         "eligible": 9,
-        "seconds": 0.41
+        "seconds": 0.07
       },
       {
         "id": 21,
@@ -1493,7 +1485,7 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 17,
+        "eligible": 14,
         "seconds": 0.32
       },
       {
@@ -1504,7 +1496,7 @@
         "http": 200,
         "items": 35,
         "eligible": 5,
-        "seconds": 0.13
+        "seconds": 0.22
       },
       {
         "id": 23,
@@ -1513,8 +1505,8 @@
         "status": "ok",
         "http": 200,
         "items": 21,
-        "eligible": 5,
-        "seconds": 0.08
+        "eligible": 4,
+        "seconds": 0.03
       },
       {
         "id": 24,
@@ -1524,7 +1516,7 @@
         "http": 200,
         "items": 40,
         "eligible": 4,
-        "seconds": 0.58
+        "seconds": 0.35
       },
       {
         "id": 25,
@@ -1534,7 +1526,7 @@
         "http": 200,
         "items": 50,
         "eligible": 11,
-        "seconds": 0.26
+        "seconds": 0.1
       },
       {
         "id": 26,
@@ -1543,8 +1535,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 11,
-        "seconds": 0.17
+        "eligible": 12,
+        "seconds": 0.1
       },
       {
         "id": 27,
@@ -1553,7 +1545,7 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 13,
+        "eligible": 14,
         "seconds": 0.05
       },
       {
@@ -1564,7 +1556,7 @@
         "http": 200,
         "items": 10,
         "eligible": 10,
-        "seconds": 0.06
+        "seconds": 0.05
       },
       {
         "id": 29,
@@ -1574,7 +1566,7 @@
         "http": 200,
         "items": 20,
         "eligible": 19,
-        "seconds": 0.07
+        "seconds": 0.05
       },
       {
         "id": 32,
@@ -1583,8 +1575,8 @@
         "status": "ok",
         "http": 200,
         "items": 41,
-        "eligible": 8,
-        "seconds": 0.15
+        "eligible": 11,
+        "seconds": 0.08
       },
       {
         "id": 33,
@@ -1604,7 +1596,7 @@
         "http": 200,
         "items": 60,
         "eligible": 8,
-        "seconds": 0.29
+        "seconds": 0.33
       },
       {
         "id": 36,
@@ -1613,8 +1605,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 7,
-        "seconds": 0.46
+        "eligible": 3,
+        "seconds": 0.33
       },
       {
         "id": 37,
@@ -1623,8 +1615,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 7,
-        "seconds": 0.37
+        "eligible": 8,
+        "seconds": 0.23
       },
       {
         "id": 38,
@@ -1633,8 +1625,8 @@
         "status": "ok",
         "http": 200,
         "items": 57,
-        "eligible": 7,
-        "seconds": 0.27
+        "eligible": 6,
+        "seconds": 0.22
       },
       {
         "id": 39,
@@ -1643,8 +1635,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 6,
-        "seconds": 0.37
+        "eligible": 4,
+        "seconds": 0.36
       },
       {
         "id": 40,
@@ -1653,8 +1645,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 3,
-        "seconds": 0.45
+        "eligible": 0,
+        "seconds": 0.36
       },
       {
         "id": 41,
@@ -1664,7 +1656,7 @@
         "http": 200,
         "items": 50,
         "eligible": 1,
-        "seconds": 0.48
+        "seconds": 1.13
       },
       {
         "id": 42,
@@ -1673,8 +1665,8 @@
         "status": "ok",
         "http": 200,
         "items": 76,
-        "eligible": 1,
-        "seconds": 0.34
+        "eligible": 0,
+        "seconds": 0.05
       },
       {
         "id": 43,
@@ -1694,7 +1686,7 @@
         "http": 200,
         "items": 100,
         "eligible": 1,
-        "seconds": 0.29
+        "seconds": 0.3
       },
       {
         "id": 45,
@@ -1703,8 +1695,8 @@
         "status": "ok",
         "http": 200,
         "items": 30,
-        "eligible": 2,
-        "seconds": 0.25
+        "eligible": 1,
+        "seconds": 0.22
       },
       {
         "id": 47,
@@ -1714,15 +1706,13 @@
         "http": 200,
         "items": 36,
         "eligible": 0,
-        "seconds": 0.43
+        "seconds": 0.51
       }
     ],
     "sources": [
       "Aljazeera",
       "Ars",
-      "BBC Hindi India",
       "BBC Science",
-      "BBC Sport",
       "BBC World",
       "DW World",
       "ESPNcricinfo",
