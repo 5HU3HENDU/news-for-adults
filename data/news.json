@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "title": "News for Adults",
-  "updated_at": "2026-10-20T12:45:16.887433+00:00",
+  "updated_at": "2026-10-20T14:45:16.659952+00:00",
   "schedule": {
     "active": false,
     "window_ist": "08:00-22:00",
@@ -19,6 +19,180 @@
     "Health"
   ],
   "stories": [
+    {
+      "id": "475a3500379d119ba5ff",
+      "topic": "Business",
+      "headline": "Schaeffler India के CEO Harsha Kadam हिरासत में: factory accident की probe में Pune Police की कार्रवाई",
+      "bullets": [
+        "मामला company की एक factory में 9 June को हुए accident से जुड़ा है, जिसमें 2 workers की मौत हुई थी",
+        "CEO को factory accident probe से जोड़कर हिरासत में लिया गया है"
+      ],
+      "published": "2026-10-20T14:30:47+00:00",
+      "sources": [
+        {
+          "name": "NDTV Business",
+          "url": "https://www.ndtvprofit.com/business/pune-police-detain-schaeffler-india-ceo-harsha-kadam-over-factory-accident-probe-12211366#publisher=newsstand",
+          "feed_id": 21
+        },
+        {
+          "name": "Mint Companies",
+          "url": "https://www.livemint.com/companies/people/schaeffler-india-ceo-harsha-gopal-kadam-taken-into-custody-over-factory-accident-that-killed-2-workers-11792503983919.html",
+          "feed_id": 13
+        }
+      ]
+    },
+    {
+      "id": "048e65d89395393aea2a",
+      "topic": "World",
+      "headline": "Sudan: army drones ने mourners और fuel market को निशाना बनाया, 200 से ज़्यादा की मौत",
+      "bullets": [
+        "लोगों को funeral में ले जा रही एक truck और एक market — जिस पर RSF को fuel supply पहुंचाने का आरोप था — दोनों पर हमला हुआ",
+        "पिछली reports में drone attacks में 160 की मौत बताई गई थी; sources के मुताबिक आंकड़ा अब 200 से ज़्यादा है"
+      ],
+      "published": "2026-10-20T14:24:19+00:00",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss",
+          "feed_id": 6
+        }
+      ]
+    },
+    {
+      "id": "31d3aecd0cd7af5a4faf",
+      "topic": "Science",
+      "headline": "Uzbekistan बना Artemis Accords का 77वां signatory",
+      "bullets": [
+        "सोमवार को Samarkand में हुई ceremony में Uzbekistan ने safe, transparent और responsible civil space exploration के principles पर हस्ताक्षर किए",
+        "NASA Deputy Administrator Matt Anderson बोले: 'Uzbekistan एक pivotal moment पर Artemis Accords में शामिल हुआ'"
+      ],
+      "published": "2026-10-20T14:21:42+00:00",
+      "sources": [
+        {
+          "name": "NASA",
+          "url": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-uzbekistan-as-newest-artemis-accords-signatory/",
+          "feed_id": 33
+        }
+      ]
+    },
+    {
+      "id": "7a091aa12d54f3f37fcd",
+      "topic": "Tech",
+      "headline": "Spotify ने recommendations से 50 million AI slop और spam tracks हटाए",
+      "bullets": [
+        "Company के मुताबिक पिछले एक साल में 50 million से ज़्यादा AI-generated slop या spam गाने user recommendations से हटाए गए",
+        "Recommendation system में बदलाव किया गया है ताकि human artists का music ज़्यादा highlight हो"
+      ],
+      "published": "2026-10-20T14:18:37+00:00",
+      "sources": [
+        {
+          "name": "Verge",
+          "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
+          "feed_id": 28
+        }
+      ]
+    },
+    {
+      "id": "921087729326736c4907",
+      "topic": "World",
+      "headline": "Yemen: Houthi missile strike में 73 security recruits की मौत — Shabwa के training camp निशाना",
+      "bullets": [
+        "Yemen की army के मुताबिक government-controlled Shabwa province के camp पर सोमवार को तीन missiles गिरे; वहाँ training centre चल रहा था",
+        "पिछली reports में 58 की मौत बताई गई थी; local authorities के मुताबिक आंकड़ा अब 73 पहुंच गया है"
+      ],
+      "published": "2026-10-20T14:09:42+00:00",
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss",
+          "feed_id": 6
+        }
+      ]
+    },
+    {
+      "id": "eac93d7717836f726cd3",
+      "topic": "Business",
+      "headline": "Volkswagen की योजना: 2030 तक 6,60,000 employees की salary freeze",
+      "bullets": [
+        "Proposal सिर्फ regular salary increases तक सीमित नहीं — variable pay, special payments और employee benefits में भी कटौती संभव",
+        "Reports के मुताबिक आगे चलकर और job reductions भी शामिल हो सकते हैं"
+      ],
+      "published": "2026-10-20T13:43:37+00:00",
+      "sources": [
+        {
+          "name": "NDTV Business",
+          "url": "https://www.ndtvprofit.com/world/volkswagen-plans-salary-freeze-until-2030-for-660-000-employees-worldwide-12211176#publisher=newsstand",
+          "feed_id": 21
+        }
+      ]
+    },
+    {
+      "id": "8bd21a7d50ac2b0f134a",
+      "topic": "Business",
+      "headline": "Hackers का दावा: 3.75 लाख SBI accounts का confidential data access किया — report",
+      "bullets": [
+        "दावे के मुताबिक State Bank of India के 3.75 लाख accounts और 2,722 PDF files तक पहुंच हासिल की गई है",
+        "यह अभी सिर्फ hackers का दावा है — स्वतंत्र पुष्टि नहीं हुई है"
+      ],
+      "published": "2026-10-20T13:23:40+00:00",
+      "sources": [
+        {
+          "name": "NDTV Business",
+          "url": "https://www.ndtvprofit.com/business/hackers-claim-access-to-confidential-data-of-3-75-lakh-sbi-accounts-report-12211082#publisher=newsstand",
+          "feed_id": 21
+        }
+      ]
+    },
+    {
+      "id": "f7764367e723a8ef8706",
+      "topic": "Tech",
+      "headline": "SpaceX alum की aviation startup Reliable Robotics: $115 million funding, valuation $1 billion पार",
+      "bullets": [
+        "Company ने अपने Series D round को $115 million equity और $25 million debt के साथ extend किया"
+      ],
+      "published": "2026-10-20T13:17:36+00:00",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/20/spacex-alums-aviation-startup-reliable-robotics-lands-115m-topping-1b-valuation/",
+          "feed_id": 29
+        }
+      ]
+    },
+    {
+      "id": "419921f61ca4569102f2",
+      "topic": "Tech",
+      "headline": "Court records में खुलासा: TikTok के अपने employees ने child safety को लेकर चेताया था, executives ने कार्रवाई नहीं की",
+      "bullets": [
+        "NPR को मिले court records के मुताबिक TikTok के staffers ने platform के child safety risks को लेकर बार-बार चेतावनी दी",
+        "शिकायतों में minors का age-restricted content bypass करना जैसे मुद्दे शामिल थे; employees का कहना है कि executives ने concerns पर उचित कार्रवाई नहीं की"
+      ],
+      "published": "2026-10-20T13:11:23+00:00",
+      "sources": [
+        {
+          "name": "Verge",
+          "url": "https://www.theverge.com/tech/1014250/tiktok-employees-internal-child-safety-warnings",
+          "feed_id": 28
+        }
+      ]
+    },
+    {
+      "id": "28056c11a4dca9efb64b",
+      "topic": "Science",
+      "headline": "Statins से muscle pain क्यों होता है? Scientists को मिला जवाब",
+      "bullets": [
+        "Cholesterol घटाने वाली यह दवाएं heart attacks और strokes रोकती हैं, लेकिन कुछ लोगों में muscle pain, weakness यहाँ तक कि severe muscle damage की शिकायत होती है",
+        "Advanced imaging technology से पता चला कि statins muscle cells के एक crucial protein से जुड़ सकती हैं, जिससे यह असर होता है"
+      ],
+      "published": "2026-10-20T13:00:56+00:00",
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261019093447.htm",
+          "feed_id": 34
+        }
+      ]
+    },
     {
       "id": "e2b1f409376e92087966",
       "topic": "Tech",
@@ -578,22 +752,6 @@
       ]
     },
     {
-      "id": "6c99ce5689c985394dab",
-      "topic": "Business",
-      "headline": "Yemen: Houthi strike में army camp पर 58 की मौत; Riyadh airport और Aramco भी निशाने पर",
-      "bullets": [
-        "Houthis ने Saudi Arabia पर हमले तेज किए हैं — Riyadh international airport और Saudi Aramco को target किया जा रहा है; देशभर में fighting बढ़ी है।"
-      ],
-      "published": "2026-10-20T03:19:21+00:00",
-      "sources": [
-        {
-          "name": "NDTV Business",
-          "url": "https://www.ndtvprofit.com/world/houthi-strike-kills-58-at-yemen-army-camp-as-fighting-intensifies-across-country-12209023#publisher=newsstand",
-          "feed_id": 21
-        }
-      ]
-    },
-    {
       "id": "97c9b33701869dbf9d6a",
       "topic": "Business",
       "headline": "Tesla में December को vote: Musk के CEO role और $158 billion pay package पर फैसला",
@@ -818,22 +976,6 @@
           "name": "TechCrunch",
           "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
           "feed_id": 29
-        }
-      ]
-    },
-    {
-      "id": "87f80a138a9dc65245d6",
-      "topic": "World",
-      "headline": "Sudan में बढ़ते drone attacks में 160 लोगों की मौत की खबर",
-      "bullets": [
-        "Rights groups ने चेतावनी दी है कि unmanned aircraft से हो रहे हमले civilians और infrastructure को निशाना बना रहे हैं।"
-      ],
-      "published": "2026-10-19T21:38:46+00:00",
-      "sources": [
-        {
-          "name": "Aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/19/160-reported-killed-in-escalating-drone-attacks-across-sudan?traffic_source=rss",
-          "feed_id": 9
         }
       ]
     },
@@ -1203,127 +1345,40 @@
           "feed_id": 27
         }
       ]
-    },
-    {
-      "id": "d9940cfccfa1a5b62550",
-      "topic": "Sports",
-      "headline": "ODI World Cup की तैयारी: England और Pakistan की पुरानी rivalry फिर केंद्र में",
-      "bullets": [
-        "England अपनी 50-over cricket में summer की प्रगति से confidence लिए हुए है, जबकि Pakistan Sri Lanka पर जीत से उत्साहित है।"
-      ],
-      "published": "2026-10-19T13:49:34+00:00",
-      "sources": [
-        {
-          "name": "ESPNcricinfo",
-          "url": "https://www.cricinfo.com/ci/content/story/1559050.html?ex_cid=OTC-RSS",
-          "feed_id": 44
-        }
-      ]
-    },
-    {
-      "id": "f673553d3e6443e0b7af",
-      "topic": "IPO",
-      "headline": "Zetwerk का ₹5,012 crore IPO आखिरी दिन 3.06 गुना subscribed",
-      "bullets": [
-        "Zetwerk का ₹5,012 crore का IPO सोमवार को bids के आखिरी दिन 3.06 गुना subscribe हुआ।"
-      ],
-      "published": "2026-10-19T13:32:54+00:00",
-      "sources": [
-        {
-          "name": "ET Tech",
-          "url": "https://economictimes.indiatimes.com/tech/newsletters/tech-top-5/super-money-triples-revenues-zetwerk-ipo-fully-subscribed/articleshow/135049722.cms",
-          "feed_id": 25
-        }
-      ]
-    },
-    {
-      "id": "1dacb4d06e5db69e4c3a",
-      "topic": "Science",
-      "headline": "Alaska की monster tsunami: पानी पहाड़ पर 1,580 feet ऊपर तक उठा, अब तक की दूसरी सबसे ऊंची",
-      "bullets": [
-        "Alaska में एक विशाल landslide से बनी tsunami recorded history की दूसरी सबसे ऊंची tsunami है; पानी और मलबा mountainside पर 1,580 feet तक चढ़ा।",
-        "घटना tourists के इलाके से जाने के कुछ घंटों बाद हुई; scientists ने नए अध्ययन में इसका खुलासा किया है।"
-      ],
-      "published": "2026-10-19T13:09:18+00:00",
-      "sources": [
-        {
-          "name": "ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261018205047.htm",
-          "feed_id": 34
-        }
-      ]
-    },
-    {
-      "id": "08482e50ac92aac76d80",
-      "topic": "Business",
-      "headline": "China का export curbs: tunnel boring machines पर रोक, India की infrastructure projects पर असर संभव",
-      "bullets": [
-        "Beijing ने essential machinery पर नए export controls लगाए हैं, जिनका असर India के infrastructure development पर पड़ सकता है।",
-        "पाबंदियां 18 November से लागू होंगी और tunnel boring machines (TBMs) से जुड़े equipment को कवर करेंगी।"
-      ],
-      "published": "2026-10-19T13:04:33+00:00",
-      "sources": [
-        {
-          "name": "ET Economy",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/china-announces-export-curbs-on-key-machinery-used-in-indias-infrastructure-development/articleshow/135049611.cms",
-          "feed_id": 17
-        }
-      ]
-    },
-    {
-      "id": "d11a520ef3c44bcf9dd3",
-      "topic": "Science",
-      "headline": "High-risk gene के बावजूद कुछ लोग Alzheimer’s से क्यों बच जाते हैं? नई study में जवाब",
-      "bullets": [
-        "Scientists ने खोजा कि high genetic risk के बावजूद कुछ लोग 80s तक mentally sharp क्यों रहते हैं।",
-        "एक rare mutation brain को harmful protein buildup से बचाता है।"
-      ],
-      "published": "2026-10-19T12:57:02+00:00",
-      "sources": [
-        {
-          "name": "ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261018205044.htm",
-          "feed_id": 34
-        }
-      ]
-    },
-    {
-      "id": "963c92fdfa0e0a9be5e3",
-      "topic": "Tech",
-      "headline": "Apple ने guidelines बदलीं: regular apps की आड़ में छिपे nudify apps पर ban",
-      "bullets": [
-        "Apple ने कहा कि वह उन AI apps को ban करेगा जो offensive content को moderate नहीं करतीं।",
-        "नई guidelines app review पास करने के लिए regular apps का भेष बनाने वाले nudify apps को निशाना बनाती हैं।"
-      ],
-      "published": "2026-10-19T12:56:14+00:00",
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/19/apple-updates-guidelines-to-ban-nudify-apps-masquerading-as-regular-apps-to-pass-review/",
-          "feed_id": 29
-        }
-      ]
-    },
-    {
-      "id": "c8d0d7274aa6f9a67309",
-      "topic": "India",
-      "headline": "2008 Ahmedabad serial blasts: Supreme Court ने एक convict की फांसी पर रोक लगाई",
-      "bullets": [
-        "Supreme Court ने 2008 Ahmedabad serial blasts case के एक convict की death sentence की execution पर रोक लगा दी।",
-        "इसी साल 7 July को High Court ने terror outfit Indian Mujahideen के 38 operatives की फांसी की सजा बरकरार रखी थी।"
-      ],
-      "published": "2026-10-19T12:54:02+00:00",
-      "sources": [
-        {
-          "name": "Hindu India",
-          "url": "https://www.thehindu.com/news/national/supreme-court-stays-execution-of-death-sentence-of-convict-in-2008-ahmedabad-serial-blasts-case/article71602719.ece",
-          "feed_id": 3
-        }
-      ]
     }
   ],
   "metadata": {
     "refreshes": [
+      {
+        "at": "2026-10-20T14:45:16.659952+00:00",
+        "feed_checked_at": "2026-10-20T14:44:17.483710+00:00",
+        "items_read": 1714,
+        "candidates": 418,
+        "written": 10,
+        "added": 10,
+        "dropped": 7,
+        "total": 79,
+        "counts": {
+          "India": 3,
+          "World": 23,
+          "Business": 21,
+          "IPO": 5,
+          "Tech": 19,
+          "Sports": 0,
+          "Science": 6,
+          "Health": 2
+        },
+        "fetch_seconds": 3.08,
+        "rejected": {
+          "older_than_24h": 1065,
+          "question_headline": 104,
+          "editorial_keyword": 16,
+          "undated": 4,
+          "not_cricket": 63,
+          "duplicate": 44
+        },
+        "editorial_skipped": 408
+      },
       {
         "at": "2026-10-20T12:45:16.887433+00:00",
         "feed_checked_at": "2026-10-20T12:44:21.930273+00:00",
@@ -1383,56 +1438,26 @@
           "duplicate": 46
         },
         "editorial_skipped": 407
-      },
-      {
-        "at": "2026-10-20T08:45:59.712206+00:00",
-        "feed_checked_at": "2026-10-20T08:44:15.869711+00:00",
-        "items_read": 1712,
-        "candidates": 409,
-        "written": 6,
-        "added": 6,
-        "dropped": 4,
-        "total": 72,
-        "counts": {
-          "India": 3,
-          "World": 22,
-          "Business": 18,
-          "IPO": 5,
-          "Tech": 15,
-          "Sports": 1,
-          "Science": 6,
-          "Health": 2
-        },
-        "fetch_seconds": 2.09,
-        "rejected": {
-          "older_than_24h": 1098,
-          "question_headline": 85,
-          "editorial_keyword": 13,
-          "undated": 4,
-          "not_cricket": 62,
-          "duplicate": 41
-        },
-        "editorial_skipped": 403
       }
     ],
     "topic_counts": {
-      "India": 4,
-      "World": 22,
-      "Business": 20,
-      "IPO": 6,
-      "Tech": 17,
-      "Sports": 1,
+      "India": 3,
+      "World": 23,
+      "Business": 21,
+      "IPO": 5,
+      "Tech": 19,
+      "Sports": 0,
       "Science": 6,
       "Health": 2
     },
     "topic_gap_minutes": {
-      "India": 8,
-      "World": 42,
-      "Business": 38,
-      "IPO": 12,
+      "India": 5,
+      "World": 38,
+      "Business": 35,
+      "IPO": 9,
       "Tech": 32,
       "Sports": 5,
-      "Science": 12,
+      "Science": 10,
       "Health": 5
     },
     "gap_is_metadata_only": true,
@@ -1445,7 +1470,7 @@
         "http": 200,
         "items": 19,
         "eligible": 1,
-        "seconds": 0.27
+        "seconds": 0.35
       },
       {
         "id": 2,
@@ -1454,8 +1479,8 @@
         "status": "ok",
         "http": 200,
         "items": 40,
-        "eligible": 25,
-        "seconds": 0.38
+        "eligible": 26,
+        "seconds": 0.37
       },
       {
         "id": 3,
@@ -1465,7 +1490,7 @@
         "http": 200,
         "items": 60,
         "eligible": 56,
-        "seconds": 0.08
+        "seconds": 0.11
       },
       {
         "id": 4,
@@ -1474,8 +1499,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 8,
-        "seconds": 0.64
+        "eligible": 7,
+        "seconds": 0.7
       },
       {
         "id": 5,
@@ -1485,7 +1510,7 @@
         "http": 200,
         "items": 20,
         "eligible": 15,
-        "seconds": 0.33
+        "seconds": 0.36
       },
       {
         "id": 6,
@@ -1494,8 +1519,8 @@
         "status": "ok",
         "http": 200,
         "items": 34,
-        "eligible": 24,
-        "seconds": 0.12
+        "eligible": 22,
+        "seconds": 0.15
       },
       {
         "id": 7,
@@ -1505,7 +1530,7 @@
         "http": 200,
         "items": 40,
         "eligible": 7,
-        "seconds": 0.36
+        "seconds": 0.35
       },
       {
         "id": 9,
@@ -1515,7 +1540,7 @@
         "http": 200,
         "items": 25,
         "eligible": 23,
-        "seconds": 0.11
+        "seconds": 0.2
       },
       {
         "id": 10,
@@ -1524,8 +1549,8 @@
         "status": "ok",
         "http": 200,
         "items": 134,
-        "eligible": 19,
-        "seconds": 0.36
+        "eligible": 18,
+        "seconds": 0.65
       },
       {
         "id": 11,
@@ -1534,8 +1559,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 8,
-        "seconds": 0.26
+        "eligible": 7,
+        "seconds": 0.38
       },
       {
         "id": 12,
@@ -1545,7 +1570,7 @@
         "http": 200,
         "items": 9,
         "eligible": 0,
-        "seconds": 0.34
+        "seconds": 0.43
       },
       {
         "id": 13,
@@ -1554,8 +1579,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 15,
-        "seconds": 0.06
+        "eligible": 18,
+        "seconds": 0.16
       },
       {
         "id": 14,
@@ -1565,7 +1590,7 @@
         "http": 200,
         "items": 40,
         "eligible": 1,
-        "seconds": 0.37
+        "seconds": 0.36
       },
       {
         "id": 15,
@@ -1575,7 +1600,7 @@
         "http": 200,
         "items": 50,
         "eligible": 45,
-        "seconds": 0.13
+        "seconds": 0.08
       },
       {
         "id": 16,
@@ -1585,7 +1610,7 @@
         "http": 200,
         "items": 50,
         "eligible": 7,
-        "seconds": 0.48
+        "seconds": 0.35
       },
       {
         "id": 17,
@@ -1594,8 +1619,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 21,
-        "seconds": 0.12
+        "eligible": 17,
+        "seconds": 0.11
       },
       {
         "id": 19,
@@ -1604,8 +1629,8 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 5,
-        "seconds": 0.17
+        "eligible": 4,
+        "seconds": 1.6
       },
       {
         "id": 20,
@@ -1614,8 +1639,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 8,
-        "seconds": 0.08
+        "eligible": 10,
+        "seconds": 0.09
       },
       {
         "id": 21,
@@ -1624,8 +1649,8 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 15,
-        "seconds": 0.33
+        "eligible": 19,
+        "seconds": 0.32
       },
       {
         "id": 22,
@@ -1635,7 +1660,7 @@
         "http": 200,
         "items": 35,
         "eligible": 4,
-        "seconds": 0.07
+        "seconds": 0.13
       },
       {
         "id": 23,
@@ -1644,8 +1669,8 @@
         "status": "ok",
         "http": 200,
         "items": 21,
-        "eligible": 5,
-        "seconds": 0.24
+        "eligible": 4,
+        "seconds": 0.25
       },
       {
         "id": 24,
@@ -1655,7 +1680,7 @@
         "http": 200,
         "items": 40,
         "eligible": 6,
-        "seconds": 0.36
+        "seconds": 0.38
       },
       {
         "id": 25,
@@ -1664,8 +1689,8 @@
         "status": "ok",
         "http": 200,
         "items": 50,
-        "eligible": 7,
-        "seconds": 0.08
+        "eligible": 6,
+        "seconds": 0.1
       },
       {
         "id": 26,
@@ -1674,7 +1699,7 @@
         "status": "ok",
         "http": 200,
         "items": 35,
-        "eligible": 13,
+        "eligible": 11,
         "seconds": 0.08
       },
       {
@@ -1684,8 +1709,8 @@
         "status": "ok",
         "http": 200,
         "items": 20,
-        "eligible": 13,
-        "seconds": 0.05
+        "eligible": 12,
+        "seconds": 0.06
       },
       {
         "id": 28,
@@ -1715,7 +1740,7 @@
         "http": 200,
         "items": 41,
         "eligible": 12,
-        "seconds": 0.17
+        "seconds": 0.1
       },
       {
         "id": 33,
@@ -1724,8 +1749,8 @@
         "status": "ok",
         "http": 200,
         "items": 10,
-        "eligible": 9,
-        "seconds": 0.19
+        "eligible": 10,
+        "seconds": 0.82
       },
       {
         "id": 34,
@@ -1734,7 +1759,7 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 2,
+        "eligible": 10,
         "seconds": 0.31
       },
       {
@@ -1744,8 +1769,8 @@
         "status": "ok",
         "http": 200,
         "items": 60,
-        "eligible": 17,
-        "seconds": 0.09
+        "eligible": 19,
+        "seconds": 0.1
       },
       {
         "id": 37,
@@ -1754,8 +1779,8 @@
         "status": "ok",
         "http": 200,
         "items": 36,
-        "eligible": 8,
-        "seconds": 0.5
+        "eligible": 7,
+        "seconds": 0.35
       },
       {
         "id": 38,
@@ -1765,7 +1790,7 @@
         "http": 200,
         "items": 56,
         "eligible": 9,
-        "seconds": 0.34
+        "seconds": 0.11
       },
       {
         "id": 39,
@@ -1775,7 +1800,7 @@
         "http": 200,
         "items": 40,
         "eligible": 8,
-        "seconds": 0.36
+        "seconds": 0.34
       },
       {
         "id": 40,
@@ -1785,7 +1810,7 @@
         "http": 200,
         "items": 60,
         "eligible": 8,
-        "seconds": 0.34
+        "seconds": 0.39
       },
       {
         "id": 41,
@@ -1795,7 +1820,7 @@
         "http": 200,
         "items": 50,
         "eligible": 1,
-        "seconds": 0.37
+        "seconds": 0.47
       },
       {
         "id": 42,
@@ -1805,7 +1830,7 @@
         "http": 200,
         "items": 74,
         "eligible": 0,
-        "seconds": 0.32
+        "seconds": 0.33
       },
       {
         "id": 43,
@@ -1815,7 +1840,7 @@
         "http": 200,
         "items": 40,
         "eligible": 0,
-        "seconds": 0.36
+        "seconds": 0.37
       },
       {
         "id": 44,
@@ -1824,8 +1849,8 @@
         "status": "ok",
         "http": 200,
         "items": 100,
-        "eligible": 2,
-        "seconds": 0.31
+        "eligible": 1,
+        "seconds": 0.38
       },
       {
         "id": 45,
@@ -1833,9 +1858,9 @@
         "url": "https://feeds.bbci.co.uk/sport/cricket/rss.xml",
         "status": "ok",
         "http": 200,
-        "items": 26,
+        "items": 27,
         "eligible": 0,
-        "seconds": 0.24
+        "seconds": 0.25
       },
       {
         "id": 47,
@@ -1845,7 +1870,7 @@
         "http": 200,
         "items": 36,
         "eligible": 1,
-        "seconds": 0.48
+        "seconds": 0.87
       }
     ],
     "sources": [
@@ -1856,7 +1881,6 @@
       "BBC World",
       "BS Economy",
       "DW World",
-      "ESPNcricinfo",
       "ET Economy",
       "ET Markets",
       "ET Tech",
