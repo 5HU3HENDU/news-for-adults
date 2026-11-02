@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- kokoro-sample-v1 -->
+<!-- kokoro-sample-v2 -->
 <html lang="hi">
 <head>
 <meta charset="utf-8">
@@ -38,7 +38,7 @@
 </head>
 <body>
 <div class="card">
-  <span class="tag">SAMPLE v1</span>
+  <span class="tag">SAMPLE v2</span>
   <div class="topic">TOPIC: TECH &nbsp;•&nbsp; <span id="counter">Story 1 of 3</span></div>
   <h1 id="headline"></h1>
   <ul id="bullets"></ul>
@@ -53,14 +53,14 @@
   </div>
   <div id="status">Tap Start. First time, the voice model downloads once on this device (~100 MB class — Wi-Fi recommended), then everything runs offline, on-device.</div>
   <div class="note">
-    How this works: the page loads Kokoro-82M in your browser (WASM/WebGPU, no server, no key) and reads the JSON stories aloud, one by one.
+    How this works: the page loads Kokoro-82M in your browser (WASM, no server, no key) and reads the JSON stories aloud, one by one.
     Narration reads the Roman Hinglish text as-is — this sample also tests how the browser voice handles Roman script.
     The full version will add topic/subtopic jumping and a fresh edition every 2 hours.
   </div>
 </div>
 <audio id="player" playsinline></audio>
 <script type="module">
-import { KokoroTTS } from "https://cdn.jsdelivr.net/npm/kokoro-js/+esm";
+import { KokoroTTS } from "https://cdn.jsdelivr.net/npm/kokoro-js@1.2.1/dist/kokoro.web.js";
 
 const MODEL = "onnx-community/Kokoro-82M-v1.0-ONNX";
 const VOICES = { female: "hf_alpha", male: "hm_omega" };
@@ -129,15 +129,11 @@ async function ensureModel() {
   const progress = (p) => {
     if (p && p.file) setStatus("Downloading " + p.file + (p.progress ? " — " + Math.round(p.progress) + "%" : ""));
   };
-  try {
-    tts = await KokoroTTS.from_pretrained(MODEL, { dtype: "q8", device: "webgpu", progress_callback: progress });
-    deviceUsed = "webgpu";
-  } catch (e) {
-    setStatus("WebGPU nahi mila, WASM par try kar rahe hain…");
-    tts = await KokoroTTS.from_pretrained(MODEL, { dtype: "q8", device: "wasm", progress_callback: progress });
-    deviceUsed = "wasm";
-  }
-  setStatus("Voice ready (" + deviceUsed + ").");
+  // WASM first: works on every browser (the README's own default combo is wasm + q8).
+  // WebGPU (fp32) is a later speed option, not needed for this sample.
+  tts = await KokoroTTS.from_pretrained(MODEL, { dtype: "q8", device: "wasm", progress_callback: progress });
+  deviceUsed = "wasm";
+  setStatus("Voice ready (wasm).");
 }
 
 async function playStory(i) {
