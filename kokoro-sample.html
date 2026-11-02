@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<!-- kokoro-sample-v1 -->
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>News for Adults — Kokoro Sample</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; color: #f5f0e6; font-family: Georgia, 'Noto Serif Devanagari', serif;
+    background: radial-gradient(1200px 700px at 20% 0%, #2b2118 0%, #14100c 55%, #0b0908 100%);
+    display: flex; align-items: center; justify-content: center; padding: 20px;
+  }
+  .card { width: min(860px, 100%); }
+  .tag {
+    display: inline-block; font-family: system-ui, sans-serif; font-size: 12px; letter-spacing: 2px;
+    background: #e8b64c; color: #1a140d; padding: 5px 10px; border-radius: 999px; font-weight: 700;
+  }
+  .topic { font-family: system-ui, sans-serif; font-size: 14px; letter-spacing: 2px; color: #d8c9a8; margin: 18px 0 4px; }
+  h1 { font-size: clamp(26px, 5vw, 44px); line-height: 1.25; margin: 0 0 14px; }
+  ul { font-size: clamp(17px, 2.6vw, 22px); line-height: 1.6; color: #e8dfc9; padding-left: 22px; }
+  li { margin-bottom: 8px; }
+  .meta { font-family: system-ui, sans-serif; font-size: 13px; color: #a99d83; margin: 16px 0 4px; }
+  .progress { height: 6px; background: #3a3126; border-radius: 99px; overflow: hidden; margin: 18px 0; }
+  .progress > div { height: 100%; width: 0%; background: #e8b64c; transition: width .3s; }
+  .controls { display: flex; flex-wrap: wrap; gap: 10px; margin: 10px 0; }
+  button {
+    font-family: system-ui, sans-serif; font-size: 16px; padding: 12px 20px; border-radius: 999px;
+    border: 1px solid #e8b64c; background: transparent; color: #f5f0e6; cursor: pointer;
+  }
+  button.primary { background: #e8b64c; color: #1a140d; font-weight: 700; }
+  button.active { background: #e8b64c; color: #1a140d; font-weight: 700; }
+  button:disabled { opacity: .45; cursor: default; }
+  #status { font-family: system-ui, sans-serif; font-size: 14px; color: #d8c9a8; min-height: 20px; margin-top: 12px; }
+  .note { font-family: system-ui, sans-serif; font-size: 13px; color: #a99d83; line-height: 1.6; margin-top: 26px; border-top: 1px solid #3a3126; padding-top: 14px; }
+</style>
+</head>
+<body>
+<div class="card">
+  <span class="tag">SAMPLE v1</span>
+  <div class="topic">TOPIC: TECH &nbsp;•&nbsp; <span id="counter">Story 1 of 3</span></div>
+  <h1 id="headline"></h1>
+  <ul id="bullets"></ul>
+  <div class="meta" id="source">Sample edition — stories from the 20 Oct 2026 edition, for demo only.</div>
+  <div class="progress"><div id="bar"></div></div>
+  <div class="controls">
+    <button id="startBtn" class="primary">▶ Start reading</button>
+    <button id="prevBtn" disabled>◀ Prev</button>
+    <button id="nextBtn" disabled>Next ▶</button>
+    <button id="voiceF" class="active">Female</button>
+    <button id="voiceM">Male</button>
+  </div>
+  <div id="status">Tap Start. First time, the voice model downloads once on this device (~100 MB class — Wi-Fi recommended), then everything runs offline, on-device.</div>
+  <div class="note">
+    How this works: the page loads Kokoro-82M in your browser (WASM/WebGPU, no server, no key) and reads the JSON stories aloud, one by one.
+    Narration reads the Roman Hinglish text as-is — this sample also tests how the browser voice handles Roman script.
+    The full version will add topic/subtopic jumping and a fresh edition every 2 hours.
+  </div>
+</div>
+<audio id="player" playsinline></audio>
+<script type="module">
+import { KokoroTTS } from "https://cdn.jsdelivr.net/npm/kokoro-js/+esm";
+
+const MODEL = "onnx-community/Kokoro-82M-v1.0-ONNX";
+const VOICES = { female: "hf_alpha", male: "hm_omega" };
+const STORIES = [
+  {
+    headline: "Spotify ने recommendations से 50 million AI slop और spam tracks हटाए",
+    bullets: [
+      "Company के मुताबिक पिछले एक साल में 50 million से ज़्यादा AI-generated slop या spam गाने user recommendations से हटाए गए",
+      "Recommendation system में बदलाव किया गया है ताकि human artists का music ज़्यादा highlight हो"
+    ]
+  },
+  {
+    headline: "Microsoft की चेतावनी: AI agents बिना hack हुए भी insider security risk बन सकते हैं",
+    bullets: [
+      "Microsoft ने कहा कि companies में deploy हो रहे autonomous AI systems पर continuous monitoring ज़रूरी है, क्योंकि 'frontier models can't be trusted'",
+      "Company enterprises को employees के इस्तेमाल होने वाले agents पर नज़र रखने की सलाह दे रही है"
+    ]
+  },
+  {
+    headline: "Google Cloud outage के बाद services recover हो रही हैं: UK banks और websites पर असर",
+    bullets: [
+      "Google के मुताबिक cloud outage से प्रभावित services अब recover हो रही हैं",
+      "Revolut सबसे ज़्यादा प्रभावित services में से था — कई customers की banking services बंद रहीं"
+    ]
+  }
+];
+
+let idx = 0, voice = "female", tts = null, playing = false, deviceUsed = "";
+const cache = new Map();
+const $ = (id) => document.getElementById(id);
+const player = $("player");
+const statusEl = $("status");
+
+function setStatus(t) { statusEl.textContent = t; }
+function showStory(i) {
+  idx = i;
+  $("headline").textContent = STORIES[i].headline;
+  $("bullets").innerHTML = STORIES[i].bullets.map(b => "<li>" + b.replace(/</g, "&lt;") + "</li>").join("");
+  $("counter").textContent = "Story " + (i + 1) + " of " + STORIES.length;
+  $("bar").style.width = "0%";
+  $("prevBtn").disabled = i === 0;
+  $("nextBtn").disabled = i === STORIES.length - 1;
+}
+function stopAudio() { player.pause(); player.removeAttribute("src"); player.load(); }
+
+function wavBlob(pcm, sr) {
+  const len = pcm.length, buf = new ArrayBuffer(44 + len * 2), v = new DataView(buf);
+  const ws = (o, s) => { for (let i = 0; i < s.length; i++) v.setUint8(o + i, s.charCodeAt(i)); };
+  ws(0, "RIFF"); v.setUint32(4, 36 + len * 2, true); ws(8, "WAVE"); ws(12, "fmt ");
+  v.setUint32(16, 16, true); v.setUint16(20, 1, true); v.setUint16(22, 1, true);
+  v.setUint32(24, sr, true); v.setUint32(28, sr * 2, true); v.setUint16(32, 2, true); v.setUint16(34, 16, true);
+  ws(36, "data"); v.setUint32(40, len * 2, true);
+  for (let i = 0; i < len; i++) { const s = Math.max(-1, Math.min(1, pcm[i])); v.setInt16(44 + i * 2, s < 0 ? s * 0x8000 : s * 0x7fff, true); }
+  return new Blob([buf], { type: "audio/wav" });
+}
+function extractPCM(out) {
+  if (out instanceof Float32Array) return { pcm: out, sr: 24000 };
+  if (out && out.audio instanceof Float32Array) return { pcm: out.audio, sr: out.sampling_rate || 24000 };
+  if (out && out.data instanceof Float32Array) return { pcm: out.data, sr: out.sampling_rate || 24000 };
+  throw new Error("Unexpected audio format: " + (out ? Object.keys(out).join(", ") : "empty"));
+}
+
+async function ensureModel() {
+  if (tts) return;
+  setStatus("Voice model load ho raha hai… (first time, one-time download)");
+  const progress = (p) => {
+    if (p && p.file) setStatus("Downloading " + p.file + (p.progress ? " — " + Math.round(p.progress) + "%" : ""));
+  };
+  try {
+    tts = await KokoroTTS.from_pretrained(MODEL, { dtype: "q8", device: "webgpu", progress_callback: progress });
+    deviceUsed = "webgpu";
+  } catch (e) {
+    setStatus("WebGPU nahi mila, WASM par try kar rahe hain…");
+    tts = await KokoroTTS.from_pretrained(MODEL, { dtype: "q8", device: "wasm", progress_callback: progress });
+    deviceUsed = "wasm";
+  }
+  setStatus("Voice ready (" + deviceUsed + ").");
+}
+
+async function playStory(i) {
+  showStory(i);
+  try {
+    await ensureModel();
+    const key = voice + ":" + i;
+    let url = cache.get(key);
+    if (!url) {
+      setStatus("Story " + (i + 1) + " generate ho rahi hai… (" + voice + " voice)");
+      const s = STORIES[i];
+      const text = s.headline + ". " + s.bullets.join(". ") + ".";
+      const out = await tts.generate(text, { voice: VOICES[voice] });
+      const { pcm, sr } = extractPCM(out);
+      url = URL.createObjectURL(wavBlob(pcm, sr));
+      cache.set(key, url);
+    }
+    stopAudio();
+    player.src = url;
+    await player.play();
+    playing = true;
+    $("startBtn").textContent = "❚❚ Pause";
+    setStatus("Playing story " + (i + 1) + " of " + STORIES.length + " (" + voice + " voice, " + deviceUsed + ")");
+  } catch (e) {
+    playing = false;
+    $("startBtn").textContent = "▶ Start reading";
+    setStatus("Error: " + (e && e.message ? e.message : e));
+  }
+}
+
+player.addEventListener("timeupdate", () => {
+  if (player.duration) $("bar").style.width = (player.currentTime / player.duration * 100) + "%";
+});
+player.addEventListener("ended", () => {
+  if (!playing) return;
+  if (idx < STORIES.length - 1) { playStory(idx + 1); }
+  else { playing = false; $("startBtn").textContent = "↻ Replay"; setStatus("Sample khatam — 3 stories. Replay dabayein ya voice badal kar dobara sunein."); }
+});
+player.addEventListener("error", () => { if (playing) setStatus("Audio play nahi ho paya — dobara try karein."); });
+
+$("startBtn").onclick = () => {
+  if (playing) { player.pause(); playing = false; $("startBtn").textContent = "▶ Resume"; setStatus("Paused."); return; }
+  if (player.src && player.paused && player.currentTime > 0) { player.play(); playing = true; $("startBtn").textContent = "❚❚ Pause"; return; }
+  playStory(idx >= STORIES.length ? 0 : idx);
+};
+$("prevBtn").onclick = () => { if (idx > 0) playStory(idx - 1); };
+$("nextBtn").onclick = () => { if (idx < STORIES.length - 1) playStory(idx + 1); };
+function setVoice(v) {
+  voice = v;
+  $("voiceF").classList.toggle("active", v === "female");
+  $("voiceM").classList.toggle("active", v === "male");
+  if (playing || player.src) playStory(idx);
+}
+$("voiceF").onclick = () => setVoice("female");
+$("voiceM").onclick = () => setVoice("male");
+
+showStory(0);
+</script>
+</body>
+</html>
