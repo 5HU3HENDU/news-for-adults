@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Market View — Sample</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: #0e1116; color: #e8eaed;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  .sample-banner {
+    background: #facc15; color: #111; text-align: center;
+    font-size: 13px; font-weight: 700; letter-spacing: 0.04em; padding: 7px 10px;
+  }
+  .wrap { max-width: 1100px; margin: 0 auto; padding: 16px 20px 0; }
+  header {
+    display: flex; align-items: baseline; justify-content: space-between; gap: 12px;
+    flex-wrap: wrap; margin-bottom: 14px;
+  }
+  header h1 { margin: 0; font-size: 26px; letter-spacing: 0.06em; }
+  .meta { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  .pill {
+    font-size: 12px; font-weight: 700; letter-spacing: 0.05em;
+    border: 1px solid #333a45; border-radius: 999px; padding: 4px 10px; color: #c6cdd8;
+  }
+  .pill.live { color: #4ade80; border-color: #245c36; }
+  .pill.delay { color: #facc15; border-color: #6b5a12; }
+  .clock { font-size: 14px; color: #9aa3af; }
+
+  .indices { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 14px; }
+  .index-card {
+    background: #171b22; border: 1px solid #262c36; border-radius: 14px; padding: 16px 18px;
+  }
+  .index-card .name { font-size: 13px; letter-spacing: 0.08em; color: #9aa3af; font-weight: 700; }
+  .index-card .value { font-size: 32px; font-weight: 800; margin: 4px 0 2px; letter-spacing: -0.01em; }
+  .up { color: #22c55e; } .down { color: #ef4444; }
+  .index-card .chg { font-size: 15px; font-weight: 700; }
+
+  .main { display: grid; grid-template-columns: 3fr 2fr; gap: 12px; margin-bottom: 14px; }
+  .panel { background: #171b22; border: 1px solid #262c36; border-radius: 14px; padding: 16px 18px; }
+  .panel h2 { margin: 0 0 10px; font-size: 14px; letter-spacing: 0.08em; color: #9aa3af; }
+  .chart-note { font-size: 12px; color: #9aa3af; margin-top: 8px; }
+  .movers { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .movers h3 { margin: 0 0 8px; font-size: 13px; letter-spacing: 0.06em; }
+  .movers h3.g { color: #22c55e; } .movers h3.l { color: #ef4444; }
+  .movers table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  .movers td { padding: 5px 0; border-bottom: 1px solid #222833; }
+  .movers td:last-child { text-align: right; font-weight: 700; }
+  .movers td.price { color: #c6cdd8; text-align: right; padding-right: 10px; }
+
+  .others {
+    display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 14px;
+  }
+  .other {
+    background: #171b22; border: 1px solid #262c36; border-radius: 10px;
+    padding: 10px 14px; font-size: 14px; flex: 1; min-width: 150px;
+  }
+  .other .lbl { color: #9aa3af; font-size: 12px; letter-spacing: 0.06em; font-weight: 700; }
+  .other .val { font-weight: 800; font-size: 17px; margin-top: 2px; }
+
+  .ticker-wrap {
+    overflow: hidden; border-top: 1px solid #262c36; border-bottom: 1px solid #262c36;
+    background: #12161d; white-space: nowrap;
+  }
+  .ticker {
+    display: inline-block; padding: 10px 0; font-size: 15px;
+    animation: scroll 45s linear infinite;
+  }
+  .ticker span { margin-right: 34px; }
+  .ticker b { font-weight: 800; }
+  @keyframes scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+  footer { max-width: 1100px; margin: 0 auto; padding: 10px 20px 20px; color: #7d8590; font-size: 12px; }
+  @media (max-width: 700px) {
+    .indices { grid-template-columns: 1fr; }
+    .main { grid-template-columns: 1fr; }
+    .index-card .value { font-size: 26px; }
+  }
+</style>
+</head>
+<body>
+<div class="sample-banner">SAMPLE VIEW — prices are illustrative, not real market data. Layout only.</div>
+
+<div class="wrap">
+  <header>
+    <h1>MARKET</h1>
+    <div class="meta">
+      <span class="pill live">● MARKET OPEN</span>
+      <span class="pill delay">15 MIN DELAYED</span>
+      <span class="clock" id="clock"></span>
+    </div>
+  </header>
+
+  <section class="indices">
+    <div class="index-card">
+      <div class="name">SENSEX</div>
+      <div class="value">84,250.35</div>
+      <div class="chg up">▲ 518.20 (+0.62%)</div>
+    </div>
+    <div class="index-card">
+      <div class="name">NIFTY 50</div>
+      <div class="value">25,820.10</div>
+      <div class="chg up">▲ 148.65 (+0.58%)</div>
+    </div>
+    <div class="index-card">
+      <div class="name">BANK NIFTY</div>
+      <div class="value">58,340.75</div>
+      <div class="chg down">▼ 121.40 (−0.21%)</div>
+    </div>
+  </section>
+
+  <section class="main">
+    <div class="panel">
+      <h2>NIFTY 50 — TODAY</h2>
+      <svg viewBox="0 0 600 220" width="100%" role="img" aria-label="Sample intraday chart">
+        <defs>
+          <linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#22c55e" stop-opacity="0.35"/>
+            <stop offset="100%" stop-color="#22c55e" stop-opacity="0"/>
+          </linearGradient>
+        </defs>
+        <g stroke="#262c36" stroke-width="1">
+          <line x1="0" y1="40" x2="600" y2="40"/><line x1="0" y1="90" x2="600" y2="90"/>
+          <line x1="0" y1="140" x2="600" y2="140"/><line x1="0" y1="190" x2="600" y2="190"/>
+        </g>
+        <polygon points="0,150 60,165 120,140 180,150 240,120 300,130 360,100 420,110 480,80 540,70 600,55 600,220 0,220" fill="url(#fill)"/>
+        <polyline points="0,150 60,165 120,140 180,150 240,120 300,130 360,100 420,110 480,80 540,70 600,55"
+          fill="none" stroke="#22c55e" stroke-width="2.5" stroke-linejoin="round"/>
+        <g fill="#7d8590" font-size="11">
+          <text x="0" y="214">9:15</text><text x="140" y="214">11:00</text><text x="280" y="214">12:30</text>
+          <text x="420" y="214">14:00</text><text x="560" y="214">15:30</text>
+        </g>
+      </svg>
+      <div class="chart-note">As of 15:30 IST (15 min delayed) • Day range 25,640 – 25,845 • Sample curve</div>
+    </div>
+
+    <div class="panel">
+      <h2>WHAT'S MOVING</h2>
+      <div class="movers">
+        <div>
+          <h3 class="g">▲ TOP GAINERS</h3>
+          <table>
+            <tr><td>Quick Heal</td><td class="price">148.20</td><td class="up">+4.8%</td></tr>
+            <tr><td>Tata Motors</td><td class="price">982.45</td><td class="up">+3.2%</td></tr>
+            <tr><td>Adani Ent.</td><td class="price">3,214.00</td><td class="up">+2.9%</td></tr>
+            <tr><td>SBI</td><td class="price">812.30</td><td class="up">+2.1%</td></tr>
+            <tr><td>Titan</td><td class="price">3,486.55</td><td class="up">+1.8%</td></tr>
+          </table>
+        </div>
+        <div>
+          <h3 class="l">▼ TOP LOSERS</h3>
+          <table>
+            <tr><td>Asian Paints</td><td class="price">2,412.10</td><td class="down">−2.4%</td></tr>
+            <tr><td>Bajaj Finance</td><td class="price">9,845.00</td><td class="down">−1.9%</td></tr>
+            <tr><td>Infosys</td><td class="price">1,876.25</td><td class="down">−1.2%</td></tr>
+            <tr><td>HDFC Bank</td><td class="price">1,942.80</td><td class="down">−0.8%</td></tr>
+            <tr><td>TCS</td><td class="price">4,318.60</td><td class="down">−0.5%</td></tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="others">
+    <div class="other"><div class="lbl">GOLD (₹/10g)</div><div class="val">₹ 82,450 <span class="up" style="font-size:13px">+0.4%</span></div></div>
+    <div class="other"><div class="lbl">USD / INR</div><div class="val">₹ 88.42 <span class="down" style="font-size:13px">−0.1%</span></div></div>
+    <div class="other"><div class="lbl">CRUDE ($/bbl)</div><div class="val">$ 64.20 <span class="up" style="font-size:13px">+0.9%</span></div></div>
+  </section>
+</div>
+
+<div class="ticker-wrap"><div class="ticker" id="ticker"></div></div>
+
+<footer>Sample layout for the market view. Real version will use 15-minute delayed data with an as-of timestamp. Best viewed landscape, on the streaming screen.</footer>
+
+<script>
+  // Live IST clock.
+  function tick() {
+    document.getElementById("clock").textContent =
+      new Date().toLocaleString("en-IN", { timeZone: "Asia/Kolkata", weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit", second: "2-digit" }) + " IST";
+  }
+  tick(); setInterval(tick, 1000);
+
+  // Scrolling ticker (content duplicated for a seamless loop). Sample prices only.
+  const items = [
+    ["RELIANCE", "2,945.10", "+0.8%", 1], ["HDFC BANK", "1,942.80", "−0.8%", 0],
+    ["TCS", "4,318.60", "−0.5%", 0], ["INFOSYS", "1,876.25", "−1.2%", 0],
+    ["ICICI BANK", "1,284.35", "+1.1%", 1], ["SBI", "812.30", "+2.1%", 1],
+    ["TATA MOTORS", "982.45", "+3.2%", 1], ["ADANI ENT.", "3,214.00", "+2.9%", 1],
+    ["BAJAJ FINANCE", "9,845.00", "−1.9%", 0], ["ASIAN PAINTS", "2,412.10", "−2.4%", 0],
+    ["TITAN", "3,486.55", "+1.8%", 1], ["QUICK HEAL", "148.20", "+4.8%", 1],
+    ["LT", "3,842.15", "+0.6%", 1], ["ONGC", "284.60", "+1.4%", 1]
+  ];
+  const one = items.map(i =>
+    "<span><b>" + i[0] + "</b> " + i[1] + " <span class=\"" + (i[3] ? "up" : "down") + "\">" + i[2] + "</span></span>"
+  ).join("");
+  document.getElementById("ticker").innerHTML = one + one;
+</script>
+</body>
+</html>
