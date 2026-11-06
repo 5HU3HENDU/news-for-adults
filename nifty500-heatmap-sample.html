@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>NIFTY 500 — Heatmap</title>
-<!-- nifty500-heatmap-v8 -->
+<!-- nifty500-heatmap-v9 -->
 <style>
   *{box-sizing:border-box;margin:0;padding:0}
   html,body{height:100%}
@@ -68,6 +68,7 @@
 <header>
   <div class="brand"><span class="amber" id="brandName">NIFTY 500</span> HEATMAP</div>
   <button class="sectgl hdr" id="sectorToggleHdr">Sector</button>
+  <button class="sectgl hdr" id="azToggleHdr">A–Z</button>
   <button class="gear" id="gearBtn" aria-label="Settings"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg><span class="fdot"></span></button>
 </header>
 <nav id="tabs"></nav>
@@ -104,6 +105,7 @@ function colorFor(pct){
 let REAL=null, REAL_ASOF="", CUR_KEY="NIFTY500", LAST_FALLBACK=0, LAST_COUNT=0;
 let FILTER=[0,0,0,0,0];
 let SECTOR_MODE=false;
+let AZ_MODE=false;
 let FULL_ROWS=[];
 function fmtINR(n){return n.toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2});}
 function nextUpdateStr(){
@@ -160,7 +162,8 @@ function render(key){
     return {sym:sym,pct:r.pct,dots:r.dots};
   }).sort(function(a,b){return b.pct-a.pct||(a.sym<b.sym?-1:1);});
   FULL_ROWS=full;
-  const rows=full.filter(function(r){
+  const disp=AZ_MODE?full.slice().sort(function(a,b){return a.sym<b.sym?-1:1;}):full;
+  const rows=disp.filter(function(r){
     return FILTER.every(function(f,i){
       if(f===0) return true;
       return f===1?r.dots[i]===1:r.dots[i]===0;
@@ -176,7 +179,7 @@ function render(key){
     const groups={};
     rows.forEach(function(r){ const s=SECTORS[r.sym]||"Other"; (groups[s]=groups[s]||[]).push(r); });
     const avg=function(g){ return g.reduce(function(t,r){return t+r.pct;},0)/g.length; };
-    const order=Object.keys(groups).sort(function(a,b){ return avg(groups[b])-avg(groups[a]); });
+    const order=Object.keys(groups).sort(function(a,b){ return AZ_MODE?(a<b?-1:1):avg(groups[b])-avg(groups[a]); });
     grid.innerHTML=order.map(function(s){
       const g=groups[s]; const a=avg(g);
       const head='<div class="sechead"><span>'+s+'</span><span>'+g.length+' stocks &middot; <span class="avg" style="color:'+(a>=0?"#22c55e":"#ef4444")+'">'+(a>=0?"+":"")+a.toFixed(2)+'% avg</span></span></div>';
@@ -261,6 +264,11 @@ document.getElementById("gearBtn").onclick=function(){ overlay.classList.add("op
 document.getElementById("sectorToggleHdr").onclick=function(){
   SECTOR_MODE=!SECTOR_MODE;
   this.classList.toggle("on",SECTOR_MODE);
+  render(CUR_KEY);
+};
+document.getElementById("azToggleHdr").onclick=function(){
+  AZ_MODE=!AZ_MODE;
+  this.classList.toggle("on",AZ_MODE);
   render(CUR_KEY);
 };
 overlay.addEventListener("click",function(e){ if(e.target===overlay) overlay.classList.remove("open"); });
