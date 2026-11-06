@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>NIFTY 500 — Heatmap</title>
-<!-- nifty500-heatmap-v7 -->
+<!-- nifty500-heatmap-v8 -->
 <style>
   *{box-sizing:border-box;margin:0;padding:0}
   html,body{height:100%}
@@ -32,6 +32,8 @@
   .sechead .avg{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-weight:700}
   .sectgl{background:#1f2937;color:#d1d5db;border:1px solid #4b5563;border-radius:999px;padding:3px 14px;font-size:12px;font-weight:700;cursor:pointer;margin-left:8px}
   .sectgl.on{background:#fbbf24;color:#111827;border-color:#fbbf24}
+  .sectgl.hdr{margin-left:auto}
+  header .gear{margin-left:0}
   #overlay{position:fixed;inset:0;background:rgba(0,0,0,.6);display:none;align-items:center;justify-content:center;z-index:50;padding:16px}
   #overlay.open{display:flex}
   #panel{background:#111827;border:1px solid #374151;border-radius:12px;padding:16px;width:100%;max-width:430px;color:#e5e7eb;font-size:13px;line-height:1.6}
@@ -65,6 +67,7 @@
 <body>
 <header>
   <div class="brand"><span class="amber" id="brandName">NIFTY 500</span> HEATMAP</div>
+  <button class="sectgl hdr" id="sectorToggleHdr">Sector</button>
   <button class="gear" id="gearBtn" aria-label="Settings"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg><span class="fdot"></span></button>
 </header>
 <nav id="tabs"></nav>
@@ -72,7 +75,6 @@
 <div id="overlay"><div id="panel">
   <div class="prow">Top-left = <b>biggest gainer</b> · Bottom-right = <b>biggest loser</b> · Dots = last 5 days, oldest → yesterday (<span style="color:#22c55e">●</span> up, <span style="color:#ef4444">●</span> down)</div>
   <div class="prow dim" id="gapLine"></div>
-  <div class="prow"><span class="dim">Group by sector</span><button class="sectgl" id="sectorToggle">Off</button></div>
   <div class="prow"><span class="dim">Dot filter</span><div id="fcircles"></div></div>
   <div class="prow"><span class="dim">Last updated:</span> <span id="lastUpdated">—</span><br><span class="dim">Next update:</span> <span id="nextUpdate">—</span><br><span class="dim">Data:</span> <span id="dataStatus">SAMPLE DATA</span></div>
 </div></div>
@@ -256,9 +258,8 @@ fcWrap.appendChild(clearBtn);
 const overlay=document.getElementById("overlay");
 const stockOverlay=document.getElementById("stockOverlay");
 document.getElementById("gearBtn").onclick=function(){ overlay.classList.add("open"); };
-document.getElementById("sectorToggle").onclick=function(){
+document.getElementById("sectorToggleHdr").onclick=function(){
   SECTOR_MODE=!SECTOR_MODE;
-  this.textContent=SECTOR_MODE?"On":"Off";
   this.classList.toggle("on",SECTOR_MODE);
   render(CUR_KEY);
 };
