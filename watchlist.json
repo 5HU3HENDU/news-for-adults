@@ -1,0 +1,725 @@
+{
+ "updated": "2026-11-15",
+ "stocks": [
+  {
+   "sym": "CPPLUS",
+   "name": "Aditya Infotech Ltd",
+   "exch": "NS"
+  },
+  {
+   "sym": "ANANDRATHI",
+   "name": "Anand Rathi Wealth Ltd",
+   "exch": "NS"
+  },
+  {
+   "sym": "ATHERENERG",
+   "name": "Ather Energy Ltd",
+   "exch": "NS"
+  },
+  {
+   "sym": "360ONE",
+   "name": "360 ONE WAM",
+   "exch": "NS"
+  },
+  {
+   "sym": "ACEVECTOR",
+   "name": "AceVector",
+   "exch": "NS"
+  },
+  {
+   "sym": "ACMESOLAR",
+   "name": "ACME Solar Holdings",
+   "exch": "NS"
+  },
+  {
+   "sym": "AEQUS",
+   "name": "Aequs",
+   "exch": "NS"
+  },
+  {
+   "sym": "AFFLE",
+   "name": "Affle 3i",
+   "exch": "NS"
+  },
+  {
+   "sym": "ALGOQUANT",
+   "name": "Algoquant Fintech",
+   "exch": "NS"
+  },
+  {
+   "sym": "ARE&M",
+   "name": "Amara Raja Energy & Mobility",
+   "exch": "NS"
+  },
+  {
+   "sym": "ANGELONE",
+   "name": "Angel One",
+   "exch": "NS"
+  },
+  {
+   "sym": "AQYLON",
+   "name": "Aqylon Nexus",
+   "exch": "NS"
+  },
+  {
+   "sym": "ARCIL",
+   "name": "Asset Reconstruction Company (India)",
+   "exch": "BO"
+  },
+  {
+   "sym": "AIIL",
+   "name": "Authum Investment & Infrastructure",
+   "exch": "NS"
+  },
+  {
+   "sym": "AVANCE",
+   "name": "Avance Technologies",
+   "exch": "NS"
+  },
+  {
+   "sym": "AVANTEL",
+   "name": "Avantel",
+   "exch": "NS"
+  },
+  {
+   "sym": "CCAVENUE",
+   "name": "AvenuesAI",
+   "exch": "NS"
+  },
+  {
+   "sym": "BAJAJHLDNG",
+   "name": "Bajaj Holdings & Investment",
+   "exch": "NS"
+  },
+  {
+   "sym": "BELRISE",
+   "name": "Belrise Industries",
+   "exch": "NS"
+  },
+  {
+   "sym": "BEML",
+   "name": "BEML",
+   "exch": "NS"
+  },
+  {
+   "sym": "BDL",
+   "name": "Bharat Dynamics",
+   "exch": "NS"
+  },
+  {
+   "sym": "BEL",
+   "name": "Bharat Electronics",
+   "exch": "NS"
+  },
+  {
+   "sym": "BHARTIARTL",
+   "name": "Bharti Airtel",
+   "exch": "NS"
+  },
+  {
+   "sym": "BHARTIHEXA",
+   "name": "Bharti Hexacom",
+   "exch": "NS"
+  },
+  {
+   "sym": "GROWW",
+   "name": "Billionbrains Garage Ventures",
+   "exch": "NS"
+  },
+  {
+   "sym": "BSOFT",
+   "name": "Birlasoft",
+   "exch": "NS"
+  },
+  {
+   "sym": "BBOX",
+   "name": "Black Box",
+   "exch": "NS"
+  },
+  {
+   "sym": "BLS",
+   "name": "BLS International Services",
+   "exch": "NS"
+  },
+  {
+   "sym": "BLUECLOUDS",
+   "name": "Blue Cloud Softech Solutions",
+   "exch": "NS"
+  },
+  {
+   "sym": "BCG",
+   "name": "Brightcom Group",
+   "exch": "NS"
+  },
+  {
+   "sym": "BSE",
+   "name": "BSE",
+   "exch": "NS"
+  },
+  {
+   "sym": "NSE",
+   "name": "NSE",
+   "exch": "BO"
+  },
+  {
+   "sym": "CDSL",
+   "name": "Central Depository Services (India)",
+   "exch": "NS"
+  },
+  {
+   "sym": "COFORGE",
+   "name": "Coforge",
+   "exch": "NS"
+  },
+  {
+   "sym": "COMFINTE",
+   "name": "Comfort Intech",
+   "exch": "NS"
+  },
+  {
+   "sym": "CAMS",
+   "name": "Computer Age Management Services",
+   "exch": "NS"
+  },
+  {
+   "sym": "CRISIL",
+   "name": "CRISIL",
+   "exch": "NS"
+  },
+  {
+   "sym": "CUPID",
+   "name": "Cupid",
+   "exch": "NS"
+  },
+  {
+   "sym": "CYIENT",
+   "name": "Cyient",
+   "exch": "NS"
+  },
+  {
+   "sym": "DATAPATTNS",
+   "name": "Data Patterns (India)",
+   "exch": "NS"
+  },
+  {
+   "sym": "DELHIVERY",
+   "name": "Delhivery",
+   "exch": "NS"
+  },
+  {
+   "sym": "DELTACORP",
+   "name": "Delta Corp",
+   "exch": "NS"
+  },
+  {
+   "sym": "DEVYANI",
+   "name": "Devyani International",
+   "exch": "NS"
+  },
+  {
+   "sym": "DIXON",
+   "name": "Dixon Technologies (India)",
+   "exch": "NS"
+  },
+  {
+   "sym": "EASEMYTRIP",
+   "name": "Easy Trip Planners",
+   "exch": "NS"
+  },
+  {
+   "sym": "ECLERX",
+   "name": "eClerx Services",
+   "exch": "NS"
+  },
+  {
+   "sym": "EMPOWER",
+   "name": "Empower India",
+   "exch": "NS"
+  },
+  {
+   "sym": "ESDS",
+   "name": "ESDS Software Solution",
+   "exch": "NS"
+  },
+  {
+   "sym": "ETERNAL",
+   "name": "Eternal",
+   "exch": "NS"
+  },
+  {
+   "sym": "FCSSOFT",
+   "name": "FCS Software Solutions",
+   "exch": "NS"
+  },
+  {
+   "sym": "FSL",
+   "name": "Firstsource Solutions",
+   "exch": "NS"
+  },
+  {
+   "sym": "FRACTAL",
+   "name": "Fractal Analytics",
+   "exch": "NS"
+  },
+  {
+   "sym": "GATECH",
+   "name": "GACM Technologies",
+   "exch": "NS"
+  },
+  {
+   "sym": "GAJA",
+   "name": "Gaja Alternative Asset Management",
+   "exch": "NS"
+  },
+  {
+   "sym": "GENESYS",
+   "name": "Genesys International Corporation",
+   "exch": "NS"
+  },
+  {
+   "sym": "GMRAIRPORT",
+   "name": "GMR Airports",
+   "exch": "NS"
+  },
+  {
+   "sym": "GTLINFRA",
+   "name": "GTL Infrastructure",
+   "exch": "NS"
+  },
+  {
+   "sym": "HAPPSTMNDS",
+   "name": "Happiest Minds Technologies",
+   "exch": "NS"
+  },
+  {
+   "sym": "HCLTECH",
+   "name": "HCL Technologies",
+   "exch": "NS"
+  },
+  {
+   "sym": "HDFCAMC",
+   "name": "HDFC Asset Management Company",
+   "exch": "NS"
+  },
+  {
+   "sym": "HEGAM",
+   "name": "HEG Advanced Materials",
+   "exch": "NS"
+  },
+  {
+   "sym": "HEXT",
+   "name": "Hexaware Technologies",
+   "exch": "NS"
+  },
+  {
+   "sym": "HFCL",
+   "name": "HFCL",
+   "exch": "NS"
+  },
+  {
+   "sym": "HAL",
+   "name": "Hindustan Aeronautics",
+   "exch": "NS"
+  },
+  {
+   "sym": "ICICIAMC",
+   "name": "ICICI Prudential Asset Management Company",
+   "exch": "NS"
+  },
+  {
+   "sym": "IDFCFIRSTB",
+   "name": "IDFC First Bank",
+   "exch": "NS"
+  },
+  {
+   "sym": "IEX",
+   "name": "Indian Energy Exchange",
+   "exch": "NS"
+  },
+  {
+   "sym": "IRCTC",
+   "name": "Indian Railway Catering And Tourism Corporation",
+   "exch": "NS"
+  },
+  {
+   "sym": "IRFC",
+   "name": "Indian Railway Finance Corporation",
+   "exch": "NS"
+  },
+  {
+   "sym": "INDOTHAI",
+   "name": "Indo Thai Securities",
+   "exch": "NS"
+  },
+  {
+   "sym": "INDUSTOWER",
+   "name": "Indus Towers",
+   "exch": "NS"
+  },
+  {
+   "sym": "NAUKRI",
+   "name": "Info Edge (India)",
+   "exch": "NS"
+  },
+  {
+   "sym": "INFY",
+   "name": "Infosys",
+   "exch": "NS"
+  },
+  {
+   "sym": "INTELLECT",
+   "name": "Intellect Design Arena",
+   "exch": "NS"
+  },
+  {
+   "sym": "IGIL",
+   "name": "International Gemological Institute",
+   "exch": "NS"
+  },
+  {
+   "sym": "IKS",
+   "name": "Inventurus Knowledge Solutions",
+   "exch": "NS"
+  },
+  {
+   "sym": "ITI",
+   "name": "ITI",
+   "exch": "NS"
+  },
+  {
+   "sym": "JIOFIN",
+   "name": "Jio Financial Services",
+   "exch": "NS"
+  },
+  {
+   "sym": "JPL",
+   "name": "Jio Platforms",
+   "exch": "NS"
+  },
+  {
+   "sym": "KAYNES",
+   "name": "Kaynes Technology India",
+   "exch": "NS"
+  },
+  {
+   "sym": "KELLTONTEC",
+   "name": "Kellton Tech Solutions",
+   "exch": "NS"
+  },
+  {
+   "sym": "KFINTECH",
+   "name": "Kfin Technologies",
+   "exch": "NS"
+  },
+  {
+   "sym": "KPITTECH",
+   "name": "KPIT Technologies",
+   "exch": "NS"
+  },
+  {
+   "sym": "LTTS",
+   "name": "L&T Technology Services",
+   "exch": "NS"
+  },
+  {
+   "sym": "IXIGO",
+   "name": "Le Travenues Technology",
+   "exch": "NS"
+  },
+  {
+   "sym": "LENSKART",
+   "name": "Lenskart Solutions",
+   "exch": "NS"
+  },
+  {
+   "sym": "LTM",
+   "name": "LTM",
+   "exch": "NS"
+  },
+  {
+   "sym": "MCLOUD",
+   "name": "Magellanic Cloud",
+   "exch": "NS"
+  },
+  {
+   "sym": "MEESHO",
+   "name": "Meesho",
+   "exch": "NS"
+  },
+  {
+   "sym": "MILKYMIST",
+   "name": "Milky Mist Dairy Food",
+   "exch": "NS"
+  },
+  {
+   "sym": "MONEYVIEW",
+   "name": "Moneyview",
+   "exch": "NS"
+  },
+  {
+   "sym": "MOSCHIP",
+   "name": "Moschip Technologies",
+   "exch": "NS"
+  },
+  {
+   "sym": "MPHASIS",
+   "name": "MphasiS",
+   "exch": "NS"
+  },
+  {
+   "sym": "MCX",
+   "name": "Multi Commodity Exchange of India",
+   "exch": "NS"
+  },
+  {
+   "sym": "NAZARA",
+   "name": "Nazara Technologies",
+   "exch": "NS"
+  },
+  {
+   "sym": "NETWEB",
+   "name": "Netweb Technologies India",
+   "exch": "NS"
+  },
+  {
+   "sym": "NAM-INDIA",
+   "name": "Nippon Life India Asset Management",
+   "exch": "NS"
+  },
+  {
+   "sym": "NUVAMA",
+   "name": "Nuvama Wealth Management",
+   "exch": "NS"
+  },
+  {
+   "sym": "PAYTM",
+   "name": "One 97 Communications",
+   "exch": "NS"
+  },
+  {
+   "sym": "MOBIKWIK",
+   "name": "One Mobikwik Systems",
+   "exch": "NS"
+  },
+  {
+   "sym": "KISSHT",
+   "name": "OnEMI Technology Solutions",
+   "exch": "NS"
+  },
+  {
+   "sym": "PACEDIGITK",
+   "name": "Pace Digitek",
+   "exch": "NS"
+  },
+  {
+   "sym": "POLICYBZR",
+   "name": "PB Fintech",
+   "exch": "NS"
+  },
+  {
+   "sym": "PERSISTENT",
+   "name": "Persistent Systems",
+   "exch": "NS"
+  },
+  {
+   "sym": "PINELABS",
+   "name": "Pine Labs",
+   "exch": "NS"
+  },
+  {
+   "sym": "PREMIERENE",
+   "name": "Premier Energies",
+   "exch": "NS"
+  },
+  {
+   "sym": "PVRINOX",
+   "name": "PVR INOX",
+   "exch": "NS"
+  },
+  {
+   "sym": "RSYSTEMS",
+   "name": "R Systems International",
+   "exch": "NS"
+  },
+  {
+   "sym": "RADICO",
+   "name": "Radico Khaitan",
+   "exch": "NS"
+  },
+  {
+   "sym": "RVNL",
+   "name": "Rail Vikas Nigam",
+   "exch": "NS"
+  },
+  {
+   "sym": "RAILTEL",
+   "name": "Railtel Corporation Of India",
+   "exch": "NS"
+  },
+  {
+   "sym": "REDINGTON",
+   "name": "Redington",
+   "exch": "NS"
+  },
+  {
+   "sym": "RCOM",
+   "name": "Reliance Communications",
+   "exch": "NS"
+  },
+  {
+   "sym": "RITES",
+   "name": "RITES",
+   "exch": "NS"
+  },
+  {
+   "sym": "SAGILITY",
+   "name": "Sagility",
+   "exch": "NS"
+  },
+  {
+   "sym": "SBIFUNDS",
+   "name": "SBI Funds Management",
+   "exch": "NS"
+  },
+  {
+   "sym": "SHADOWFAX",
+   "name": "Shadowfax Technologies",
+   "exch": "NS"
+  },
+  {
+   "sym": "SHAREINDIA",
+   "name": "Share India Securities",
+   "exch": "NS"
+  },
+  {
+   "sym": "SHIPROCKET",
+   "name": "Shiprocket",
+   "exch": "NS"
+  },
+  {
+   "sym": "SKYWAYS",
+   "name": "Skyways Air Services",
+   "exch": "NS"
+  },
+  {
+   "sym": "STLNETWORK",
+   "name": "STL Networks",
+   "exch": "NS"
+  },
+  {
+   "sym": "SUBEXLTD",
+   "name": "Subex",
+   "exch": "NS"
+  },
+  {
+   "sym": "SWIGGY",
+   "name": "Swiggy",
+   "exch": "NS"
+  },
+  {
+   "sym": "TATACOMM",
+   "name": "Tata Communications",
+   "exch": "NS"
+  },
+  {
+   "sym": "TCS",
+   "name": "Tata Consultancy Services",
+   "exch": "NS"
+  },
+  {
+   "sym": "TATAELXSI",
+   "name": "Tata Elxsi",
+   "exch": "NS"
+  },
+  {
+   "sym": "TATAINVEST",
+   "name": "Tata Investment Corporation",
+   "exch": "NS"
+  },
+  {
+   "sym": "TATATECH",
+   "name": "Tata Technologies",
+   "exch": "NS"
+  },
+  {
+   "sym": "TECHM",
+   "name": "Tech Mahindra",
+   "exch": "NS"
+  },
+  {
+   "sym": "TEJASNET",
+   "name": "Tejas Networks",
+   "exch": "NS"
+  },
+  {
+   "sym": "TURTLEMINT",
+   "name": "Turtlemint Fintech Solutions",
+   "exch": "NS"
+  },
+  {
+   "sym": "UBL",
+   "name": "United Breweries",
+   "exch": "NS"
+  },
+  {
+   "sym": "UNITDSPR",
+   "name": "United Spirits",
+   "exch": "NS"
+  },
+  {
+   "sym": "URBANCO",
+   "name": "Urban Company",
+   "exch": "NS"
+  },
+  {
+   "sym": "UTIAMC",
+   "name": "UTI Asset Management Company",
+   "exch": "NS"
+  },
+  {
+   "sym": "VAKRANGEE",
+   "name": "Vakrangee",
+   "exch": "NS"
+  },
+  {
+   "sym": "VIKRAMSOLR",
+   "name": "Vikram Solar",
+   "exch": "NS"
+  },
+  {
+   "sym": "IDEA",
+   "name": "Vodafone Idea",
+   "exch": "NS"
+  },
+  {
+   "sym": "WAAREEENER",
+   "name": "Waaree Energies",
+   "exch": "NS"
+  },
+  {
+   "sym": "CORDELIA",
+   "name": "Waterways Leisure Tourism",
+   "exch": "NS"
+  },
+  {
+   "sym": "WIPRO",
+   "name": "Wipro",
+   "exch": "NS"
+  },
+  {
+   "sym": "XTRANET",
+   "name": "Xtranet Technologies",
+   "exch": "NS"
+  },
+  {
+   "sym": "YATRA",
+   "name": "Yatra Online",
+   "exch": "NS"
+  },
+  {
+   "sym": "ZAGGLE",
+   "name": "Zaggle Prepaid Ocean Services",
+   "exch": "NS"
+  }
+ ]
+}

@@ -1,4 +1,5 @@
-// Fetch real market data for the Nifty 500 (Nov 2026 list) from Yahoo Finance
+// Fetch real market data for the Nifty 500 (Nov 2026 list) + My watchlist
+// (watchlist.json) from Yahoo Finance
 // (NSE feed, ~15 min delayed) via query1 with query2 fallback per symbol.
 // Source availability, tested 2026-11-04 from this server:
 //   Yahoo query1 + query2: WORK. NSE home/API, BSE API, BSE bhavcopy,
@@ -14,6 +15,15 @@ const path = require('path');
 const DIR = path.join(__dirname, '..');
 const fin = JSON.parse(fs.readFileSync(path.join(DIR, 'final-lists.json'), 'utf8'));
 const SYMBOLS = fin.indices.NIFTY500;
+// My watchlist (watchlist.json): symbols outside the 500 are fetched too
+// and merged into the same stocks map, so the "My watchlist" tab has live
+// data. BSE-only names (exch "BO") use the .BO Yahoo suffix.
+const wl = JSON.parse(fs.readFileSync(path.join(DIR, 'watchlist.json'), 'utf8'));
+const in500 = new Set(SYMBOLS);
+const FETCH = SYMBOLS.map(s => ({ key: s, ysym: s + '.NS' }));
+for (const w of wl.stocks) {
+  if (!in500.has(w.sym)) FETCH.push({ key: w.sym, ysym: w.sym + (w.exch === 'BO' ? '.BO' : '.NS') });
+}
 const UA = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36';
 const HOSTS = ['query1.finance.yahoo.com', 'query2.finance.yahoo.com'];
 function istNow() {
@@ -25,8 +35,8 @@ function istDate(ts) {
 function istToday() {
   return new Date().toLocaleDateString('en-IN', { timeZone: 'Asia/Kolkata', day: 'numeric', month: 'short', year: 'numeric' });
 }
-async function fetchChart(sym, range = '15d') {
-  const q = encodeURIComponent(sym + '.NS');
+async function fetchChart(ysym, range = '15d') {
+  const q = encodeURIComponent(ysym);
   for (const host of HOSTS) {
     try {
       const ctrl = new AbortController();
@@ -47,15 +57,20 @@ function parseSeries(res) {
   const adj = (res.indicators && res.indicators.adjclose && res.indicators.adjclose[0] && res.indicators.adjclose[0].adjclose) || null;
   const quo = (res.indicators && res.indicators.quote && res.indicators.quote[0] && res.indicators.quote[0].close) || null;
   const vals = adj || quo;
-  if (!vals) return [];
+  if (!vals) return { pts: [], closes: [] };
   const pts = [];
+  const closes = [];
   for (let i = 0; i < ts.length; i++) {
     const v = vals[i];
     if (v === null || v === undefined) continue;
     pts.push({ t: ts[i], v });
+    if (quo && quo[i] != null) closes.push({ t: ts[i], v: quo[i] });
   }
   pts.sort((a, b) => a.t - b.t);
-  return pts;
+  closes.sort((a, b) => a.t - b.t);
+  // If the raw-close series is too short to compute a change from, fall
+  // back to the adjclose series (same values when no adjustment applies).
+  return { pts, closes: closes.length >= 2 ? closes : pts };
 }
 async function main() {
   const stocks = {};
@@ -64,19 +79,19 @@ async function main() {
   const sessionVotes = {};
   const today = istToday();
   const CHUNK = 20;
-  for (let i = 0; i < SYMBOLS.length; i += CHUNK) {
-    const chunk = SYMBOLS.slice(i, i + CHUNK);
-    const results = await Promise.all(chunk.map(async (sym) => {
-      let got = await fetchChart(sym);
+  for (let i = 0; i < FETCH.length; i += CHUNK) {
+    const chunk = FETCH.slice(i, i + CHUNK);
+    const results = await Promise.all(chunk.map(async ({ key: sym, ysym }) => {
+      let got = await fetchChart(ysym);
       if (!got) return { sym, ok: false };
       let { res, host } = got;
-      let pts = parseSeries(res);
+      let { pts, closes } = parseSeries(res);
       // Some symbols return an empty series for the 15d window; retry wider.
       if (pts.length < 8) {
-        const got2 = await fetchChart(sym, '1mo');
+        const got2 = await fetchChart(ysym, '1mo');
         if (got2) {
-          const pts2 = parseSeries(got2.res);
-          if (pts2.length > pts.length) { got = got2; res = got2.res; host = got2.host; pts = pts2; }
+          const s2 = parseSeries(got2.res);
+          if (s2.pts.length > pts.length) { got = got2; res = got2.res; host = got2.host; pts = s2.pts; closes = s2.closes; }
         }
       }
       if (pts.length < 2) {
@@ -91,16 +106,27 @@ async function main() {
       }
       const meta = res.meta || {};
       const n = pts.length;
-      const last = pts[n - 1].v, prev = pts[n - 2].v;
-      const computed = ((last - prev) / prev) * 100;
-      const chg = (typeof meta.regularMarketChangePercent === 'number') ? meta.regularMarketChangePercent : computed;
-      const price = (typeof meta.regularMarketPrice === 'number') ? meta.regularMarketPrice : last;
-      // Dots: 5 day-changes ending the day before the display session.
-      // The display session is meta's session (regularMarketTime). If the
-      // chart's last candle is that session, dots end one session earlier;
-      // if the chart lags meta by one session, dots end at the last candle.
+      // Today's change is computed from the UNADJUSTED closes, not adjclose:
+      // adjclose is dividend-adjusted, so for a stock that went ex-dividend
+      // it gives a wrong (even wrong-sign) day change. The last close is the
+      // official close either way.
+      const nc = closes.length;
+      const lastC = closes[nc - 1].v, prevC = closes[nc - 2].v;
+      const computed = ((lastC - prevC) / prevC) * 100;
+      // Display session is meta's session (regularMarketTime). When the
+      // chart's last candle IS that session (post-close), the candle close
+      // is the official close and is stable — meta.regularMarketPrice
+      // drifts after close (PVRINOX: meta 1633 vs close 1641.20 on 13 Nov;
+      // 275/499 symbols moved between the Fri 16:42 and Sun 00:57 fetches).
+      // Intraday (chart lags meta) keep meta as the live price.
       const metaSession = (typeof meta.regularMarketTime === 'number') ? istDate(meta.regularMarketTime) : istDate(pts[n - 1].t);
       const lastIsDisplay = istDate(pts[n - 1].t) === metaSession;
+      const chg = lastIsDisplay ? computed : ((typeof meta.regularMarketChangePercent === 'number') ? meta.regularMarketChangePercent : computed);
+      const price = lastIsDisplay ? lastC : ((typeof meta.regularMarketPrice === 'number') ? meta.regularMarketPrice : lastC);
+      // Dots: 5 day-changes ending the day before the display session.
+      // If the chart's last candle is that session, dots end one session
+      // earlier; if the chart lags meta by one session, dots end at the
+      // last candle.
       const base = lastIsDisplay ? n - 6 : n - 5;
       const dots = [];
       for (let j = 0; j < 5; j++) {
