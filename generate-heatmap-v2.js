@@ -8,6 +8,11 @@ const I = fin.indices;
 const wl = JSON.parse(fs.readFileSync(__dirname + '/watchlist.json', 'utf8'));
 const wlSyms = wl.stocks.map(s => s.sym);
 const wlNames = Object.fromEntries(wl.stocks.map(s => [s.sym, s.name]));
+// Confirmed-unlisted names (no NSE/BSE listing): grey placeholder tiles,
+// no price/data. Empty today — all 144 names are listed — but the design
+// is live so a future unlisted name renders as a grey tile.
+const wlUnlisted = (wl.unlisted || []).map(u => u.name).sort((a, b) => a < b ? -1 : 1);
+const unlistedJson = JSON.stringify(wlUnlisted);
 const IND = Object.assign({}, I, { WATCHLIST: wlSyms });
 const TABS = [
   { key: 'NIFTY500', label: 'Nifty 500', cols: 25 },
@@ -84,6 +89,13 @@ const html = `<!DOCTYPE html>
   .bdot{width:12px;height:12px;border-radius:50%;display:inline-block;margin-right:7px}
   .bdot.up{background:#22c55e}.bdot.dn{background:#ef4444}.bdot.flat{background:#4b5563}
   .pill{display:inline-block;background:#1f2937;border:1px solid #4b5563;border-radius:999px;padding:1px 10px;font-size:12px;margin:2px 4px 2px 0}
+  .cell.grey{background:#374151}
+  .cell.grey .uname{font-size:11px;font-weight:700;text-align:center;line-height:1.25;overflow:hidden}
+  .cell.grey .ulabel{font-size:10px;color:#9ca3af;text-align:center}
+  #unlistedOverlay{position:fixed;inset:0;background:rgba(0,0,0,.6);display:none;align-items:center;justify-content:center;z-index:60;padding:16px}
+  #unlistedOverlay.open{display:flex}
+  #unlistedPanel{background:#111827;border:1px solid #374151;border-radius:12px;padding:16px;width:100%;max-width:430px;color:#e5e7eb;font-size:14px;line-height:1.6}
+  #unlistedPanel .dim{color:#9ca3af}
   @media(max-width:700px){
     body{overflow:auto;height:auto}
     #grid{grid-template-columns:repeat(5,1fr)!important;grid-auto-rows:auto;height:auto}
@@ -117,11 +129,16 @@ const html = `<!DOCTYPE html>
   <div class="srow dim" style="font-size:12px">Data as of <span id="stAsof">\u2014</span></div>
   <div class="srow"><a id="stGf" href="#" target="_blank" rel="noopener" style="color:#fbbf24;font-weight:700;text-decoration:none">Google Finance \u2197</a></div>
 </div></div>
+<div id="unlistedOverlay"><div id="unlistedPanel">
+  <div style="font-size:17px;font-weight:800" id="unName"></div>
+  <div class="dim" style="margin-top:6px">Not listed yet \u2014 no market data</div>
+</div></div>
 <script>
 const INDICES=${dataJson};
 const NAMES=${namesJson};
 const SECTORS=${sectorsJson};
 const TABS=${tabsJson};
+const UNLISTED=${unlistedJson};
 function hash(s){let h=2166136261;for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619);}return h>>>0;}
 function samplePct(sym){return ((hash(sym+"%")%9000)/1000)-4.5;}
 function dayUp(sym,k){return (hash(sym+":d"+k)%2)===0;}
@@ -178,6 +195,12 @@ function cellHtml(r){
   return '<div class="cell" data-sym="'+r.sym+'" style="background:'+colorFor(r.pct)+'"><span class="sym">'+r.sym+
     '</span><span class="ret">'+pctTxt+'</span><span class="dots">'+dots+'</span></div>';
 }
+function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
+// Grey placeholder tile for a confirmed-unlisted name: name + "Unlisted",
+// no price, no return, no dots, no sample values.
+function greyCellHtml(name){
+  return '<div class="cell grey" data-unlisted="1" data-name="'+esc(name)+'"><span class="uname">'+esc(name)+'</span><span class="ulabel">Unlisted</span></div>';
+}
 function render(key){
   CUR_KEY=key;
   const tab=TABS.find(function(t){return t.key===key;});
@@ -199,8 +222,14 @@ function render(key){
     });
   });
   LAST_FALLBACK=fallback; LAST_COUNT=INDICES[key].length;
+  // Grey placeholder tiles (watchlist only): priced tiles first, grey
+  // tiles at the end in A–Z order among themselves. Grey tiles are not
+  // part of rows/FULL_ROWS, so the dot filter and the feed-gap count
+  // never touch them.
+  const greyRows=(key==="WATCHLIST")?UNLISTED.slice():[];
+  const greyHtml=greyRows.map(greyCellHtml).join("");
   const main=document.querySelector("main");
-  if(rows.length===0){
+  if(rows.length===0&&greyRows.length===0){
     grid.style.height=""; grid.style.gridAutoRows=""; main.style.overflowY="";
     grid.innerHTML='<div class="nomatch">No matches</div>';
   } else if(SECTOR_MODE){
@@ -213,10 +242,10 @@ function render(key){
       const g=groups[s]; const a=avg(g);
       const head='<div class="sechead"><span>'+s+'</span><span>'+g.length+' stocks &middot; <span class="avg" style="color:'+(a>=0?"#22c55e":"#ef4444")+'">'+(a>=0?"+":"")+a.toFixed(2)+'% avg</span></span></div>';
       return head+g.map(cellHtml).join("");
-    }).join("");
+    }).join("")+(greyRows.length?'<div class="sechead"><span>Unlisted</span><span>'+greyRows.length+' stocks &middot; no market data</span></div>'+greyHtml:"");
   } else {
     grid.style.height=""; grid.style.gridAutoRows=""; main.style.overflowY="";
-    grid.innerHTML=rows.map(cellHtml).join("");
+    grid.innerHTML=rows.map(cellHtml).join("")+greyHtml;
   }
   document.getElementById("gearBtn").classList.toggle("on-filter",FILTER.some(function(f){return f!==0;}));
   updateSettings();
@@ -255,6 +284,10 @@ function openStock(sym){
   document.getElementById("stGf").href="https://www.google.com/finance/quote/"+encodeURIComponent(sym)+":NSE";
   document.getElementById("stockOverlay").classList.add("open");
 }
+function openUnlisted(name){
+  document.getElementById("unName").textContent=name;
+  document.getElementById("unlistedOverlay").classList.add("open");
+}
 const nav=document.getElementById("tabs");
 TABS.forEach(function(t){
   const b=document.createElement("button");
@@ -265,7 +298,9 @@ TABS.forEach(function(t){
 });
 document.getElementById("grid").addEventListener("click",function(e){
   const c=e.target.closest(".cell");
-  if(c&&c.dataset.sym) openStock(c.dataset.sym);
+  if(!c) return;
+  if(c.dataset.unlisted){ openUnlisted(c.dataset.name); return; }
+  if(c.dataset.sym) openStock(c.dataset.sym);
 });
 const fcWrap=document.getElementById("fcircles");
 const fcBtns=[];
@@ -290,6 +325,7 @@ clearBtn.onclick=function(){ FILTER=[0,0,0,0,0]; paintCircles(); render(CUR_KEY)
 fcWrap.appendChild(clearBtn);
 const overlay=document.getElementById("overlay");
 const stockOverlay=document.getElementById("stockOverlay");
+const unlistedOverlay=document.getElementById("unlistedOverlay");
 document.getElementById("gearBtn").onclick=function(){ overlay.classList.add("open"); };
 document.getElementById("sectorToggleHdr").onclick=function(){
   SECTOR_MODE=!SECTOR_MODE;
@@ -303,7 +339,8 @@ document.getElementById("azToggleHdr").onclick=function(){
 };
 overlay.addEventListener("click",function(e){ if(e.target===overlay) overlay.classList.remove("open"); });
 stockOverlay.addEventListener("click",function(e){ if(e.target===stockOverlay) stockOverlay.classList.remove("open"); });
-document.addEventListener("keydown",function(e){ if(e.key==="Escape"){ overlay.classList.remove("open"); stockOverlay.classList.remove("open"); } });
+unlistedOverlay.addEventListener("click",function(e){ if(e.target===unlistedOverlay) unlistedOverlay.classList.remove("open"); });
+document.addEventListener("keydown",function(e){ if(e.key==="Escape"){ overlay.classList.remove("open"); stockOverlay.classList.remove("open"); unlistedOverlay.classList.remove("open"); } });
 loadReal().then(function(){render("NIFTY500");});
 </script>
 </body>
