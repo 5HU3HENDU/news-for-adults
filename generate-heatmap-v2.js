@@ -1,8 +1,10 @@
-// Generate nifty500-heatmap-sample.html (v11: 6 investor-lens dots on the
-// My watchlist tab (index tabs keep the 5 trend dots) + popup with last-5-days
-// % moves and per-lens check detail) from final-lists.json, watchlist.json
-// and sectors.json. Lens verdicts come from lens.json at runtime;
-// market-data.json carries the 5 daily % moves ("m") for the popup.
+// Generate nifty500-heatmap-sample.html (v12: mobile popup fix — panels
+// fit the viewport, scroll internally, visible close button + scroll-lock
+// restore; 6 investor-lens dots on the My watchlist tab (index tabs keep
+// the 5 trend dots) + popup with last-5-days % moves and per-lens check
+// detail) from final-lists.json, watchlist.json and sectors.json. Lens
+// verdicts come from lens.json at runtime; market-data.json carries the
+// 5 daily % moves ("m") for the popup.
 const fs = require('fs');
 const fin = JSON.parse(fs.readFileSync(__dirname + '/final-lists.json', 'utf8'));
 const I = fin.indices;
@@ -39,7 +41,7 @@ const html = `<!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>NIFTY 500 \u2014 Heatmap</title>
-<!-- nifty500-heatmap-v11 -->
+<!-- nifty500-heatmap-v12 -->
 <style>
   *{box-sizing:border-box;margin:0;padding:0}
   html,body{height:100%}
@@ -71,7 +73,8 @@ const html = `<!DOCTYPE html>
   header .gear{margin-left:0}
   #overlay{position:fixed;inset:0;background:rgba(0,0,0,.6);display:none;align-items:center;justify-content:center;z-index:50;padding:16px}
   #overlay.open{display:flex}
-  #panel{background:#111827;border:1px solid #374151;border-radius:12px;padding:16px;width:100%;max-width:430px;color:#e5e7eb;font-size:13px;line-height:1.6}
+  #panel{background:#111827;border:1px solid #374151;border-radius:12px;padding:16px;width:min(560px,calc(100vw - 24px));max-height:88vh;max-height:88dvh;overflow-y:auto;overflow-x:hidden;-webkit-overflow-scrolling:touch;color:#e5e7eb;font-size:13px;line-height:1.6}
+  .pclose{position:absolute;top:10px;right:10px;width:44px;height:44px;border-radius:50%;background:#1f2937;color:#fff;border:1px solid #6b7280;font-size:20px;line-height:1;cursor:pointer;z-index:5;display:flex;align-items:center;justify-content:center;flex:none}
   #panel .prow{margin-bottom:12px}
   #panel .prow:last-child{margin-bottom:0}
   #panel b{color:#fff}
@@ -83,7 +86,7 @@ const html = `<!DOCTYPE html>
   #panel .dim{color:#9ca3af}
   #stockOverlay{position:fixed;inset:0;background:rgba(0,0,0,.6);display:none;align-items:center;justify-content:center;z-index:60;padding:16px}
   #stockOverlay.open{display:flex}
-  #stockPanel{background:#111827;border:1px solid #374151;border-radius:12px;padding:16px;width:100%;max-width:430px;color:#e5e7eb;font-size:14px;line-height:1.6}
+  #stockPanel{background:#111827;border:1px solid #374151;border-radius:12px;padding:16px;width:min(560px,calc(100vw - 24px));max-height:88vh;max-height:88dvh;overflow-y:auto;overflow-x:hidden;-webkit-overflow-scrolling:touch;color:#e5e7eb;font-size:14px;line-height:1.6}
   #stockPanel .dim{color:#9ca3af}
   #stockPanel .srow{margin-bottom:8px}
   #stockPanel .srow:last-child{margin-bottom:0}
@@ -108,7 +111,7 @@ const html = `<!DOCTYPE html>
   .cell.grey .ulabel{font-size:10px;color:#9ca3af;text-align:center}
   #unlistedOverlay{position:fixed;inset:0;background:rgba(0,0,0,.6);display:none;align-items:center;justify-content:center;z-index:60;padding:16px}
   #unlistedOverlay.open{display:flex}
-  #unlistedPanel{background:#111827;border:1px solid #374151;border-radius:12px;padding:16px;width:100%;max-width:430px;color:#e5e7eb;font-size:14px;line-height:1.6}
+  #unlistedPanel{background:#111827;border:1px solid #374151;border-radius:12px;padding:16px;width:min(560px,calc(100vw - 24px));max-height:88vh;max-height:88dvh;overflow-y:auto;overflow-x:hidden;-webkit-overflow-scrolling:touch;color:#e5e7eb;font-size:14px;line-height:1.6}
   #unlistedPanel .dim{color:#9ca3af}
   @media(max-width:700px){
     body{overflow:auto;height:auto}
@@ -116,6 +119,13 @@ const html = `<!DOCTYPE html>
     .cell{padding:9px 4px}
     .sym{font-size:15cqw}
     .ret{font-size:13cqw}
+    #overlay,#stockOverlay,#unlistedOverlay{padding:12px}
+  }
+  @media(max-width:480px){
+    .lcheck{display:flex;flex-wrap:wrap;gap:2px 8px}
+    .lcheck span{overflow-wrap:anywhere;min-width:0}
+    .lcheck span:first-child{flex:1 1 100%}
+    .lcheck .mk{margin-left:auto}
   }
 </style>
 </head>
@@ -128,13 +138,13 @@ const html = `<!DOCTYPE html>
 </header>
 <nav id="tabs"></nav>
 <main><div id="grid"></div></main>
-<div id="overlay"><div id="panel">
+<div id="overlay"><button class="pclose" id="closeSettings" aria-label="Close">✕</button><div id="panel">
   <div class="prow">Top-left = <b>biggest gainer</b> \u00b7 Bottom-right = <b>biggest loser</b><br>Index tabs: dots = last 5 days, oldest \u2192 yesterday (<span style="color:#22c55e">\u25cf</span> up, <span style="color:#ef4444">\u25cf</span> down)<br>My watchlist: 6 lens dots — Buffett, Burry, Axelrod, Jhunjhunwala, Lynch, Marks (<span style="color:#22c55e">\u25cf</span> lens likes it, <span style="color:#ef4444">\u25cf</span> lens avoids it, <span style="color:#6b7280">\u25cf</span> neutral)</div>
   <div class="prow dim" id="gapLine"></div>
   <div class="prow"><span class="dim">Dot filter</span><div id="fcircles"></div></div>
   <div class="prow"><span class="dim">Last updated:</span> <span id="lastUpdated">\u2014</span><br><span class="dim">Next update:</span> <span id="nextUpdate">\u2014</span><br><span class="dim">Data:</span> <span id="dataStatus">SAMPLE DATA</span><br><span class="dim">Lens data:</span> <span id="lensUpdated">\u2014</span></div>
 </div></div>
-<div id="stockOverlay"><div id="stockPanel">
+<div id="stockOverlay"><button class="pclose" id="closeStock" aria-label="Close">✕</button><div id="stockPanel">
   <div class="srow"><div style="font-size:17px;font-weight:800" id="stName"></div><div class="dim" id="stSym"></div></div>
   <div class="srow"><span style="font-size:20px;font-weight:800" id="stPrice"></span> <span id="stChange" style="font-weight:700"></span></div>
   <div class="srow"><div class="dim" style="font-size:12px">Last 5 days</div><div id="stMoves"></div></div>
@@ -144,7 +154,7 @@ const html = `<!DOCTYPE html>
   <div class="srow dim" style="font-size:12px">Data as of <span id="stAsof">\u2014</span></div>
   <div class="srow"><a id="stGf" href="#" target="_blank" rel="noopener" style="color:#fbbf24;font-weight:700;text-decoration:none">Google Finance \u2197</a></div>
 </div></div>
-<div id="unlistedOverlay"><div id="unlistedPanel">
+<div id="unlistedOverlay"><button class="pclose" id="closeUnlisted" aria-label="Close">✕</button><div id="unlistedPanel">
   <div style="font-size:17px;font-weight:800" id="unName"></div>
   <div class="dim" style="margin-top:6px">Not listed yet \u2014 no market data</div>
 </div></div>
@@ -319,6 +329,7 @@ function openStock(sym){
   document.getElementById("stAsof").textContent=REAL?REAL_ASOF:"\u2014";
   document.getElementById("stGf").href="https://www.google.com/finance/quote/"+encodeURIComponent(sym)+":NSE";
   document.getElementById("stockOverlay").classList.add("open");
+  lockScroll();
 }
 function lensHtml(sym){
   // Per-lens breakdown for a watchlist stock: overall verdict + score,
@@ -360,6 +371,7 @@ function lensHtml(sym){
 function openUnlisted(name){
   document.getElementById("unName").textContent=name;
   document.getElementById("unlistedOverlay").classList.add("open");
+  lockScroll();
 }
 const nav=document.getElementById("tabs");
 TABS.forEach(function(t){
@@ -417,7 +429,17 @@ function paintCircles(){
 const overlay=document.getElementById("overlay");
 const stockOverlay=document.getElementById("stockOverlay");
 const unlistedOverlay=document.getElementById("unlistedOverlay");
-document.getElementById("gearBtn").onclick=function(){ overlay.classList.add("open"); };
+// While any popup is open the page behind stays locked; closeAll restores
+// it, so the list is visible and scrollable again. (Mobile has no Esc and
+// a tall panel can cover the backdrop, so the visible ✕ button is the
+// primary way back.)
+function lockScroll(){ document.body.style.overflow="hidden"; document.documentElement.style.overflow="hidden"; }
+function unlockScroll(){ document.body.style.overflow=""; document.documentElement.style.overflow=""; }
+function closeAll(){ overlay.classList.remove("open"); stockOverlay.classList.remove("open"); unlistedOverlay.classList.remove("open"); unlockScroll(); }
+document.getElementById("gearBtn").onclick=function(){ overlay.classList.add("open"); lockScroll(); };
+document.getElementById("closeSettings").onclick=closeAll;
+document.getElementById("closeStock").onclick=closeAll;
+document.getElementById("closeUnlisted").onclick=closeAll;
 document.getElementById("sectorToggleHdr").onclick=function(){
   SECTOR_MODE=!SECTOR_MODE;
   this.classList.toggle("on",SECTOR_MODE);
@@ -428,10 +450,10 @@ document.getElementById("azToggleHdr").onclick=function(){
   this.classList.toggle("on",AZ_MODE);
   render(CUR_KEY);
 };
-overlay.addEventListener("click",function(e){ if(e.target===overlay) overlay.classList.remove("open"); });
-stockOverlay.addEventListener("click",function(e){ if(e.target===stockOverlay) stockOverlay.classList.remove("open"); });
-unlistedOverlay.addEventListener("click",function(e){ if(e.target===unlistedOverlay) unlistedOverlay.classList.remove("open"); });
-document.addEventListener("keydown",function(e){ if(e.key==="Escape"){ overlay.classList.remove("open"); stockOverlay.classList.remove("open"); unlistedOverlay.classList.remove("open"); } });
+overlay.addEventListener("click",function(e){ if(e.target===overlay) closeAll(); });
+stockOverlay.addEventListener("click",function(e){ if(e.target===stockOverlay) closeAll(); });
+unlistedOverlay.addEventListener("click",function(e){ if(e.target===unlistedOverlay) closeAll(); });
+document.addEventListener("keydown",function(e){ if(e.key==="Escape"){ closeAll(); } });
 Promise.all([loadReal(),loadLens()]).then(function(){ buildFilterUI(); render("NIFTY500"); });
 </script>
 </body>
