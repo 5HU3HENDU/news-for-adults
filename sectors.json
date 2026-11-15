@@ -1,5 +1,5 @@
 {
- "fetchedAtIST": "15 Nov, 12:57 am",
+ "fetchedAtIST": "15 Nov, 07:28 pm",
  "sectors": {
   "360ONE": "Financial Services",
   "ABB": "Industrials",
@@ -545,7 +545,11 @@
   "CORDELIA": "Industrials",
   "XTRANET": "Technology",
   "YATRA": "Consumer Cyclical",
-  "ZAGGLE": "Technology"
+  "ZAGGLE": "Technology",
+  "PFOCUS": "Communication Services",
+  "TONBO": "Industrials",
+  "TFCILTD": "Financial Services",
+  "WEBELSOLAR": "Technology"
  },
  "missing": [
   "ICICIPRULI",

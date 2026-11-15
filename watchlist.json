@@ -721,6 +721,41 @@
    "sym": "ZAGGLE",
    "name": "Zaggle Prepaid Ocean Services",
    "exch": "NS"
+  },
+  {
+   "sym": "PFOCUS",
+   "name": "Prime Focus",
+   "exch": "NS"
+  },
+  {
+   "sym": "STLTECH",
+   "name": "Sterlite Technologies",
+   "exch": "NS"
+  },
+  {
+   "sym": "SYRMA",
+   "name": "Syrma SGS Technology",
+   "exch": "NS"
+  },
+  {
+   "sym": "TONBO",
+   "name": "Tonbo Imaging",
+   "exch": "NS"
+  },
+  {
+   "sym": "TFCILTD",
+   "name": "Tourism Finance Corporation of India",
+   "exch": "NS"
+  },
+  {
+   "sym": "WEBELSOLAR",
+   "name": "Websol Energy System",
+   "exch": "NS"
+  },
+  {
+   "sym": "ZENTEC",
+   "name": "Zen Technologies",
+   "exch": "NS"
   }
  ]
 }
