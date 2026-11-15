@@ -2,6 +2,11 @@
 
 A static 16:9 Hinglish stream with natural voice narration. A cinematic abstract background is illustrative, not event footage. Every story has publisher timestamps and linked source credits. Playback takes one story from each active topic and reads it aloud; the next story starts when the narration ends. Short lanes repeat; empty lanes are skipped. Stories older than 24 hours are filtered both on publication and in the browser. There is no artificial story-count cap.
 
+## Live pages
+
+- **Nifty 500 heatmap** — https://5hu3hendu.github.io/news-for-adults/nifty500-heatmap-sample.html — all 500 stocks in one view, sorted by today's return, with 5-day trend dots, index tabs (Nifty 50, Sensex, Bank Nifty, Midcap 150, Smallcap 250), sector grouping, A–Z sort and a My watchlist tab. Data refreshes weekdays at 4:45 pm IST.
+- **Nifty 500 paged view** — https://5hu3hendu.github.io/news-for-adults/nifty500-view-sample.html — the same 500 stocks in 10 pages of 50, auto-advancing every 20 seconds.
+
 ## One-run update workflow
 
 1. `python3 scripts/fetch.py --out /tmp/candidates.json` collects RSS headlines and short descriptions only. It never fetches article pages. This private intermediate stays outside the repository.
