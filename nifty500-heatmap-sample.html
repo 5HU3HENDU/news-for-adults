@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>NIFTY 500 — Heatmap</title>
-<!-- nifty500-heatmap-v10 -->
+<!-- nifty500-heatmap-v11 -->
 <style>
   *{box-sizing:border-box;margin:0;padding:0}
   html,body{height:100%}
@@ -54,6 +54,19 @@
   #stockPanel .srow:last-child{margin-bottom:0}
   .bdot{width:12px;height:12px;border-radius:50%;display:inline-block;margin-right:7px}
   .bdot.up{background:#22c55e}.bdot.dn{background:#ef4444}.bdot.flat{background:#4b5563}
+  .fcol{display:flex;flex-direction:column;align-items:center;gap:2px}
+  .fclab{font-size:9px;color:#9ca3af;font-weight:700}
+  .moves{display:flex;gap:6px;flex-wrap:wrap;margin-top:4px}
+  .mv{background:#1f2937;border:1px solid #374151;border-radius:6px;padding:3px 8px;font-size:12px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;text-align:center;line-height:1.35}
+  .mv .md{display:block;font-size:10px;color:#9ca3af;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+  .lens{border-top:1px solid #374151;padding-top:10px;margin-top:10px}
+  .lhead{font-size:13px;font-weight:700;margin-bottom:4px}
+  .lcheck{display:grid;grid-template-columns:1fr auto auto 16px;gap:8px;font-size:12px;line-height:1.7;color:#d1d5db}
+  .lcheck .thr,.lcheck .val{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:#9ca3af;text-align:right;white-space:nowrap}
+  .lcheck .mk{text-align:center;font-weight:800}
+  .lcheck .mk.ok{color:#22c55e}.lcheck .mk.no{color:#ef4444}.lcheck .mk.na{color:#6b7280}
+  .lnote{font-size:11px;color:#9ca3af;margin-top:2px}
+  .lflag{font-size:12px;color:#fbbf24;margin-top:6px}
   .pill{display:inline-block;background:#1f2937;border:1px solid #4b5563;border-radius:999px;padding:1px 10px;font-size:12px;margin:2px 4px 2px 0}
   .cell.grey{background:#374151}
   .cell.grey .uname{font-size:11px;font-weight:700;text-align:center;line-height:1.25;overflow:hidden}
@@ -81,15 +94,16 @@
 <nav id="tabs"></nav>
 <main><div id="grid"></div></main>
 <div id="overlay"><div id="panel">
-  <div class="prow">Top-left = <b>biggest gainer</b> · Bottom-right = <b>biggest loser</b> · Dots = last 5 days, oldest → yesterday (<span style="color:#22c55e">●</span> up, <span style="color:#ef4444">●</span> down)</div>
+  <div class="prow">Top-left = <b>biggest gainer</b> · Bottom-right = <b>biggest loser</b><br>Index tabs: dots = last 5 days, oldest → yesterday (<span style="color:#22c55e">●</span> up, <span style="color:#ef4444">●</span> down)<br>My watchlist: 6 lens dots — Buffett, Burry, Axelrod, Jhunjhunwala, Lynch, Marks (<span style="color:#22c55e">●</span> lens likes it, <span style="color:#ef4444">●</span> lens avoids it, <span style="color:#6b7280">●</span> neutral)</div>
   <div class="prow dim" id="gapLine"></div>
   <div class="prow"><span class="dim">Dot filter</span><div id="fcircles"></div></div>
-  <div class="prow"><span class="dim">Last updated:</span> <span id="lastUpdated">—</span><br><span class="dim">Next update:</span> <span id="nextUpdate">—</span><br><span class="dim">Data:</span> <span id="dataStatus">SAMPLE DATA</span></div>
+  <div class="prow"><span class="dim">Last updated:</span> <span id="lastUpdated">—</span><br><span class="dim">Next update:</span> <span id="nextUpdate">—</span><br><span class="dim">Data:</span> <span id="dataStatus">SAMPLE DATA</span><br><span class="dim">Lens data:</span> <span id="lensUpdated">—</span></div>
 </div></div>
 <div id="stockOverlay"><div id="stockPanel">
   <div class="srow"><div style="font-size:17px;font-weight:800" id="stName"></div><div class="dim" id="stSym"></div></div>
   <div class="srow"><span style="font-size:20px;font-weight:800" id="stPrice"></span> <span id="stChange" style="font-weight:700"></span></div>
-  <div class="srow"><div id="stDots"></div><div class="dim" id="stPattern"></div></div>
+  <div class="srow"><div class="dim" style="font-size:12px">Last 5 days</div><div id="stMoves"></div></div>
+  <div id="stLens"></div>
   <div class="srow" id="stRank"></div>
   <div class="srow" id="stIndices"></div>
   <div class="srow dim" style="font-size:12px">Data as of <span id="stAsof">—</span></div>
@@ -115,7 +129,11 @@ function colorFor(pct){
   return "rgb("+c[0]+","+c[1]+","+c[2]+")";
 }
 let REAL=null, REAL_ASOF="", CUR_KEY="NIFTY500", LAST_FALLBACK=0, LAST_COUNT=0;
-let FILTER=[0,0,0,0,0];
+let LENS=null, LENS_META=null, LENS_ASOF="", LENS_SESSION="";
+const LENS_ORDER=["Berkshire","Burry","Axelrod","Jhunjhunwala","Lynch","Marks"];
+const LENS_SHORT={Berkshire:"BUF",Burry:"BRY",Axelrod:"AXL",Jhunjhunwala:"RJ",Lynch:"LYN",Marks:"MRK"};
+let FILTER=[0,0,0,0,0,0];
+let CUR_TYPE="index";
 let SECTOR_MODE=false;
 let AZ_MODE=false;
 let FULL_ROWS=[];
@@ -136,6 +154,7 @@ function updateSettings(){
   document.getElementById("lastUpdated").textContent=REAL?REAL_ASOF:"—";
   document.getElementById("nextUpdate").textContent=nextUpdateStr();
   document.getElementById("dataStatus").textContent=REAL?"REAL DATA":"SAMPLE DATA";
+  document.getElementById("lensUpdated").textContent=LENS?LENS_ASOF:"—";
 }
 async function loadReal(){
   try{
@@ -148,10 +167,28 @@ async function loadReal(){
     if(j&&j.stocks){ REAL=j.stocks; REAL_ASOF=j.fetchedAtIST||""; }
   }catch(e){}
 }
-function realRow(sym){
-  if(REAL&&REAL[sym]){ const rec=REAL[sym]; return {pct:rec.c, dots:rec.d, real:true}; }
+async function loadLens(){
+  try{
+    const ctrl=new AbortController();
+    const timer=setTimeout(function(){ctrl.abort();},8000);
+    const r=await fetch("lens.json",{signal:ctrl.signal});
+    clearTimeout(timer);
+    if(!r.ok) return;
+    const j=await r.json();
+    if(j&&j.stocks){ LENS=j.stocks; LENS_META=j; LENS_ASOF=j.fetchedAtIST||""; LENS_SESSION=j.sessionDate||""; }
+  }catch(e){}
+}
+function lensDots(sym){
+  // 6 lens verdicts as dots: green=1, red=0, neutral=null (grey).
+  // No lens data yet -> 6 grey dots.
+  if(!LENS||!LENS[sym]) return [null,null,null,null,null,null];
+  const v=LENS[sym].verdicts||{};
+  return LENS_ORDER.map(function(k){ return v[k]==="green"?1:v[k]==="red"?0:null; });
+}
+function realRow(sym,key){
+  if(REAL&&REAL[sym]){ const rec=REAL[sym]; return {pct:rec.c, dots:key==="WATCHLIST"?lensDots(sym):rec.d, real:true}; }
   const dots=[]; for(let k=5;k>=1;k--){dots.push(dayUp(sym,k)?1:0);}
-  return {pct:samplePct(sym), dots:dots, real:false};
+  return {pct:samplePct(sym), dots:key==="WATCHLIST"?lensDots(sym):dots, real:false};
 }
 function cellHtml(r){
   const pctTxt=(r.pct>=0?"+":"")+r.pct.toFixed(2)+"%";
@@ -169,6 +206,10 @@ function greyCellHtml(name){
 }
 function render(key){
   CUR_KEY=key;
+  // The dot filter means different things per tab type (trend days on
+  // index tabs, lenses on the watchlist tab), so reset it on a type switch.
+  const type=key==="WATCHLIST"?"watchlist":"index";
+  if(type!==CUR_TYPE){ FILTER=[0,0,0,0,0,0]; CUR_TYPE=type; buildFilterUI(); }
   const tab=TABS.find(function(t){return t.key===key;});
   document.getElementById("brandName").textContent=tab.label.toUpperCase();
   document.querySelectorAll("#tabs button").forEach(function(b){b.classList.toggle("on",b.dataset.key===key);});
@@ -176,7 +217,7 @@ function render(key){
   grid.style.gridTemplateColumns="repeat("+tab.cols+",1fr)";
   let fallback=0;
   const full=INDICES[key].map(function(sym){
-    const r=realRow(sym); if(!r.real) fallback++;
+    const r=realRow(sym,key); if(!r.real) fallback++;
     return {sym:sym,pct:r.pct,dots:r.dots};
   }).sort(function(a,b){return b.pct-a.pct||(a.sym<b.sym?-1:1);});
   FULL_ROWS=full;
@@ -227,20 +268,14 @@ function openStock(sym){
   const chg=document.getElementById("stChange");
   chg.textContent=(row.pct>=0?"+":"")+row.pct.toFixed(2)+"%"+(price===null?"":" ("+(row.pct>=0?"+":"")+"₹"+fmtINR(Math.abs(price*row.pct/100))+")");
   chg.style.color=row.pct>=0?"#22c55e":"#ef4444";
-  document.getElementById("stDots").innerHTML=row.dots.map(function(v){
-    return '<span class="bdot '+(v===1?"up":v===0?"dn":"flat")+'"></span>';
-  }).join("");
-  const ups=row.dots.filter(function(v){return v===1;}).length;
-  const dns=row.dots.filter(function(v){return v===0;}).length;
-  let streak=0; const last=row.dots[4];
-  if(last!==null){ for(let i=4;i>=0&&row.dots[i]===last;i--){ streak++; } }
-  let pat="";
-  if(ups===0&&dns===0){ pat="No trend data"; }
-  else{
-    pat=(ups>=dns?"Up ":"Down ")+Math.max(ups,dns)+" of 5";
-    if(streak>=2){ pat+=" · "+(last===1?"Up ":"Down ")+streak+" in a row"; }
-  }
-  document.getElementById("stPattern").textContent=pat;
+  // Last 5 days as actual % moves with dates (market-data "m").
+  const mv=(REAL&&REAL[sym]&&REAL[sym].m)||[];
+  document.getElementById("stMoves").innerHTML=mv.length?mv.map(function(p){
+    const pct=p[1];
+    return '<span class="mv"><span class="md">'+esc(p[0])+'</span><span style="color:'+(pct>=0?"#22c55e":"#ef4444")+'">'+(pct>=0?"+":"")+pct.toFixed(2)+'%</span></span>';
+  }).join(""):'<span class="dim">No recent moves</span>';
+  // Lens breakdown (watchlist stocks only).
+  document.getElementById("stLens").innerHTML=lensHtml(sym);
   document.getElementById("stRank").textContent="Rank today: #"+(idx+1)+" of "+FULL_ROWS.length;
   const pills=TABS.filter(function(t){return t.key!=="NIFTY500"&&t.key!=="WATCHLIST"&&INDICES[t.key].indexOf(sym)>=0;}).map(function(t){return t.label;});
   if(INDICES.WATCHLIST.indexOf(sym)>=0) pills.push("My watchlist");
@@ -249,6 +284,43 @@ function openStock(sym){
   document.getElementById("stAsof").textContent=REAL?REAL_ASOF:"—";
   document.getElementById("stGf").href="https://www.google.com/finance/quote/"+encodeURIComponent(sym)+":NSE";
   document.getElementById("stockOverlay").classList.add("open");
+}
+function lensHtml(sym){
+  // Per-lens breakdown for a watchlist stock: overall verdict + score,
+  // then per check (name, threshold, stock value, pass/fail). Returns ""
+  // for non-watchlist stocks. Lenses are labelled "Buffett lens" etc.,
+  // never "Buffett's view".
+  if(INDICES.WATCHLIST.indexOf(sym)<0) return "";
+  if(!LENS||!LENS[sym]){
+    return '<div class="lens"><div class="dim">Investor lenses — data not available yet.</div></div>';
+  }
+  const rec=LENS[sym];
+  const lenses=(LENS_META&&LENS_META.lenses)||[];
+  let h='<div style="border-top:1px solid #374151;padding-top:10px;margin-top:10px"><div style="font-weight:800;margin-bottom:2px">Investor lenses <span class="dim" style="font-weight:400">— as of '+(LENS_SESSION||"—")+'</span></div>'+
+    '<div class="dim" style="font-size:11px;margin-bottom:4px">A mechanical reading of each investor’s framework — “Buffett lens”, not “Buffett’s view”.</div>';
+  lenses.forEach(function(info){
+    const k=info.key;
+    const v=(rec.verdicts&&rec.verdicts[k])||"neutral";
+    const sc=(rec.scores&&rec.scores[k])||[0,0];
+    const vcol=v==="green"?"#22c55e":v==="red"?"#ef4444":"#9ca3af";
+    const vword=v==="green"?"Green":v==="red"?"Red":"Neutral";
+    h+='<div class="lens"><div class="lhead"><span class="bdot '+(v==="green"?"up":v==="red"?"dn":"flat")+'"></span>'+esc(info.label||k+" lens")+' — <span style="color:'+vcol+'">'+vword+' '+sc[0]+'/'+sc[1]+'</span></div>';
+    (rec.checks[k]||[]).forEach(function(c){
+      const mk=c.m?"na":(c.p?"ok":"no");
+      const mark=c.m?"—":(c.p?"✓":"✗");
+      h+='<div class="lcheck"><span>'+esc(c.n)+'</span><span class="thr">'+esc(c.t)+'</span><span class="val">'+(c.v===null||c.v===undefined?"—":esc(c.v))+'</span><span class="mk '+mk+'">'+mark+'</span></div>';
+    });
+    if(info.note) h+='<div class="lnote">'+esc(info.note)+'.</div>';
+    h+='</div>';
+  });
+  if(rec.flags&&rec.flags.length){
+    const fl=rec.flags.map(function(f){
+      return f==="thin history"?"Thin history: 5y growth not available, 3y used":f==="loss-making"?"Loss-making: no P/E":f;
+    }).join(" · ");
+    h+='<div class="lflag">⚠ '+esc(fl)+'</div>';
+  }
+  h+='</div>';
+  return h;
 }
 function openUnlisted(name){
   document.getElementById("unName").textContent=name;
@@ -269,15 +341,37 @@ document.getElementById("grid").addEventListener("click",function(e){
   if(c.dataset.sym) openStock(c.dataset.sym);
 });
 const fcWrap=document.getElementById("fcircles");
-const fcBtns=[];
-for(let i=0;i<5;i++){
-  const b=document.createElement("button");
-  b.className="fc"; b.setAttribute("aria-label","Day "+(i+1));
-  b.onclick=function(){
-    FILTER[i]=FILTER[i]===0?1:FILTER[i]===1?-1:0;
-    paintCircles(); render(CUR_KEY);
-  };
-  fcWrap.appendChild(b); fcBtns.push(b);
+let fcBtns=[];
+function buildFilterUI(){
+  // Dot-filter circles: 5 trend days on index tabs, 6 lenses (labelled)
+  // on the watchlist tab. Tap cycles any -> green -> red -> any.
+  fcWrap.innerHTML="";
+  fcBtns=[];
+  const n=CUR_TYPE==="watchlist"?6:5;
+  for(let i=0;i<n;i++){
+    const wrap=document.createElement("div"); wrap.className="fcol";
+    const b=document.createElement("button");
+    b.className="fc";
+    if(CUR_TYPE==="watchlist"){
+      const lk=LENS_ORDER[i];
+      b.setAttribute("aria-label",lk+" lens");
+      const lab=document.createElement("span"); lab.className="fclab"; lab.textContent=LENS_SHORT[lk];
+      wrap.appendChild(b); wrap.appendChild(lab);
+    } else {
+      b.setAttribute("aria-label","Day "+(i+1));
+      wrap.appendChild(b);
+    }
+    b.onclick=function(){
+      FILTER[i]=FILTER[i]===0?1:FILTER[i]===1?-1:0;
+      paintCircles(); render(CUR_KEY);
+    };
+    fcWrap.appendChild(wrap); fcBtns.push(b);
+  }
+  const clearBtn=document.createElement("button");
+  clearBtn.id="clearFilter"; clearBtn.textContent="Clear";
+  clearBtn.onclick=function(){ FILTER=[0,0,0,0,0,0]; paintCircles(); render(CUR_KEY); };
+  fcWrap.appendChild(clearBtn);
+  paintCircles();
 }
 function paintCircles(){
   fcBtns.forEach(function(b,i){
@@ -285,10 +379,6 @@ function paintCircles(){
     b.classList.toggle("red",FILTER[i]===-1);
   });
 }
-const clearBtn=document.createElement("button");
-clearBtn.id="clearFilter"; clearBtn.textContent="Clear";
-clearBtn.onclick=function(){ FILTER=[0,0,0,0,0]; paintCircles(); render(CUR_KEY); };
-fcWrap.appendChild(clearBtn);
 const overlay=document.getElementById("overlay");
 const stockOverlay=document.getElementById("stockOverlay");
 const unlistedOverlay=document.getElementById("unlistedOverlay");
@@ -307,7 +397,7 @@ overlay.addEventListener("click",function(e){ if(e.target===overlay) overlay.cla
 stockOverlay.addEventListener("click",function(e){ if(e.target===stockOverlay) stockOverlay.classList.remove("open"); });
 unlistedOverlay.addEventListener("click",function(e){ if(e.target===unlistedOverlay) unlistedOverlay.classList.remove("open"); });
 document.addEventListener("keydown",function(e){ if(e.key==="Escape"){ overlay.classList.remove("open"); stockOverlay.classList.remove("open"); unlistedOverlay.classList.remove("open"); } });
-loadReal().then(function(){render("NIFTY500");});
+Promise.all([loadReal(),loadLens()]).then(function(){ buildFilterUI(); render("NIFTY500"); });
 </script>
 </body>
 </html>

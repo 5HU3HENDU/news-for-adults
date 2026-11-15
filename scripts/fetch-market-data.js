@@ -32,6 +32,9 @@ function istNow() {
 function istDate(ts) {
   return new Date(ts * 1000).toLocaleDateString('en-IN', { timeZone: 'Asia/Kolkata', day: 'numeric', month: 'short', year: 'numeric' });
 }
+function istDateShort(ts) {
+  return new Date(ts * 1000).toLocaleDateString('en-IN', { timeZone: 'Asia/Kolkata', day: 'numeric', month: 'short' });
+}
 function istToday() {
   return new Date().toLocaleDateString('en-IN', { timeZone: 'Asia/Kolkata', day: 'numeric', month: 'short', year: 'numeric' });
 }
@@ -100,7 +103,7 @@ async function main() {
         const m = res.meta || {};
         if (typeof m.regularMarketPrice === 'number' && typeof m.regularMarketChangePercent === 'number') {
           const ms = (typeof m.regularMarketTime === 'number') ? istDate(m.regularMarketTime) : null;
-          return { sym, ok: true, host, price: m.regularMarketPrice, chg: m.regularMarketChangePercent, dots: [null, null, null, null, null], session: ms };
+          return { sym, ok: true, host, price: m.regularMarketPrice, chg: m.regularMarketChangePercent, dots: [null, null, null, null, null], moves: [], session: ms };
         }
         return { sym, ok: false };
       }
@@ -129,18 +132,25 @@ async function main() {
       // last candle.
       const base = lastIsDisplay ? n - 6 : n - 5;
       const dots = [];
+      // Moves: the same 5 day-changes as the dots, but as actual % values
+      // with their IST dates, so the popup can show "12 Nov +1.23%" etc.
+      // Same series (pts) and indices as the dots, so each move's sign
+      // always matches its dot. Only available entries are stored.
+      const moves = [];
       for (let j = 0; j < 5; j++) {
         const idx = base + j;
         if (idx <= 0) { dots.push(null); continue; }
         dots.push(pts[idx].v >= pts[idx - 1].v ? 1 : 0);
+        const pct = ((pts[idx].v - pts[idx - 1].v) / pts[idx - 1].v) * 100;
+        moves.push([istDateShort(pts[idx].t), Math.round(pct * 100) / 100]);
       }
-      return { sym, ok: true, host, price, chg, dots, session: metaSession };
+      return { sym, ok: true, host, price, chg, dots, moves, session: metaSession };
     }));
     for (const r of results) {
       if (!r.ok) { missing.push(r.sym); continue; }
       hostCount[r.host.includes('query1') ? 'query1' : 'query2']++;
       if (r.session) sessionVotes[r.session] = (sessionVotes[r.session] || 0) + 1;
-      stocks[r.sym] = { p: Math.round(r.price * 100) / 100, c: Math.round(r.chg * 100) / 100, d: r.dots };
+      stocks[r.sym] = { p: Math.round(r.price * 100) / 100, c: Math.round(r.chg * 100) / 100, d: r.dots, m: r.moves || [] };
     }
     await new Promise(res => setTimeout(res, 150));
   }
