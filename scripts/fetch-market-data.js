@@ -134,11 +134,11 @@ async function main() {
       const lastIsDisplay = istDate(pts[n - 1].t) === metaSession;
       const chg = lastIsDisplay ? computed : ((typeof meta.regularMarketChangePercent === 'number') ? meta.regularMarketChangePercent : computed);
       const price = lastIsDisplay ? lastC : ((typeof meta.regularMarketPrice === 'number') ? meta.regularMarketPrice : lastC);
-      // Dots: 5 day-changes ending the day before the display session.
-      // If the chart's last candle is that session, dots end one session
-      // earlier; if the chart lags meta by one session, dots end at the
-      // last candle.
-      const base = lastIsDisplay ? n - 6 : n - 5;
+      // Dots: the 5 day-changes ending at the chart's last candle — the
+      // display session when post-close, so the chips run through today
+      // (fixed 2026-11-17: they used to end the day before the session,
+      // showing 6–13 Nov while the price was already 16 Nov).
+      const base = n - 5;
       const dots = [];
       // Moves: the same 5 day-changes as the dots, but as actual % values
       // with their IST dates, so the popup can show "12 Nov +1.23%" etc.
