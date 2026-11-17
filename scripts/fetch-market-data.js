@@ -38,7 +38,7 @@ function istDateShort(ts) {
 function istToday() {
   return new Date().toLocaleDateString('en-IN', { timeZone: 'Asia/Kolkata', day: 'numeric', month: 'short', year: 'numeric' });
 }
-async function fetchChart(ysym, range = '15d') {
+async function fetchChart(ysym, range = '1mo') {
   const q = encodeURIComponent(ysym);
   for (const host of HOSTS) {
     try {
@@ -59,8 +59,9 @@ function parseSeries(res) {
   const ts = res.timestamp || [];
   const adj = (res.indicators && res.indicators.adjclose && res.indicators.adjclose[0] && res.indicators.adjclose[0].adjclose) || null;
   const quo = (res.indicators && res.indicators.quote && res.indicators.quote[0] && res.indicators.quote[0].close) || null;
+  const volArr = (res.indicators && res.indicators.quote && res.indicators.quote[0] && res.indicators.quote[0].volume) || null;
   const vals = adj || quo;
-  if (!vals) return { pts: [], closes: [] };
+  if (!vals) return { pts: [], closes: [], vols: [] };
   const pts = [];
   const closes = [];
   for (let i = 0; i < ts.length; i++) {
@@ -73,7 +74,14 @@ function parseSeries(res) {
   closes.sort((a, b) => a.t - b.t);
   // If the raw-close series is too short to compute a change from, fall
   // back to the adjclose series (same values when no adjustment applies).
-  return { pts, closes: closes.length >= 2 ? closes : pts };
+  const finalCloses = closes.length >= 2 ? closes : pts;
+  // Volumes aligned with the raw-close series (same timestamps), so the
+  // latest volume is the volume of the candle the price comes from.
+  // A null entry means Yahoo reported no volume for that day.
+  const volByT = new Map();
+  if (volArr) for (let i = 0; i < ts.length; i++) volByT.set(ts[i], volArr[i]);
+  const vols = finalCloses.map(c => ({ t: c.t, v: (volByT.has(c.t) ? volByT.get(c.t) : null) }));
+  return { pts, closes: finalCloses, vols };
 }
 async function main() {
   const stocks = {};
@@ -88,13 +96,13 @@ async function main() {
       let got = await fetchChart(ysym);
       if (!got) return { sym, ok: false };
       let { res, host } = got;
-      let { pts, closes } = parseSeries(res);
-      // Some symbols return an empty series for the 15d window; retry wider.
+      let { pts, closes, vols } = parseSeries(res);
+      // Some symbols return an empty series for the 1mo window; retry wider.
       if (pts.length < 8) {
         const got2 = await fetchChart(ysym, '1mo');
         if (got2) {
           const s2 = parseSeries(got2.res);
-          if (s2.pts.length > pts.length) { got = got2; res = got2.res; host = got2.host; pts = s2.pts; closes = s2.closes; }
+          if (s2.pts.length > pts.length) { got = got2; res = got2.res; host = got2.host; pts = s2.pts; closes = s2.closes; vols = s2.vols; }
         }
       }
       if (pts.length < 2) {
@@ -103,7 +111,7 @@ async function main() {
         const m = res.meta || {};
         if (typeof m.regularMarketPrice === 'number' && typeof m.regularMarketChangePercent === 'number') {
           const ms = (typeof m.regularMarketTime === 'number') ? istDate(m.regularMarketTime) : null;
-          return { sym, ok: true, host, price: m.regularMarketPrice, chg: m.regularMarketChangePercent, dots: [null, null, null, null, null], moves: [], session: ms };
+          return { sym, ok: true, host, price: m.regularMarketPrice, chg: m.regularMarketChangePercent, dots: [null, null, null, null, null], moves: [], v: null, vn: 0, session: ms };
         }
         return { sym, ok: false };
       }
@@ -144,13 +152,37 @@ async function main() {
         const pct = ((pts[idx].v - pts[idx - 1].v) / pts[idx - 1].v) * 100;
         moves.push([istDateShort(pts[idx].t), Math.round(pct * 100) / 100]);
       }
-      return { sym, ok: true, host, price, chg, dots, moves, session: metaSession };
+      // Volume ratio: latest candle's volume vs the mean of the prior 15
+      // candles' volumes, aligned with the raw-close series so the latest
+      // candle is the one the price comes from (post-close, that is the
+      // session candle). Stored for the daily lens re-score (Axelrod
+      // volume check). vn counts the prior-day volumes actually used
+      // (15 when full, fewer on short history / nulls); v is null when
+      // it cannot be computed (no latest volume or no prior volumes).
+      let v = null, vn = 0;
+      {
+        const nc2 = closes.length;
+        if (nc2 >= 2 && vols.length === nc2) {
+          const latestVol = (vols[nc2 - 1].v !== null && vols[nc2 - 1].v !== undefined) ? vols[nc2 - 1].v : null;
+          const priors = [];
+          for (let k = Math.max(0, nc2 - 16); k < nc2 - 1; k++) {
+            const pv = vols[k].v;
+            if (pv !== null && pv !== undefined) priors.push(pv);
+          }
+          vn = priors.length;
+          if (latestVol !== null && vn > 0) {
+            const mean = priors.reduce((a, b) => a + b, 0) / vn;
+            if (mean > 0) v = Math.round((latestVol / mean) * 100) / 100;
+          }
+        }
+      }
+      return { sym, ok: true, host, price, chg, dots, moves, v, vn, session: metaSession };
     }));
     for (const r of results) {
       if (!r.ok) { missing.push(r.sym); continue; }
       hostCount[r.host.includes('query1') ? 'query1' : 'query2']++;
       if (r.session) sessionVotes[r.session] = (sessionVotes[r.session] || 0) + 1;
-      stocks[r.sym] = { p: Math.round(r.price * 100) / 100, c: Math.round(r.chg * 100) / 100, d: r.dots, m: r.moves || [] };
+      stocks[r.sym] = { p: Math.round(r.price * 100) / 100, c: Math.round(r.chg * 100) / 100, d: r.dots, m: r.moves || [], v: (r.v === undefined ? null : r.v), vn: (r.vn === undefined ? 0 : r.vn) };
     }
     await new Promise(res => setTimeout(res, 150));
   }
