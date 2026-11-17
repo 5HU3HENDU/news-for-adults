@@ -67,8 +67,12 @@ function parseSeries(res) {
   for (let i = 0; i < ts.length; i++) {
     const v = vals[i];
     if (v === null || v === undefined) continue;
-    pts.push({ t: ts[i], v });
-    if (quo && quo[i] != null) closes.push({ t: ts[i], v: quo[i] });
+    // Keep the raw timestamp index (i): a day-change is only valid when
+    // the two candles are adjacent trading days. A null candle in between
+    // (e.g. SHAREINDIA 16 Nov 2026 — Yahoo returns null on both hosts)
+    // means the move spans 2+ days and must not be labelled as one day.
+    pts.push({ t: ts[i], v, i });
+    if (quo && quo[i] != null) closes.push({ t: ts[i], v: quo[i], i });
   }
   pts.sort((a, b) => a.t - b.t);
   closes.sort((a, b) => a.t - b.t);
@@ -123,6 +127,10 @@ async function main() {
       // official close either way.
       const nc = closes.length;
       const lastC = closes[nc - 1].v, prevC = closes[nc - 2].v;
+      // The computed day-change is only valid when the last two closes are
+      // adjacent trading days; otherwise it spans a data gap (see above)
+      // and Yahoo's own meta day-change is the better figure.
+      const closesAdjacent = closes[nc - 1].i === closes[nc - 2].i + 1;
       const computed = ((lastC - prevC) / prevC) * 100;
       // Display session is meta's session (regularMarketTime). When the
       // chart's last candle IS that session (post-close), the candle close
@@ -132,7 +140,8 @@ async function main() {
       // Intraday (chart lags meta) keep meta as the live price.
       const metaSession = (typeof meta.regularMarketTime === 'number') ? istDate(meta.regularMarketTime) : istDate(pts[n - 1].t);
       const lastIsDisplay = istDate(pts[n - 1].t) === metaSession;
-      const chg = lastIsDisplay ? computed : ((typeof meta.regularMarketChangePercent === 'number') ? meta.regularMarketChangePercent : computed);
+      const metaChg = (typeof meta.regularMarketChangePercent === 'number') ? meta.regularMarketChangePercent : null;
+      const chg = (lastIsDisplay && closesAdjacent) ? computed : (metaChg !== null ? metaChg : computed);
       const price = lastIsDisplay ? lastC : ((typeof meta.regularMarketPrice === 'number') ? meta.regularMarketPrice : lastC);
       // Dots: the 5 day-changes ending at the chart's last candle — the
       // display session when post-close, so the chips run through today
@@ -148,6 +157,17 @@ async function main() {
       for (let j = 0; j < 5; j++) {
         const idx = base + j;
         if (idx <= 0) { dots.push(null); continue; }
+        // Skip a day-change that spans a data gap (non-adjacent candles):
+        // grey dot, no move entry — never label a multi-day move as one day.
+        // Exception: for the display session itself (the last candle),
+        // Yahoo's own meta day-change is today's move, so use it.
+        if (pts[idx].i !== pts[idx - 1].i + 1) {
+          if (idx === n - 1 && lastIsDisplay && metaChg !== null) {
+            dots.push(metaChg >= 0 ? 1 : 0);
+            moves.push([istDateShort(pts[idx].t), Math.round(metaChg * 100) / 100]);
+          } else { dots.push(null); }
+          continue;
+        }
         dots.push(pts[idx].v >= pts[idx - 1].v ? 1 : 0);
         const pct = ((pts[idx].v - pts[idx - 1].v) / pts[idx - 1].v) * 100;
         moves.push([istDateShort(pts[idx].t), Math.round(pct * 100) / 100]);
